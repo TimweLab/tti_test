@@ -59,4 +59,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.source = { :git => "https://github.com/TimweLab/tti_test.git", :tag => "#{spec.version}" }
+  
+  spec.framework = "UIKit"
+  spec.dependency 'Alamofire', '~> 4.8.2'
+  spec.dependency 'SwiftyJSON', '5.0.0'
 end
