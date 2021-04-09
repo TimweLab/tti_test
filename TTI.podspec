@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TTI"
-  spec.version      = "0.0.4"
-  spec.summary      = "A short description of TTI."
+  spec.version      = "0.0.5"
+  spec.summary      = "SDK for TTI implementation"
   spec.requires_arc = true
   
   spec.homepage     = "https://timwetech.com/"
@@ -50,6 +50,8 @@ Pod::Spec.new do |spec|
   #  the deployment target. You can optionally include the target after the platform.
   #
   
+  spec.preserve_paths = "TTI.xcframework"
+  spec.vendored_frameworks = "TTI.xcframework"
   spec.platform     = :ios, "11.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
