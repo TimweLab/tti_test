@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TTI"
-  spec.version      = "0.0.5"
-  spec.summary      = "SDK for TTI implementation"
+  spec.version      = "0.0.6"
+  spec.summary      = "SDK for TTI (MyTSEL) implementation"
   spec.requires_arc = true
   
   spec.homepage     = "https://timwetech.com/"
@@ -29,7 +29,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license = { :type => "MIT", :file => "LICENSE" }
+  spec.license = { :type => 'Proprietary', :text => 'Copyright 2021 TIMWETECH. All rights reserved.' }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
