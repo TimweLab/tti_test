@@ -1,10 +1,37 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TTI
+import Alamofire
 import Foundation
 import Swift
 @_exported import TTI
 import UIKit
+import WebKit
+public enum ScreenKey {
+  case home
+  case profile
+  case tti_home
+  case tti_map
+  case tti_city_list
+  public static func == (a: TTI.ScreenKey, b: TTI.ScreenKey) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class sdk {
+  public static func ui(navigationController: UIKit.UINavigationController?, userProfile: TTI.UserProfile?, redirectKey: TTI.ScreenKey? = nil, callback: ((Swift.String) -> ())? = nil) throws
+  public static func getUserGame(request: TTI.GameRequest, callback: ((TTI.UserGameResponse, TTI.NetworkError) -> ())?) throws
+  public static func getStatusGame(request: TTI.GameRequest, callback: ((TTI.GameStatusResponse, TTI.NetworkError) -> ())?) throws
+  @objc deinit
+}
+public struct NetworkError : Swift.Codable {
+  public var message: Swift.String?
+  public var statusCode: Swift.Int?
+  public init(statusCode: Swift.Int, message: Swift.String)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
 public struct GameStatusResponse : Swift.Codable {
   public var userRegistered: Swift.Bool?
   public var additionalParams: [Swift.String : Swift.String]?
@@ -12,10 +39,12 @@ public struct GameStatusResponse : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
-@_hasMissingDesignatedInitializers public class sdk {
-  public static func ui(navigationController: UIKit.UINavigationController?, userProfile: TTI.UserProfile?, redirectKey: TTI.ScreenKey? = nil, callback: ((TTI.ScreenKey) -> ())? = nil) throws
-  public static func getUserGame(request: TTI.GameRequest, callback: ((TTI.UserGameResponse, TTI.NetworkError) -> ())?) throws
-  public static func getStatusGame(request: TTI.GameRequest, callback: ((TTI.GameStatusResponse, TTI.NetworkError) -> ())?) throws
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class TTIRuntimeException : Foundation.NSError {
+  public var rootException: Swift.String?
+  public var errorStatus: Swift.Int
+  @objc dynamic public init()
+  public init(code: Swift.Int, exception: Swift.String)
+  @objc override dynamic public init(domain: Swift.String, code: Swift.Int, userInfo dict: [Swift.String : Any]? = nil)
   @objc deinit
 }
 public struct UserGameResponse : Swift.Codable {
@@ -34,26 +63,6 @@ public struct UserGameResponse : Swift.Codable {
   public init(nickName: Swift.String, tierId: Swift.Int32, tierName: Swift.String, avatarImageUrl: Swift.String, messageToUser: Swift.String, currentCityName: Swift.String, currentCity: Swift.Int32?, totalCities: Swift.Int32, buttonLabel: Swift.String? = nil, buttonActionDestination: Swift.String? = nil, buttonActionKey: Swift.String? = nil)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
-}
-@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class TTIRuntimeException : Foundation.NSError {
-  public var rootException: Swift.String?
-  public var errorStatus: Swift.Int
-  @objc dynamic public init()
-  public init(code: Swift.Int, exception: Swift.String)
-  @objc override dynamic public init(domain: Swift.String, code: Swift.Int, userInfo dict: [Swift.String : Any]? = nil)
-  @objc deinit
-}
-public enum ScreenKey {
-  case home
-  case profile
-  case tti_home
-  case tti_map
-  case tti_city_list
-  public static func == (a: TTI.ScreenKey, b: TTI.ScreenKey) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
 }
 public struct UserProfile : Swift.Codable {
   public var profileId: Swift.String?
@@ -83,13 +92,6 @@ public struct GameRequest : Swift.Codable {
   public var userProfile: TTI.UserProfile?
   public var additionalParams: [Swift.String : Swift.String]?
   public init(sessionKey: Swift.String, userProfile: TTI.UserProfile)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
-public struct NetworkError : Swift.Codable {
-  public var message: Swift.String?
-  public var statusCode: Swift.Int?
-  public init(statusCode: Swift.Int, message: Swift.String)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
