@@ -1,41 +1,42 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TTI
-import Alamofire
 import Foundation
 import Swift
 @_exported import TTI
 import UIKit
-import WebKit
-public enum ScreenKey {
-  case home
-  case profile
-  case tti_home
-  case tti_map
-  case tti_city_list
-  public static func == (a: TTI.ScreenKey, b: TTI.ScreenKey) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
-    get
-  }
+public struct GameStatusResponse : Swift.Codable {
+  public var userRegistered: Swift.Bool?
+  public var eventStarted: Swift.Bool?
+  public var userStartedEvent: Swift.Bool?
+  public var userStartedEventDate: Swift.Int32?
+  public var eventStartDate: Swift.Int32?
+  public var additionalParams: [Swift.String : Swift.String]?
+  public init(userRegistered: Swift.Bool)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class sdk {
-  public static func ui(navigationController: UIKit.UINavigationController?, userProfile: TTI.UserProfile?, redirectKey: TTI.ScreenKey? = nil, callback: ((Swift.String) -> ())? = nil) throws
+  public static func ui(navigationController: UIKit.UINavigationController?, userProfile: TTI.UserProfile?, redirectKey: Swift.String? = nil, callback: ((Swift.String) -> ())? = nil) throws
   public static func getUserGame(request: TTI.GameRequest, callback: ((TTI.UserGameResponse, TTI.NetworkError) -> ())?) throws
   public static func getStatusGame(request: TTI.GameRequest, callback: ((TTI.GameStatusResponse, TTI.NetworkError) -> ())?) throws
   @objc deinit
 }
-public struct NetworkError : Swift.Codable {
-  public var message: Swift.String?
-  public var statusCode: Swift.Int?
-  public init(statusCode: Swift.Int, message: Swift.String)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
-}
-public struct GameStatusResponse : Swift.Codable {
-  public var userRegistered: Swift.Bool?
+public struct UserGameResponse : Swift.Codable {
+  public var nickName: Swift.String?
+  public var tierId: Swift.Int32?
+  public var tierName: Swift.String?
+  public var avatarImageUrl: Swift.String?
+  public var messageToUser: Swift.String?
+  public var currentCityName: Swift.String?
+  public var cardTag: Swift.String?
+  public var currentCity: Swift.Int32?
+  public var totalCities: Swift.Int32?
+  public var buttonLabel: Swift.String?
+  public var buttonActionDestination: Swift.String?
+  public var buttonActionKey: Swift.String?
   public var additionalParams: [Swift.String : Swift.String]?
-  public init(userRegistered: Swift.Bool)
+  public init(nickName: Swift.String, tierId: Swift.Int32, tierName: Swift.String, avatarImageUrl: Swift.String, messageToUser: Swift.String, currentCityName: Swift.String, currentCity: Swift.Int32?, totalCities: Swift.Int32, buttonLabel: Swift.String? = nil, buttonActionDestination: Swift.String? = nil, buttonActionKey: Swift.String? = nil)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
@@ -47,22 +48,14 @@ public struct GameStatusResponse : Swift.Codable {
   @objc override dynamic public init(domain: Swift.String, code: Swift.Int, userInfo dict: [Swift.String : Any]? = nil)
   @objc deinit
 }
-public struct UserGameResponse : Swift.Codable {
-  public var nickName: Swift.String?
-  public var tierId: Swift.Int32?
-  public var tierName: Swift.String?
-  public var avatarImageUrl: Swift.String?
-  public var messageToUser: Swift.String?
-  public var currentCityName: Swift.String?
-  public var currentCity: Swift.Int32?
-  public var totalCities: Swift.Int32?
-  public var buttonLabel: Swift.String?
-  public var buttonActionDestination: Swift.String?
-  public var buttonActionKey: Swift.String?
-  public var additionalParams: [Swift.String : Swift.String]?
-  public init(nickName: Swift.String, tierId: Swift.Int32, tierName: Swift.String, avatarImageUrl: Swift.String, messageToUser: Swift.String, currentCityName: Swift.String, currentCity: Swift.Int32?, totalCities: Swift.Int32, buttonLabel: Swift.String? = nil, buttonActionDestination: Swift.String? = nil, buttonActionKey: Swift.String? = nil)
-  public func encode(to encoder: Swift.Encoder) throws
-  public init(from decoder: Swift.Decoder) throws
+public enum ScreenKey : Swift.String {
+  case home
+  case profile
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public struct UserProfile : Swift.Codable {
   public var profileId: Swift.String?
@@ -95,5 +88,13 @@ public struct GameRequest : Swift.Codable {
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
+public struct NetworkError : Swift.Codable {
+  public var message: Swift.String?
+  public var statusCode: Swift.Int?
+  public init(statusCode: Swift.Int, message: Swift.String)
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
 extension TTI.ScreenKey : Swift.Equatable {}
 extension TTI.ScreenKey : Swift.Hashable {}
+extension TTI.ScreenKey : Swift.RawRepresentable {}
