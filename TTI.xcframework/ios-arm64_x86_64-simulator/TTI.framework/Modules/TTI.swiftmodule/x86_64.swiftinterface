@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TTI
 import Foundation
 import Swift
@@ -9,8 +9,9 @@ public struct GameStatusResponse : Swift.Codable {
   public var userRegistered: Swift.Bool?
   public var eventStarted: Swift.Bool?
   public var userStartedEvent: Swift.Bool?
-  public var userStartedEventDate: Swift.Int32?
-  public var eventStartDate: Swift.Int32?
+  public var userStartedEventDate: Swift.Int64?
+  public var eventStartDate: Swift.Int64?
+  public var eventEndDate: Swift.Int64?
   public var additionalParams: [Swift.String : Swift.String]?
   public init(userRegistered: Swift.Bool)
   public func encode(to encoder: Swift.Encoder) throws
