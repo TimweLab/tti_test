@@ -208,6 +208,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+
 @class NSString;
 @class NSNumber;
 @class NSCoder;
@@ -218,6 +219,10 @@ SWIFT_CLASS("_TtC3TTI19TTIRuntimeException")
 - (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
+
+
+
+
 
 
 
@@ -441,6 +446,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+
 @class NSString;
 @class NSNumber;
 @class NSCoder;
@@ -451,6 +457,10 @@ SWIFT_CLASS("_TtC3TTI19TTIRuntimeException")
 - (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
+
+
+
+
 
 
 

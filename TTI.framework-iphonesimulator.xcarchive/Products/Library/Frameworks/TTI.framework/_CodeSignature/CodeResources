@@ -4,81 +4,565 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>64641-farmers-to-industrial-workers.json</key>
+		<data>
+		D+kIdnf0Dqy8YfJuT24gnTD34sA=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		JRoF2hZ9Isn0Z94W+/qVe6qWQEg=
+		R6kcSz7VwyMp/RDwQtRwhByHMYY=
+		</data>
+		<key>ClickView.nib</key>
+		<data>
+		4FGG0JWM6YYuh07Vnwft+sE07N8=
+		</data>
+		<key>DialogsTTI.storyboardc/7CJ-5P-lOh-view-VRM-L8-tic.nib</key>
+		<data>
+		JkoFBu8dBsu09xF0NTK2P2tDi90=
+		</data>
+		<key>DialogsTTI.storyboardc/8a2-xG-dYC-view-wH0-9d-ip1.nib</key>
+		<data>
+		qqxEheoQXF5Ppi8mAu+6YygMQeA=
+		</data>
+		<key>DialogsTTI.storyboardc/EKh-49-Rda-view-eZt-4M-Vv4.nib</key>
+		<data>
+		aMRSYihMVs48AJ9m0ohK+FMLbek=
+		</data>
+		<key>DialogsTTI.storyboardc/Info.plist</key>
+		<data>
+		VSJsqIS1YHgGlf/18n7eEKkS1TE=
+		</data>
+		<key>DialogsTTI.storyboardc/UIViewController-S92-Lm-gZi.nib</key>
+		<data>
+		vkxUvpdNhJvDm0A7h3gXIBzga6k=
+		</data>
+		<key>DialogsTTI.storyboardc/UIViewController-aFa-Sl-tdc.nib</key>
+		<data>
+		8NrIzEJt+epacHE+QtMu8dBF6oQ=
+		</data>
+		<key>DialogsTTI.storyboardc/Wbj-Hs-dJF-view-Rg4-Mi-f6s.nib</key>
+		<data>
+		OR1HrqryvyyYHd87g0YyslV5bbY=
+		</data>
+		<key>DialogsTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		FjEEoRat/jSyZgSJAkxJSWVSZ7A=
+		</data>
+		<key>DialogsTTI.storyboardc/aFa-Sl-tdc-view-1af-y0-SKc.nib</key>
+		<data>
+		4Hp6zeEdnNi/5oIKKLUp9nXjHL0=
+		</data>
+		<key>DialogsTTI.storyboardc/dialogAccomplishmentsNoNewCityViewController.nib</key>
+		<data>
+		DSKzPeQKahJKk3EOXPApmSV4QCI=
+		</data>
+		<key>DialogsTTI.storyboardc/dialogAccomplishmentsViewController.nib</key>
+		<data>
+		Fl/1EqXavBOi0zrJV0q/EtRhIls=
+		</data>
+		<key>DialogsTTI.storyboardc/dialogBottomSheetViewController.nib</key>
+		<data>
+		rE1um3XEf7qHjGyHOZU4Kh1EZlQ=
+		</data>
+		<key>DialogsTTI.storyboardc/dialogCheckupDoneViewController.nib</key>
+		<data>
+		aFyTP58ePZMTml1tM8VJLwnA2tI=
+		</data>
+		<key>DialogsTTI.storyboardc/dialogFullscreen.nib</key>
+		<data>
+		zWQb1X1zOhxwBz9KZYEUw/pfVcs=
+		</data>
+		<key>DialogsTTI.storyboardc/dialogStandardViewController.nib</key>
+		<data>
+		nIJ8gXOgj9ebYrLh1SeUwu9F7c0=
+		</data>
+		<key>DialogsTTI.storyboardc/dialogStickerViewController.nib</key>
+		<data>
+		jrYxQowbfzTt27Gup4SIKnX7brE=
+		</data>
+		<key>DialogsTTI.storyboardc/efg-tq-l9n-view-0y2-xH-NAn.nib</key>
+		<data>
+		KmnsJkkBpTRO59p+njyipA+NVkA=
+		</data>
+		<key>DialogsTTI.storyboardc/kyG-hJ-Vvq-view-4hh-Y9-6RE.nib</key>
+		<data>
+		5VV1ngcuhHDd01zvqfZa2RpqtkU=
 		</data>
 		<key>Headers/TTI-Swift.h</key>
 		<data>
-		vtYlfqmRs62tVXtbqLWZiBQufxI=
+		wn7LyJVEmMgnrVvL8vW9WHycY9E=
 		</data>
 		<key>Headers/TTI.h</key>
 		<data>
 		kZA7YH4VAbav+C4Uj5v/i33hsYo=
 		</data>
+		<key>InboxTTI.storyboardc/41Z-UL-zf9-view-8f2-XD-H7t.nib</key>
+		<data>
+		Ze7WEm8buepZi3nQjHtJJ85+OL8=
+		</data>
+		<key>InboxTTI.storyboardc/Info.plist</key>
+		<data>
+		czDZVnFH2ig8v9D+1vapGaH+yjw=
+		</data>
+		<key>InboxTTI.storyboardc/UIViewController-41Z-UL-zf9.nib</key>
+		<data>
+		jF0KJBI3Kev4KoKmYSp45nVpnCo=
+		</data>
+		<key>InboxTTI.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
+		<data>
+		izT5mIf3hmaPtN+Wuj7je9dlEOc=
+		</data>
+		<key>InboxTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		lAznE/G9Y5iOsq1Nt/AzEDMs+qU=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		dVdDvQezZKAB0189IoNsezYcs8I=
+		hEmNyZR4M+0jQD9ztNUsYMFa73w=
+		</data>
+		<key>JourneyTTI.storyboardc/GbH-hI-9k6-view-k09-Qh-dMw.nib/objects-12.3+.nib</key>
+		<data>
+		8zdYRejM5qPiHMhNFfBSbxavvM4=
+		</data>
+		<key>JourneyTTI.storyboardc/GbH-hI-9k6-view-k09-Qh-dMw.nib/runtime.nib</key>
+		<data>
+		XW/TU+JOe3Dd/BQ3WfGRzUKOMlo=
+		</data>
+		<key>JourneyTTI.storyboardc/Info.plist</key>
+		<data>
+		kV7t69msZWFlyvzDAjU5sjWw4j8=
+		</data>
+		<key>JourneyTTI.storyboardc/Lrd-Y6-5HV-view-hwE-eH-IzM.nib/objects-12.3+.nib</key>
+		<data>
+		FG0gHnCZMdGKImqBgP539N4beqo=
+		</data>
+		<key>JourneyTTI.storyboardc/Lrd-Y6-5HV-view-hwE-eH-IzM.nib/runtime.nib</key>
+		<data>
+		lMbyOcH7bsesbozijVDMCs0IAV0=
+		</data>
+		<key>JourneyTTI.storyboardc/OKy-mm-8rN-view-Ap5-h6-B3C.nib/objects-12.3+.nib</key>
+		<data>
+		jeJXNPMaXrgTeztwMqxph4M1u3s=
+		</data>
+		<key>JourneyTTI.storyboardc/OKy-mm-8rN-view-Ap5-h6-B3C.nib/runtime.nib</key>
+		<data>
+		ayJ/Tsc0l27gOfaOy+4kWAy4oyQ=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-3Am-Mm-MET.nib/objects-12.3+.nib</key>
+		<data>
+		WgUwDkD99XKgMUcuS8o1lYuEqUQ=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-3Am-Mm-MET.nib/runtime.nib</key>
+		<data>
+		OXkIJgwprgd2pdEp8T2nw4+9DUQ=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-GbH-hI-9k6.nib/objects-12.3+.nib</key>
+		<data>
+		c69d7fXiL3TwE92G1brk45ZGoGI=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-GbH-hI-9k6.nib/runtime.nib</key>
+		<data>
+		zK0FSPhgjdPiyzNYiwAtkmxIfRo=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-OKy-mm-8rN.nib/objects-12.3+.nib</key>
+		<data>
+		QD5HDkG0Hb2mDv9Poi1qDDqrmNQ=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-OKy-mm-8rN.nib/runtime.nib</key>
+		<data>
+		8X0PZIjox1ko1Tol7/j2ATBOU4I=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-bsV-0f-2A6.nib/objects-12.3+.nib</key>
+		<data>
+		GKGQo/eo8H9cpBtPjBTAs1wqDxI=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-bsV-0f-2A6.nib/runtime.nib</key>
+		<data>
+		a/4+z7CVDJxDx7V5pXIvxSlnZGU=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-gY9-6i-01k.nib/objects-12.3+.nib</key>
+		<data>
+		kQwa3veOtfayltSe3Lwsc63BE2M=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-gY9-6i-01k.nib/runtime.nib</key>
+		<data>
+		bpGZ4eyXfjcSdTWpUFSr/bO0n0I=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-vAp-q6-rld.nib/objects-12.3+.nib</key>
+		<data>
+		TAUSrhXNF/dZc203l/UoovdO+l8=
+		</data>
+		<key>JourneyTTI.storyboardc/UIViewController-vAp-q6-rld.nib/runtime.nib</key>
+		<data>
+		Ru112JKC0LteaKrnyftW2t8CfWM=
+		</data>
+		<key>JourneyTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-12.3+.nib</key>
+		<data>
+		IuBNOTb6acyW4p1lOUDrZ8Yl3d0=
+		</data>
+		<key>JourneyTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
+		<data>
+		gHqauOWqoYYtKcO8f9KBzUIVFog=
+		</data>
+		<key>JourneyTTI.storyboardc/bsV-0f-2A6-view-iEf-hj-RhG.nib/objects-12.3+.nib</key>
+		<data>
+		/91lbvOb3dATFO/Nrt9wznmCyxE=
+		</data>
+		<key>JourneyTTI.storyboardc/bsV-0f-2A6-view-iEf-hj-RhG.nib/runtime.nib</key>
+		<data>
+		tf2R3eXYA9ftU1+nnscm7hI28Ew=
+		</data>
+		<key>JourneyTTI.storyboardc/gY9-6i-01k-view-bKn-5x-z6X.nib/objects-12.3+.nib</key>
+		<data>
+		ByLhFJ+VVKJDsuktc/SbnIzy034=
+		</data>
+		<key>JourneyTTI.storyboardc/gY9-6i-01k-view-bKn-5x-z6X.nib/runtime.nib</key>
+		<data>
+		ElPU5mJTKL8D+k5axwGpEPEDclc=
+		</data>
+		<key>JourneyTTI.storyboardc/journey.nib/objects-12.3+.nib</key>
+		<data>
+		IQnG84qYujnC5DNzdIjwbr3pRIc=
+		</data>
+		<key>JourneyTTI.storyboardc/journey.nib/runtime.nib</key>
+		<data>
+		GE4jdyIXvbVSIiVpp6HwbMP3bfM=
+		</data>
+		<key>JourneyTTI.storyboardc/jyH-NE-VbK-view-l1n-C1-rnk.nib/objects-12.3+.nib</key>
+		<data>
+		WW1rKo5uDck1E2xvElV9gX9R+zY=
+		</data>
+		<key>JourneyTTI.storyboardc/jyH-NE-VbK-view-l1n-C1-rnk.nib/runtime.nib</key>
+		<data>
+		IuoSl+16YfkAQ9KlUXtz7NSsfUk=
+		</data>
+		<key>JourneyTTI.storyboardc/leaderboard.nib/objects-12.3+.nib</key>
+		<data>
+		dzGoLphKq3g0YzkQ+PGLj5nXb28=
+		</data>
+		<key>JourneyTTI.storyboardc/leaderboard.nib/runtime.nib</key>
+		<data>
+		Ws+MdzGxhk5+E/Wh0VxNJzohgUA=
+		</data>
+		<key>JourneyTTI.storyboardc/stickersViewController.nib/objects-12.3+.nib</key>
+		<data>
+		Bv582PYfhyN/nbljZm7kzacZGhM=
+		</data>
+		<key>JourneyTTI.storyboardc/stickersViewController.nib/runtime.nib</key>
+		<data>
+		TYm2Me80IUVD48mmh9r4nu1fNtU=
+		</data>
+		<key>LoadingView.nib</key>
+		<data>
+		j//iAs5FsXQ0zzuHmc6oHJbpYJM=
+		</data>
+		<key>MIssionsTTI.storyboardc/Info.plist</key>
+		<data>
+		dTu/mR7m8QDorQOXw/gL+VvozZQ=
+		</data>
+		<key>MIssionsTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-14.0+.nib</key>
+		<data>
+		cL/6yubuzZzF7lXtFodAvmweITQ=
+		</data>
+		<key>MIssionsTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
+		<data>
+		XfK0Gk9+lShVLq/Fiied3keoWu4=
+		</data>
+		<key>MIssionsTTI.storyboardc/missions.nib/objects-14.0+.nib</key>
+		<data>
+		HS9wbtod6rK0K41AAZ0Qb/0N8vg=
+		</data>
+		<key>MIssionsTTI.storyboardc/missions.nib/runtime.nib</key>
+		<data>
+		WewZWznM90hVmVRwEa9uixQ7j0A=
 		</data>
 		<key>MainTTI.storyboardc/Info.plist</key>
 		<data>
-		Btn0YwCFETVYQs3zDmLMqWz1Ag0=
+		w5hxLibs5K7t1C/sw5u/TJhTiT4=
 		</data>
-		<key>MainTTI.storyboardc/UINavigationController-xdH-Dq-wDR.nib</key>
+		<key>MainTTI.storyboardc/KER-1p-ag8-view-KVa-M6-Mxd.nib/objects-12.3+.nib</key>
 		<data>
-		A4aKzrWoEEjB3OMfC/GDElWrmnU=
+		jUazhiOGfkViay/iqt4mOHEBghk=
 		</data>
-		<key>MainTTI.storyboardc/fRH-fq-tqx-view-49g-cc-ggQ.nib</key>
+		<key>MainTTI.storyboardc/KER-1p-ag8-view-KVa-M6-Mxd.nib/runtime.nib</key>
 		<data>
-		XFUaw/3wXAj0VzSf4iTwmnQ7Jfo=
+		Y/tjGv4lLABDUFxEYyxxD9g2Jlg=
+		</data>
+		<key>MainTTI.storyboardc/KaC-El-mEz-view-IHs-DD-o4B.nib/objects-12.3+.nib</key>
+		<data>
+		RzZpCky7X4vhlwnVFlzBE1dBs/k=
+		</data>
+		<key>MainTTI.storyboardc/KaC-El-mEz-view-IHs-DD-o4B.nib/runtime.nib</key>
+		<data>
+		62wcsNawNfgggGAa0aiwwLDXii0=
+		</data>
+		<key>MainTTI.storyboardc/Q8C-W0-214-view-CDq-Tb-vf3.nib/objects-12.3+.nib</key>
+		<data>
+		fs7iUM5gbXxbOrTvetXI6pi5SlA=
+		</data>
+		<key>MainTTI.storyboardc/Q8C-W0-214-view-CDq-Tb-vf3.nib/runtime.nib</key>
+		<data>
+		ZwxOQmHvHh+jwKBaKYuvp0JxnmI=
+		</data>
+		<key>MainTTI.storyboardc/RWQ-Ge-hB4-view-MEb-j1-EqD.nib/objects-12.3+.nib</key>
+		<data>
+		iShOMFOrtXh1oyDc0LpTWCE+lFA=
+		</data>
+		<key>MainTTI.storyboardc/RWQ-Ge-hB4-view-MEb-j1-EqD.nib/runtime.nib</key>
+		<data>
+		dCL3Y6JOLe/5X4c98380ydS1MnI=
+		</data>
+		<key>MainTTI.storyboardc/UINavigationController-xdH-Dq-wDR.nib/objects-12.3+.nib</key>
+		<data>
+		jLkBekBsj8ECt7N/JyAHtHM1y3M=
+		</data>
+		<key>MainTTI.storyboardc/UINavigationController-xdH-Dq-wDR.nib/runtime.nib</key>
+		<data>
+		hA2YYfsePeG7RrHaZbkHD4JoZ3E=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-Bu7-SY-OyX.nib/objects-12.3+.nib</key>
+		<data>
+		SaWA24ja33jfdc2LT97SL7TNnZg=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-Bu7-SY-OyX.nib/runtime.nib</key>
+		<data>
+		gzSbJ6WQHGQ38q18v3U+Clq8270=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-KER-1p-ag8.nib/objects-12.3+.nib</key>
+		<data>
+		rz36uotmEPt25etISw0r3esi3oQ=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-KER-1p-ag8.nib/runtime.nib</key>
+		<data>
+		tRhTFYjgV2GgeRXLNWP97p3VNK4=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-POV-vQ-cne.nib/objects-12.3+.nib</key>
+		<data>
+		Tc8UoRK8OWIlDVa8WAorilV1c7Y=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-POV-vQ-cne.nib/runtime.nib</key>
+		<data>
+		TbhMzvraHtSJ2SR604Yn7u/7ZlQ=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-ROt-G4-S1h.nib/objects-12.3+.nib</key>
+		<data>
+		yAfBEPUkRdvnvOv9WdIkxft8hCY=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-ROt-G4-S1h.nib/runtime.nib</key>
+		<data>
+		qqOEoJ6nM3C7ZSXF3ThNghoTYxE=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-RWQ-Ge-hB4.nib/objects-12.3+.nib</key>
+		<data>
+		ONEMeEy77LbfWav7FVy3ZABwMis=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-RWQ-Ge-hB4.nib/runtime.nib</key>
+		<data>
+		pu8sB8b/U0SXodXBNK76+6vxjjw=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-fRH-fq-tqx.nib/objects-12.3+.nib</key>
+		<data>
+		JHaUx7jaWP7wWPJwjFL/liQh9EU=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-fRH-fq-tqx.nib/runtime.nib</key>
+		<data>
+		6bHr6JY3fO0a7qUWQ1QFgSDXk28=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-hDB-cc-etA.nib/objects-12.3+.nib</key>
+		<data>
+		xSeiTTCPLox/F+A0GqVHMv4q93k=
+		</data>
+		<key>MainTTI.storyboardc/UIViewController-hDB-cc-etA.nib/runtime.nib</key>
+		<data>
+		dAMaQd/HsEYlHk0SEIAFdVNHutk=
+		</data>
+		<key>MainTTI.storyboardc/YB0-zB-jNV-view-1J0-j4-00z.nib/objects-12.3+.nib</key>
+		<data>
+		2d+6OxOYVmtHewnxFCNR/WWp5L8=
+		</data>
+		<key>MainTTI.storyboardc/YB0-zB-jNV-view-1J0-j4-00z.nib/runtime.nib</key>
+		<data>
+		v/AdFr5xZmH+Kptw+GE/P2KdV5A=
+		</data>
+		<key>MainTTI.storyboardc/aTL-Gr-wiS-view-u4i-nq-hIq.nib/objects-12.3+.nib</key>
+		<data>
+		BQ1HybI/f/RhLMAVb26UMF43Dy4=
+		</data>
+		<key>MainTTI.storyboardc/aTL-Gr-wiS-view-u4i-nq-hIq.nib/runtime.nib</key>
+		<data>
+		uuN9jH56we3ral8x9gCDWGLZ+pA=
+		</data>
+		<key>MainTTI.storyboardc/bQg-0G-wAb-view-hT8-EM-o6N.nib/objects-12.3+.nib</key>
+		<data>
+		WUI56VrSv2i7NYJirOKuclgs5Ps=
+		</data>
+		<key>MainTTI.storyboardc/bQg-0G-wAb-view-hT8-EM-o6N.nib/runtime.nib</key>
+		<data>
+		DdyrprS2tNFZopSRVcTmqCMzD+w=
+		</data>
+		<key>MainTTI.storyboardc/checkup.nib/objects-12.3+.nib</key>
+		<data>
+		SpZJipoQkV4MUtx3hmmzV1eRBbI=
+		</data>
+		<key>MainTTI.storyboardc/checkup.nib/runtime.nib</key>
+		<data>
+		nQFpll2+acxrA3EpYxtP8QowC5E=
+		</data>
+		<key>MainTTI.storyboardc/completeRegistrationViewController.nib/objects-12.3+.nib</key>
+		<data>
+		/VwsAt13wXBhgmduIC3n6ulKDrg=
+		</data>
+		<key>MainTTI.storyboardc/completeRegistrationViewController.nib/runtime.nib</key>
+		<data>
+		yUD1Ski+yBzvmna9tM/9TIdDfkY=
+		</data>
+		<key>MainTTI.storyboardc/createAvatar.nib/objects-12.3+.nib</key>
+		<data>
+		folTLhBFpnj/X0xczYhKRKISVpM=
+		</data>
+		<key>MainTTI.storyboardc/createAvatar.nib/runtime.nib</key>
+		<data>
+		uQ+xFc1WmEYmnGToBpxibRiXRTM=
+		</data>
+		<key>MainTTI.storyboardc/fRH-fq-tqx-view-49g-cc-ggQ.nib/objects-12.3+.nib</key>
+		<data>
+		zqg1vgARNyRzsZOwNthiOK8VnEk=
+		</data>
+		<key>MainTTI.storyboardc/fRH-fq-tqx-view-49g-cc-ggQ.nib/runtime.nib</key>
+		<data>
+		bU/6MlUangKTlUdaIkrfks8Kk/U=
+		</data>
+		<key>MainTTI.storyboardc/hDB-cc-etA-view-W9r-Kb-sx6.nib/objects-12.3+.nib</key>
+		<data>
+		oKHHKraWTTX4oHAF6ceybhVtVnY=
+		</data>
+		<key>MainTTI.storyboardc/hDB-cc-etA-view-W9r-Kb-sx6.nib/runtime.nib</key>
+		<data>
+		GeDXBCWjx8FUkhCwHEcUWzI53Zs=
+		</data>
+		<key>MainTTI.storyboardc/home.nib/objects-12.3+.nib</key>
+		<data>
+		w1iW0VfFk2yB2zyQT4fGFBWwPCo=
+		</data>
+		<key>MainTTI.storyboardc/home.nib/runtime.nib</key>
+		<data>
+		WWXGORuKEov96FTOHNB8ZNSZ6tw=
+		</data>
+		<key>MainTTI.storyboardc/onboarding.nib/objects-12.3+.nib</key>
+		<data>
+		XPSv7legPV7sJFp47gTonT1ndXE=
+		</data>
+		<key>MainTTI.storyboardc/onboarding.nib/runtime.nib</key>
+		<data>
+		Y6LT7mjHpnwxyuZksRemoc7yKIw=
+		</data>
+		<key>MainTTI.storyboardc/pIb-rD-so5-view-Wwc-TK-vy1.nib/objects-12.3+.nib</key>
+		<data>
+		rTUvKW2vi9yQ4fMClYkPo1MBqfw=
+		</data>
+		<key>MainTTI.storyboardc/pIb-rD-so5-view-Wwc-TK-vy1.nib/runtime.nib</key>
+		<data>
+		wrACXRdzBYFHoMC2ArfzUYtmZP0=
+		</data>
+		<key>MainTTI.storyboardc/prizes.nib/objects-12.3+.nib</key>
+		<data>
+		4cCnCrGjGNDFeW4Vvrz1Fx/CfS4=
+		</data>
+		<key>MainTTI.storyboardc/prizes.nib/runtime.nib</key>
+		<data>
+		/e8hubkUgoDVynV5MHrADqHjZZY=
+		</data>
+		<key>MainTTI.storyboardc/v0T-AF-a2V-view-9WV-nH-yfA.nib/objects-12.3+.nib</key>
+		<data>
+		fiMyJw1rQAYqwKQFQ0ieuxsC0LQ=
+		</data>
+		<key>MainTTI.storyboardc/v0T-AF-a2V-view-9WV-nH-yfA.nib/runtime.nib</key>
+		<data>
+		VLyP0z5yB+iTLvJl47Lnzpeq5Ho=
+		</data>
+		<key>MainTTI.storyboardc/webviewVc.nib/objects-12.3+.nib</key>
+		<data>
+		qnB2Qf7ZrizSmNC9ILAZS2kfBtI=
+		</data>
+		<key>MainTTI.storyboardc/webviewVc.nib/runtime.nib</key>
+		<data>
+		SC5zaNwpyjb6UEw82oKRwJR1h5g=
+		</data>
+		<key>MainTTI.storyboardc/xw4-Pc-Gsb-view-4f7-G9-Z9L.nib/objects-12.3+.nib</key>
+		<data>
+		uypk5GNiyaDfHhujMZl3r7bjrYk=
+		</data>
+		<key>MainTTI.storyboardc/xw4-Pc-Gsb-view-4f7-G9-Z9L.nib/runtime.nib</key>
+		<data>
+		O6j35QVn3OyKEl99mFhi5M6aX/k=
+		</data>
+		<key>MapTTI.storyboardc/Info.plist</key>
+		<data>
+		27qD9e55j8aRFiBHPM5QKFKfCbs=
+		</data>
+		<key>MapTTI.storyboardc/Tar-Fu-Hch-view-AbO-SE-ldd.nib</key>
+		<data>
+		AchS0N8CSp3W/ekRSxKjtNb2PQs=
+		</data>
+		<key>MapTTI.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
+		<data>
+		ktahGriisC9IyuTPFwRqPEVs4jw=
+		</data>
+		<key>MapTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<data>
+		sJKkTAZ4eKMQGdE6vlMFI5hbGsM=
+		</data>
+		<key>MapTTI.storyboardc/mapPrizesViewController.nib</key>
+		<data>
+		4QupxQ1JBLkZtAcWETCKLW6c4hw=
 		</data>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5qDpuwMzzeQhkwY/Ny2774Cd2HI=
+		bbrwsXvdAEF0044dCbOLX6vadhk=
 		</data>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+s6SkO+yC/+yYCV/nB5M3UxwLqw=
+		Njff2/OUjNG/GGWPlMacOP5G27w=
 		</data>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		B22KzwpYjPUu6l8ROmEM3ra33pA=
+		9Ep+IvBjtyCv8PMvZpb4kwOu+t4=
 		</data>
 		<key>Modules/TTI.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		5qDpuwMzzeQhkwY/Ny2774Cd2HI=
+		bbrwsXvdAEF0044dCbOLX6vadhk=
 		</data>
 		<key>Modules/TTI.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		+s6SkO+yC/+yYCV/nB5M3UxwLqw=
+		Njff2/OUjNG/GGWPlMacOP5G27w=
 		</data>
 		<key>Modules/TTI.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		B22KzwpYjPUu6l8ROmEM3ra33pA=
+		9Ep+IvBjtyCv8PMvZpb4kwOu+t4=
 		</data>
 		<key>Modules/TTI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JowmEcE6s3SqavhhaMdU34uiO/k=
+		zDHVRHJ3GxIchDLtyUcA7j7TcJI=
 		</data>
 		<key>Modules/TTI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		5Tam/Hj+K9M+3Cp8bXeEV7FQ0fo=
+		USxLP6DVBjmnfwTT0Qt0UsG1TE8=
 		</data>
 		<key>Modules/TTI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YiFMP0mAR8a07dJMM6wlSpAvf9I=
+		s61/ZfygcakiqeMHYFcLw3LO2Ec=
 		</data>
 		<key>Modules/TTI.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		JowmEcE6s3SqavhhaMdU34uiO/k=
+		zDHVRHJ3GxIchDLtyUcA7j7TcJI=
 		</data>
 		<key>Modules/TTI.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		5Tam/Hj+K9M+3Cp8bXeEV7FQ0fo=
+		USxLP6DVBjmnfwTT0Qt0UsG1TE8=
 		</data>
 		<key>Modules/TTI.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		YiFMP0mAR8a07dJMM6wlSpAvf9I=
+		s61/ZfygcakiqeMHYFcLw3LO2Ec=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -156,9 +640,13 @@
 		<data>
 		CuXnDkJq2zEEhSr7eoOom/NpkmA=
 		</data>
+		<key>ScratchView.nib</key>
+		<data>
+		B5Axl3qXdmsw+b3JikFdZKTsZmA=
+		</data>
 		<key>TTILocalizable.strings</key>
 		<data>
-		GDfKQwBFTRHDx3rfwz645FWw01I=
+		2iDiA0sctWCcBTwM2L1VMSCMqY0=
 		</data>
 		<key>TelkomselBatikSans-Bold.otf</key>
 		<data>
@@ -168,21 +656,189 @@
 		<data>
 		DI6+21hxwHosfn+FfPbS9SrbCKg=
 		</data>
+		<key>card_animation_acumulate_km.json</key>
+		<data>
+		hpHQHs1V41/FcRyU+hOU0ByemAc=
+		</data>
+		<key>card_animation_journey.json</key>
+		<data>
+		YXM5CU/mGFF9aZLjxS0YH/zs38I=
+		</data>
+		<key>card_animation_scooter_daily_stars.json</key>
+		<data>
+		jf010Gj3wByiqjl4SbFgw43tRLc=
+		</data>
+		<key>lottie-error-api.json</key>
+		<data>
+		dHP+7dOoAXPWm6jn4pDkQoWONUk=
+		</data>
+		<key>lottie_charger.json</key>
+		<data>
+		UKOQID0WwyQiQaci0SjImCpIxxs=
+		</data>
+		<key>lottie_intro_step_dailycheckup.json</key>
+		<data>
+		NOp2EcVlCL9wuFX32XEYeHeEwbA=
+		</data>
+		<key>lottie_marker_curr_city.json</key>
+		<data>
+		x8NjNJzcQsJji8r/3tx27G6vFhg=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>64641-farmers-to-industrial-workers.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ayPQH9tr8Y/H+9z5oKEmxYhoWOFbS0QTlXTllKPtmcM=
+			</data>
+		</dict>
 		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yZmJ+3tP8Ynuye1zaE4dgB4YC8h/x8+MCS1I+htFq+A=
+			TYDRtVw6VtvHLzNbVxSBTI+hpcSR8Dp0mJXxSBQLTwk=
+			</data>
+		</dict>
+		<key>ClickView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			B3QD8ltC7HdfpJB2v/v9zRInyGZFJJMN8BGM4ydQ9XE=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/7CJ-5P-lOh-view-VRM-L8-tic.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4EuAV98EakRiCtzO81O4+P34NDsbftTWXrCNCuwCj2w=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/8a2-xG-dYC-view-wH0-9d-ip1.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pSE7dHvli16I1KNCXwSfclq++pGl6nhXVrz7NWzLLs0=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/EKh-49-Rda-view-eZt-4M-Vv4.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			K6rCEwIAugpL9/PVzIppNulqyhFjFoqDhlniiX6vNys=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aMo2GTn7vcnMEOJH09dVXAZT7pBgrGM8XKZQy4NYrIQ=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/UIViewController-S92-Lm-gZi.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mIF9MtF3bi0IXxX+9HKKOpOJ1av15u+2WVIXyGRDNJI=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/UIViewController-aFa-Sl-tdc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZRCM5mUj8qzYQwY/RjBNiIK9xdxHs927NaAVFrM/LSM=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/Wbj-Hs-dJF-view-Rg4-Mi-f6s.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RaWLEimV7S4FxiwGbFmPXaxQKS8y9U/oDJYI9PkyS/M=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kwXmvJf+Ap8u4Y4s5WKAcFlnohSWi+Dspa/mH8zVWg8=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/aFa-Sl-tdc-view-1af-y0-SKc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FlJWsLRRszPdHt9hG3iCNtN9ewpK81zDI+y+gVR2gyU=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/dialogAccomplishmentsNoNewCityViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bfwaHRL3z+M+s6vfYrse1iVcTdTAC33QfKiyy65IPgw=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/dialogAccomplishmentsViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gm+F6RI+bTpZ0KnTK7LrMhYYBw86XL0j7mF7+v0xiTw=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/dialogBottomSheetViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q76Y0qXSXXaTR8zWd/W8XNBZHjKARrpbMygyp+aHRaY=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/dialogCheckupDoneViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			LWdxlTUaqnzPT797YX2TTFxnzMizzrCcsa+OB3hd40A=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/dialogFullscreen.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ueU7RXltE1RQhXrYUvudhxjvph/fo4EYfdyNIHQi3m4=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/dialogStandardViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uKJ6/HbbwP1QSDPFSAkFZzu3QIguUrcuPCIWTKHfSFQ=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/dialogStickerViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y5hoUKWnNHBQgqIHTNuRdpAPNV06pMtYphDxhh8FEus=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/efg-tq-l9n-view-0y2-xH-NAn.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2WW9v2wyTicZzsjs0Uc7NNfhz6iJs2pWq/wG66mwXS4=
+			</data>
+		</dict>
+		<key>DialogsTTI.storyboardc/kyG-hJ-Vvq-view-4hh-Y9-6RE.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0gY3NQN2j9zCJNAh0ubRZG8YM2C/vQaUDGQ0BHTQHJc=
 			</data>
 		</dict>
 		<key>Headers/TTI-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HrvnzLlXTdtAxHdphJbHsIJYe5pAX8gyXQL5IUQKIOw=
+			CvKjo0eiMPiTDBM3Fu6kz+jAhCttMo+/1PAsGOfEJCg=
 			</data>
 		</dict>
 		<key>Headers/TTI.h</key>
@@ -192,109 +848,816 @@
 			UTwHKR9em0DRQ10OLKzpabrmCisV3CDGg6e4YvkJZ3E=
 			</data>
 		</dict>
+		<key>InboxTTI.storyboardc/41Z-UL-zf9-view-8f2-XD-H7t.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hVMvmMcFEtsSS7HmQtDS0AZY+mRmBxScWOakN6eFQr8=
+			</data>
+		</dict>
+		<key>InboxTTI.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rdPY5pMtKg5J6pkqiOZVIvVGME0HpBGrBhLbBPifW64=
+			</data>
+		</dict>
+		<key>InboxTTI.storyboardc/UIViewController-41Z-UL-zf9.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			WEZWs+ijjGrNiiU8p3gNKI7juqEGDwnxCi+BuAbq6wM=
+			</data>
+		</dict>
+		<key>InboxTTI.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vu/sOlEYtjyzjHO0jaD0HVEO51B/0wGDsdD89OmKHkQ=
+			</data>
+		</dict>
+		<key>InboxTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t/mNF0wdfaQeADQQSMHZUdA+wBGzhJOwJgfzfDJsiPI=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/GbH-hI-9k6-view-k09-Qh-dMw.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			u+ISNhPq8hkWJPI9PL4w0N+Lrbmoqx4RFdVFr4+uvS0=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/GbH-hI-9k6-view-k09-Qh-dMw.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mwLNmaOOpdUoQcXImsjsgxO+OebsbxFWyv8XIZslFPA=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			daiTrS6tu5o+7x0y1laPYTLtauKZ2GchtNtsCIdgBkY=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/Lrd-Y6-5HV-view-hwE-eH-IzM.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JBdu0J6kaQLPCSti2FZR9CIgFMa/8rDFXkxaj8rk1EA=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/Lrd-Y6-5HV-view-hwE-eH-IzM.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			IJaunS1DgF61KFWP5h8TR/taQZSrC/Qma7wwBfxHzBk=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/OKy-mm-8rN-view-Ap5-h6-B3C.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			m5L+cmC+ApeGGrGErHOa3jRoQ6oy+5ZYsgXMbyx3oto=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/OKy-mm-8rN-view-Ap5-h6-B3C.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RyGRDNlro0c6B58tBeH16wtDgUtgVS8OUVx5+S20N50=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-3Am-Mm-MET.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			e5zpIp3X0rbd1pvDR+E/uTYzfL8TL6ikgwGnNJvAOF4=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-3Am-Mm-MET.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			9MaQ570/6zldH7BTqE2PTmdV8lS+kqsrh4/+zei5OJM=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-GbH-hI-9k6.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UxgLWU7Wgd6Kbz7wqiVi8Smd/151VGcLwQp8/yoYrdg=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-GbH-hI-9k6.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VsQDKlXgxKtHgiZfyPB96g7GBckp00nD48fHbB4KhsM=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-OKy-mm-8rN.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8hj9yu6WmV2y0ytclMRxgtxoPavKeCeiO7epn//Zkig=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-OKy-mm-8rN.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			q7Pn/Uavkj+qc205IJZqZCYXOsl/8aZaaJ2q14XegGw=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-bsV-0f-2A6.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			40GqbyUCgLvyC04eFG+LNtfX9qq6IYilP9wjBxszhe0=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-bsV-0f-2A6.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qEhcLnysCw6n2c6g2/e/MnWbu4dtlczLK/ZcLnkV+gE=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-gY9-6i-01k.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			irru0dRTxql19w0bxgfLX4uOQyPny07yDsVugaCuTEc=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-gY9-6i-01k.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cCZm3s8bgqIzta04YWQKZji1itgMv2dzAy0/Uplfrlk=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-vAp-q6-rld.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AyxbBsmNdYE8bTCMHMXkIuh+/RX/07htEhdRnqEJ+IA=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/UIViewController-vAp-q6-rld.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KpkbRQOBPGeqb725XmMTnv+YgNAkvljSlf2UmMAV6go=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j8mcN2Vev23LuoIkX0xSLNrVbZ0mWCjOUh0hrduR3/s=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bBPIhbmubD2Wv/3oa49ya1gTVMwYhLuqlpDDm/b5Gvw=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/bsV-0f-2A6-view-iEf-hj-RhG.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4Ei/k+IBOSLJMfPZ454w7ZIpg3V4zkbqcjvIHoUUwZE=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/bsV-0f-2A6-view-iEf-hj-RhG.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jx8Pani3rmi/8zE78QrQnRSx+PO7uqtqyb3KSGQj6c8=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/gY9-6i-01k-view-bKn-5x-z6X.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nPgqyPMo1JJG8hwlXQ7hpjqPX4gqTlxi5Xr2DSMdldc=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/gY9-6i-01k-view-bKn-5x-z6X.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EbFSKDb6xHZQxI5XDVhLa8aaEPavjAPtjZTqxsQxdf8=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/journey.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z0A9QKfjkEeE8Xi09EhnYzJZHFf7rwKOxthGnDQwP60=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/journey.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hmlnQS6KfZhZOtuC3Ne7gZDBjfLzi0t1iL4eyuq+6AY=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/jyH-NE-VbK-view-l1n-C1-rnk.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Z8KODfeGHMbPSuF7pAYXUkaggPT3jTu8KNJVoGBy8HY=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/jyH-NE-VbK-view-l1n-C1-rnk.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qH5+XuE+A57d34wAbw8+CJfyOBC7TcFqDUOFvUmh0aw=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/leaderboard.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XTFUvWal2/cXOgbEUDvF8sa94NpfrA/IR/1JB25AMoI=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/leaderboard.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QvLlA1GoYyS+VRcwBS9/4yCJe+hwwijIxY5aKi3tWPI=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/stickersViewController.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dtd+x2b4UkEsXU3olu9wzR+JSEcZhOljgHxnRkrGvns=
+			</data>
+		</dict>
+		<key>JourneyTTI.storyboardc/stickersViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			42tV1kmocJZv8gV+Qjpnh3wRdTjDJdFBTmBLfkXpuyU=
+			</data>
+		</dict>
+		<key>LoadingView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			J3E3JBXVM05Ps+tGXUCuTp47tCJLGcDT8QSy5R3lR4c=
+			</data>
+		</dict>
+		<key>MIssionsTTI.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NYdqFSIpUCXN2TUXtj2Fafu13bJUPVOfvP5KTi8PaXE=
+			</data>
+		</dict>
+		<key>MIssionsTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/objects-14.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			38tP9gLcgQsBeHaE+Fl8WBzC/IqZLsahXfHnkTgxfwQ=
+			</data>
+		</dict>
+		<key>MIssionsTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ctBDh6l0EF/dvGsoz6LnbbdpLYzWvTRDEcJ678GZIcA=
+			</data>
+		</dict>
+		<key>MIssionsTTI.storyboardc/missions.nib/objects-14.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zwh5nYSdNFaV09VU0xwnGVrfTRCVSf5AzUUXEWTkD7Q=
+			</data>
+		</dict>
+		<key>MIssionsTTI.storyboardc/missions.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZDap0Ou42+fFb50YwUMqTLrZxSrvGijmt1VxWkqsaUs=
+			</data>
+		</dict>
 		<key>MainTTI.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8SLT0O0KgbwgXaPz1uCT+Yzbh6IooNwxcfE8T/TjirU=
+			SiNvi911FFSd0kfOKeIW26oP1PV+aOdJEGBBA6ziKlY=
 			</data>
 		</dict>
-		<key>MainTTI.storyboardc/UINavigationController-xdH-Dq-wDR.nib</key>
+		<key>MainTTI.storyboardc/KER-1p-ag8-view-KVa-M6-Mxd.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oz6QRH0M/aSn5ZT1VxX1+N0EVZhuqmpPUqgQegdIwvQ=
+			aRW9+735gHCK761UfXAbjxabYBgXQF0ZTX45L89YYEE=
 			</data>
 		</dict>
-		<key>MainTTI.storyboardc/fRH-fq-tqx-view-49g-cc-ggQ.nib</key>
+		<key>MainTTI.storyboardc/KER-1p-ag8-view-KVa-M6-Mxd.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hTFEzNvUS+b98Khkiq4ff36qpjRVV/qxieUIJZGxD94=
+			HZzpIn7Pwr3fjy5L26g7u1IRCWk3rzK+utYzRxgdWF4=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/KaC-El-mEz-view-IHs-DD-o4B.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			N7fgEihgchnr8wLs9Pd/Ai7DYI7YjEjQKDoI5UpsHxA=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/KaC-El-mEz-view-IHs-DD-o4B.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fKr8C49ZdYYmpZZeeyvrMOA3ZsrBK/gs6byr0BJn5xw=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/Q8C-W0-214-view-CDq-Tb-vf3.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6DsxAbvW+7+FiJ/O9omPzGqd98xTEMsRQB46IPwsIvE=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/Q8C-W0-214-view-CDq-Tb-vf3.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0dkhXWYY9nJx8z4KOct8ZjDAapWG34spq1i+4bIZSzU=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/RWQ-Ge-hB4-view-MEb-j1-EqD.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pvtc2kBR1wdSBmXMH5d1YbpG4w1a0s7siuKO1eXSIwg=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/RWQ-Ge-hB4-view-MEb-j1-EqD.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KWgwAYDRiZ1UjPGiyILdcy2K8t7UVtTFQEvv7A1CR/Y=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UINavigationController-xdH-Dq-wDR.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kW2AtOPGHJleveugB3zBGQduLF2MsnDb5BYpIYZCFvA=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UINavigationController-xdH-Dq-wDR.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3iT8hkIjfcJTIk7oplxmmo6yR6S0inZeQOYkJOKENVw=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-Bu7-SY-OyX.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5xDc11ZfvM1SXdPUSFRZZKGWPSwg2D+pdQsnqg7sJGI=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-Bu7-SY-OyX.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZuQ4Ej0Awv4QlMIDGmGAn3dgapVADbfCLAYkh5h6Iz4=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-KER-1p-ag8.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EMxbYNhEwmmoVf4g8soPxQrYE+5GSdNluzeEPZpYh7U=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-KER-1p-ag8.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			NNm6uVKClAiQsHiJaogByuU56J2KZRmEzBWEmKZeE2k=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-POV-vQ-cne.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Cl2rT5S76MJ+ZSFso17QS2pLXfAbvyp0aXufB5+RHrc=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-POV-vQ-cne.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			R0SSrFcdOeietqqmG51mZ9EiZZ1jOreVk7EPrvXgRJw=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-ROt-G4-S1h.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y2ZZi7HGTlONhea7b/wLe7++XmlLCK3niB/4IXGDphc=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-ROt-G4-S1h.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nPrNQQmX1yDUImPvGfEB/c/M+BCbqZI6LUbybGFWfjk=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-RWQ-Ge-hB4.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VGmUXFdWh1IYqWuEKN7tC2I1dNe48u5mImk/m10r4r8=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-RWQ-Ge-hB4.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ixS5nSCd0QNg4ah2hj/2vR3glULk6V/xmA2ALtJirQc=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-fRH-fq-tqx.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6iOjCIhwurgQM97eR7VOSfePKTOMSNgtAVxKktfhAVE=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-fRH-fq-tqx.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			wbj65ZJ7ZtDaIHC9ZQ29OyLgQ433H0a0tz3vX4S/qMw=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-hDB-cc-etA.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jr2X4dI/BbMg1aux3e0I0DEI8rHW/eeLqxK9XbGO4dg=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/UIViewController-hDB-cc-etA.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fMfvrbBxlDYFK0pB6XqDsZriT88fA8r1q+qrfdDOwUY=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/YB0-zB-jNV-view-1J0-j4-00z.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MYKrdB9ThZzwVj0IRbZSxNGdcB317BW2hitpVG8cwYU=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/YB0-zB-jNV-view-1J0-j4-00z.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OYj7yuHKONMCipQ7JuODgr0G/Mv4LAbALw3J6N9PGjU=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/aTL-Gr-wiS-view-u4i-nq-hIq.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aakCU6dcdp6IJTAKIDMKS6z8n0CFPIrLIcdbdQvBsbU=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/aTL-Gr-wiS-view-u4i-nq-hIq.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ozbKUZHRasVEgniDA5bNRTemkKdfdZQjlgoZXpHILmc=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/bQg-0G-wAb-view-hT8-EM-o6N.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sV5SxaknPIxoAN6H7YV/txliveTyunNJ/2sk++CbNz4=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/bQg-0G-wAb-view-hT8-EM-o6N.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Xt2Fd2BJ7Ui6Ij1xi0v9kbmNv8y9JrsJVWhM9x0cayk=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/checkup.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RH5s08DSrGHd82oZ6/GfcUgCpqSB++kJJU2TOebuBAc=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/checkup.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Mt4lwZBvbRFm+ea3brxdqCc8iI89KRHtxrZnnYMLqg4=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/completeRegistrationViewController.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kCBDuVRaVHBbIIjbawfaXf+HMsCRQK+HcaJVNVq3Uhw=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/completeRegistrationViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QEytnNOtwThd96kbk/aSaHONKl8pSD7wGD3CtMF9YRA=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/createAvatar.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q5vSKdoDo5MRNgOAob4Dau2h/ZV3Bok+a3G5+PQ2+f8=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/createAvatar.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZHTjQefLI7RBPPzuM1lOLbLfcEvjS+zOlrxAOJvz+Jg=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/fRH-fq-tqx-view-49g-cc-ggQ.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3LYBhV4Sfxv/lX3V7rJM/CWp4Byf5Vyo0CAexcsnMIY=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/fRH-fq-tqx-view-49g-cc-ggQ.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0dMMb+G+2mZECPIYmnk8foXPiFhDd6vOtzRiHQLSdqQ=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/hDB-cc-etA-view-W9r-Kb-sx6.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			L0FPJVcAzhSMb/2mi2bJl3ecg4VLJXS8NEuLlN9Mf9s=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/hDB-cc-etA-view-W9r-Kb-sx6.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pctb69CX2W281k3fhCs0mxuBjC2byyYnNjUU8RTEFTA=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/home.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kiPtv6Da3SkbS1kG8qhhu6HTa7SSiFaRAB5EfjJbDAw=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/home.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			DDpGxdOuHk40vzolWwHH/GyJjlxSysIwGwfWrqHFFAQ=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/onboarding.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			eXHtvtd2TumNmiGF1uYxJ2GSbs/V7u/FtuZC5SDZPmM=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/onboarding.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8Whams7reFiwgDgzAneWCnpWcVLCvu/yeUN2AvG55KE=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/pIb-rD-so5-view-Wwc-TK-vy1.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			37nSbHxlmqJN5oNMKNtNLdJQKjLVEZDIXKqmtrRHi/U=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/pIb-rD-so5-view-Wwc-TK-vy1.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			r1hopnLJajqrYRR5aiRxSFweSnulBCOLIN91NkvgalE=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/prizes.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qxWQSPdqg3iE/6n4IWR0lIX0eojQJf7jQ2Xu/UDLDEc=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/prizes.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pQiSqC+Ujy+nHp5TiNJJK0VlBSjvSLVIwU9UghzymU0=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/v0T-AF-a2V-view-9WV-nH-yfA.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SnPK+WfYe0ueGgU8c1WJsJ8jAhScSnm8XSF6nXZL5TQ=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/v0T-AF-a2V-view-9WV-nH-yfA.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1lih7+ZmWc9dBiFbMq8SKxQmQyUYs7sTUH/FWiSSwzU=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/webviewVc.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5Cr7DHr2I9+Fs1YtsEuAlaXSt0jnkyr2gR8R+y2kIrY=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/webviewVc.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+J1QjjgAMWqCUgnnU4sAttfPeK1TeJs1iLKghJfavTA=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/xw4-Pc-Gsb-view-4f7-G9-Z9L.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Og7RemFkHpeNzdNJifN/6YcppNl6quB+WMThLsiv5yQ=
+			</data>
+		</dict>
+		<key>MainTTI.storyboardc/xw4-Pc-Gsb-view-4f7-G9-Z9L.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QEpyDIcsg0X3g4kDF+MaYYLONVz1E16gpwhhpim3DwA=
+			</data>
+		</dict>
+		<key>MapTTI.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OThit2EnDK+VrWyJqJDvBbP9QfwucSBR4DQ6xkPNGT8=
+			</data>
+		</dict>
+		<key>MapTTI.storyboardc/Tar-Fu-Hch-view-AbO-SE-ldd.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			C1ZHyIsJHbqYpXunAKW/H4E1YPrCm7OgUfazBv8PuGo=
+			</data>
+		</dict>
+		<key>MapTTI.storyboardc/UIViewController-Y6W-OH-hqX.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			b2STDsfQp6pVnNVgVGQ8exE+j1iv5D/+uJ5wqeHW5no=
+			</data>
+		</dict>
+		<key>MapTTI.storyboardc/Y6W-OH-hqX-view-5EZ-qb-Rvc.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			s+hkw0tCxHkvIj1ivPso5SnpiJZIA7bbBjYtfboANyY=
+			</data>
+		</dict>
+		<key>MapTTI.storyboardc/mapPrizesViewController.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			346Lor2e2WlNYj3XLk11c95RAKkFK+0TYcNpP6d09VU=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ozwZC+MC8z1gPvEReeccjlDZjjCmIF7l3B94OVgtuu0=
+			A0J0ORCSF1hQYxcc6cMjwN9uL8yFwZ6+ZyqfeFFusp0=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rz1Q+eCErKQ2CIVAgJW6mcgffxPYYaLozOhIc/JdAho=
+			H8MfTtLcVTVXqWWzED3qmtz2WpuLWnm3Dq7/5SxcIjQ=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uY+C5nIU/OFPqjqgCSbFC4JysNkHbaoyWR6g98VvJMU=
+			kfBNyNQJSJMHTXz1MFEyMu8SPtheEFriqLpovyp/YqY=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ozwZC+MC8z1gPvEReeccjlDZjjCmIF7l3B94OVgtuu0=
+			A0J0ORCSF1hQYxcc6cMjwN9uL8yFwZ6+ZyqfeFFusp0=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rz1Q+eCErKQ2CIVAgJW6mcgffxPYYaLozOhIc/JdAho=
+			H8MfTtLcVTVXqWWzED3qmtz2WpuLWnm3Dq7/5SxcIjQ=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uY+C5nIU/OFPqjqgCSbFC4JysNkHbaoyWR6g98VvJMU=
+			kfBNyNQJSJMHTXz1MFEyMu8SPtheEFriqLpovyp/YqY=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ubnjk7eDQ+NYYjO+tvsH0tuyBeF6PCHdFM45HOQw/nQ=
+			s3LXk8Kdh7vITfzPxpzHvwtNAyDW/Gdkx4pVXlfRJb8=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qBqoKWHPmlu2dhti/Ds+AsVjs1+TIKHrDLP8+e1x/SY=
+			lHXup5FHUZOBgJfwdRp0RrqyVs2aXnTuZ2DY/JswsP8=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+yTNUU3i60JFG/3kTCSqjOSNFtiTRzt6uXvaVRL51c=
+			jH1/807C4j5WygSc4HmBtdNe3/LPJF3QifCl7YTGUpQ=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ubnjk7eDQ+NYYjO+tvsH0tuyBeF6PCHdFM45HOQw/nQ=
+			s3LXk8Kdh7vITfzPxpzHvwtNAyDW/Gdkx4pVXlfRJb8=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qBqoKWHPmlu2dhti/Ds+AsVjs1+TIKHrDLP8+e1x/SY=
+			lHXup5FHUZOBgJfwdRp0RrqyVs2aXnTuZ2DY/JswsP8=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			C+yTNUU3i60JFG/3kTCSqjOSNFtiTRzt6uXvaVRL51c=
+			jH1/807C4j5WygSc4HmBtdNe3/LPJF3QifCl7YTGUpQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -430,11 +1793,18 @@
 			G2F+JYp3ubBgs6QH6DsKG+5CcysyP+8UORVeK1054MM=
 			</data>
 		</dict>
+		<key>ScratchView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Pdk507GNMk0waYbWdEKdaGDIH3TM9h9W5RaAgnlnxQQ=
+			</data>
+		</dict>
 		<key>TTILocalizable.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wqCygl2oS9+eCESTEVRRUF5HqXXhDmY7lW39i967cQg=
+			XyL9U0/6Hyg2DXAsRYZhbp5koGr0jDUVqXHVa7FVICs=
 			</data>
 		</dict>
 		<key>TelkomselBatikSans-Bold.otf</key>
@@ -449,6 +1819,55 @@
 			<key>hash2</key>
 			<data>
 			UPU95NRIpMO4NmVxn8+Jodca4ToUjUdQMVYY5fLantU=
+			</data>
+		</dict>
+		<key>card_animation_acumulate_km.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			04bXeE+FgZYsbcbaHkaagZIu/uv/EmWQ+wJWW3k+W8k=
+			</data>
+		</dict>
+		<key>card_animation_journey.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aL+P0xNixeMshqRiHyTv5HMY1+gshakNugKMZVJ9l3A=
+			</data>
+		</dict>
+		<key>card_animation_scooter_daily_stars.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kAhf6nsHvbIWOCLwcIPp1GGl5nVfL4x7E7yxf9IUaQA=
+			</data>
+		</dict>
+		<key>lottie-error-api.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YvMK33AdVBbRFayfG2n0aqHimwtHy0t/FKlkm+oO9YA=
+			</data>
+		</dict>
+		<key>lottie_charger.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tDEmPsnn5gM0+JqpmhMXx0eS4NH4gRIa92NRtJpdRoY=
+			</data>
+		</dict>
+		<key>lottie_intro_step_dailycheckup.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cT90SQvXND99SCkkMUjbwuu0fuJ6NEnvdmVNZcQTs3M=
+			</data>
+		</dict>
+		<key>lottie_marker_curr_city.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			nhhLUM9YzGCto9PCBpKeezIwZDnamBhMo1qhQoK8qR8=
 			</data>
 		</dict>
 	</dict>
