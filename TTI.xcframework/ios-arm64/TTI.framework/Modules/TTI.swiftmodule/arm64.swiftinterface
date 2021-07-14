@@ -27,6 +27,7 @@ public enum ScreenKey : Swift.String {
   case leaderboard_2
   case leaderboard_3
   case leaderboard_4
+  case leaderboard_generic
   case sticker_list_city
   case sticker_list_badge
   case sticker_list_goddies
