@@ -231,6 +231,7 @@ SWIFT_CLASS("_TtC3TTI19TTIRuntimeException")
 
 
 
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif
@@ -457,6 +458,7 @@ SWIFT_CLASS("_TtC3TTI19TTIRuntimeException")
 - (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
+
 
 
 

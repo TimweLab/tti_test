@@ -1,6 +1,7 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TTI
+import AVFoundation
 import Alamofire
 import Foundation
 import Kingfisher
@@ -40,6 +41,10 @@ public enum ScreenKey : Swift.String {
   case webview_privacy_policy
   case webview_terms_and_conditions
   case webview_about_draw
+  case watch_video
+  case video
+  case quiz
+  case webview_more_info
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -87,7 +92,7 @@ public struct UserGameResponse : Swift.Codable {
   public var avatarImageUrl: Swift.String?
   public var messageToUser: Swift.String?
   public var currentCityName: Swift.String?
-  public var currentCity: Swift.Int32?
+  public var currentCityPosition: Swift.Int32?
   public var totalCities: Swift.Int32?
   public var cardTag: Swift.String?
   public var buttonLabel: Swift.String?
