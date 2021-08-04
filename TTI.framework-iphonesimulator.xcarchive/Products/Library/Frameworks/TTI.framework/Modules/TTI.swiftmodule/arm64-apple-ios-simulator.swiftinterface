@@ -21,6 +21,7 @@ public enum ScreenKey : Swift.String {
   case map_city_list
   case map_levels_list
   case map_tiers_list
+  case prizes
   case prizes_to_redeem
   case prizes_redeemed
   case journey
@@ -45,6 +46,9 @@ public enum ScreenKey : Swift.String {
   case video
   case quiz
   case webview_more_info
+  case onboarding_boosters
+  case onboarding_checkup
+  case onboarding_prizes
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -109,8 +113,7 @@ public struct UserProfile : Swift.Codable {
   public var userMsisdns: [TTI.UserMsisdn]?
   public var lang: Swift.String?
   public var additionalParams: [Swift.String : Swift.String]?
-  public init(profileId: Swift.String)
-  public init(profileId: Swift.String, plan: Swift.String)
+  public init(profileId: Swift.String, plan: Swift.String = "postpaid", lang: Swift.String = "en")
   public init(profileId: Swift.String, mail: Swift.String, defaultSegment: Swift.String, userMsisdns: [TTI.UserMsisdn], lang: Swift.String)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
