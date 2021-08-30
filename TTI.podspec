@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TTI"
-  spec.version      = "0.9.5"
+  spec.version      = "0.9.6"
   spec.summary      = "SDK for TTI (MyTSEL) implementation"
   spec.requires_arc = true
   
