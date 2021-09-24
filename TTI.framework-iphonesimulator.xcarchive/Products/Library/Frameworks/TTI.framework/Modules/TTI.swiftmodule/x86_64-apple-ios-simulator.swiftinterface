@@ -56,13 +56,9 @@ public enum ScreenKey : Swift.String {
   }
 }
 @_hasMissingDesignatedInitializers public class sdk {
-  public static var isDebug: Swift.Bool? {
-    get
-    set
-  }
-  public static func ui(navigationController: UIKit.UINavigationController?, apiKey: Swift.String, userProfile: TTI.UserProfile?, redirectKey: Swift.String? = nil, callback: ((Swift.String) -> ())? = nil) throws
-  public static func getUserGame(apiKey: Swift.String, request: TTI.GameRequest, callback: ((TTI.UserGameResponse?, TTI.NetworkError?) -> ())?) throws
-  public static func getStatusGame(apiKey: Swift.String, request: TTI.GameRequest, callback: ((TTI.GameStatusResponse?, TTI.NetworkError?) -> ())?) throws
+  public static func ui(navigationController: UIKit.UINavigationController?, userProfile: TTI.UserProfile?, redirectKey: Swift.String? = nil, callback: ((Swift.String) -> ())? = nil) throws
+  public static func getUserGame(request: TTI.GameRequest, callback: ((TTI.UserGameResponse?, TTI.NetworkError?) -> ())?) throws
+  public static func getStatusGame(request: TTI.GameRequest, callback: ((TTI.GameStatusResponse?, TTI.NetworkError?) -> ())?) throws
   @objc deinit
 }
 public struct NetworkError : Swift.Codable {
