@@ -907,7 +907,6 @@ borderWidth.didset
 isRound.didset
 isRound.set
 isRound.get
-_$sSS3TTIE4i18nSSvg
 _$s3TTI22PreLoginViewControllerC10titleLabelSo7UILabelCSgvgTo
 _$s3TTI22PreLoginViewControllerC10titleLabelSo7UILabelCSgvsTo
 _$s3TTI22PreLoginViewControllerC12messageLabelSo7UILabelCSgvgTo
@@ -969,7 +968,6 @@ _symbolic ypSg
 _$sypSgMD
 _$s3TTI11SdkInstanceC8instance33_D2F269C2C6427353C64F67C5E73B0659LLACSgvpZ
 _$s3TTI07WebViewC10ControllerC3urlSSSgvpWvd
-_$s3TTI07WebViewC10ControllerC9pageTitleSSSgvpWvd
 _$s3TTI07WebViewC10ControllerC4typeAA17EndpointScreenKeyOSgvpWvd
 _$s3TTI22PreLoginViewControllerC10titleLabelSo7UILabelCSgvgTq
 _$s3TTI22PreLoginViewControllerC10titleLabelSo7UILabelCSgvsTq
@@ -996,7 +994,6 @@ elementsEqual
 $sSTsSQ7ElementRpzrlE13elementsEqualySbqd__STRd__AAQyd__ABRSlFSbAB_ABtcABmcfu_SS_SSTg5
 type.set
 TTI/ViewControllers/WebViewViewController.swift
-pageTitle.set
 url.set
 messageLabel.get
 titleLabel.get
@@ -1004,6 +1001,7 @@ showInbox
 backIsToCloseNavigation
 messageLabel.set
 titleLabel.set
+_$sSS3TTIE4i18nSSvg
 _$s3TTI19VideoViewControllerC10titleLabelSo7UILabelCSgvgTo
 _$s3TTI19VideoViewControllerC10titleLabelSo7UILabelCSgvsTo
 _$s3TTI19VideoViewControllerC16descriptionLabelSo7UILabelCSgvgTo
@@ -3649,6 +3647,7 @@ _$s3TTI07WebViewC10ControllerC5coderACSgSo7NSCoderC_tcfcTf4gn_n
 _$s3TTI07WebViewC10ControllerC03webC0So05WKWebC0CSgvpWvd
 _$s3TTI07WebViewC10ControllerC015buttonContainerC0So6UIViewCSgvpWvd
 _$s3TTI07WebViewC10ControllerC17activityIndicatorSo010UIActivityfC0CSgvpWvd
+_$s3TTI07WebViewC10ControllerC9pageTitleSSSgvpWvd
 _OBJC_METACLASS_$__TtC3TTI21WebViewViewController
 __PROTOCOL_WKNavigationDelegate
 l_OBJC_LABEL_PROTOCOL_$_WKNavigationDelegate
@@ -3707,6 +3706,7 @@ _$s3TTI15WebViewProtocolP4typeAA17EndpointScreenKeyOSgvMTq
 /Users/ricardoponciano/Documents/TTI-TSEL/iOS/TTI/TTI/ViewControllers/WebViewViewController.swift
 backTap
 type.get
+pageTitle.set
 $s3TTI07WebViewC10ControllerCMa
 $s3TTI07WebViewC10ControllerCfETo
 $s3TTI07WebViewC10ControllerCfE
