@@ -60,7 +60,7 @@ public enum ScreenKey : Swift.String {
     get
     set
   }
-  public static func ui(navigationController: UIKit.UINavigationController?, apiKey: Swift.String, userProfile: TTI.UserProfile?, redirectKey: Swift.String? = nil, callback: ((Swift.String) -> ())? = nil) throws
+  public static func ui(navigationController: UIKit.UINavigationController?, apiKey: Swift.String, userProfile: TTI.UserProfile?, utm: TTI.UTM?, redirectKey: Swift.String? = nil, callback: ((Swift.String) -> ())? = nil) throws
   public static func getUserGame(apiKey: Swift.String, request: TTI.GameRequest, callback: ((TTI.UserGameResponse?, TTI.NetworkError?) -> ())?) throws
   public static func getStatusGame(apiKey: Swift.String, request: TTI.GameRequest, callback: ((TTI.GameStatusResponse?, TTI.NetworkError?) -> ())?) throws
   @objc deinit
@@ -107,6 +107,11 @@ public struct UserGameResponse : Swift.Codable {
   public var buttonActionDestination: Swift.String?
   public var buttonActionKey: Swift.String?
   public var additionalParams: [Swift.String : Swift.String]?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct UTM : Swift.Codable {
+  public init(utmSource: Swift.String?, utmCampaign: Swift.String?, utmMedium: Swift.String?, utmTerm: Swift.String?, utmContent: Swift.String?)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
