@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TTI
 import AVFoundation
 import Alamofire
@@ -11,6 +11,7 @@ import Swift
 import UIKit.UIGestureRecognizerSubclass
 import UIKit
 import WebKit
+import _Concurrency
 public enum ScreenKey : Swift.String {
   case splash
   case pre_register_welcome
@@ -60,7 +61,7 @@ public enum ScreenKey : Swift.String {
     get
     set
   }
-  public static func ui(navigationController: UIKit.UINavigationController?, apiKey: Swift.String, userProfile: TTI.UserProfile?, redirectKey: Swift.String? = nil, callback: ((Swift.String) -> ())? = nil) throws
+  public static func ui(navigationController: UIKit.UINavigationController?, apiKey: Swift.String, userProfile: TTI.UserProfile?, utm: TTI.UTM? = nil, redirectKey: Swift.String? = nil, callback: ((Swift.String) -> ())? = nil) throws
   public static func getUserGame(apiKey: Swift.String, request: TTI.GameRequest, callback: ((TTI.UserGameResponse?, TTI.NetworkError?) -> ())?) throws
   public static func getStatusGame(apiKey: Swift.String, request: TTI.GameRequest, callback: ((TTI.GameStatusResponse?, TTI.NetworkError?) -> ())?) throws
   @objc deinit
@@ -107,6 +108,11 @@ public struct UserGameResponse : Swift.Codable {
   public var buttonActionDestination: Swift.String?
   public var buttonActionKey: Swift.String?
   public var additionalParams: [Swift.String : Swift.String]?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct UTM : Swift.Codable {
+  public init(utmSource: Swift.String?, utmCampaign: Swift.String?, utmMedium: Swift.String?, utmTerm: Swift.String?, utmContent: Swift.String?)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
