@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TTI"
-  spec.version      = "1.0.7"
+  spec.version      = "1.0.8"
   spec.summary      = "SDK for TTI (MyTSEL) implementation"
   spec.requires_arc = true
   
@@ -64,6 +64,6 @@ Pod::Spec.new do |spec|
   
   spec.framework = "UIKit"
   spec.dependency 'Alamofire', '~> 4.8.2'
-  spec.dependency 'Kingfisher', '6.3.0'
+  spec.dependency 'Kingfisher', '6.3.1'
   spec.dependency 'lottie-ios', '3.2.3'
 end
