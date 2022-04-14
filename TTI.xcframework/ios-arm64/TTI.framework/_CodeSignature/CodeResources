@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		nPPkZR2JJtbtpZxbMicaB74TfHI=
+		jN7TTI3qlk71zH3f+Dzcskg5psQ=
 		</data>
 		<key>ClickView.nib</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/TTI-Swift.h</key>
 		<data>
-		iXdhYE+Zeq9g6erI/WoOXOi2BPg=
+		hOlPvkQNtGnnrL63hucYfwSZfDY=
 		</data>
 		<key>Headers/TTI.h</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		689Cm4P3LOz3N2LA7FYeToXVl8Q=
+		wL7IltC4n16+uxeasL15xGw0OUY=
 		</data>
 		<key>JourneyTTI.storyboardc/GbH-hI-9k6-view-k09-Qh-dMw.nib/objects-12.3+.nib</key>
 		<data>
@@ -578,15 +578,27 @@
 		</data>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		xuiKj86T5aH8kikOsMzfzLOe62Y=
+		cW5bcp/IQAxuU7vgXr3vcA5BJuA=
 		</data>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		W2qdsgg+cCs4+yG/kHA4c3YMcA0=
+		7Z3ZruwM0nDxwvhrP1DiMwDgGvI=
 		</data>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		iC/+ygQ7EWZ3eeNa3nDdIABu0xo=
+		PL3VKW941m0tbzOyCYXBT5nKQQQ=
+		</data>
+		<key>Modules/TTI.swiftmodule/arm64.swiftdoc</key>
+		<data>
+		cW5bcp/IQAxuU7vgXr3vcA5BJuA=
+		</data>
+		<key>Modules/TTI.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		7Z3ZruwM0nDxwvhrP1DiMwDgGvI=
+		</data>
+		<key>Modules/TTI.swiftmodule/arm64.swiftmodule</key>
+		<data>
+		PL3VKW941m0tbzOyCYXBT5nKQQQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -746,7 +758,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GigSRHaUpWl0+2sRZV5CMRXxzqoYZgzF8m+X2J2cDbc=
+			a16k5ZVJGBn/Pf98tIldlmQTLJCRXj3J8M8YeJ4rH6s=
 			</data>
 		</dict>
 		<key>ClickView.nib</key>
@@ -879,7 +891,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VxEnjNzAoqimdZUIsbEbTPxQmSRgbEv9OBiJkzYALCg=
+			QU6V0qrIB0OvJgrpu8lr254VB6wxGGGtLfrn4lZgUQs=
 			</data>
 		</dict>
 		<key>Headers/TTI.h</key>
@@ -1733,21 +1745,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vwF0NBhEtDJUicR+vgfPXm02hkX/bDACjO4oOnjshYU=
+			7reKO3I9RKawbwQXpbNaY90dN8YFgsoCvx6+AkzGXd8=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aE6hkd4QAfSu+1QvdFwYG1tBr+QTehUDofkFMtFkEeQ=
+			RVR1SrOen7o2uCinkGHOh2/IGEm0pmUs7IwqgfKQYkI=
 			</data>
 		</dict>
 		<key>Modules/TTI.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FhJRWWHnN5chVi2nv3ELTMRdE0UqCbeK93ByGM+pwFo=
+			2qcchUVgwPMrE0am/IOjNVmuVW2ySiG+8frfjqIfYtQ=
+			</data>
+		</dict>
+		<key>Modules/TTI.swiftmodule/arm64.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			7reKO3I9RKawbwQXpbNaY90dN8YFgsoCvx6+AkzGXd8=
+			</data>
+		</dict>
+		<key>Modules/TTI.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RVR1SrOen7o2uCinkGHOh2/IGEm0pmUs7IwqgfKQYkI=
+			</data>
+		</dict>
+		<key>Modules/TTI.swiftmodule/arm64.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			2qcchUVgwPMrE0am/IOjNVmuVW2ySiG+8frfjqIfYtQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
