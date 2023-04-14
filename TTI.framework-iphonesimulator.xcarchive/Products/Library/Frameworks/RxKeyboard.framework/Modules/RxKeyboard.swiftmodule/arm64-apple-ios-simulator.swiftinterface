@@ -1,0 +1,27 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RxKeyboard
+import RxCocoa
+@_exported import RxKeyboard
+import RxSwift
+import Swift
+import UIKit
+import _Concurrency
+public protocol RxKeyboardType {
+  var frame: RxCocoa.Driver<CoreGraphics.CGRect> { get }
+  var visibleHeight: RxCocoa.Driver<CoreGraphics.CGFloat> { get }
+  var willShowVisibleHeight: RxCocoa.Driver<CoreGraphics.CGFloat> { get }
+  var isHidden: RxCocoa.Driver<Swift.Bool> { get }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class RxKeyboard : ObjectiveC.NSObject, RxKeyboard.RxKeyboardType {
+  public static let instance: RxKeyboard.RxKeyboard
+  final public let frame: RxCocoa.Driver<CoreGraphics.CGRect>
+  final public let visibleHeight: RxCocoa.Driver<CoreGraphics.CGFloat>
+  final public let willShowVisibleHeight: RxCocoa.Driver<CoreGraphics.CGFloat>
+  final public let isHidden: RxCocoa.Driver<Swift.Bool>
+  @objc deinit
+}
+extension RxKeyboard.RxKeyboard : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldRecognizeSimultaneouslyWith otherGestureRecognizer: UIKit.UIGestureRecognizer) -> Swift.Bool
+}

@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TTI"
-  spec.version      = "1.0.10"
+  spec.version      = "2.0.0"
   spec.summary      = "SDK for TTI (MyTSEL) implementation"
   spec.requires_arc = true
   
@@ -63,7 +63,16 @@ Pod::Spec.new do |spec|
   spec.source = { :git => "https://github.com/TimweLab/tti_test.git", :tag => "#{spec.version}" }
   
   spec.framework = "UIKit"
-  spec.dependency 'Alamofire', '~> 4.8.2'
   spec.dependency 'Kingfisher', '6.3.1'
   spec.dependency 'lottie-ios', '3.2.3'
+  spec.dependency 'Moya', '15.0.0'
+  spec.dependency 'RxSwift', '6.5.0'
+  spec.dependency 'RxSwiftExt', '6.0.1'
+  spec.dependency 'RxGesture', '4.0.4'
+  spec.dependency 'RxKeyboard', '2.0.0'
+  spec.dependency 'RxCocoa', '6.5.0'
+  spec.dependency 'RxDataSources', '5.0.0'
+  spec.dependency 'Moya/RxSwift', '15.0.0'
+  spec.dependency 'RiveRuntime', '1.0.18'
+  spec.dependency 'SVGKit', '3.0.0'
 end
