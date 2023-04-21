@@ -14,11 +14,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		F769hx060vYLvWDZiuSuVJWx2S8=
+		f5RdCzgCDbTPIx/SEmnCBBAYNWo=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
-		BDcW/fbTlZxKmQWYqcPl6Q8NuN4=
+		NWwdpqAq6galSB9p8Rs4kWj6a6E=
 		</data>
 		<key>BaseBottomSheetView.nib</key>
 		<data>
@@ -62,7 +62,11 @@
 		</data>
 		<key>EN.strings</key>
 		<data>
-		w1lm5cYXBT91WGH+iXI3uQudnzM=
+		5lCkwLgzE263gockdQO8iAiUe5I=
+		</data>
+		<key>EducationalCardView.nib</key>
+		<data>
+		WMk42bXsa4V30B9P4CTt5Cknit0=
 		</data>
 		<key>GenericSectionView.nib</key>
 		<data>
@@ -74,7 +78,7 @@
 		</data>
 		<key>HeaderTableViewCell.nib</key>
 		<data>
-		wD6nf9cyfR9YISUAYOhKqZmxtIw=
+		8rW9AOlk7AmlYPlzbMrV22TY+CU=
 		</data>
 		<key>Headers/TTI2-Swift.h</key>
 		<data>
@@ -86,11 +90,11 @@
 		</data>
 		<key>HomeView.nib/objects-13.0+.nib</key>
 		<data>
-		kAcSn3u7q68s8Zlo/lY+g/IzU8c=
+		gkEoc3LaOaq1yCq5cPxGJ04+EDI=
 		</data>
 		<key>HomeView.nib/runtime.nib</key>
 		<data>
-		d1zrNp6r9njeMYl8GLle3T/7LIQ=
+		csTaAqtRVZfuxh20u3mKTiJ9Hto=
 		</data>
 		<key>IND.strings</key>
 		<data>
@@ -99,6 +103,22 @@
 		<key>Info.plist</key>
 		<data>
 		iVmJMlKIXHOqVDuhfpR5JnXPstM=
+		</data>
+		<key>InitialCollectionViewCell.nib/objects-12.3+.nib</key>
+		<data>
+		5G/vYWSwPHoYaY4IKjzVvxv9rsk=
+		</data>
+		<key>InitialCollectionViewCell.nib/runtime.nib</key>
+		<data>
+		dhjlQAkm4rOyb3qCjcKLil061To=
+		</data>
+		<key>IntermidiateCollectionViewCell.nib/objects-12.3+.nib</key>
+		<data>
+		f+DbiQsOmZ6SVz9qfPej/TZcXRQ=
+		</data>
+		<key>IntermidiateCollectionViewCell.nib/runtime.nib</key>
+		<data>
+		BlcXtmb/pig7Z7ZUi+Q8OA9j8R4=
 		</data>
 		<key>LeaderBoardTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -122,15 +142,15 @@
 		</data>
 		<key>MissionCell.nib/objects-13.0+.nib</key>
 		<data>
-		PEYIDoCgLx98zsmTKgvV5usac2M=
+		PCcQKnS1hDVh06+SRcfRQXubnfQ=
 		</data>
 		<key>MissionCell.nib/runtime.nib</key>
 		<data>
-		g1k28jhcRTftlJueIZkEcpVZgSI=
+		CZvZqpoqUVtHsHIXNEK/6GxVs9w=
 		</data>
 		<key>MissionsListView.nib</key>
 		<data>
-		kWYMltFBU24OhrniIObsbz1VSM8=
+		72tYDPYDto1whWrrqtMYn1Rt7zw=
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -138,11 +158,11 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		r5Daogbf5Xs5bE2N09UOPm9kyN4=
+		yUC9klSdvOyiED07/1jEuJhw+4E=
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4Odk2M7zutaWHyzDSd3ZAWUyYjs=
+		spaq0R3Csomk6pjYy/LncbBKU2A=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -150,11 +170,11 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		XJRd5EGtnGa2SYRcon8UXxOOOQc=
+		EiLBw6IvPgK8Wn1Kk/l2Qbz807w=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		qa8GitE+HuoaSpxz3cGpCe46KJQ=
+		ai1Z6OO1lq/VrUd7LmHjqXa4MpA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -162,7 +182,7 @@
 		</data>
 		<key>OnboardingView.nib</key>
 		<data>
-		miCW4E1TABieN8vUFKuPuYkZHfg=
+		OLIgXOfAMGgarOZzY23SvlIUN6s=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -294,11 +314,11 @@
 		</data>
 		<key>QuizView.nib/objects-13.0+.nib</key>
 		<data>
-		emVIcD+9nC5hFIYZH+hSsL3k4kI=
+		KkoFs3fTk7SYGl7b2r/tmXYlsNk=
 		</data>
 		<key>QuizView.nib/runtime.nib</key>
 		<data>
-		GT0xsXrIopiuzE3Eeso2Z7BLkdM=
+		g6Uo+PY3C7Nh4NPJY4/blNZQiYY=
 		</data>
 		<key>RewardsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -334,11 +354,11 @@
 		</data>
 		<key>SplashScreenView.nib/objects-13.0+.nib</key>
 		<data>
-		HkaEITCpQTt4gnG3e44yUJ4VdnU=
+		4wbdS2Kwi7FIz0oeh8nfKhdZNdM=
 		</data>
 		<key>SplashScreenView.nib/runtime.nib</key>
 		<data>
-		DVmcWgM50pNqDT9TZmNyPVSaiZo=
+		NeyVdBYn+s3dOLkSFtkrI7QN//I=
 		</data>
 		<key>TelkomselBatikSans-Bold.otf</key>
 		<data>
@@ -384,17 +404,17 @@
 		<data>
 		BkDsxvgvQVoQuWiRbr1cHUpBbP4=
 		</data>
-		<key>avatar_rig_design_v4.riv</key>
+		<key>avatar_rig_design_v4_vector3.riv</key>
 		<data>
-		i+B9+wbnCFcWbVDdu+pUbMwwdGc=
+		iyMnfPsgQZXPwH6BqMl4WGMJx5A=
 		</data>
-		<key>map_main_design_03.riv</key>
+		<key>avatar_rig_design_v4_vector4.riv</key>
 		<data>
-		tpIj03mCAEqYTZ3aQH/vvhTD+58=
+		iqUnMCl3acluALNUYQs1zsol8u4=
 		</data>
-		<key>map_main_design_1x.riv</key>
+		<key>map_main_1904_0955.riv</key>
 		<data>
-		mJAGFYKgKyPQFC/WmeiWaLyZodQ=
+		yrBLLfNAAJ5GNa9geKspSerxx0g=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -417,14 +437,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			HThS6iM4vg7KJ8tJ/nkkP6ivUnRFjktF+cAamTas7Ko=
+			48idic4yU5IRFkfyO6olkNK+XN7BFHvVb0VhCxP5e+A=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ekFQPNCHQd6abEkZXiMdwGvpQjx3+T/DL9qMIogH1ts=
+			bEFP37rA+6y4l0luPPUyzK4TavWCkEMrlJfkkUSyBBw=
 			</data>
 		</dict>
 		<key>BaseBottomSheetView.nib</key>
@@ -501,7 +521,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xy3uNcQw8RAdZT/Tcfb3uqcb6Xr+s0D83GTf85o/G5I=
+			sygz0YKagqLxkOB/90NrNa7IDC1MJzwmMual3yPjmOI=
+			</data>
+		</dict>
+		<key>EducationalCardView.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			xC3EiDoSOUtXIaZjLGhJ9/TPi166jvRVuR0HgN0zw/U=
 			</data>
 		</dict>
 		<key>GenericSectionView.nib</key>
@@ -522,7 +549,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S108czA7PbL0K943FFqIPada8YU9ttps/gVgLLRCYME=
+			4UwOo9qJXL8eSrkmxDmtWEHtUyJG5jo8hX0t5ZoB8wI=
 			</data>
 		</dict>
 		<key>Headers/TTI2-Swift.h</key>
@@ -543,14 +570,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			VdLqaKhFsKiH82bCjKgCD5UiENyMDhdmo6vhCr/5Lo4=
+			fkBO6COPu8EfE0TS7+UpZY8Ksk6S3Dme/oRTNph2c68=
 			</data>
 		</dict>
 		<key>HomeView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oWs4b67QJwV41qzT/E+V5vey1xcjMg7YOXkuJ+2Slvc=
+			QQKqwF69IF6Y7Dram/B0yVclwW41yXtWfybYKYZdUw8=
 			</data>
 		</dict>
 		<key>IND.strings</key>
@@ -558,6 +585,34 @@
 			<key>hash2</key>
 			<data>
 			nHnILRO80aOrUsmx85ctsFyrb/9b9idr/FFFY/ETrbk=
+			</data>
+		</dict>
+		<key>InitialCollectionViewCell.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mVlL75wEj5BpGwWUWELXHyZf1Pur11+nrM3yGd32SAk=
+			</data>
+		</dict>
+		<key>InitialCollectionViewCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gPiYRczibexpJ/Bo3v+4iPTrQWuz1V+IUvvB8aMd2ww=
+			</data>
+		</dict>
+		<key>IntermidiateCollectionViewCell.nib/objects-12.3+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ICZJsWtWkptr1lbWDKS1bO/JMyRZyUZUuHiZGf6d9No=
+			</data>
+		</dict>
+		<key>IntermidiateCollectionViewCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			fhWdBG8Xky2Y7TocHyzIirJnveG+wcfHti775TSGqqY=
 			</data>
 		</dict>
 		<key>LeaderBoardTableViewCell.nib/objects-13.0+.nib</key>
@@ -599,21 +654,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XuS/WyAKASeMFoW50Y4DtQdygp8kIvQeY5gR2PR6gME=
+			SuYRTIUYzwK1MKdw2ue89pcHREVubpDBhFuTQK1hbUc=
 			</data>
 		</dict>
 		<key>MissionCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8E0IkohUdtfrajigMdskITHOF7cYOdpPGpp+XbJkN54=
+			JW4JXQiulRgR3CeiYmtKrEJAxQh4zPyqpgQr9tZ7U18=
 			</data>
 		</dict>
 		<key>MissionsListView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vb+bo/WRMQUTl57OkVMG/6j+jGooCOwmGTqAnyJtXaU=
+			9zQEtkTeDyBSS7yS9dwQ37xoSYwt+qEPOt6JapIhobg=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -627,14 +682,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CExGl5TAzyZ3CXFzS8k/TZQXJxA/7oTdeq5LjWhMWuA=
+			8z6t+rDw5GuXCnGU1IGBXh+PjK9KOYwIxHidASkZkZw=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SQ945CoHUX0cGSkhWNWBsMGdddwNav/zDad8ZIsORDw=
+			O7lIfJ4haSPw24QfkvIlwozPtkNxlX5x8sjvGDkPaes=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -648,14 +703,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3fbVS/CCTUShtEVetK4YS/75AjGV3M2K9VqgKOjOYuI=
+			+8EJ6y5O/e9HbT/f6BiQmvTmdhtm/7wOlcA1HYfQdEc=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PdR8DKfOLxh222bVLQqw/sdss1MXIXj5nw2OT0gRmbI=
+			psoEWIHg3q59qDmnxastpwAEvKaCrDFvA8GmbALVprk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -669,7 +724,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DFRay/G+qIa7Spv112k5qnyY0B6Ezx1czbLmi3xe2k0=
+			u4PVpcej7tqG8Q8B0kRsg7mmDgm50zUubFsfqf/wmIA=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
@@ -900,14 +955,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QdywC5V29jxxku+xB6gVh8sNCK6R1ZYVj4+2F18E7fs=
+			JRUNPzJy88qLBhT0/AJ02CQtQnKYDOWH3Wfqv7uiuQg=
 			</data>
 		</dict>
 		<key>QuizView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			30hf13UONETuLQBWR9FIE/dOmlbe+d4aOLU/HmGwZFQ=
+			068irIjEmq34OnlchhbRzq6cwrashYJezria+mvn1ug=
 			</data>
 		</dict>
 		<key>RewardsTableViewCell.nib/objects-13.0+.nib</key>
@@ -970,14 +1025,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I4CabPsBCq3RwOtARR/gXZUb1mtjBlZTk/iqhL9Aad0=
+			zuRf0NrBY2q7oRY/oZEFbXtqRQa9mVwNI9Ah7YP0b4k=
 			</data>
 		</dict>
 		<key>SplashScreenView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			baD61alf9g7fxkWHEQf/bAazuEoyP6DBup9wVNEgpPw=
+			khNSFrpOsK6DrFGb2jBiSrPAsINgvreoCA0JgtPr+uU=
 			</data>
 		</dict>
 		<key>TelkomselBatikSans-Bold.otf</key>
@@ -1057,25 +1112,25 @@
 			lm6nRznUxb/tAW30nzRxhUCScNwVbAcB5IF0fCzX+hI=
 			</data>
 		</dict>
-		<key>avatar_rig_design_v4.riv</key>
+		<key>avatar_rig_design_v4_vector3.riv</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KooRJasP4BfQ3OZQ1qZ1epEtG2BKNJfyQLyG/FUExyw=
+			4DxvzD2dCsJtjY6pe/bx+JumXsSNpdW1WX1tZINwYiU=
 			</data>
 		</dict>
-		<key>map_main_design_03.riv</key>
+		<key>avatar_rig_design_v4_vector4.riv</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cZvklk1fKdUbAAZDbSteYEiy5yJZcTuU63OpmRKaYlo=
+			Z/ECwVz8iBXxkgOkgHKPi23ZXFfHKTY2l7gIz5JufAM=
 			</data>
 		</dict>
-		<key>map_main_design_1x.riv</key>
+		<key>map_main_1904_0955.riv</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjQKgFtF7lntet++ZsD5LZLjr95pEM+vI18W/iOeIB0=
+			znbxHUpT7kZKMld/FGpmTeJ3/YstlVKvMDSEujA2yIE=
 			</data>
 		</dict>
 	</dict>

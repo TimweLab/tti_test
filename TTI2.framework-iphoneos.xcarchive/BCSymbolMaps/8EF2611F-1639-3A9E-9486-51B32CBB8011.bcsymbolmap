@@ -2,12 +2,12 @@ BCSymbolMap Version: 2.0
 Apple clang version 13.1.6 (clang-1316.0.21.2.5)
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
 iPhoneOS15.5.sdk
-/Users/joaoisento/Library/Developer/Xcode/DerivedData/TTI2-dyhygjdylubtxxdjkbtakwupijtb/Build/Intermediates.noindex/ArchiveIntermediates/TTI2/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CocoaLumberjack.build/DerivedSources/CocoaLumberjack_vers.c
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/CLI/CLIColor.m
+/Users/joaoisento/Library/Developer/Xcode/DerivedData/TTI2-gauxzeyvvfjozjdqgvxaocdbweos/Build/Intermediates.noindex/ArchiveIntermediates/TTI2/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/CocoaLumberjack.build/DerivedSources/CocoaLumberjack_vers.c
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/CLI/CLIColor.m
 __OBJC_METACLASS_RO_$_PodsDummy_CocoaLumberjack
 __OBJC_CLASS_RO_$_PodsDummy_CocoaLumberjack
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-dummy.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Target Support Files/CocoaLumberjack/CocoaLumberjack-dummy.m
 -[DDAbstractDatabaseLogger init]
 -[DDAbstractDatabaseLogger dealloc]
 -[DDAbstractDatabaseLogger db_log:]
@@ -97,7 +97,7 @@ __OBJC_$_INSTANCE_METHODS_DDAbstractDatabaseLogger
 __OBJC_$_INSTANCE_VARIABLES_DDAbstractDatabaseLogger
 __OBJC_$_PROP_LIST_DDAbstractDatabaseLogger
 __OBJC_CLASS_RO_$_DDAbstractDatabaseLogger
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDAbstractDatabaseLogger.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDAbstractDatabaseLogger.m
 CocoaLumberjack/Sources/CocoaLumberjack/DDAbstractDatabaseLogger.m
 __47-[DDAbstractDatabaseLogger deleteOldLogEntries]_block_invoke
 __49-[DDAbstractDatabaseLogger savePendingLogEntries]_block_invoke
@@ -158,7 +158,7 @@ __OBJC_$_CLASS_METHODS_DDASLLogCapture
 __OBJC_$_CLASS_PROP_LIST_DDASLLogCapture
 __OBJC_METACLASS_RO_$_DDASLLogCapture
 __OBJC_CLASS_RO_$_DDASLLogCapture
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDASLLogCapture.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDASLLogCapture.m
 __destroy_helper_block_e8_40r
 CocoaLumberjack/Sources/CocoaLumberjack/DDASLLogCapture.m
 __copy_helper_block_e8_40r
@@ -198,7 +198,7 @@ __OBJC_$_INSTANCE_METHODS_DDASLLogger
 __OBJC_$_INSTANCE_VARIABLES_DDASLLogger
 __OBJC_$_PROP_LIST_DDASLLogger
 __OBJC_CLASS_RO_$_DDASLLogger
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDASLLogger.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDASLLogger.m
 CocoaLumberjack/Sources/CocoaLumberjack/DDASLLogger.m
 __29+[DDASLLogger sharedInstance]_block_invoke
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/include/dispatch/once.h
@@ -259,7 +259,7 @@ _OBJC_IVAR_$_DDLoggingContextSet._set
 __OBJC_$_INSTANCE_VARIABLES_DDLoggingContextSet
 __OBJC_$_PROP_LIST_DDLoggingContextSet
 __OBJC_CLASS_RO_$_DDLoggingContextSet
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m
 CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter.m
 -[DDContextAllowlistFilterLogFormatter(Deprecated) addToWhitelist:]
 -[DDContextAllowlistFilterLogFormatter(Deprecated) removeFromWhitelist:]
@@ -278,7 +278,7 @@ _OBJC_SELECTOR_REFERENCES_.21
 __OBJC_$_CATEGORY_INSTANCE_METHODS_DDContextDenylistFilterLogFormatter_$_Deprecated
 __OBJC_$_PROP_LIST_DDContextDenylistFilterLogFormatter_$_Deprecated
 __OBJC_$_CATEGORY_DDContextDenylistFilterLogFormatter_$_Deprecated
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter+Deprecated.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter+Deprecated.m
 CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDContextFilterLogFormatter+Deprecated.m
 -[DDDispatchQueueLogFormatter init]
 -[DDDispatchQueueLogFormatter initWithMode:]
@@ -341,7 +341,7 @@ _OBJC_IVAR_$_DDAtomicCounter._value
 __OBJC_$_INSTANCE_VARIABLES_DDAtomicCounter
 __OBJC_$_PROP_LIST_DDAtomicCounter
 __OBJC_CLASS_RO_$_DDAtomicCounter
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m
 CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m
 _qos_name
 -[DDLogFileManagerDefault init]
@@ -681,7 +681,7 @@ _OBJC_IVAR_$_DDLogFileInfo.filePath
 __OBJC_$_INSTANCE_VARIABLES_DDLogFileInfo
 __OBJC_$_PROP_LIST_DDLogFileInfo
 __OBJC_CLASS_RO_$_DDLogFileInfo
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDFileLogger.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDFileLogger.m
 CocoaLumberjack/Sources/CocoaLumberjack/DDFileLogger.m
 __37-[DDFileLogger(Internal) lt_logData:]_block_invoke
 __34-[DDFileLogger(Internal) logData:]_block_invoke_2
@@ -767,7 +767,7 @@ _DDGetDefaultBufferSizeBytes.onceToken
 _DDGetMaxBufferSizeBytes.maxBufferSize
 _DDGetMaxBufferSizeBytes.onceToken
 ___block_literal_global.80
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDFileLogger+Buffering.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDFileLogger+Buffering.m
 __DDGetMaxBufferSizeBytes_block_invoke
 CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDFileLogger+Buffering.m
 p_DDGetDefaultBufferSizeBytesMax
@@ -984,7 +984,7 @@ __OBJC_$_INSTANCE_METHODS_DDLoggerInformation
 __OBJC_$_INSTANCE_VARIABLES_DDLoggerInformation
 __OBJC_$_PROP_LIST_DDLoggerInformation
 __OBJC_CLASS_RO_$_DDLoggerInformation
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDLog.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDLog.m
 CocoaLumberjack/Sources/CocoaLumberjack/DDLog.m
 CocoaLumberjack/Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog.h
 __36-[DDAbstractLogger setLogFormatter:]_block_invoke_2
@@ -1009,7 +1009,7 @@ __22-[DDLog removeLogger:]_block_invoke
 __29-[DDLog addLogger:withLevel:]_block_invoke
 __19+[DDLog initialize]_block_invoke
 __23+[DDLog sharedInstance]_block_invoke
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDLoggerNames.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDLoggerNames.m
 -[DDMultiFormatter init]
 -[DDMultiFormatter formatLogMessage:]
 ___37-[DDMultiFormatter formatLogMessage:]_block_invoke
@@ -1036,7 +1036,7 @@ _OBJC_IVAR_$_DDMultiFormatter._formatters
 __OBJC_$_INSTANCE_VARIABLES_DDMultiFormatter
 __OBJC_$_PROP_LIST_DDMultiFormatter
 __OBJC_CLASS_RO_$_DDMultiFormatter
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDMultiFormatter.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDMultiFormatter.m
 CocoaLumberjack/Sources/CocoaLumberjack/Extensions/DDMultiFormatter.m
 __46-[DDMultiFormatter isFormattingWithFormatter:]_block_invoke
 __39-[DDMultiFormatter removeAllFormatters]_block_invoke
@@ -1074,7 +1074,7 @@ __OBJC_$_INSTANCE_METHODS_DDOSLogger
 __OBJC_$_INSTANCE_VARIABLES_DDOSLogger
 __OBJC_$_PROP_LIST_DDOSLogger
 __OBJC_CLASS_RO_$_DDOSLogger
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDOSLogger.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDOSLogger.m
 -[DDOSLogger logMessage:].cold.1
 CocoaLumberjack/Sources/CocoaLumberjack/DDOSLogger.m
 __os_log_helper_16_2_1_8_34
@@ -1189,7 +1189,7 @@ __OBJC_$_INSTANCE_VARIABLES_DDTTYLoggerColorProfile
 __OBJC_CLASS_RO_$_DDTTYLoggerColorProfile
 _OBJC_CLASSLIST_REFERENCES_$_.314
 _OBJC_SELECTOR_REFERENCES_.316
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDTTYLogger.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/CocoaLumberjack/Sources/CocoaLumberjack/DDTTYLogger.m
 CocoaLumberjack/Sources/CocoaLumberjack/DDTTYLogger.m
 CocoaLumberjack/Sources/CocoaLumberjack/include/CocoaLumberjack/DDTTYLogger.h
 __29-[DDTTYLogger clearAllColors]_block_invoke_2

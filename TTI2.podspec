@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TTI2"
-  spec.version      = "2.0.1"
+  spec.version      = "2.0.3"
   spec.summary      = "SDK for TTI (MyTSEL) implementation"
   spec.requires_arc = true
   
@@ -66,14 +66,12 @@ Pod::Spec.new do |spec|
   spec.dependency 'Alamofire', '4.8.2'
   spec.dependency 'Kingfisher', '6.3.1'
   spec.dependency 'lottie-ios', '3.2.3'
-  spec.dependency 'Moya', '13.0.1'
-  spec.dependency 'RxSwift', '4.5.0'
-  spec.dependency 'RxSwiftExt', '3.4.0'
-  spec.dependency 'RxGesture', '2.2.0'
-  spec.dependency 'RxKeyboard', '0.9.0'
-  spec.dependency 'RxCocoa', '4.5.0'
-  spec.dependency 'RxDataSources', '3.1.0'
-  spec.dependency 'Moya/RxSwift', '13.0.1'
-  spec.dependency 'RiveRuntime', '1.0.18'
-  spec.dependency 'SVGKit', '3.0.0'
+  spec.dependency  'RxSwiftExt', '6.0.1'
+  spec.dependency  'RxGesture', '4.0.4'
+  spec.dependency  'RxKeyboard', '2.0.0'
+  spec.dependency  'RxSwift', '6.5.0'
+  spec.dependency  'RxCocoa', '6.5.0'
+  spec.dependency  'RxDataSources', '5.0.0'
+  spec.dependency  'RiveRuntime', '1.0.18'
+  spec.dependency  'SVGKit', '3.0.0'
 end

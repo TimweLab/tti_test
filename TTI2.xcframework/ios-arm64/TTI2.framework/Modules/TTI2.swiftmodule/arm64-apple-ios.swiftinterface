@@ -5,7 +5,6 @@ import Alamofire
 import Foundation
 import Kingfisher
 import Lottie
-import Moya
 import QuartzCore
 import RiveRuntime
 import RxCocoa
@@ -139,9 +138,6 @@ extension TTI2.RAMAnimatedTabBarItem {
     @_Concurrency.MainActor(unsafe) @objc get
     @_Concurrency.MainActor(unsafe) @objc set(newValue)
   }
-}
-extension RxSwift.PrimitiveSequence where Trait == RxSwift.SingleTrait, Element == Moya.Response {
-  public func filterSuccessfulReponses() -> RxSwift.Single<Element>
 }
 @objc @_inheritsConvenienceInitializers open class RAMFumeAnimation : TTI2.RAMItemAnimation {
   override open func playAnimation(_ icon: UIKit.UIImageView, textLabel: UIKit.UILabel)

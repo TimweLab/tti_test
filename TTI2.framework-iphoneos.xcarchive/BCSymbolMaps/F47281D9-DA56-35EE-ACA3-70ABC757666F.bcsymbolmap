@@ -2,11 +2,11 @@ BCSymbolMap Version: 2.0
 Apple clang version 13.1.6 (clang-1316.0.21.2.5)
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
 iPhoneOS15.5.sdk
-/Users/joaoisento/Library/Developer/Xcode/DerivedData/TTI2-dyhygjdylubtxxdjkbtakwupijtb/Build/Intermediates.noindex/ArchiveIntermediates/TTI2/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/lottie-ios.build/DerivedSources/Lottie_vers.c
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods
+/Users/joaoisento/Library/Developer/Xcode/DerivedData/TTI2-gauxzeyvvfjozjdqgvxaocdbweos/Build/Intermediates.noindex/ArchiveIntermediates/TTI2/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/lottie-ios.build/DerivedSources/Lottie_vers.c
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods
 __OBJC_METACLASS_RO_$_PodsDummy_lottie_ios
 __OBJC_CLASS_RO_$_PodsDummy_lottie_ios
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Target Support Files/lottie-ios/lottie-ios-dummy.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Target Support Files/lottie-ios/lottie-ios-dummy.m
 _$s6Lottie14AnimatedButtonCACycfcTo
 _$s6Lottie14AnimatedButtonC5coderACSgSo7NSCoderC_tcfcTo
 _$s6Lottie14AnimatedButtonC13beginTracking_4withSbSo7UITouchC_So7UIEventCSgtFTo
@@ -347,7 +347,7 @@ Apple clang version 13.1.6 (clang-1316.0.20.12)
 -private-discriminator _DC4A14B339D96C04DB3436042AB1F161
 <swift-imported-modules>
 Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/AnimatedButton.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/AnimatedButton.swift
 _conditionallyBridgeFromObjectiveC
 <compiler-generated>
 flatMap
@@ -599,7 +599,7 @@ _$s6Lottie15AnimatedControlC8stateMapSDySuSSGvsTq
 _$s6Lottie15AnimatedControlC8stateMapSDySuSSGvMTq
 _$s6Lottie15AnimatedControlC14updateForStateyyFTq
 -private-discriminator _3255EF2F4BCF8A3C447F424ACE2B7066
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/AnimatedControl.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/AnimatedControl.swift
 $sS2SSysWl
 keypath_set.2
 $s6Lottie15AnimatedControlC14animationSpeed12CoreGraphics7CGFloatVvpACTk
@@ -752,7 +752,7 @@ _$s6Lottie15HapticGeneratorC14generateImpactyyFTq
 _$s6Lottie15HapticGeneratorCACycfCTq
 _$s6Lottie15HapticGeneratorCN
 -private-discriminator _69DC16219B29E88431F21A6FFAC9EAE9
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/AnimatedSwitch.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/AnimatedSwitch.swift
 $s6Lottie15ImpactGenerator_pWOc
 $s6Lottie14AnimatedSwitchC13updateOnState02isE08animated17shouldFireHapticsySb_S2btFySbcfU_TA
 objectdestroy
@@ -1151,7 +1151,7 @@ _symbolic _____ySi_____G s18_DictionaryStorageC 6Lottie16CompositionLayerC
 _$ss18_DictionaryStorageCySi6Lottie16CompositionLayerCGMD
 _objc_classes_$s6Lottie9AnimationCN
 _$s6Lottie9AnimationC10CodingKeysON
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Animation.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Animation.swift
 $ss24UnkeyedDecodingContainer_pWOc
 $sSo8NSNumberCMa
 $s6Lottie15CoordinateSpaceOACSYAAWl
@@ -1388,7 +1388,7 @@ endFrame.get
 startFrame.get
 _symbolic $s6Lottie22AnimationCacheProviderP
 _$s6Lottie22AnimationCacheProvider_pMF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/AnimationCache/AnimationCacheProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/AnimationCache/AnimationCacheProvider.swift
 _$s6Lottie18LayerImageProviderC12reloadImagesyyF
 _$s6Lottie18AnimationContainerC18forceDisplayUpdateyyF
 _$s6Lottie16CompositionLayerC16displayWithFrame5frame12forceUpdatesy12CoreGraphics7CGFloatV_SbtF
@@ -1515,7 +1515,7 @@ _$s6Lottie18AnimationContainerCN
 _OBJC_CLASS_$__TtC6Lottie18AnimationContainer
 _$s6Lottie18BlankImageProvider33_A59FD3EAAFA0C799A0557F89DFB73727LLCN
 -private-discriminator _A59FD3EAAFA0C799A0557F89DFB73727
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/AnimationContainer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/AnimationContainer.swift
 __swift_allocate_boxed_opaque_existential_1
 $s6Lottie17KeypathSearchable_pWOc
 lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerTextProvider.swift
@@ -1835,7 +1835,7 @@ _$s6Lottie27AnimationCompletionDelegateCN
 _OBJC_CLASS_$__TtC6Lottie27AnimationCompletionDelegate
 _$s6Lottie16AnimationContextVN
 _$s6Lottie21AnimationContextStateON
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Helpers/AnimationContext.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Helpers/AnimationContext.swift
 $s6Lottie21AnimationContextStateOACSQAAWl
 $s6Lottie21AnimationContextStateOSHAASQWb
 $s6Lottie21AnimationContextStateOMa
@@ -1870,16 +1870,16 @@ _$s6Lottie19DefaultFontProviderCMf
 _symbolic _____ 6Lottie19DefaultFontProviderC
 _$s6Lottie19DefaultFontProviderCMF
 _objc_classes_$s6Lottie19DefaultFontProviderCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/FontProvider/AnimationFontProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/FontProvider/AnimationFontProvider.swift
 $s6Lottie19DefaultFontProviderCMa
 fontFor
 _symbolic $s6Lottie22AnimationImageProviderP
 _$s6Lottie22AnimationImageProvider_pMF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/ImageProvider/AnimationImageProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/ImageProvider/AnimationImageProvider.swift
 _$s6Lottie16AnimationKeypathVMf
 _symbolic _____ 6Lottie16AnimationKeypathV
 _$s6Lottie16AnimationKeypathVMF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/AnimationKeypath.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/AnimationKeypath.swift
 $s6Lottie16AnimationKeypathVMa
 _$s6Lottie17KeypathSearchablePAAE14nodeProperties3forSayAA15AnyNodeProperty_pGSgAA09AnimationB0V_tF
 _$sSa6append10contentsOfyqd__n_t7ElementQyd__RszSTRd__lF6Lottie15AnyNodeProperty_p_SayAeF_pGTg5
@@ -1892,7 +1892,7 @@ _symbolic ______pSg 6Lottie15AnyNodePropertyP
 _$s6Lottie15AnyNodeProperty_pSgMD
 _symbolic ______p 6Lottie12AnimatorNodeP
 _$s6Lottie12AnimatorNode_pMD
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Extensions/AnimationKeypathExtension.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Extensions/AnimationKeypathExtension.swift
 $s6Lottie15AnyNodeProperty_pSgWOh
 propertyKey.get
 popKey
@@ -1970,7 +1970,7 @@ _block_descriptor.12
 _block_descriptor.18
 _symbolic _____Sg 10Foundation3URLV
 _$s10Foundation3URLVSgMD
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationPublic.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationPublic.swift
 __swift_allocate_boxed_opaque_existential_0
 $s6Lottie22AnimationCacheProvider_pSgWOh
 $s6Lottie9AnimationC10loadedFrom3url7closure14animationCachey10Foundation3URLV_yACSgcAA0bH8Provider_pSgtFZyAH4DataVSg_So13NSURLResponseCSgs5Error_pSgtcfU_yyScMYccfU0_TA
@@ -2008,7 +2008,7 @@ _$s6Lottie16AnimationSubviewCMf
 _symbolic _____ 6Lottie16AnimationSubviewC
 _$s6Lottie16AnimationSubviewCMF
 _objc_classes_$s6Lottie16AnimationSubviewCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/AnimationSubview.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/AnimationSubview.swift
 $s6Lottie16AnimationSubviewCMa
 _$s6Lottie22DictionaryTextProviderCAA09AnimationcD0A2aDP7textFor11keypathName06sourceC0S2S_SStFTW
 _$s6Lottie19DefaultTextProviderCAA09AnimationcD0A2aDP7textFor11keypathName06sourceC0S2S_SStFTW
@@ -2030,12 +2030,12 @@ _symbolic _____ 6Lottie19DefaultTextProviderC
 _$s6Lottie19DefaultTextProviderCMF
 _objc_classes_$s6Lottie22DictionaryTextProviderCN
 _objc_classes_$s6Lottie19DefaultTextProviderCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/TextProvider/AnimationTextProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/TextProvider/AnimationTextProvider.swift
 $s6Lottie19DefaultTextProviderCMa
 $s6Lottie22DictionaryTextProviderCMa
 textFor
 $ss17_NativeDictionaryV7_valuesSpyq_GvgSS_SSTg5
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Primitives/AnimationTime.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Primitives/AnimationTime.swift
 _$s6Lottie0A18BackgroundBehaviorOSQAASQ2eeoiySbx_xtFZTW
 _$s6Lottie0A18BackgroundBehaviorOSHAASH9hashValueSivgTW
 _$s6Lottie0A18BackgroundBehaviorOSHAASH4hash4intoys6HasherVz_tFTW
@@ -2166,7 +2166,7 @@ _$s6Lottie22AnimationImageProvider_pSgMD
 _$s6Lottie16CompositionLayerC11renderScale12CoreGraphics7CGFloatVvpWvd
 _objc_classes_$s6Lottie13AnimationViewCN
 -private-discriminator _99563BA6970B38756C8913CDCC351EC4
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationView.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationView.swift
 $s6Lottie22AnimationImageProvider_pWOc
 $s6Lottie13AnimationViewC06updateB5Frameyy12CoreGraphics7CGFloatVFyycfU_TA
 $sSo16CABasicAnimationCMa
@@ -2365,7 +2365,7 @@ _$s6Lottie0A13DownloadErrorOSQAAMc
 _$s6Lottie0A13DownloadErrorOs0C0AAMcMK
 _$s6Lottie0A13DownloadErrorOs0C0AAMc
 _$s6Lottie0A13DownloadErrorON
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationViewInitializers.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Animation/AnimationViewInitializers.swift
 $s6Lottie0A13DownloadErrorOACSQAAWl
 $s6Lottie0A13DownloadErrorOSHAASQWb
 $s6Lottie0A13DownloadErrorOMa
@@ -2564,7 +2564,7 @@ _$s6Lottie12AnimatorNodeP26forceUpstreamOutputUpdatesSbyFTq
 _$s6Lottie12AnimatorNodeP29performAdditionalLocalUpdates5frame05forceF6UpdateSb12CoreGraphics7CGFloatV_SbtFTq
 _$s6Lottie12AnimatorNodeP30performAdditionalOutputUpdates_05forceF6Updatey12CoreGraphics7CGFloatV_SbtFTq
 _$s6Lottie12AnimatorNodeP20shouldRebuildOutputs5frameSb12CoreGraphics7CGFloatV_tFTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Protocols/AnimatorNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Protocols/AnimatorNode.swift
 shouldRebuildOutputs
 propertyMap.get
 lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/ModifierNodes/TrimPathNode.swift
@@ -2584,7 +2584,7 @@ lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/EllipseNode
 updateTree
 updateContents
 updateOutputs
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Debugging/AnimatorNodeDebugging.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Debugging/AnimatorNodeDebugging.swift
 _$s6Lottie15AnyNodePropertyP11needsUpdate5frameSb12CoreGraphics7CGFloatV_tFTj
 _$s6Lottie15AnyNodePropertyP6update5framey12CoreGraphics7CGFloatV_tFTj
 _$s6Lottie15AnyNodePropertyP14valueContainerAA0b5ValueF0_pvgTj
@@ -2600,7 +2600,7 @@ _$s6Lottie15AnyNodePropertyP14valueContainerAA0b5ValueF0_pvgTq
 _$s6Lottie15AnyNodePropertyP13valueProviderAA0b5ValueF0_pvgTq
 _$s6Lottie15AnyNodePropertyP9valueTypeypXpvgTq
 _$s6Lottie15AnyNodePropertyP11setProvider8provideryAA0b5ValueF0_p_tFTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/AnyNodeProperty.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/AnyNodeProperty.swift
 _$s6Lottie17AnyValueContainerP5valueypvgTj
 _$s6Lottie17AnyValueContainerP14setNeedsUpdateyyFTj
 _$s6Lottie17AnyValueContainerP11needsUpdateSbvgTj
@@ -2613,10 +2613,10 @@ _$s6Lottie17AnyValueContainerP5valueypvgTq
 _$s6Lottie17AnyValueContainerP14setNeedsUpdateyyFTq
 _$s6Lottie17AnyValueContainerP11needsUpdateSbvgTq
 _$s6Lottie17AnyValueContainerP15lastUpdateFrame12CoreGraphics7CGFloatVvgTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/AnyValueContainer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/AnyValueContainer.swift
 _symbolic $s6Lottie16AnyValueProviderP
 _$s6Lottie16AnyValueProvider_pMF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/AnyValueProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/AnyValueProvider.swift
 _$s6Lottie5AssetC10CodingKeys33_0E60405C5DC7D160822341EAAFDFACD1LLOSQAASQ2eeoiySbx_xtFZTW
 _$s6Lottie5AssetC10CodingKeys33_0E60405C5DC7D160822341EAAFDFACD1LLOSHAASH9hashValueSivgTW
 _$s6Lottie5AssetC10CodingKeys33_0E60405C5DC7D160822341EAAFDFACD1LLOSHAASH4hash4intoys6HasherVz_tFTW
@@ -2687,7 +2687,7 @@ _$s6Lottie5AssetC10CodingKeys33_0E60405C5DC7D160822341EAAFDFACD1LLOs0C3KeyAAMc
 _objc_classes_$s6Lottie5AssetCN
 _$s6Lottie5AssetC10CodingKeys33_0E60405C5DC7D160822341EAAFDFACD1LLON
 -private-discriminator _0E60405C5DC7D160822341EAAFDFACD1
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Assets/Asset.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Assets/Asset.swift
 $s6Lottie5AssetC10CodingKeys33_0E60405C5DC7D160822341EAAFDFACD1LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie5AssetC10CodingKeys33_0E60405C5DC7D160822341EAAFDFACD1LLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie5AssetC10CodingKeys33_0E60405C5DC7D160822341EAAFDFACD1LLOAFs28CustomDebugStringConvertibleAAWl
@@ -2751,7 +2751,7 @@ _$s6Lottie5AssetCACSEAAWL
 _objc_classes_$s6Lottie12AssetLibraryCN
 _$s6Lottie12AssetLibraryC4fromACs7Decoder_p_tKcfCTq
 _$s6Lottie12AssetLibraryCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Assets/AssetLibrary.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Assets/AssetLibrary.swift
 $s6Lottie10ImageAssetCAA0C0CSeAAWl
 $sSay6Lottie5AssetCGMa
 $sSD6ValuesVyxq__GSTsST22_copyToContiguousArrays0dE0Vy7ElementQzGyFTWSS_6Lottie5AssetCTg5
@@ -2929,7 +2929,7 @@ _$s6Lottie10BezierPathV10CodingKeysOs0D3KeyAAMc
 _$s6Lottie10BezierPathVN
 _$s6Lottie10BezierPathV10CodingKeysON
 -private-discriminator _3AD676776FA89DEF7F58E43AF7646C3A
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/BezierPath.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/BezierPath.swift
 $s6Lottie10BezierPathV10CodingKeysOAEs23CustomStringConvertibleAAWl
 $s6Lottie10BezierPathV10CodingKeysOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie10BezierPathV10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
@@ -3066,14 +3066,14 @@ _symbolic _____ 6Lottie19BundleImageProviderC
 _symbolic So8NSBundleC
 _$s6Lottie19BundleImageProviderCMF
 _objc_classes_$s6Lottie19BundleImageProviderCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/BundleImageProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/BundleImageProvider.swift
 $s6Lottie19BundleImageProviderCMa
 $sSo6NSDataC10contentsOf7optionsAB10Foundation3URLV_So0A14ReadingOptionsVtKcfcTO
 $s10Foundation3URLVSgWOh
 _$s12CoreGraphics7CGFloatV6LottieE22cubicBezierInterpolateyACSo7CGPointV_A3GtF
 _$s12CoreGraphics7CGFloatV6LottieE10SolveCubic33_B75DE2746F3B52AAB3DDD50F15A02616LLyA2C_A3CtFZTf4nnnnd_n
 -private-discriminator _B75DE2746F3B52AAB3DDD50F15A02616
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Extensions/CGFloatExtensions.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Extensions/CGFloatExtensions.swift
 SolveCubic
 isInRangeOrEqual
 cubicRoot.get
@@ -3112,7 +3112,7 @@ _$s6Lottie5ColorVWV
 _$s6Lottie5ColorVMf
 _symbolic _____ 6Lottie5ColorV
 _$s6Lottie5ColorVMF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Primitives/Color.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Primitives/Color.swift
 $s6Lottie5ColorVMa
 $s6Lottie5ColorVwst
 $s6Lottie5ColorVwet
@@ -3145,7 +3145,7 @@ _$s6Lottie5ColorVSeAAMcMK
 _$s6Lottie5ColorVSEAAMcMK
 _symbolic _____y_____G s23_ContiguousArrayStorageC 12CoreGraphics7CGFloatV
 _$ss23_ContiguousArrayStorageCy12CoreGraphics7CGFloatVGMD
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/ColorExtension.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/ColorExtension.swift
 cgColorValue.get
 clearColor.get
 $sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZ12CoreGraphics7CGFloatV_Tg5
@@ -3170,7 +3170,7 @@ _symbolic __________cSg 6Lottie5ColorV 12CoreGraphics7CGFloatV
 _$s6Lottie18ColorValueProviderCMF
 _objc_classes_$s6Lottie18ColorValueProviderCN
 -private-discriminator _BDB9298F8EC058726DD899F8FAFC34C8
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/ValueProviders/ColorValueProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/ValueProviders/ColorValueProvider.swift
 $s6Lottie18ColorValueProviderCMa
 $s6Lottie18ColorValueProviderC5colorAA0B0VvpACTk
 color.set
@@ -3194,7 +3194,7 @@ _$s6Lottie26CompatibleAnimationKeypathCMf
 _symbolic _____ 6Lottie26CompatibleAnimationKeypathC
 _$s6Lottie26CompatibleAnimationKeypathCMF
 _objc_classes_$s6Lottie26CompatibleAnimationKeypathCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/Compatibility/CompatibleAnimationKeypath.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/Compatibility/CompatibleAnimationKeypath.swift
 $s6Lottie26CompatibleAnimationKeypathCMa
 $s6Lottie26CompatibleAnimationKeypathCfETo
 animationKeypath.get
@@ -3305,7 +3305,7 @@ _objc_classes_$s6Lottie19CompatibleAnimationCN
 _objc_classes_$s6Lottie23CompatibleAnimationViewCN
 _$s6Lottie23CompatibleAnimationViewC010compatibleC0AcA0bC0C_tcfCTq
 -private-discriminator _A351FBFEE2E6C8ED3388379E4189DDDF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/Compatibility/CompatibleAnimationView.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/Compatibility/CompatibleAnimationView.swift
 $sypSgWOb
 $sypSgWOh
 $s6Lottie15AnyNodeProperty_pWOc
@@ -3435,7 +3435,7 @@ _OBJC_CLASS_$__TtC6Lottie16CompositionLayer
 _$s6Lottie24CompositionLayerDelegateTL
 _$s6Lottie24CompositionLayerDelegateP12frameUpdated0E0y12CoreGraphics7CGFloatV_tFTq
 -private-discriminator _4A17CC261C626FB682945214EBD2FD5C
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/CompositionLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/CompositionLayer.swift
 $sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZSS_So8CAAction_pt_Tg5
 $ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvgSS_So8CAAction_pt_Tg5
 $ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfCSS_So8CAAction_pt_Tg5
@@ -3494,7 +3494,7 @@ _$s6Lottie21SolidCompositionLayerCMa
 _$s6Lottie21ShapeCompositionLayerCMa
 _$s6Lottie21ImageCompositionLayerC5imageSo10CGImageRefaSgvpWvd
 _$s6Lottie21ImageCompositionLayerC16imageReferenceIDSSvpWvd
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/CompositionLayersInitializer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/CompositionLayersInitializer.swift
 $s6Lottie21AnimationFontProvider_pWOc
 initializeCompositionLayers
 $sSD8_VariantV8setValue_6forKeyyq_n_xtFSi_6Lottie16CompositionLayerCTg5
@@ -3555,7 +3555,7 @@ _symbolic _____ 6Lottie18CompoundBezierPathV
 _symbolic Say_____G 6Lottie10BezierPathV
 _$s6Lottie18CompoundBezierPathVMF
 _$s6Lottie18CompoundBezierPathVN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/CompoundBezierPath.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/CompoundBezierPath.swift
 $sSa20_reserveCapacityImpl07minimumB013growForAppendySi_SbtF6Lottie14PathOutputNodeC_Tg5
 $sSa16_createNewBuffer14bufferIsUnique15minimumCapacity13growForAppendySb_SiSbtF6Lottie14PathOutputNodeC_Tg5
 $ss22_ContiguousArrayBufferV5countSivg6Lottie14PathOutputNodeC_Tg5
@@ -3657,7 +3657,7 @@ _$s6Lottie11CurveVertexVMf
 _symbolic _____ 6Lottie11CurveVertexV
 _$s6Lottie11CurveVertexVMF
 _$s6Lottie11CurveVertexVN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/CurveVertex.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/CurveVertex.swift
 $s6Lottie11CurveVertexVMa
 $s6Lottie11CurveVertexVwst
 $s6Lottie11CurveVertexVwet
@@ -3807,7 +3807,7 @@ _$s6Lottie11DashElementC4fromACs7Decoder_p_tKcfCTq
 _$s6Lottie11DashElementCN
 _$s6Lottie15DashElementTypeON
 _$s6Lottie11DashElementC10CodingKeysON
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/DashPattern.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/DashPattern.swift
 $s6Lottie11DashElementC10CodingKeysOAEs23CustomStringConvertibleAAWl
 $s6Lottie11DashElementC10CodingKeysOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie11DashElementC10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
@@ -3978,7 +3978,7 @@ _objc_classes_$s6Lottie7EllipseCN
 _$s6Lottie7EllipseCN
 _$s6Lottie13PathDirectionON
 -private-discriminator _438B0588DA190719E37B39410AB74831
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Ellipse.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Ellipse.swift
 $s6Lottie7EllipseC10CodingKeys33_438B0588DA190719E37B39410AB74831LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie7EllipseC10CodingKeys33_438B0588DA190719E37B39410AB74831LLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie7EllipseC10CodingKeys33_438B0588DA190719E37B39410AB74831LLOAFs28CustomDebugStringConvertibleAAWl
@@ -4094,7 +4094,7 @@ _$s6Lottie21EllipseNodePropertiesCN
 _$s6Lottie11EllipseNodeC06parentC07ellipseAcA08AnimatorC0_pSg_AA0B0CtcfCTq
 _$s6Lottie11EllipseNodeCN
 -private-discriminator _F318CECE41D664D73E580BCEF02B0A7F
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/EllipseNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/EllipseNode.swift
 $sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZSS_6Lottie15AnyNodeProperty_pt_Tg5
 $ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvgSS_6Lottie15AnyNodeProperty_pt_Tg5
 $ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfCSS_6Lottie15AnyNodeProperty_pt_Tg5
@@ -4122,7 +4122,7 @@ _$s6Lottie21FilepathImageProviderCMf
 _symbolic _____ 6Lottie21FilepathImageProviderC
 _$s6Lottie21FilepathImageProviderCMF
 _objc_classes_$s6Lottie21FilepathImageProviderCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/FilepathImageProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/FilepathImageProvider.swift
 $s6Lottie21FilepathImageProviderCMr
 $s6Lottie21FilepathImageProviderCMa
 $s6Lottie21FilepathImageProviderCMU
@@ -4256,7 +4256,7 @@ _objc_classes_$s6Lottie4FillCN
 _$s6Lottie4FillCN
 _$s6Lottie8FillRuleON
 -private-discriminator _E59D967ACB06947DE78C28F5D4BE7A3C
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/FillI.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/FillI.swift
 $s6Lottie4FillC10CodingKeys33_E59D967ACB06947DE78C28F5D4BE7A3CLLOAFs23CustomStringConvertibleAAWl
 $s6Lottie4FillC10CodingKeys33_E59D967ACB06947DE78C28F5D4BE7A3CLLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie4FillC10CodingKeys33_E59D967ACB06947DE78C28F5D4BE7A3CLLOAFs28CustomDebugStringConvertibleAAWl
@@ -4387,7 +4387,7 @@ _$s6Lottie18FillNodePropertiesCN
 _$s6Lottie8FillNodeC06parentC04fillAcA08AnimatorC0_pSg_AA0B0CtcfCTq
 _$s6Lottie8FillNodeCN
 -private-discriminator _B0CF95821473D7DA652BED89CEA57C2A
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/FillNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/FillNode.swift
 $s6Lottie16AnyValueProvider_pWOc
 fillRule.set
 lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/FillRenderer.swift
@@ -4435,7 +4435,7 @@ _$s6Lottie10NodeOutput_pSgMD
 _objc_classes_$s6Lottie12FillRendererCN
 _$s6Lottie12FillRendererCN
 -private-discriminator _27C1289DA4869E90A08E3F7968A41D57
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/FillRenderer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/FillRenderer.swift
 $s6Lottie10NodeOutput_pSgWOh
 render
 updateShapeLayer
@@ -4463,7 +4463,7 @@ _symbolic _____AAcSg 12CoreGraphics7CGFloatV
 _$s6Lottie18FloatValueProviderCMF
 _objc_classes_$s6Lottie18FloatValueProviderCN
 -private-discriminator _A86D675108D8281D7602BD1946F8B9BF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/ValueProviders/FloatValueProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/ValueProviders/FloatValueProvider.swift
 $s6Lottie18FloatValueProviderCMa
 $s6Lottie18FloatValueProviderC5float12CoreGraphics7CGFloatVvpACTk
 float.set
@@ -4641,7 +4641,7 @@ _$s6Lottie8FontListC4fromACs7Decoder_p_tKcfCTq
 _$s6Lottie8FontListCN
 _$s6Lottie8FontListC10CodingKeysON
 -private-discriminator _AF419FAD4CD7290A57B82A5F752EDB01
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Text/Font.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Text/Font.swift
 $s6Lottie8FontListC10CodingKeysOAEs23CustomStringConvertibleAAWl
 $s6Lottie8FontListC10CodingKeysOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie8FontListC10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
@@ -4819,7 +4819,7 @@ _objc_classes_$s6Lottie5GlyphCN
 _$s6Lottie5GlyphC4fromACs7Decoder_p_tKcfCTq
 _$s6Lottie5GlyphCN
 -private-discriminator _BA2803B0C5558A1BF0F559F6D5802682
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Text/Glyph.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Text/Glyph.swift
 $s6Lottie5GlyphC10CodingKeys33_BA2803B0C5558A1BF0F559F6D5802682LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie5GlyphC10CodingKeys33_BA2803B0C5558A1BF0F559F6D5802682LLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie5GlyphC10CodingKeys33_BA2803B0C5558A1BF0F559F6D5802682LLOAFs28CustomDebugStringConvertibleAAWl
@@ -5048,7 +5048,7 @@ _objc_classes_$s6Lottie12GradientFillCN
 _$s6Lottie12GradientFillCN
 _$s6Lottie12GradientTypeON
 -private-discriminator _C08E2E93D670F80F99E7063766FBB353
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/GradientFill.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/GradientFill.swift
 $s6Lottie12GradientFillC10CodingKeys33_C08E2E93D670F80F99E7063766FBB353LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie12GradientFillC10CodingKeys33_C08E2E93D670F80F99E7063766FBB353LLOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie12GradientFillC10CodingKeys33_C08E2E93D670F80F99E7063766FBB353LLOAFs28CustomDebugStringConvertibleAAWl
@@ -5184,7 +5184,7 @@ _$s6Lottie22GradientFillPropertiesCN
 _$s6Lottie16GradientFillNodeC06parentD008gradientC0AcA08AnimatorD0_pSg_AA0bC0CtcfCTq
 _$s6Lottie16GradientFillNodeCN
 -private-discriminator _66F3E840D90A4CD31B263BFBD567AF91
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/GradientFillNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/GradientFillNode.swift
 $ss12_ArrayBufferV7_buffer19shiftedToStartIndexAByxGs011_ContiguousaB0VyxG_SitcfC12CoreGraphics7CGFloatV_Tg5
 $ss15ContiguousArrayV37_appendElementAssumeUniqueAndCapacity_03newD0ySi_xntF12CoreGraphics7CGFloatV_Tg5
 $sSp10initialize2toyx_tF12CoreGraphics7CGFloatV_Tg5
@@ -5241,7 +5241,7 @@ _$s6Lottie20GradientFillRendererCAA10RenderableAAMc
 _objc_classes_$s6Lottie20GradientFillRendererCN
 _$s6Lottie20GradientFillRendererCN
 -private-discriminator _4C373D02719C4B29429B5580F4AC16FA
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientFillRenderer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientFillRenderer.swift
 $s6Lottie10NodeOutput_pSgWOb
 $s6Lottie20GradientFillRendererCMa
 $s6Lottie20GradientFillRendererCfE
@@ -5516,7 +5516,7 @@ _$s6Lottie14GradientStrokeCN
 _$s6Lottie8LineJoinON
 _$s6Lottie7LineCapON
 -private-discriminator _6D922235AD8FBD81D27680B7B23D9051
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/GradientStroke.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/GradientStroke.swift
 $s6Lottie14GradientStrokeC10CodingKeys33_6D922235AD8FBD81D27680B7B23D9051LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie14GradientStrokeC10CodingKeys33_6D922235AD8FBD81D27680B7B23D9051LLOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie14GradientStrokeC10CodingKeys33_6D922235AD8FBD81D27680B7B23D9051LLOAFs28CustomDebugStringConvertibleAAWl
@@ -5658,7 +5658,7 @@ _$s6Lottie24GradientStrokePropertiesCN
 _$s6Lottie18GradientStrokeNodeC06parentD008gradientC0AcA08AnimatorD0_pSg_AA0bC0CtcfCTq
 _$s6Lottie18GradientStrokeNodeCN
 -private-discriminator _3847AC059F1821219C7B0E20EFE352AB
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/GradientStrokeNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/GradientStrokeNode.swift
 dashPhase.set
 lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/StrokeRenderer.swift
 dashPhase.didset
@@ -5732,7 +5732,7 @@ _$s6Lottie22GradientStrokeRendererCMF
 _$s6Lottie22GradientStrokeRendererCAA10RenderableAAMc
 _objc_classes_$s6Lottie22GradientStrokeRendererCN
 _$s6Lottie22GradientStrokeRendererCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientStrokeRenderer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/GradientStrokeRenderer.swift
 $s6Lottie10NodeOutput_pSgWOc
 renderBoundsFor
 $s6Lottie22GradientStrokeRendererCMa
@@ -5770,7 +5770,7 @@ _symbolic SaySdG_____cSg 12CoreGraphics7CGFloatV
 _$s6Lottie21GradientValueProviderCMF
 _objc_classes_$s6Lottie21GradientValueProviderCN
 -private-discriminator _20EE40CC71F69DE358C26FA8AA04C199
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/ValueProviders/GradientValueProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/ValueProviders/GradientValueProvider.swift
 $s6Lottie21GradientValueProviderCMa
 $s6Lottie21GradientValueProviderC6colorsSayAA5ColorVGvpACTk
 $s6Lottie21GradientValueProviderC9locationsSaySdGvpACTK
@@ -5863,7 +5863,7 @@ _$s6Lottie5GroupC10CodingKeys33_BE0FC73C39B413AC93B4E09FED50BEB8LLOs0C3KeyAAMc
 _objc_classes_$s6Lottie5GroupCN
 _$s6Lottie5GroupCN
 -private-discriminator _BE0FC73C39B413AC93B4E09FED50BEB8
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Group.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Group.swift
 $s6Lottie5GroupC10CodingKeys33_BE0FC73C39B413AC93B4E09FED50BEB8LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie5GroupC10CodingKeys33_BE0FC73C39B413AC93B4E09FED50BEB8LLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie5GroupC10CodingKeys33_BE0FC73C39B413AC93B4E09FED50BEB8LLOAFs28CustomDebugStringConvertibleAAWl
@@ -5909,7 +5909,7 @@ _$s6Lottie17GroupInterpolatorCMF
 _$s6Lottie17GroupInterpolatorCyxGAA16AnyValueProviderAAMc
 _$s6Lottie17GroupInterpolatorCyxGAA16AnyValueProviderAAWP
 _$s6Lottie17GroupInterpolatorC14keyframeGroupsACyxGs15ContiguousArrayVyAGyAA8KeyframeCyxGGG_tcfCTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/GroupInterpolator.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/GroupInterpolator.swift
 __swift_instantiateGenericMetadata
 $s6Lottie20KeyframeInterpolatorCyxGSbs5Error_pIggdzo_ADSbsAE_pIegndzo_AA14InterpolatableRzlTRTA
 $s6Lottie20KeyframeInterpolatorCyxGSbs5Error_pIggdzo_ADSbsAE_pIegndzo_AA14InterpolatableRzlTR
@@ -6019,7 +6019,7 @@ _$s6Lottie19GroupNodePropertiesCN
 _$s6Lottie9GroupNodeC4name06parentC04treeACSS_AA08AnimatorC0_pSgAA0C4TreeCtcfCTq
 _$s6Lottie9GroupNodeCN
 -private-discriminator _E4F28DEE393851D23F773B0681596014
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderContainers/GroupNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderContainers/GroupNode.swift
 setTransform
 lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/GroupOutputNode.swift
 $ss16IndexingIteratorV4next7ElementQzSgyFSay6Lottie19ShapeContainerLayerCG_Tg5
@@ -6091,7 +6091,7 @@ _$s6Lottie15GroupOutputNodeC12setTransform_8forFrameySo13CATransform3DV_12CoreGr
 _$s6Lottie15GroupOutputNodeC03hasC7UpdatesySb12CoreGraphics7CGFloatVFTq
 _$s6Lottie15GroupOutputNodeCN
 -private-discriminator _980F399BCB8731BEF4B90C20F3D0504E
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/GroupOutputNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/GroupOutputNode.swift
 $s6Lottie10NodeOutput_pWOb
 outputPath.get
 $s6Lottie15GroupOutputNodeCMa
@@ -6165,7 +6165,7 @@ _symbolic _____y_____G s22KeyedDecodingContainerV 6Lottie10ImageAssetC10CodingKe
 _$ss22KeyedDecodingContainerVy6Lottie10ImageAssetC10CodingKeysOGMD
 _objc_classes_$s6Lottie10ImageAssetCN
 _$s6Lottie10ImageAssetC10CodingKeysON
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Assets/ImageAsset.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Assets/ImageAsset.swift
 $s6Lottie10ImageAssetC10CodingKeysOAEs23CustomStringConvertibleAAWl
 $s6Lottie10ImageAssetC10CodingKeysOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie10ImageAssetC10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
@@ -6207,7 +6207,7 @@ _$s6Lottie21ImageCompositionLayerC05imageD04sizeAcA0bD5ModelC_So6CGSizeVtcfCTq
 _$s6Lottie21ImageCompositionLayerCN
 _OBJC_CLASS_$__TtC6Lottie21ImageCompositionLayer
 -private-discriminator _153A0615B389AC39189DA35DB170C9A1
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/ImageCompositionLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/ImageCompositionLayer.swift
 $s6Lottie21ImageCompositionLayerCMa
 $s6Lottie21ImageCompositionLayerCfETo
 $s6Lottie21ImageCompositionLayerCfE
@@ -6290,7 +6290,7 @@ _$s6Lottie15ImageLayerModelC10CodingKeys33_FD499C47D224B6866DE9F21F84663A34LLOs0
 _objc_classes_$s6Lottie15ImageLayerModelCN
 _$s6Lottie15ImageLayerModelCN
 -private-discriminator _FD499C47D224B6866DE9F21F84663A34
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/ImageLayerModel.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/ImageLayerModel.swift
 $s6Lottie15ImageLayerModelC10CodingKeys33_FD499C47D224B6866DE9F21F84663A34LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie15ImageLayerModelC10CodingKeys33_FD499C47D224B6866DE9F21F84663A34LLOs0E3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie15ImageLayerModelC10CodingKeys33_FD499C47D224B6866DE9F21F84663A34LLOAFs28CustomDebugStringConvertibleAAWl
@@ -6311,7 +6311,7 @@ _symbolic $s6Lottie14InterpolatableP
 _$s6Lottie14Interpolatable_pMF
 _$s6Lottie14InterpolatableTL
 _$s6Lottie14InterpolatableP13interpolateTo_6amount17spatialOutTangent0f2InH0xx_12CoreGraphics7CGFloatVSo7CGPointVSgAMtFTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Interpolatable/Interpolatable.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Interpolatable/Interpolatable.swift
 _$s6Lottie8Vector1DVAA14InterpolatableA2aDP13interpolateTo_6amount17spatialOutTangent0g2InI0xx_12CoreGraphics7CGFloatVSo7CGPointVSgAOtFTW
 _$s6Lottie8Vector2DVAA14InterpolatableA2aDP13interpolateTo_6amount17spatialOutTangent0g2InI0xx_12CoreGraphics7CGFloatVSo7CGPointVSgAOtFTW
 _$s6Lottie8Vector3DV13interpolateTo_6amount17spatialOutTangent0f2InH0A2C_12CoreGraphics7CGFloatVSo7CGPointVSgAMtF
@@ -6339,7 +6339,7 @@ _$s6Lottie11CurveVertexVAA14InterpolatableAAWP
 _$s6Lottie8Vector2DVAA14InterpolatableAAMc
 _$s6Lottie8Vector2DVAA14InterpolatableAAWP
 _$s6Lottie8Vector2DVMn
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Interpolatable/InterpolatableExtensions.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Interpolatable/InterpolatableExtensions.swift
 vector2dValue.get
 lottie-ios/lottie-swift/src/Private/Utility/Primitives/VectorsExtensions.swift
 vectorValue.get
@@ -6366,7 +6366,7 @@ _objc_classes_$s6Lottie18InvertedMatteLayerCN
 _$s6Lottie18InvertedMatteLayerC05inputC0AcA011CompositionD0C_tcfCTq
 _$s6Lottie18InvertedMatteLayerCN
 _OBJC_CLASS_$__TtC6Lottie18InvertedMatteLayer
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/InvertedMatteLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/InvertedMatteLayer.swift
 $s6Lottie18InvertedMatteLayerCMa
 $s6Lottie18InvertedMatteLayerCfETo
 draw
@@ -6435,7 +6435,7 @@ _$s6Lottie10StrokeNodeCAA08AnimatorC0AAWP
 _objc_classes_$s6Lottie8NodeTreeCN
 _$s6Lottie8NodeTreeCACycfCTq
 _$s6Lottie8NodeTreeCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Extensions/ItemsExtension.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Extensions/ItemsExtension.swift
 $s6Lottie10RenderNode_pWOb
 $s6Lottie8PathNode_pSgWOh
 initializeNodeTree
@@ -6526,7 +6526,7 @@ _$s6Lottie11ClassFamilyTL
 _$s6Lottie11ClassFamilyPSeTb
 _$s6Lottie11ClassFamilyP13discriminatorAA13DiscriminatorOvgZTq
 _$s6Lottie11ClassFamilyP7getTypeyXlXpyFTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Extensions/KeyedDecodingContainerExtensions.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Extensions/KeyedDecodingContainerExtensions.swift
 $s6Lottie13DiscriminatorOACs23CustomStringConvertibleAAWl
 $s6Lottie13DiscriminatorOs9CodingKeyAAs23CustomStringConvertiblePWb
 $s6Lottie13DiscriminatorOACs28CustomDebugStringConvertibleAAWl
@@ -6641,7 +6641,7 @@ _$s6Lottie8KeyframeC_16spatialInTangent0c3OutE0ACyxGx_AA8Vector3DVSgAItcfCTq
 _$s6Lottie8KeyframeC5value4time6isHold9inTangent03outH009spatialInH00j3OutH0ACyxGx_SdSbAA8Vector2DVSgAnA8Vector3DVSgAQtcfCTq
 _$s6Lottie12KeyframeDataC10startValue03endE04time4hold9inTangent03outJ009spatialInJ00l3OutJ0ACyxGxSg_AMSdSgSiSgAA8Vector2DVSgArA8Vector3DVSgAUtcfCTq
 _$s6Lottie12KeyframeDataC4fromACyxGs7Decoder_p_tKcfCTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Keyframes/Keyframe.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Keyframes/Keyframe.swift
 $s6Lottie12KeyframeDataC10CodingKeysOyx_Gs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie12KeyframeDataC10CodingKeysOyx_Gs0D3KeyAAs28CustomDebugStringConvertiblePWb
 $s6Lottie12KeyframeDataC10CodingKeysOyx_GSHAASQWb
@@ -6663,7 +6663,7 @@ $s6Lottie8KeyframeCMr
 $s6Lottie8KeyframeCMi
 _$s6Lottie8KeyframeC20interpolatedProgress_7keyTime12CoreGraphics7CGFloatVACyxG_AHtF
 _$s6Lottie8KeyframeC11interpolate_8progressxACyxG_12CoreGraphics7CGFloatVtF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Interpolatable/KeyframeExtensions.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Interpolatable/KeyframeExtensions.swift
 interpolatedProgress
 remap
 _$s6Lottie13KeyframeGroupCMi
@@ -6736,7 +6736,7 @@ _$s6Lottie13KeyframeGroupC9keyframesACyxGs15ContiguousArrayVyAA0B0CyxGG_tcfCTq
 _$s6Lottie13KeyframeGroupCyACyxGxcfCTq
 _$s6Lottie13KeyframeGroupC4fromACyxGs7Decoder_p_tKcfCTq
 -private-discriminator _A5E4B605E198079640DF4590245537D6
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Keyframes/KeyframeGroup.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Keyframes/KeyframeGroup.swift
 $s6Lottie13KeyframeGroupC0B10WrapperKey33_A5E4B605E198079640DF4590245537D6LLOyx_Gs06CodingE0AAs23CustomStringConvertiblePWb
 $s6Lottie13KeyframeGroupC0B10WrapperKey33_A5E4B605E198079640DF4590245537D6LLOyx_Gs06CodingE0AAs28CustomDebugStringConvertiblePWb
 $s6Lottie13KeyframeGroupC0B10WrapperKey33_A5E4B605E198079640DF4590245537D6LLOyx_GSHAASQWb
@@ -6781,7 +6781,7 @@ _$s6Lottie20KeyframeInterpolatorCMF
 _$s6Lottie20KeyframeInterpolatorCyxGAA16AnyValueProviderAAMc
 _$s6Lottie20KeyframeInterpolatorC9keyframesACyxGs15ContiguousArrayVyAA0B0CyxGG_tcfCTq
 -private-discriminator _7A0E017F04F9535C9149A101C089688C
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/KeyframeInterpolator.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/KeyframeInterpolator.swift
 $s6Lottie20KeyframeInterpolatorCMa
 updateSpanIndices
 validIndex
@@ -6798,7 +6798,7 @@ _$s6Lottie17KeypathSearchableP11keypathNameSSvgTq
 _$s6Lottie17KeypathSearchableP17keypathPropertiesSDySSAA15AnyNodeProperty_pGvgTq
 _$s6Lottie17KeypathSearchableP13childKeypathsSayAaB_pGvgTq
 _$s6Lottie17KeypathSearchableP12keypathLayerSo7CALayerCSgvgTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/KeypathSearchable.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/KeypathSearchable.swift
 _$s6Lottie10DebugLayerC5coderACSgSo7NSCoderC_tcfcTo
 _$s6Lottie10DebugLayerCACycfcTo
 _$s6Lottie10DebugLayerC5layerACyp_tcfcTo
@@ -6841,7 +6841,7 @@ _$s6Lottie20CustomLayerDebuggingP08layerForD0So7CALayerCyFTq
 _$s6Lottie10DebugLayerC5styleAcA0cB5StyleV_tcfCTq
 _$s6Lottie10DebugLayerCN
 _OBJC_CLASS_$__TtC6Lottie10DebugLayer
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Debugging/LayerDebugging.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Debugging/LayerDebugging.swift
 $s6Lottie10DebugLayerCMa
 $sSo7CALayerCMa
 logLayerTree
@@ -6875,7 +6875,7 @@ _objc_classes_$s6Lottie17LayerFontProviderCN
 _$s6Lottie17LayerFontProviderC04fontD0AcA09AnimationcD0_p_tcfCTq
 _$s6Lottie17LayerFontProviderCN
 -private-discriminator _F24216B688F7F229BAE5547157B41496
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerFontProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerFontProvider.swift
 $s6Lottie21AnimationFontProvider_pWOb
 $s6Lottie17LayerFontProviderCMa
 $s6Lottie17LayerFontProviderC11reloadTextsyyFyAA015TextCompositionB0CXEfU_
@@ -6894,7 +6894,7 @@ _objc_classes_$s6Lottie18LayerImageProviderCN
 _$s6Lottie18LayerImageProviderC05imageD06assetsAcA09AnimationcD0_p_SDySSAA0C5AssetCGSgtcfCTq
 _$s6Lottie18LayerImageProviderCN
 -private-discriminator _50E8E257436CC5C9FBAD9AF9C4BE744D
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerImageProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerImageProvider.swift
 $s6Lottie18LayerImageProviderCMa
 addImageLayers
 $ss16IndexingIteratorV4next7ElementQzSgyFSay6Lottie21ImageCompositionLayerCG_Tg5
@@ -7122,7 +7122,7 @@ _$s6Lottie10LayerModelC10CodingKeys33_AD27BF2F0BECC0035794FC09179AD65BLLOs0D3Key
 _$s6Lottie10LayerModelC10CodingKeys33_AD27BF2F0BECC0035794FC09179AD65BLLOs0D3KeyAAMc
 _objc_classes_$s6Lottie10LayerModelCN
 -private-discriminator _AD27BF2F0BECC0035794FC09179AD65B
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/LayerModel.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/LayerModel.swift
 $s6Lottie10LayerModelC10CodingKeys33_AD27BF2F0BECC0035794FC09179AD65BLLOAFs23CustomStringConvertibleAAWl
 $s6Lottie10LayerModelC10CodingKeys33_AD27BF2F0BECC0035794FC09179AD65BLLOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie10LayerModelC10CodingKeys33_AD27BF2F0BECC0035794FC09179AD65BLLOAFs28CustomDebugStringConvertibleAAWl
@@ -7181,7 +7181,7 @@ _objc_classes_$s6Lottie17LayerTextProviderCN
 _$s6Lottie17LayerTextProviderC04textD0AcA09AnimationcD0_p_tcfCTq
 _$s6Lottie17LayerTextProviderCN
 -private-discriminator _93C691108E2BCD3361CE3001035EB9D9
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerTextProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerTextProvider.swift
 $s6Lottie17LayerTextProviderCMa
 _$s6Lottie24LayerTransformPropertiesCfd
 _$s6Lottie24LayerTransformPropertiesCfD
@@ -7282,7 +7282,7 @@ _$s6Lottie18LayerTransformNodeC06globalC0So13CATransform3DVvgTq
 _$s6Lottie18LayerTransformNodeC06globalC0So13CATransform3DVvsTq
 _$s6Lottie18LayerTransformNodeC06globalC0So13CATransform3DVvMTq
 _$s6Lottie18LayerTransformNodeCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerTransformNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/LayerTransformNode.swift
 $s6Lottie10NodeOutput_pWOc
 translated
 scaled
@@ -7315,7 +7315,7 @@ _$s6Lottie0A4ViewC9viewLayerSo7CALayerCSgvgTq
 _$s6Lottie0A4ViewC11screenScale12CoreGraphics7CGFloatVvgTq
 _$s6Lottie0A4ViewC10commonInityyFTq
 -private-discriminator _787591BEA89A564C71734146BCF90079
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/LottieView.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/LottieView.swift
 layoutSubviews
 contentMode.didset
 didMoveToWindow
@@ -7438,7 +7438,7 @@ _symbolic _____y_____G s23_ContiguousArrayStorageC 6Lottie9MaskLayer33_94697FD65
 _$ss23_ContiguousArrayStorageCy6Lottie9MaskLayer33_94697FD65571290EB0EBC7152C129CA0LLCGMD
 _objc_classes_$s6Lottie17LRUAnimationCacheCN
 -private-discriminator _5540643FDEFD2FF77C78FB20684037FD
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/AnimationCache/LRUAnimationCache.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/AnimationCache/LRUAnimationCache.swift
 $ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfC6Lottie16CompositionLayerC_Tg5Tf4nnd_n
 $ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitF6Lottie16CompositionLayerC_Tg5
 $ss22_ContiguousArrayBufferVAByxGycfC6Lottie16CompositionLayerC_Tg5
@@ -7720,7 +7720,7 @@ _objc_classes_$s6Lottie6MarkerCN
 _$s6Lottie6MarkerC4fromACs7Decoder_p_tKcfCTq
 _$s6Lottie6MarkerCN
 _$s6Lottie6MarkerC10CodingKeysON
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/Marker.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/Marker.swift
 $s6Lottie6MarkerC10CodingKeysOAEs23CustomStringConvertibleAAWl
 $s6Lottie6MarkerC10CodingKeysOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie6MarkerC10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
@@ -7899,7 +7899,7 @@ _$s6Lottie4MaskC4fromACs7Decoder_p_tKcfCTq
 _$s6Lottie4MaskCN
 _$s6Lottie8MaskModeON
 _$s6Lottie4MaskC10CodingKeysON
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/Mask.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/Mask.swift
 $s6Lottie4MaskC10CodingKeysOAEs23CustomStringConvertibleAAWl
 $s6Lottie4MaskC10CodingKeysOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie4MaskC10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
@@ -8009,7 +8009,7 @@ _OBJC_CLASS_$__TtC6Lottie18MaskContainerLayer
 _$s6Lottie9MaskLayer33_94697FD65571290EB0EBC7152C129CA0LLCN
 _$s6Lottie18MaskNodeProperties33_94697FD65571290EB0EBC7152C129CA0LLCN
 -private-discriminator _94697FD65571290EB0EBC7152C129CA0
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/MaskContainerLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/MaskContainerLayer.swift
 $ss16IndexingIteratorV4next7ElementQzSgyFSay6Lottie4MaskCG_Tg5
 $sSayxGSlsSly7ElementQz5IndexQzcirTW6Lottie4MaskC_Tg5
 $sSayxSicir6Lottie4MaskC_Tg5
@@ -8053,7 +8053,7 @@ _$sSd6Lottie14InterpolatableAAMc
 _$sSd6Lottie14InterpolatableAAWP
 _$sSo7CGPointV6Lottie14InterpolatableACMc
 _$sSo7CGPointV6Lottie14InterpolatableACWP
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Extensions/MathKit.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Extensions/MathKit.swift
 $sSa15_checkSubscript_20wasNativeTypeCheckeds16_DependenceTokenVSi_SbtFSo7CGPointV5point_12CoreGraphics7CGFloatV8distancet_Tg5
 $ss12_ArrayBufferV37_checkInoutAndNativeTypeCheckedBounds_03wasfgH0ySi_SbtFSo7CGPointV5point_12CoreGraphics7CGFloatV8distancet_Tg5
 pointOnPath
@@ -8183,7 +8183,7 @@ _objc_classes_$s6Lottie5MergeCN
 _$s6Lottie5MergeCN
 _$s6Lottie9MergeModeON
 -private-discriminator _8355063BB02BF49C99E753D8526FA859
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Merge.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Merge.swift
 $s6Lottie5MergeC10CodingKeys33_8355063BB02BF49C99E753D8526FA859LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie5MergeC10CodingKeys33_8355063BB02BF49C99E753D8526FA859LLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie5MergeC10CodingKeys33_8355063BB02BF49C99E753D8526FA859LLOAFs28CustomDebugStringConvertibleAAWl
@@ -8244,7 +8244,7 @@ _$s6Lottie12NodePropertyC11needsUpdate5frameSb12CoreGraphics7CGFloatV_tFTq
 _$s6Lottie12NodePropertyC11setProvider8provideryAA08AnyValueE0_p_tFTq
 _$s6Lottie12NodePropertyC6update5framey12CoreGraphics7CGFloatV_tFTq
 -private-discriminator _61C5A3577EEAF848429CE87067525035
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/NodeProperty.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/NodeProperty.swift
 __swift_assign_boxed_opaque_existential_1
 setProvider
 valueProvider.get
@@ -8269,7 +8269,7 @@ _symbolic $s6Lottie15NodePropertyMapP
 _$s6Lottie15NodePropertyMap_pMF
 _$s6Lottie15NodePropertyMapTL
 _$s6Lottie15NodePropertyMapP10propertiesSayAA03AnybC0_pGvgTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/NodePropertyMap.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/Protocols/NodePropertyMap.swift
 updateNodeProperties
 $ss16IndexingIteratorVyxGStsSt4next7ElementQzSgyFTWSay6Lottie15AnyNodeProperty_pG_Tg5
 $s6Lottie15NodePropertyMapPAAE06updateB10Properties5framey12CoreGraphics7CGFloatV_tFyAA03AnybC0_pXEfU_
@@ -8288,7 +8288,7 @@ _objc_classes_$s6Lottie20NullCompositionLayerCN
 _$s6Lottie20NullCompositionLayerC5layerAcA0D5ModelC_tcfCTq
 _$s6Lottie20NullCompositionLayerCN
 _OBJC_CLASS_$__TtC6Lottie20NullCompositionLayer
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/NullCompositionLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/NullCompositionLayer.swift
 $s6Lottie20NullCompositionLayerCMa
 _$s6Lottie21PassThroughOutputNodeCfD
 _$s6Lottie21PassThroughOutputNodeCAA0eD0A2aDP03hasD7UpdatesySb12CoreGraphics7CGFloatVFTW
@@ -8313,7 +8313,7 @@ _$s6Lottie21PassThroughOutputNodeC9isEnabledSbvsTq
 _$s6Lottie21PassThroughOutputNodeC9isEnabledSbvMTq
 _$s6Lottie21PassThroughOutputNodeC10outputPathSo9CGPathRefaSgvgTq
 _$s6Lottie21PassThroughOutputNodeC16hasRenderUpdatesySb12CoreGraphics7CGFloatVFTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/PassThroughOutputNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/PassThroughOutputNode.swift
 $s6Lottie21PassThroughOutputNodeCMa
 hasRenderUpdates
 _$s6Lottie11PathElementVwCP
@@ -8327,7 +8327,7 @@ _symbolic _____ 6Lottie11PathElementV
 _$s6Lottie11PathElementVMF
 _$s6Lottie11PathElementVN
 -private-discriminator _557DF8CF3388F4CA98E47139CAAD17C2
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/PathElement.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/PathElement.swift
 $s6Lottie11PathElementVMa
 $s6Lottie11PathElementVwst
 $s6Lottie11PathElementVwet
@@ -8343,7 +8343,7 @@ _$s6Lottie8PathNode_pMF
 _$s6Lottie14PathOutputNodeCAA0dC0AAWP
 _$s6Lottie8PathNodeTL
 _$s6Lottie8PathNodeP10pathOutputAA0beC0CvgTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Protocols/PathNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Protocols/PathNode.swift
 _$s6Lottie14PathOutputNodeC03hasC7UpdatesySb12CoreGraphics7CGFloatVF
 _$s6Lottie14PathOutputNodeC06appendB0_11updateFrameyAA014CompoundBezierB0V_12CoreGraphics7CGFloatVtF
 _$s6Lottie14PathOutputNodeCfD
@@ -8385,7 +8385,7 @@ _$s6Lottie14PathOutputNodeC03setB0_11updateFrameyAA06BezierB0V_12CoreGraphics7CG
 _$s6Lottie14PathOutputNodeC06appendB0_11updateFrameyAA014CompoundBezierB0V_12CoreGraphics7CGFloatVtFTq
 _$s6Lottie14PathOutputNodeCN
 -private-discriminator _01B505073E3AD38CFE6E7427335820E1
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/PathOutputNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/PathOutputNode.swift
 $s6Lottie14PathOutputNodeCMa
 appendPath
 $sSa37_appendElementAssumeUniqueAndCapacity_03newB0ySi_xntF6Lottie18CompoundBezierPathV_Tg5
@@ -8429,7 +8429,7 @@ _symbolic __________cSg So7CGPointV 12CoreGraphics7CGFloatV
 _$s6Lottie18PointValueProviderCMF
 _objc_classes_$s6Lottie18PointValueProviderCN
 -private-discriminator _ED20A5D9D7BE20F1BEAF32ECF568B31D
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/ValueProviders/PointValueProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/ValueProviders/PointValueProvider.swift
 $s6Lottie18PointValueProviderCMa
 $s6Lottie18PointValueProviderC5pointSo7CGPointVvpACTk
 point.set
@@ -8508,7 +8508,7 @@ _$s6Lottie21PolygonNodePropertiesCN
 _$s6Lottie11PolygonNodeC06parentC04starAcA08AnimatorC0_pSg_AA4StarCtcfCTq
 _$s6Lottie11PolygonNodeCN
 -private-discriminator _7B577DC7491C4FD16038FF8661D13F73
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/PolygonNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/PolygonNode.swift
 $ss12_ArrayBufferV20_consumeAndCreateNewAByxGyFSS_Tg5
 $ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF12CoreGraphics7CGFloatV5start_AG3endt_Tg5
 $ss12_ArrayBufferV20_consumeAndCreateNewAByxGyF6Lottie11PathElementV_Tg5
@@ -8610,7 +8610,7 @@ _associated conformance 6Lottie12PrecompAssetC10CodingKeysOs0D3KeyAAs23CustomStr
 _$s6Lottie12PrecompAssetC10CodingKeysOs0D3KeyAAMcMK
 _objc_classes_$s6Lottie12PrecompAssetCN
 _$s6Lottie12PrecompAssetCN
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Assets/PrecompAsset.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Assets/PrecompAsset.swift
 $s6Lottie12PrecompAssetC10CodingKeysOAEs23CustomStringConvertibleAAWl
 $s6Lottie12PrecompAssetC10CodingKeysOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie12PrecompAssetC10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
@@ -8707,7 +8707,7 @@ _$s6Lottie17PreCompLayerModelC10CodingKeys33_F56A6ADEC1BB9ED388A359B8FB32484ALLO
 _objc_classes_$s6Lottie17PreCompLayerModelCN
 _$s6Lottie17PreCompLayerModelCN
 -private-discriminator _F56A6ADEC1BB9ED388A359B8FB32484A
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/PreCompLayerModel.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/PreCompLayerModel.swift
 $s6Lottie17PreCompLayerModelC10CodingKeys33_F56A6ADEC1BB9ED388A359B8FB32484ALLOAFs23CustomStringConvertibleAAWl
 $s6Lottie17PreCompLayerModelC10CodingKeys33_F56A6ADEC1BB9ED388A359B8FB32484ALLOs0F3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie17PreCompLayerModelC10CodingKeys33_F56A6ADEC1BB9ED388A359B8FB32484ALLOAFs28CustomDebugStringConvertibleAAWl
@@ -8753,7 +8753,7 @@ _$s6Lottie19PreCompositionLayerC7precomp5asset18layerImageProvider04textI004font
 _$s6Lottie19PreCompositionLayerCN
 _OBJC_CLASS_$__TtC6Lottie19PreCompositionLayer
 -private-discriminator _0217E348F7422C49027EC584CEC7A6D9
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/PreCompositionLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/PreCompositionLayer.swift
 $s6Lottie19PreCompositionLayerCMa
 $s6Lottie19PreCompositionLayerCfETo
 $s6Lottie19PreCompositionLayerCfE
@@ -8843,7 +8843,7 @@ _$s6Lottie9RectangleC10CodingKeys33_2E800F755D51B34C4DDDBB00BA4D96CALLOs0C3KeyAA
 _objc_classes_$s6Lottie9RectangleCN
 _$s6Lottie9RectangleCN
 -private-discriminator _2E800F755D51B34C4DDDBB00BA4D96CA
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Rectangle.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Rectangle.swift
 $s6Lottie9RectangleC10CodingKeys33_2E800F755D51B34C4DDDBB00BA4D96CALLOAFs23CustomStringConvertibleAAWl
 $s6Lottie9RectangleC10CodingKeys33_2E800F755D51B34C4DDDBB00BA4D96CALLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie9RectangleC10CodingKeys33_2E800F755D51B34C4DDDBB00BA4D96CALLOAFs28CustomDebugStringConvertibleAAWl
@@ -8925,7 +8925,7 @@ _$s6Lottie18RectNodePropertiesCN
 _$s6Lottie13RectangleNodeC06parentC09rectangleAcA08AnimatorC0_pSg_AA0B0CtcfCTq
 _$s6Lottie13RectangleNodeCN
 -private-discriminator _B30321835049D0A1AA517353EF9C5D33
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/RectNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/RectNode.swift
 $s6Lottie13RectangleNodeCMa
 close
 $s6Lottie18RectNodePropertiesCMa
@@ -8952,7 +8952,7 @@ _$s6Lottie10RenderableP21shouldRenderInContextSbvgTq
 _$s6Lottie10RenderableP16updateShapeLayer5layerySo07CAShapeE0C_tFTq
 _$s6Lottie10RenderableP15renderBoundsForySo6CGRectVAFFTq
 _$s6Lottie10RenderableP6renderyySo12CGContextRefaFTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Protocols/RenderNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Protocols/RenderNode.swift
 _$sSYsSHRzSH8RawValueSYRpzrlE04hashB0Sivg6Lottie8RepeaterC13TransformKeys33_AE71D12FF9FED444AC1CAB5147F5866ALLO_Tg5
 _$s6Lottie8RepeaterC10CodingKeys33_AE71D12FF9FED444AC1CAB5147F5866ALLOSQAASQ2eeoiySbx_xtFZTW
 _$s6Lottie8RepeaterC10CodingKeys33_AE71D12FF9FED444AC1CAB5147F5866ALLOSHAASH9hashValueSivgTW
@@ -9089,7 +9089,7 @@ _$s6Lottie8RepeaterC10CodingKeys33_AE71D12FF9FED444AC1CAB5147F5866ALLOs0C3KeyAAM
 _objc_classes_$s6Lottie8RepeaterCN
 _$s6Lottie8RepeaterCN
 -private-discriminator _AE71D12FF9FED444AC1CAB5147F5866A
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Repeater.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Repeater.swift
 $s6Lottie8RepeaterC10CodingKeys33_AE71D12FF9FED444AC1CAB5147F5866ALLOAFs23CustomStringConvertibleAAWl
 $s6Lottie8RepeaterC10CodingKeys33_AE71D12FF9FED444AC1CAB5147F5866ALLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie8RepeaterC10CodingKeys33_AE71D12FF9FED444AC1CAB5147F5866ALLOAFs28CustomDebugStringConvertibleAAWl
@@ -9191,7 +9191,7 @@ _$s6Lottie5ShapeC10CodingKeys33_914B6EC4AD1AB3A111F739440D1A29DDLLOs0C3KeyAAMc
 _objc_classes_$s6Lottie5ShapeCN
 _$s6Lottie5ShapeCN
 -private-discriminator _914B6EC4AD1AB3A111F739440D1A29DD
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Shape.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Shape.swift
 $s6Lottie5ShapeC10CodingKeys33_914B6EC4AD1AB3A111F739440D1A29DDLLOAFs23CustomStringConvertibleAAWl
 $s6Lottie5ShapeC10CodingKeys33_914B6EC4AD1AB3A111F739440D1A29DDLLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie5ShapeC10CodingKeys33_914B6EC4AD1AB3A111F739440D1A29DDLLOAFs28CustomDebugStringConvertibleAAWl
@@ -9234,7 +9234,7 @@ _objc_classes_$s6Lottie21ShapeCompositionLayerCN
 _$s6Lottie21ShapeCompositionLayerC05shapeD0AcA0bD5ModelC_tcfCTq
 _$s6Lottie21ShapeCompositionLayerCN
 _OBJC_CLASS_$__TtC6Lottie21ShapeCompositionLayer
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/ShapeCompositionLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/ShapeCompositionLayer.swift
 $s6Lottie17KeypathSearchable_pWOb
 $s6Lottie21ShapeCompositionLayerCMa
 $s6Lottie21ShapeCompositionLayerCfETo
@@ -9283,7 +9283,7 @@ _$s6Lottie19ShapeContainerLayerC17updateRenderScaleyyFTq
 _$s6Lottie19ShapeContainerLayerCN
 _OBJC_CLASS_$__TtC6Lottie19ShapeContainerLayer
 -private-discriminator _F6C6CC234334283AC6EA65CB6675AA06
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/RenderLayers/ShapeContainerLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/RenderLayers/ShapeContainerLayer.swift
 $s6Lottie19ShapeContainerLayerCMa
 $s6Lottie19ShapeContainerLayerCfETo
 $ss16IndexingIteratorVyxGStsSt4next7ElementQzSgyFTWSay6Lottie19ShapeContainerLayerCG_Tg5
@@ -9413,7 +9413,7 @@ _$s6Lottie9ShapeItemC10CodingKeys33_B043B4898C17BF3469322680C60EE24ALLOs0D3KeyAA
 _$s6Lottie9ShapeItemC10CodingKeys33_B043B4898C17BF3469322680C60EE24ALLOs0D3KeyAAMc
 _objc_classes_$s6Lottie9ShapeItemCN
 -private-discriminator _B043B4898C17BF3469322680C60EE24A
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/ShapeItem.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/ShapeItem.swift
 $s6Lottie9ShapeItemC10CodingKeys33_B043B4898C17BF3469322680C60EE24ALLOAFs23CustomStringConvertibleAAWl
 $s6Lottie9ShapeItemC10CodingKeys33_B043B4898C17BF3469322680C60EE24ALLOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie9ShapeItemC10CodingKeys33_B043B4898C17BF3469322680C60EE24ALLOAFs28CustomDebugStringConvertibleAAWl
@@ -9507,7 +9507,7 @@ _$s6Lottie15ShapeLayerModelC10CodingKeys33_FE72F9FAA0920A551B9C873D9635AC5CLLOs0
 _objc_classes_$s6Lottie15ShapeLayerModelCN
 _$s6Lottie15ShapeLayerModelCN
 -private-discriminator _FE72F9FAA0920A551B9C873D9635AC5C
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/ShapeLayerModel.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/ShapeLayerModel.swift
 $s6Lottie15ShapeLayerModelC10CodingKeys33_FE72F9FAA0920A551B9C873D9635AC5CLLOAFs23CustomStringConvertibleAAWl
 $s6Lottie15ShapeLayerModelC10CodingKeys33_FE72F9FAA0920A551B9C873D9635AC5CLLOs0E3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie15ShapeLayerModelC10CodingKeys33_FE72F9FAA0920A551B9C873D9635AC5CLLOAFs28CustomDebugStringConvertibleAAWl
@@ -9586,7 +9586,7 @@ _$s6Lottie19ShapeNodePropertiesCN
 _$s6Lottie9ShapeNodeC06parentC05shapeAcA08AnimatorC0_pSg_AA0B0CtcfCTq
 _$s6Lottie9ShapeNodeCN
 -private-discriminator _6FF02ABA97DD0CF3D55DA32DF487694C
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/ShapeNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/ShapeNode.swift
 $s6Lottie9ShapeNodeCMa
 $s6Lottie19ShapeNodePropertiesCMa
 _$s6Lottie16ShapeRenderLayerC5layerACyp_tcfc
@@ -9619,7 +9619,7 @@ _$s6Lottie16ShapeRenderLayerC8rendererAcA10NodeOutput_AA10Renderablep_tcfCTq
 _$s6Lottie16ShapeRenderLayerCN
 _OBJC_CLASS_$__TtC6Lottie16ShapeRenderLayer
 -private-discriminator _E1545167371485E125821C2E346691D3
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/RenderLayers/ShapeRenderLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/RenderLayers/ShapeRenderLayer.swift
 $s6Lottie10NodeOutput_AA10RenderablepWOb
 $s6Lottie10NodeOutput_AA10RenderablepWOc
 $s6Lottie16ShapeRenderLayerCMa
@@ -9704,7 +9704,7 @@ _$s6Lottie14ShapeTransformC10CodingKeys33_2EA1D5BD064F7E71C05867A308D1E87ALLOs0D
 _objc_classes_$s6Lottie14ShapeTransformCN
 _$s6Lottie14ShapeTransformCN
 -private-discriminator _2EA1D5BD064F7E71C05867A308D1E87A
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/ShapeTransform.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/ShapeTransform.swift
 $s6Lottie14ShapeTransformC10CodingKeys33_2EA1D5BD064F7E71C05867A308D1E87ALLOAFs23CustomStringConvertibleAAWl
 $s6Lottie14ShapeTransformC10CodingKeys33_2EA1D5BD064F7E71C05867A308D1E87ALLOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie14ShapeTransformC10CodingKeys33_2EA1D5BD064F7E71C05867A308D1E87ALLOAFs28CustomDebugStringConvertibleAAWl
@@ -9739,7 +9739,7 @@ _$s6Lottie19SingleValueProviderCMF
 _$s6Lottie19SingleValueProviderCyxGAA03AnycD0AAMc
 _$s6Lottie19SingleValueProviderCyACyxGxcfCTq
 -private-discriminator _15F52C1C140982C98B4608B2D19B978E
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/SingleValueProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueProviders/SingleValueProvider.swift
 $s6Lottie19SingleValueProviderCMa
 $s6Lottie19SingleValueProviderCMr
 $s6Lottie19SingleValueProviderCMi
@@ -9761,7 +9761,7 @@ _symbolic __________cSg So6CGSizeV 12CoreGraphics7CGFloatV
 _$s6Lottie17SizeValueProviderCMF
 _objc_classes_$s6Lottie17SizeValueProviderCN
 -private-discriminator _C754F73A731B53D0450DFFA30648045B
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/ValueProviders/SizeValueProvider.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/DynamicProperties/ValueProviders/SizeValueProvider.swift
 $s6Lottie17SizeValueProviderCMa
 $s6Lottie17SizeValueProviderC4sizeSo6CGSizeVvpACTk
 size.set
@@ -9794,7 +9794,7 @@ _objc_classes_$s6Lottie21SolidCompositionLayerCN
 _$s6Lottie21SolidCompositionLayerC5solidAcA0bD5ModelC_tcfCTq
 _$s6Lottie21SolidCompositionLayerCN
 _OBJC_CLASS_$__TtC6Lottie21SolidCompositionLayer
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/SolidCompositionLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/SolidCompositionLayer.swift
 $s6Lottie21SolidCompositionLayerCMa
 $s6Lottie21SolidCompositionLayerCfETo
 $s6Lottie21SolidCompositionLayerCfE
@@ -9872,7 +9872,7 @@ _$s6Lottie15SolidLayerModelC10CodingKeys33_A4F92C4E9E889EE839643CE5313C0C60LLOs0
 _objc_classes_$s6Lottie15SolidLayerModelCN
 _$s6Lottie15SolidLayerModelCN
 -private-discriminator _A4F92C4E9E889EE839643CE5313C0C60
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/SolidLayerModel.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/SolidLayerModel.swift
 $s6Lottie15SolidLayerModelC10CodingKeys33_A4F92C4E9E889EE839643CE5313C0C60LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie15SolidLayerModelC10CodingKeys33_A4F92C4E9E889EE839643CE5313C0C60LLOs0E3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie15SolidLayerModelC10CodingKeys33_A4F92C4E9E889EE839643CE5313C0C60LLOAFs28CustomDebugStringConvertibleAAWl
@@ -10015,7 +10015,7 @@ _objc_classes_$s6Lottie4StarCN
 _$s6Lottie4StarCN
 _$s6Lottie8StarTypeON
 -private-discriminator _D6A898BEE3E54133896CFEAC60882170
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Star.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Star.swift
 $s6Lottie4StarC10CodingKeys33_D6A898BEE3E54133896CFEAC60882170LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie4StarC10CodingKeys33_D6A898BEE3E54133896CFEAC60882170LLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie4StarC10CodingKeys33_D6A898BEE3E54133896CFEAC60882170LLOAFs28CustomDebugStringConvertibleAAWl
@@ -10109,12 +10109,12 @@ _$s6Lottie18StarNodePropertiesCN
 _$s6Lottie8StarNodeC06parentC04starAcA08AnimatorC0_pSg_AA0B0CtcfCTq
 _$s6Lottie8StarNodeCN
 -private-discriminator _9E793FA4311642016CC98CB8FEDAB29B
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/StarNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/PathNodes/StarNode.swift
 $s6Lottie8StarNodeCMa
 $sSa12_endMutationyyF6Lottie11CurveVertexV_Tg5
 $ss12_ArrayBufferVAByxGycfC6Lottie11CurveVertexV_Tg5
 $s6Lottie18StarNodePropertiesCMa
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Extensions/StringExtensions.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Extensions/StringExtensions.swift
 hexColorComponents
 _$s6Lottie6StrokeC10CodingKeys33_2384A84A060B93E75F9D6255562D2169LLOSQAASQ2eeoiySbx_xtFZTW
 _$s6Lottie6StrokeC10CodingKeys33_2384A84A060B93E75F9D6255562D2169LLOSHAASH9hashValueSivgTW
@@ -10195,7 +10195,7 @@ _$s6Lottie6StrokeC10CodingKeys33_2384A84A060B93E75F9D6255562D2169LLOs0C3KeyAAMc
 _objc_classes_$s6Lottie6StrokeCN
 _$s6Lottie6StrokeCN
 -private-discriminator _2384A84A060B93E75F9D6255562D2169
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Stroke.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Stroke.swift
 $s6Lottie6StrokeC10CodingKeys33_2384A84A060B93E75F9D6255562D2169LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie6StrokeC10CodingKeys33_2384A84A060B93E75F9D6255562D2169LLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie6StrokeC10CodingKeys33_2384A84A060B93E75F9D6255562D2169LLOAFs28CustomDebugStringConvertibleAAWl
@@ -10287,7 +10287,7 @@ _$s6Lottie20StrokeNodePropertiesCN
 _$s6Lottie10StrokeNodeC06parentC06strokeAcA08AnimatorC0_pSg_AA0B0CtcfCTq
 _$s6Lottie10StrokeNodeCN
 -private-discriminator _63D8F79DA8C6515528C44F38F86B2BED
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/StrokeNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/RenderNodes/StrokeNode.swift
 $ss15ContiguousArrayV9_getCountSiyF6Lottie8KeyframeCyAD8Vector1DVG_Tg5
 $sSayxGSTsST22_copyToContiguousArrays0cD0Vy7ElementQzGyFTW6Lottie20KeyframeInterpolatorCyAH8Vector1DVG_Tg5
 $sSa22_copyToContiguousArrays0cD0VyxGyF6Lottie20KeyframeInterpolatorCyAE8Vector1DVG_Tg5
@@ -10359,7 +10359,7 @@ _$s6Lottie14StrokeRendererCAA10RenderableAAMc
 _objc_classes_$s6Lottie14StrokeRendererCN
 _$s6Lottie14StrokeRendererCN
 -private-discriminator _CCAE16D44402F440271B5DE4FBA70477
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/StrokeRenderer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/OutputNodes/Renderables/StrokeRenderer.swift
 $s6Lottie14StrokeRendererCMa
 $s6Lottie14StrokeRendererCfE
 $ss12_ArrayBufferV7_buffer19shiftedToStartIndexAByxGs011_ContiguousaB0VyxG_SitcfCSo8NSNumberC_Tg5
@@ -10531,7 +10531,7 @@ _objc_classes_$s6Lottie12TextAnimatorCN
 _$s6Lottie12TextAnimatorC4fromACs7Decoder_p_tKcfCTq
 _$s6Lottie12TextAnimatorCN
 -private-discriminator _D1C972A6325FD74CAD8375FE1DD4D7D0
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Text/TextAnimator.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Text/TextAnimator.swift
 $s6Lottie12TextAnimatorC10CodingKeys33_D1C972A6325FD74CAD8375FE1DD4D7D0LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie12TextAnimatorC10CodingKeys33_D1C972A6325FD74CAD8375FE1DD4D7D0LLOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie12TextAnimatorC10CodingKeys33_D1C972A6325FD74CAD8375FE1DD4D7D0LLOAFs28CustomDebugStringConvertibleAAWl
@@ -10686,7 +10686,7 @@ _$s6Lottie16TextAnimatorNodeC30localUpdatesPermeateDownstreamSbyFTq
 _$s6Lottie16TextAnimatorNodeC14rebuildOutputs5framey12CoreGraphics7CGFloatV_tFTq
 _$s6Lottie16TextAnimatorNodeCN
 -private-discriminator _C924C6E40C80826396178D81079A6A9F
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/Text/TextAnimatorNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/Text/TextAnimatorNode.swift
 strokeWidth.set
 tracking.set
 fillColor.set
@@ -10761,7 +10761,7 @@ _objc_classes_$s6Lottie20TextCompositionLayerCN
 _$s6Lottie20TextCompositionLayerC04textD00E8Provider04fontF0AcA0bD5ModelC_AA09AnimationbF0_pAA0i4FontF0_ptcfCTq
 _$s6Lottie20TextCompositionLayerCN
 _OBJC_CLASS_$__TtC6Lottie20TextCompositionLayer
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/TextCompositionLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/CompLayers/TextCompositionLayer.swift
 $ss16IndexingIteratorV4next7ElementQzSgyFSay6Lottie12TextAnimatorCG_Tg5
 $sSayxGSlsSl9formIndex5aftery0B0Qzz_tFTW6Lottie12TextAnimatorC_Tg5
 $sSa9formIndex5afterySiz_tF6Lottie12TextAnimatorC_Tg5
@@ -10939,7 +10939,7 @@ _$s6Lottie12TextDocumentC4fromACs7Decoder_p_tKcfCTq
 _$s6Lottie12TextDocumentCN
 _$s6Lottie17TextJustificationON
 -private-discriminator _BAF4C9B6A6D3601A27A57A3C677A0C23
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Text/TextDocument.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Text/TextDocument.swift
 $s6Lottie12TextDocumentC10CodingKeys33_BAF4C9B6A6D3601A27A57A3C677A0C23LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie12TextDocumentC10CodingKeys33_BAF4C9B6A6D3601A27A57A3C677A0C23LLOs0D3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie12TextDocumentC10CodingKeys33_BAF4C9B6A6D3601A27A57A3C677A0C23LLOAFs28CustomDebugStringConvertibleAAWl
@@ -10998,7 +10998,7 @@ _objc_classes_$s6Lottie9TextLayerCN
 _$s6Lottie9TextLayerCN
 _OBJC_CLASS_$__TtC6Lottie9TextLayer
 -private-discriminator _C142282F005803645EC712BF5C5B3C7E
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/TextLayer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/LayerContainers/Utility/TextLayer.swift
 $sSo21NSAttributedStringKeyaABSHSCWl
 $sSo23NSMutableParagraphStyleCMa
 $sSD11removeValue6forKeyq_Sgx_tFSo018NSAttributedStringD0a_ypTg5
@@ -11166,7 +11166,7 @@ _$s6Lottie14TextLayerModelC10CodingKeys33_1FCCF4BAAF619AFC57DF9456679CE6D6LLOs0E
 _objc_classes_$s6Lottie14TextLayerModelCN
 _$s6Lottie14TextLayerModelCN
 -private-discriminator _1FCCF4BAAF619AFC57DF9456679CE6D6
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/TextLayerModel.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Layers/TextLayerModel.swift
 $s6Lottie14TextLayerModelC10CodingKeys33_1FCCF4BAAF619AFC57DF9456679CE6D6LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie14TextLayerModelC10CodingKeys33_1FCCF4BAAF619AFC57DF9456679CE6D6LLOs0E3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie14TextLayerModelC10CodingKeys33_1FCCF4BAAF619AFC57DF9456679CE6D6LLOAFs28CustomDebugStringConvertibleAAWl
@@ -11337,7 +11337,7 @@ _$s6Lottie9TransformC4fromACs7Decoder_p_tKcfCTq
 _$s6Lottie9TransformCN
 _$s6Lottie9TransformC10CodingKeysON
 _$s6Lottie9TransformC18PositionCodingKeysON
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/Transform.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/Objects/Transform.swift
 $s6Lottie9TransformC10CodingKeysOAEs23CustomStringConvertibleAAWl
 $s6Lottie9TransformC10CodingKeysOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie9TransformC10CodingKeysOAEs28CustomDebugStringConvertibleAAWl
@@ -11481,7 +11481,7 @@ _objc_classes_$s6Lottie4TrimCN
 _$s6Lottie4TrimCN
 _$s6Lottie8TrimTypeON
 -private-discriminator _D6092D3DEFB5B65828913FD208CE114F
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Trim.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Model/ShapeItems/Trim.swift
 $s6Lottie4TrimC10CodingKeys33_D6092D3DEFB5B65828913FD208CE114FLLOAFs23CustomStringConvertibleAAWl
 $s6Lottie4TrimC10CodingKeys33_D6092D3DEFB5B65828913FD208CE114FLLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie4TrimC10CodingKeys33_D6092D3DEFB5B65828913FD208CE114FLLOAFs28CustomDebugStringConvertibleAAWl
@@ -11572,7 +11572,7 @@ _$s6Lottie18TrimPathPropertiesCN
 _$s6Lottie12TrimPathNodeC06parentD04trim13upstreamPathsAcA08AnimatorD0_pSg_AA0B0CSayAA0c6OutputD0CGtcfCTq
 _$s6Lottie12TrimPathNodeCN
 -private-discriminator _01CA524E18755F970095DD630DFEF32D
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/ModifierNodes/TrimPathNode.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/Nodes/ModifierNodes/TrimPathNode.swift
 $s6Lottie12TrimPathNodeCMa
 $ss16IndexingIteratorV4next7ElementQzSgyFSay6Lottie14PathOutputNodeCG_Tg5
 $sSayxGSlsSl9formIndex5aftery0B0Qzz_tFTW6Lottie14PathOutputNodeC_Tg5
@@ -11585,7 +11585,7 @@ removePaths
 $s6Lottie14PathOutputNodeCs5Error_pIggzo_ACsAD_pIegnzo_TR
 $s6Lottie12TrimPathNodeC14rebuildOutputs5framey12CoreGraphics7CGFloatV_tFyAA0c6OutputD0CXEfU_
 $s6Lottie18TrimPathPropertiesCMa
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/UIColorExtension.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/iOS/UIColorExtension.swift
 lottieColorValue.get
 _$s6Lottie14ValueContainerCMi
 _$s6Lottie14ValueContainerCMr
@@ -11613,7 +11613,7 @@ _$s6Lottie14ValueContainerC06outputB0xvMTq
 _$s6Lottie14ValueContainerCyACyxGxcfCTq
 _$s6Lottie14ValueContainerC11needsUpdateSbvgTq
 -private-discriminator _7C4DD7241D5DD0164CA20B28B9AE990C
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueContainer.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/NodeRenderSystem/NodeProperties/ValueContainer.swift
 $s6Lottie14ValueContainerCMa
 $s6Lottie14ValueContainerCMr
 $s6Lottie14ValueContainerCMi
@@ -11626,7 +11626,7 @@ _$s6Lottie8Vector3DVWV
 _$s6Lottie8Vector3DVMf
 _symbolic _____ 6Lottie8Vector3DV
 _$s6Lottie8Vector3DVMF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Primitives/Vectors.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Public/Primitives/Vectors.swift
 $s6Lottie8Vector3DVMa
 $s6Lottie8Vector3DVwst
 $s6Lottie8Vector3DVwet
@@ -11711,7 +11711,7 @@ _associated conformance 6Lottie8Vector2DV10CodingKeys33_A243E605DFCD30C0889CE739
 _$s6Lottie8Vector2DV10CodingKeys33_A243E605DFCD30C0889CE73957799305LLOs0C3KeyAAMcMK
 _$s6Lottie8Vector2DV10CodingKeys33_A243E605DFCD30C0889CE73957799305LLOs0C3KeyAAMc
 -private-discriminator _A243E605DFCD30C0889CE73957799305
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/VectorsExtensions.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/lottie-ios/lottie-swift/src/Private/Utility/Primitives/VectorsExtensions.swift
 $s6Lottie8Vector2DV10CodingKeys33_A243E605DFCD30C0889CE73957799305LLOAFs23CustomStringConvertibleAAWl
 $s6Lottie8Vector2DV10CodingKeys33_A243E605DFCD30C0889CE73957799305LLOs0C3KeyAAs23CustomStringConvertiblePWb
 $s6Lottie8Vector2DV10CodingKeys33_A243E605DFCD30C0889CE73957799305LLOAFs28CustomDebugStringConvertibleAAWl

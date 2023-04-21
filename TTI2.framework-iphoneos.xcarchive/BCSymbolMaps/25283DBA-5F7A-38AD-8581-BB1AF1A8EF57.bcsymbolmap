@@ -2,11 +2,11 @@ BCSymbolMap Version: 2.0
 Apple clang version 13.1.6 (clang-1316.0.21.2.5)
 /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk
 iPhoneOS15.5.sdk
-/Users/joaoisento/Library/Developer/Xcode/DerivedData/TTI2-dyhygjdylubtxxdjkbtakwupijtb/Build/Intermediates.noindex/ArchiveIntermediates/TTI2/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Alamofire.build/DerivedSources/Alamofire_vers.c
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods
+/Users/joaoisento/Library/Developer/Xcode/DerivedData/TTI2-gauxzeyvvfjozjdqgvxaocdbweos/Build/Intermediates.noindex/ArchiveIntermediates/TTI2/IntermediateBuildFilesPath/Pods.build/Release-iphoneos/Alamofire.build/DerivedSources/Alamofire_vers.c
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods
 __OBJC_METACLASS_RO_$_PodsDummy_Alamofire
 __OBJC_CLASS_RO_$_PodsDummy_Alamofire
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
 _$s9Alamofire7AFErrorOs5ErrorAAsADP7_domainSSvgTW
 _$s9Alamofire7AFErrorOs5ErrorAAsADP5_codeSivgTW
 _$s9Alamofire7AFErrorOs5ErrorAAsADP9_userInfoyXlSgvgTW
@@ -612,7 +612,7 @@ _$s9Alamofire10AdaptErrorVN
 Apple clang version 13.1.6 (clang-1316.0.20.12)
 <swift-imported-modules>
 Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/AFError.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/AFError.swift
 $sSo31NSURLSessionResponseDispositionVMa
 <compiler-generated>
 $s9Alamofire10AdaptErrorVMa
@@ -845,7 +845,7 @@ _symbolic $s9Alamofire14URLConvertibleP
 _$s9Alamofire14URLConvertible_pMF
 _symbolic $s9Alamofire21URLRequestConvertibleP
 _$s9Alamofire21URLRequestConvertible_pMF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Alamofire.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Alamofire.swift
 stream
 $s9Alamofire14SessionManagerC7defaultACvau
 Alamofire/Source/SessionManager.swift
@@ -879,7 +879,7 @@ _symbolic Say_____G 8Dispatch0A13WorkItemFlagsV
 _$sSay8Dispatch0A13WorkItemFlagsVGMD
 _$sSay8Dispatch0A13WorkItemFlagsVGSayxGSTsWL
 _$sSay8Dispatch0A13WorkItemFlagsVGML
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
 $sSay8Dispatch0A13WorkItemFlagsVGMa
 $s8Dispatch0A13WorkItemFlagsVACs10SetAlgebraAAWl
 block_destroy_helper
@@ -1060,7 +1060,7 @@ _$s9Alamofire17MultipartFormDataC8BodyPartC16hasFinalBoundarySbvMTq
 _$s9Alamofire17MultipartFormDataC8BodyPartC7headers10bodyStream0H13ContentLengthAESDyS2SG_So07NSInputI0Cs6UInt64VtcfCTq
 _$s9Alamofire17MultipartFormDataC8BodyPartCN
 -private-discriminator _63939572A7C2420E87E8A689642C11D2
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/MultipartFormData.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/MultipartFormData.swift
 $s9Alamofire7AFErrorOSgWOd
 $s9Alamofire7AFErrorOSgWOb
 $s9Alamofire7AFErrorO30MultipartEncodingFailureReasonOWOc
@@ -1436,7 +1436,7 @@ _$s9Alamofire26NetworkReachabilityManagerC14notifyListeneryySo09SCNetworkC5Flags
 _$s9Alamofire26NetworkReachabilityManagerC07networkC14StatusForFlagsyAC0bcF0OSo09SCNetworkcH0VFTq
 _$s9Alamofire26NetworkReachabilityManagerC02isB9Reachable4withSbSo09SCNetworkC5FlagsV_tFTq
 -private-discriminator _E21608B303999A2A22D832CA16A740D0
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/NetworkReachabilityManager.swift
 $s9Alamofire26NetworkReachabilityManagerC0bC6StatusOIegn_AEytIegnr_TRTA
 $s9Alamofire26NetworkReachabilityManagerC0bC6StatusOIegn_AEytIegnr_TR
 $s9Alamofire26NetworkReachabilityManagerC0bC6StatusOytIegnr_AEIegn_TRTA
@@ -1522,7 +1522,7 @@ _$s10Foundation12NotificationV9AlamofireEMXE
 _$s10Foundation12NotificationV9AlamofireE3KeyVMf
 _symbolic _____ 10Foundation12NotificationV9AlamofireE3KeyV
 _$s10Foundation12NotificationV9AlamofireE3KeyVMF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Notifications.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Notifications.swift
 $s10Foundation12NotificationV9AlamofireE3KeyVMa
 $sSo18NSNotificationNamea9AlamofireE4TaskVMa
 ResponseData.get
@@ -1673,7 +1673,7 @@ _$s9Alamofire20PropertyListEncodingVMf
 _symbolic _____ 9Alamofire20PropertyListEncodingV
 _$s9Alamofire20PropertyListEncodingVMF
 -private-discriminator _07E29AB6DA2856B846193FCC509DA12D
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/ParameterEncoding.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/ParameterEncoding.swift
 $ss22_ContiguousArrayBufferV19_uninitializedCount15minimumCapacityAByxGSi_SitcfCSnySiG_Tgq5Tf4nnd_n
 $ss15ContiguousArrayVyAByxGqd__c7ElementQyd__RszSTRd__lufCSS_SD4KeysVySSyp_GTg5Tf4gd_n
 $sSD4KeysVyxq__GSTsST22_copyToContiguousArrays0dE0Vy7ElementQzGyFTWSS_ypTg5
@@ -2337,7 +2337,7 @@ _$s9Alamofire15DownloadRequestC12DownloadableON
 _$s9Alamofire11DataRequestC11RequestableVN
 _$s9Alamofire13StreamRequestC10StreamableON
 -private-discriminator _118BC03984F32CCF649653E95C325F63
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Request.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Request.swift
 $s9Alamofire13StreamRequestC10StreamableOMa
 $s9Alamofire13StreamRequestC10StreamableOwui
 $s9Alamofire13StreamRequestC10StreamableOwup
@@ -2745,7 +2745,7 @@ _$s9Alamofire8ResponseP8_metricsyXlSgvgTq
 _$s9Alamofire8ResponseP8_metricsyXlSgvsTq
 _$s9Alamofire8ResponseP8_metricsyXlSgvMTq
 _$s9Alamofire8ResponseP3addyyyXlSgFTq
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Response.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Response.swift
 __swift_instantiateGenericMetadata
 $s9Alamofire16DownloadResponseVwst
 $s9Alamofire16DownloadResponseVwet
@@ -3083,7 +3083,7 @@ _symbolic _____y16SerializedObject_____QzGz_x______RzlXX 9Alamofire12DataRespons
 _block_descriptor.166
 _block_descriptor.172
 -private-discriminator _39EEDF845955893097265C4B130CD574
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/ResponseSerialization.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/ResponseSerialization.swift
 $s9Alamofire23DefaultDownloadResponseVWOh
 $s9Alamofire15DownloadRequestC8response5queue17completionHandlerACXDSo012OS_dispatch_E0CSg_yAA07DefaultB8ResponseVctFyycfU_yycfU_TA
 $s9Alamofire15DownloadRequestC8response5queue0D10Serializer17completionHandlerACXDSo012OS_dispatch_E0CSg_xyAA0B8ResponseVy16SerializedObjectQzGctAA0bkF8ProtocolRzlFyycfU_yycfU_TA
@@ -3224,7 +3224,7 @@ _$s9Alamofire6ResultOMI
 _$s9Alamofire6ResultOMP
 _symbolic _____ 9Alamofire6ResultO
 _$s9Alamofire6ResultOMF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Result.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Result.swift
 $s9Alamofire6ResultOwui
 $s9Alamofire6ResultOwup
 $s9Alamofire6ResultOwug
@@ -3305,7 +3305,7 @@ _symbolic _____ySSG s11_SetStorageC
 _$ss11_SetStorageCySSGMD
 _objc_classes_$s9Alamofire24ServerTrustPolicyManagerCN
 -private-discriminator _5086B0E684B07FD2C061AC50FDA3F8DD
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/ServerTrustPolicy.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/ServerTrustPolicy.swift
 $sypSgWOb
 $s9Alamofire17ServerTrustPolicyOMa
 $s9Alamofire17ServerTrustPolicyOwui
@@ -4027,7 +4027,7 @@ _$s9Alamofire15SessionDelegateC8requestsSDySiAA7RequestCGvgTq
 _$s9Alamofire15SessionDelegateC8requestsSDySiAA7RequestCGvsTq
 _$s9Alamofire15SessionDelegateC8requestsSDySiAA7RequestCGvMTq
 -private-discriminator _C1429AFAFE992038BE684357B225C883
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/SessionDelegate.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/SessionDelegate.swift
 $sSo12NSURLRequestCSgIeyBy_10Foundation10URLRequestVSgIegn_TRTA
 $sSo36NSURLSessionAuthChallengeDispositionVSo15NSURLCredentialCSgIeyByy_AbEIegyg_TRTA
 $sSo13NSInputStreamCSgIeyBy_ACIegg_TRTA
@@ -4552,7 +4552,7 @@ _block_descriptor.77
 _objc_classes_$s9Alamofire14SessionManagerCN
 _$s9Alamofire14SessionManagerC5retryySbAA7RequestCFTq
 -private-discriminator _83E574FCF6E88D5939C6CCAC18E76758
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/SessionManager.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/SessionManager.swift
 $s9Alamofire14SessionManagerC10commonInit33_83E574FCF6E88D5939C6CCAC18E76758LL017serverTrustPolicyC0yAA06ServernoC0CSg_tFySo12NSURLSessionCcfU_TA.79
 $s9Alamofire14RequestAdapter_pSgWOh
 $s9Alamofire14SessionManagerC10commonInit33_83E574FCF6E88D5939C6CCAC18E76758LL017serverTrustPolicyC0yAA06ServernoC0CSg_tFySo12NSURLSessionCcfU_yyScMYccfU_TA
@@ -4926,7 +4926,7 @@ _$s9Alamofire18UploadTaskDelegateC10URLSession_4task15didSendBodyData14totalByte
 _$s9Alamofire18UploadTaskDelegateCN
 _OBJC_CLASS_$__TtC9Alamofire18UploadTaskDelegate
 -private-discriminator _882ADC2214AAA6CD531CE30210191C7B
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/TaskDelegate.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/TaskDelegate.swift
 $s9Alamofire20DownloadTaskDelegateC10urlSession_08downloadC012didWriteData17totalBytesWritten0kl10ExpectedToI0ySo12NSURLSessionC_So0pbC0Cs5Int64VA2NtFyycfU_TA
 $s9Alamofire20DownloadTaskDelegateC10urlSession_08downloadC012didWriteData17totalBytesWritten0kl10ExpectedToI0ySo12NSURLSessionC_So0pbC0Cs5Int64VA2NtFyycfU_
 $s10Foundation10URLRequestVSgWOd
@@ -4989,7 +4989,7 @@ _$s9Alamofire8TimelineVWV
 _$s9Alamofire8TimelineVMf
 _symbolic Sd
 _$s9Alamofire8TimelineVMF
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Timeline.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Timeline.swift
 $s9Alamofire8TimelineVMa
 $s9Alamofire8TimelineVwst
 $s9Alamofire8TimelineVwet
@@ -5059,7 +5059,7 @@ _symbolic _____Sg 10Foundation6LocaleV
 _$s10Foundation6LocaleVSgMD
 _$sS2sSysWL
 -private-discriminator _D31494FA2EF01BF9C61D2647648851CE
-/Users/joaoisento/Downloads/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Validation.swift
+/Users/joaoisento/Developer/telsel-tti2-ios/TTI2/Pods/Alamofire/Source/Validation.swift
 $s9Alamofire11DataRequestC8validate11contentTypeACXDx_tSTRzSS7ElementRtzlFAA0C0C16ValidationResultO10Foundation10URLRequestVSg_So17NSHTTPURLResponseCAL0B0VSgtcfU_SaySSG_TG5TA
 $s9Alamofire11DataRequestC8validate11contentTypeACXDx_tSTRzSS7ElementRtzlFAA0C0C16ValidationResultO10Foundation10URLRequestVSg_So17NSHTTPURLResponseCAL0B0VSgtcfU_SaySSG_TG5
 $s9Alamofire11DataRequestC8validate11contentTypeACXDx_tSTRzSS7ElementRtzlFAA0C0C16ValidationResultO10Foundation10URLRequestVSg_So17NSHTTPURLResponseCAL0B0VSgtcfU_SaySSG_Tg5

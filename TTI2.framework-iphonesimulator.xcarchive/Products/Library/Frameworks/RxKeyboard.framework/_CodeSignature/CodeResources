@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lNIhDrKgGc3F6F5IWuEXXeRQyis=
+		vWtfOkqMUMG38OlC8ABFviU3ecE=
 		</data>
 		<key>Modules/RxKeyboard.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/RxKeyboard.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bBKjCEy6BD7zrKFg/0YUIPef0Xs=
+		bi/t1Dlpp5uixEWMibD0xTBKGRI=
 		</data>
 		<key>Modules/RxKeyboard.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/RxKeyboard.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jaWALTdgahZs+91KRuNxWwUlcQk=
+		Uep6Z9kZzxIR1eA9lGxkW1crPqo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -79,7 +79,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TrT8YCwwyr0aMeAqwd7GHhKKKUTC9H0GiJXkShs3v4I=
+			29cACBMzl4ujfJqjX2gXZfrq/D04qsvnYv8vjSqsgdY=
 			</data>
 		</dict>
 		<key>Modules/RxKeyboard.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -100,7 +100,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OQNg0ZMOW9iKQIw5zjxKnotL6P4oI44hP9P+AuenCxk=
+			Ik+aOUtek5fK3rGnfjxI0tvC2UewjqDEnXULXzzeubg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

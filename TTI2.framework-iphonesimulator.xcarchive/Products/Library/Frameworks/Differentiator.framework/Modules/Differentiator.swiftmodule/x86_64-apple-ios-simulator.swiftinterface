@@ -26,13 +26,16 @@ extension Differentiator.AnimatableSectionModel : Swift.CustomStringConvertible 
     get
   }
 }
+extension Differentiator.AnimatableSectionModel : Swift.Equatable where Section : Swift.Equatable {
+  public static func == (lhs: Differentiator.AnimatableSectionModel<Section, ItemType>, rhs: Differentiator.AnimatableSectionModel<Section, ItemType>) -> Swift.Bool
+}
 public protocol AnimatableSectionModelType : Differentiator.IdentifiableType, Differentiator.SectionModelType where Self.Item : Differentiator.IdentifiableType, Self.Item : Swift.Equatable {
 }
-public struct Changeset<S> where S : Differentiator.SectionModelType {
-  public typealias I = S.Item
+public struct Changeset<Section> where Section : Differentiator.SectionModelType {
+  public typealias Item = Section.Item
   public let reloadData: Swift.Bool
-  public let originalSections: [S]
-  public let finalSections: [S]
+  public let originalSections: [Section]
+  public let finalSections: [Section]
   public let insertedSections: [Swift.Int]
   public let deletedSections: [Swift.Int]
   public let movedSections: [(from: Swift.Int, to: Swift.Int)]
@@ -41,7 +44,7 @@ public struct Changeset<S> where S : Differentiator.SectionModelType {
   public let deletedItems: [Differentiator.ItemPath]
   public let movedItems: [(from: Differentiator.ItemPath, to: Differentiator.ItemPath)]
   public let updatedItems: [Differentiator.ItemPath]
-  public static func initialValue(_ sections: [S]) -> Differentiator.Changeset<S>
+  public static func initialValue(_ sections: [Section]) -> Differentiator.Changeset<Section>
 }
 extension Differentiator.ItemPath : Swift.CustomDebugStringConvertible {
   public var debugDescription: Swift.String {
@@ -62,9 +65,7 @@ public enum Diff {
       get
     }
   }
-  public static func differencesForSectionedView<S>(initialSections: [S], finalSections: [S]) throws -> [Differentiator.Changeset<S>] where S : Differentiator.AnimatableSectionModelType
-  @available(*, deprecated, renamed: "differencesForSectionedView(initialSections:finalSections:)")
-  public static func differencesForSectionedView<S>(_ initialSections: [S], finalSections: [S]) throws -> [Differentiator.Changeset<S>] where S : Differentiator.AnimatableSectionModelType
+  public static func differencesForSectionedView<Section>(initialSections: [Section], finalSections: [Section]) throws -> [Differentiator.Changeset<Section>] where Section : Differentiator.AnimatableSectionModelType
 }
 public protocol IdentifiableType {
   associatedtype Identity : Swift.Hashable
@@ -97,10 +98,10 @@ extension Differentiator.ItemPath : Swift.Equatable {
 }
 public func == (lhs: Differentiator.ItemPath, rhs: Differentiator.ItemPath) -> Swift.Bool
 extension Differentiator.ItemPath : Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
   }
-  public func hash(into hasher: inout Swift.Hasher)
 }
 public struct SectionModel<Section, ItemType> {
   public var model: Section
@@ -121,6 +122,9 @@ extension Differentiator.SectionModel : Swift.CustomStringConvertible {
 }
 extension Differentiator.SectionModel {
   public init(original: Differentiator.SectionModel<Section, Differentiator.SectionModel<Section, ItemType>.Item>, items: [Differentiator.SectionModel<Section, ItemType>.Item])
+}
+extension Differentiator.SectionModel : Swift.Equatable where Section : Swift.Equatable, ItemType : Swift.Equatable {
+  public static func == (lhs: Differentiator.SectionModel<Section, ItemType>, rhs: Differentiator.SectionModel<Section, ItemType>) -> Swift.Bool
 }
 public protocol SectionModelType {
   associatedtype Item
