@@ -14,11 +14,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		mMZ0cmUKn6JOJkNQKRqcCtzuBgA=
+		5pk3BPjJU+7xZyNB4kaPP12wNZc=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
-		yFfB7IVYMceWp2u7PB2vQ3p9Xfg=
+		9G7/6Tklcz5Tdg178aH8Fmq8c1g=
 		</data>
 		<key>BaseBottomSheetView.nib</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>BoosterView.nib/objects-13.0+.nib</key>
 		<data>
-		iPF0OTTs/X8fFsz3WrtyMCHuXkA=
+		w95RddZSyJyn5pcwaaf8inAF5vU=
 		</data>
 		<key>BoosterView.nib/runtime.nib</key>
 		<data>
-		vhflkk6orFAMDY6dhiK2MDVw1fs=
+		Q759ew6vpWFpKBus37NKhhzQjGU=
 		</data>
 		<key>ClickView.nib</key>
 		<data>
@@ -46,11 +46,11 @@
 		</data>
 		<key>DestinationArrivalPopupView.nib/objects-13.0+.nib</key>
 		<data>
-		D63KjW4Xe2nWqRTJ6UTlB8Nv+fo=
+		q6Iow7ZNwqYy6prY1G29DKciDMQ=
 		</data>
 		<key>DestinationArrivalPopupView.nib/runtime.nib</key>
 		<data>
-		3RNFbLjXHq1Bt7L1fWKsRzgL70s=
+		S43HHz+v6hxFVjGeB9FA2Dz9wgs=
 		</data>
 		<key>DestinationsView.nib</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>HeaderTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		LYxwSkPsZOBssG1mdYXQdT/N60E=
+		w63YVnPZUbHN+94u/XnrhUF+8sk=
 		</data>
 		<key>HeaderTableViewCell.nib/runtime.nib</key>
 		<data>
-		7Vy4MXftJtBx4YI7vY8IdPDtFpc=
+		BrPg08eUatOurTVKaHvhe8/uxaQ=
 		</data>
 		<key>Headers/TTI2-Swift.h</key>
 		<data>
@@ -94,11 +94,11 @@
 		</data>
 		<key>HomeView.nib/objects-13.0+.nib</key>
 		<data>
-		e14NWLdHRsm+s3fy7Y8fjOj+BEY=
+		PvZOAohLVBkQGcVXPaabwutf4QI=
 		</data>
 		<key>HomeView.nib/runtime.nib</key>
 		<data>
-		5CBb0kOxvzNqrPpcWRwFWchVRNE=
+		q8lTvrg9QH1EduZfX3VnbqDf75c=
 		</data>
 		<key>IND.strings</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>MissionCell.nib/objects-13.0+.nib</key>
 		<data>
-		SKuHJXQb2GhBdbKo7ZWBVlARtMA=
+		xaRYm+Zq89Udw5Bu9OhyiIBnCWs=
 		</data>
 		<key>MissionCell.nib/runtime.nib</key>
 		<data>
-		/luGjRV03+Ico6UDghKHefMFx/Y=
+		P1TaujJMJH+LxWFwfrfgydDRnRU=
 		</data>
 		<key>MissionsListView.nib</key>
 		<data>
@@ -166,7 +166,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		p/ebDuxt8xnc69n+G/lNXEr6Dcg=
+		T/EwkLEID9Cj4ICnFSz0HQwQleM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -306,11 +306,11 @@
 		</data>
 		<key>QuizView.nib/objects-13.0+.nib</key>
 		<data>
-		hVbj0akOTRMc2ylEZRYlyu4mMx8=
+		mczWcKbFQSypzqaBJ8emM3xbuUc=
 		</data>
 		<key>QuizView.nib/runtime.nib</key>
 		<data>
-		slR5EV4hbJDn716XUX5mf5ANUT4=
+		I21eYOvUmWvVEt5cDrLK7WzVDAg=
 		</data>
 		<key>RewardsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -346,11 +346,11 @@
 		</data>
 		<key>SplashScreenView.nib/objects-13.0+.nib</key>
 		<data>
-		4wbdS2Kwi7FIz0oeh8nfKhdZNdM=
+		KNAiSZiZMsPx/zxpSOIb2OwYKc8=
 		</data>
 		<key>SplashScreenView.nib/runtime.nib</key>
 		<data>
-		NeyVdBYn+s3dOLkSFtkrI7QN//I=
+		5WJmfw24wOpLlwRsOkvx/vDM/aw=
 		</data>
 		<key>TelkomselBatikSans-Bold.otf</key>
 		<data>
@@ -408,13 +408,13 @@
 		<data>
 		Doqiet+3aYCA8zD7+WpHCtDTAcc=
 		</data>
-		<key>avatar_rig_design_v4_vector3.riv</key>
+		<key>avatar_male_design_v6.riv</key>
 		<data>
-		iyMnfPsgQZXPwH6BqMl4WGMJx5A=
+		2dfVn0tCJdRXHJ3o6GrWJPCXO3Q=
 		</data>
-		<key>avatar_rig_design_v4_vector4.riv</key>
+		<key>avatar_male_design_v8.6.riv</key>
 		<data>
-		iqUnMCl3acluALNUYQs1zsol8u4=
+		b8vPpBQANRuI44atac8eJC2gKM4=
 		</data>
 		<key>map_main_1904_0955.riv</key>
 		<data>
@@ -441,14 +441,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			tg7Q5B56PaEaT8JADP3ma1/fIQc0nkNJ35mCMOwDSc0=
+			OnM/Ca5pH5Fieho+Xe9CSYWCFYbBT7nVP61QxjWlVdk=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ft0On1qeR6E4HbynYIF6Xedzi57LB6WdAV1hK0uHdow=
+			V6oqKR+MIz3IxLnbUy8A1yq3jxThniy2WtHWi8mEuEw=
 			</data>
 		</dict>
 		<key>BaseBottomSheetView.nib</key>
@@ -462,14 +462,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZOFCIGsxwln39gETlSzY9B+yhPedxLxuwMEX4UvWGbU=
+			XFR6r3QmtTKCrhlqB3+S6+50qmwIzdkGFDSV0jij/7A=
 			</data>
 		</dict>
 		<key>BoosterView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9guEbYNwiqweu03OG86PrX7NCwshipgpTEqEXGUZJNo=
+			lz9ItcwxDV8bs32GR576V4cw2ryALNZwREDzSixX8oA=
 			</data>
 		</dict>
 		<key>ClickView.nib</key>
@@ -497,14 +497,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DZwWb2CC2PKXVcoE17lgAe4CHnswPrzBwcANz5dnf5Y=
+			CWYV3tkyOdCwRct2gfkXVl/j7FK2U6u4TYspY2bksA0=
 			</data>
 		</dict>
 		<key>DestinationArrivalPopupView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3LICVO+IbFSd0wQx1DdXnvPGtEZoDkYom9vmX7iigyg=
+			UoNG4GQoyZStqKiHAACDlEZIVjJW4xqfH9c61vT696Q=
 			</data>
 		</dict>
 		<key>DestinationsView.nib</key>
@@ -553,14 +553,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1n1RREWnc6lytQ+h0jQJQkz5oPNvU8JBwiGuAOepyr4=
+			HP9QbHFdwjykaGgsnXNOQ97KxlYVHOSegiFnd8XFyMw=
 			</data>
 		</dict>
 		<key>HeaderTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AgubcRzhVSQC/nqluUCr/l4MzPn+Xr2vP7FB7+H3OKU=
+			12anLR8hvAhCVi4VvwD9jVevMCFN7FD6padAkkDdyL0=
 			</data>
 		</dict>
 		<key>Headers/TTI2-Swift.h</key>
@@ -581,14 +581,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4g3GE/8UKma6iDSI3IW9A8EsKQNXr2JhnymmN/4ifkc=
+			tMRWleRuPwUbD+SDnqa5wn7fZPO6nUsHrq/i0gmdiu0=
 			</data>
 		</dict>
 		<key>HomeView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WnQ4og6ve4JlpWsGeneTs614ymhTPwHK7GPyEsEgo24=
+			ni2RhM3aYiTdR2GzECkILk842y4zWDnMCGn+zSZ2aow=
 			</data>
 		</dict>
 		<key>IND.strings</key>
@@ -665,14 +665,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oJFK1GQQYLb4/+bQlNtKn+GtoiTmE4GeytcnrJfcQGg=
+			xy/vRThLS/h5WAzTi3BnUpUruaKARYqzbPS5CPKJ/CY=
 			</data>
 		</dict>
 		<key>MissionCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fnr176GvxnkznGfZaKLCEKpI6VfYZ2LSA6kglnAcLeE=
+			94lDGcjcQr1wzY/PNLr9PnGcBksC9J8oxiW5+1R4UTk=
 			</data>
 		</dict>
 		<key>MissionsListView.nib</key>
@@ -700,7 +700,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+bMWMkhqJn2kfsCZIgJ6GMqS9e6MQdS0ixJusa5r2dQ=
+			y4yVXB/J0c3jCS0iBl23ywCe1kBwVuNDmuAalwK+nSU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -945,14 +945,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dTV1T+pKyBZrlCevVGd08/ma0E4y9lHUdirLFvk7lp4=
+			ULfkfKiqj4/oDg9NQ7n4XOhpoaoGmnPSpjgGU+0TCn4=
 			</data>
 		</dict>
 		<key>QuizView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YerWR8ec0eLEfLU35TmKnQRO4STTMH/fCOTEyNZ9dlg=
+			SWITcRZP6AwNnqcta/5Wy3uff5gMmZb/eE5qT6cZbtg=
 			</data>
 		</dict>
 		<key>RewardsTableViewCell.nib/objects-13.0+.nib</key>
@@ -1015,14 +1015,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zuRf0NrBY2q7oRY/oZEFbXtqRQa9mVwNI9Ah7YP0b4k=
+			L3kiJRQo6mZT1WCvPXQSYEWD+hWqgAhjqYFDx4ew+Oc=
 			</data>
 		</dict>
 		<key>SplashScreenView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			khNSFrpOsK6DrFGb2jBiSrPAsINgvreoCA0JgtPr+uU=
+			01QekEvmzbHuXZ7YNLtVTbc/i/DW7xu5CMehyX/jGEE=
 			</data>
 		</dict>
 		<key>TelkomselBatikSans-Bold.otf</key>
@@ -1123,18 +1123,18 @@
 			DxlgQv+NgeFokuGepwSiZ1csMEkHb24I/ENhacfo0rs=
 			</data>
 		</dict>
-		<key>avatar_rig_design_v4_vector3.riv</key>
+		<key>avatar_male_design_v6.riv</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4DxvzD2dCsJtjY6pe/bx+JumXsSNpdW1WX1tZINwYiU=
+			wM9NOo6xkLuHa8fq7C+lw57Js5OnYN+2n0SCMGyvdns=
 			</data>
 		</dict>
-		<key>avatar_rig_design_v4_vector4.riv</key>
+		<key>avatar_male_design_v8.6.riv</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z/ECwVz8iBXxkgOkgHKPi23ZXFfHKTY2l7gIz5JufAM=
+			Ifcs8k+x6tW8LOdIj0HCNluJiadTLgytzc1o0GR22as=
 			</data>
 		</dict>
 		<key>map_main_1904_0955.riv</key>
