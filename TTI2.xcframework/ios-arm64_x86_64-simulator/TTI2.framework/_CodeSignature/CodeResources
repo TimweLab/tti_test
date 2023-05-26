@@ -14,11 +14,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		OUysDYuhKH7COofiENaUbynJyC8=
+		Z6fzbrZ2PoJecnAWmt/9JfUeI8A=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
-		EX9UiRs4Wf7u2bHnantgVNr5iJw=
+		KUkskx9LD89t3a/gOBW+RgRsiWE=
 		</data>
 		<key>BaseBottomSheetView.nib</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>EN.strings</key>
 		<data>
-		Cu1k4Dm7P3MjAk4yqTOviHLl7bU=
+		EZgGHaOk3flWPKqPvLOupjWcaEE=
 		</data>
 		<key>EducationalCardView.nib</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>GenericSubsectionTableViewCell.nib</key>
 		<data>
-		TlnAJUM6TcqZZe+8j/hdZ09zV+Y=
+		/3BmO3dWMIumu866cSRPRElHHpg=
 		</data>
 		<key>HeaderTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>IDN.strings</key>
 		<data>
-		ElP5h+RMcBbEDnnUNn6RMFGScSE=
+		3C92l3Fs/JbHtYyGHe30ItvBopE=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -130,11 +130,11 @@
 		</data>
 		<key>IntermidiateCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		f+DbiQsOmZ6SVz9qfPej/TZcXRQ=
+		EMLRkrwApfy2vX5dAjNY7sw4UUo=
 		</data>
 		<key>IntermidiateCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		BlcXtmb/pig7Z7ZUi+Q8OA9j8R4=
+		9Fae/vum+CzQnuR5RnwQP2kaaxY=
 		</data>
 		<key>LeaderBoardTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -146,11 +146,11 @@
 		</data>
 		<key>LeaderBoardView.nib/objects-13.0+.nib</key>
 		<data>
-		bN6z0Hwt8mYG07cCEo1Vcz5B7Y0=
+		uGVAf7CYHiVGoAuhPMTnvT+9fss=
 		</data>
 		<key>LeaderBoardView.nib/runtime.nib</key>
 		<data>
-		mUKiMeQOy2n55WT2bNVaJ7KlWpw=
+		fdF3e/w/Sh7DLUnnYMsIL09k3bg=
 		</data>
 		<key>MainView.nib</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		f0JYUv9+FMcBziMm3OOftM4LNo0=
+		G2a3aUz0ErLj+kZBGosuqDnuhfs=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ctIIXY7Tr9AFgjzgw6Wq0qLT2pI=
+		Rg43Pl8r884N6/lm6s5bLKKbUnk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -198,7 +198,7 @@
 		</data>
 		<key>OnboardingView.nib</key>
 		<data>
-		OLIgXOfAMGgarOZzY23SvlIUN6s=
+		lDKn1Y6JIwTVzh6Q6pmuMZEV5X4=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -362,19 +362,19 @@
 		</data>
 		<key>SelectionCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		cIlwCkB+HV/SKP1OFKUt99uvLIU=
+		/qZbyUgqfdv+JrLSwTJH/WEkrpo=
 		</data>
 		<key>SelectionCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		GgiOOa3fqsIfh3B26GPx9GXfVb0=
+		mk6VTQCSilQy0JY1N5U8E/1XNIg=
 		</data>
 		<key>SplashScreenView.nib/objects-13.0+.nib</key>
 		<data>
-		KNAiSZiZMsPx/zxpSOIb2OwYKc8=
+		EzvPvWa7OIUAFz973S+o0F0ck5k=
 		</data>
 		<key>SplashScreenView.nib/runtime.nib</key>
 		<data>
-		5WJmfw24wOpLlwRsOkvx/vDM/aw=
+		cmONhtQ9nigLYE0AQgIOd+GcMC8=
 		</data>
 		<key>TelkomselBatikSans-Bold.otf</key>
 		<data>
@@ -432,9 +432,21 @@
 		<data>
 		Doqiet+3aYCA8zD7+WpHCtDTAcc=
 		</data>
+		<key>avatar_female_design_anim_vector.riv</key>
+		<data>
+		BNDv27YenZthKhaHo9aoUrVvSLQ=
+		</data>
+		<key>avatar_male_prod.riv</key>
+		<data>
+		yuKR8rFdRk5s3Gmz+1PfVcBZvJE=
+		</data>
 		<key>map_main_1904_0955.riv</key>
 		<data>
 		yrBLLfNAAJ5GNa9geKspSerxx0g=
+		</data>
+		<key>mixing_animations.riv</key>
+		<data>
+		QJWpWW0QHEGZ+gmw3A0uuj6HdSo=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -457,14 +469,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xPdH9Mh8uXEmz8NSxIMDfv8ZyHLaxSvmLxhlmuQ4L/w=
+			gU2VyysnLSekPlrv8Od/tI551aM2k4b3y9TczgyDcwY=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7IZwXmwSzmiaF73VGHqkNBoL6/g2+7HFY83TOpFULLE=
+			byc9yGGBlAqHO+0VeY00sK68JLSJR5jhmNM+9cJE4zI=
 			</data>
 		</dict>
 		<key>BaseBottomSheetView.nib</key>
@@ -548,7 +560,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gZzaH7DbY3JS4MPHGJvcawrwwAGreX2Jj0sLKep2c1k=
+			H3kD38j4ZQYKqBfzi3qLT1eEW5Oal4XbbSBW6ovdzr0=
 			</data>
 		</dict>
 		<key>EducationalCardView.nib</key>
@@ -583,7 +595,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rum9UFXEjVZU3/xdze0vjBNkto1YSg0TjMa+vmz/k74=
+			fXeiaNmxmUWqL/R+kUpW3/OaDsSV5jPWhXnFc25fLtQ=
 			</data>
 		</dict>
 		<key>HeaderTableViewCell.nib/objects-13.0+.nib</key>
@@ -632,7 +644,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XEHtLPqSHLwyPiNIqWAP+JAl+rG+6ShxVG0kPtBMTtU=
+			ax8IWQX2v1MUsnyJxSEzCi+C+wCAn/7Lkk3bOISLgF4=
 			</data>
 		</dict>
 		<key>InitialCollectionViewCell.nib/objects-12.3+.nib</key>
@@ -653,14 +665,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ICZJsWtWkptr1lbWDKS1bO/JMyRZyUZUuHiZGf6d9No=
+			7TN4ppH/nNupjQ6cZY7uPD6ynVHoo27zsvAsijd+8u8=
 			</data>
 		</dict>
 		<key>IntermidiateCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fhWdBG8Xky2Y7TocHyzIirJnveG+wcfHti775TSGqqY=
+			fMXD/o2GGPuAAdyUcPko8NQ7FqobWZRK4DD3HsU8jY4=
 			</data>
 		</dict>
 		<key>LeaderBoardTableViewCell.nib/objects-13.0+.nib</key>
@@ -681,14 +693,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MkQAvsZ1C4fm22Vm5IfTEyQyTxak0ibXeXnF5AQT3Lo=
+			xnGTfXnTw5I4BmA+X9/H0iejWUf7wMfcES3H3HZwUeA=
 			</data>
 		</dict>
 		<key>LeaderBoardView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JBnyl4kv2G89kZYfhnaU+fYww/ccfogED5FVYxc5izI=
+			EjIhLqkC+yHbN+kpFBfaRF1spUJhs1KbHFtJ6lFEHXU=
 			</data>
 		</dict>
 		<key>MainView.nib</key>
@@ -737,7 +749,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T0ZQ3DrxuUCw6Byqg8aTWPzG5EkZ9K7vmSz4UbZvXBQ=
+			GtgrYvNg86+uedA29s/8vKpz5ZQFKn9u7JERUeEbRQc=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -758,7 +770,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jscu0dL/uF97wH0bzBSJIftk6Yjr7v9E7/RYtRrUD2Y=
+			C3g+xvAjRCspGo9nIGD5BW6zL9zZsepz94OEQD15I4A=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -772,7 +784,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u4PVpcej7tqG8Q8B0kRsg7mmDgm50zUubFsfqf/wmIA=
+			++MYNNbLG+7zlJXtsZ1vexLZB8qDaMdOwTEZy0C+rXE=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
@@ -1059,28 +1071,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PFRG8vyARfIxHChw9+GbuefmWsgsrPRRNIrfkKEd7UQ=
+			YQ30/oHg1TP5zhYTrnGftE+v6SCCWRErPSNu24iy3hA=
 			</data>
 		</dict>
 		<key>SelectionCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2YcGWsfG9tGmE7sjNcNgofcAGfmOPoV2jYocqaL4wFo=
+			SsRbS7IoOd3bFSqnZG4aln+CFGvCeBZhRMtbL1f380A=
 			</data>
 		</dict>
 		<key>SplashScreenView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L3kiJRQo6mZT1WCvPXQSYEWD+hWqgAhjqYFDx4ew+Oc=
+			kVr4y6mpTSvkj73vdWTvTEIB/gzsSoyTfUPmECTDiDg=
 			</data>
 		</dict>
 		<key>SplashScreenView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			01QekEvmzbHuXZ7YNLtVTbc/i/DW7xu5CMehyX/jGEE=
+			oK/Ps1pjowR/AM9JMnZf2p9pjHP59pG5zkgTF/LXhDI=
 			</data>
 		</dict>
 		<key>TelkomselBatikSans-Bold.otf</key>
@@ -1181,11 +1193,32 @@
 			DxlgQv+NgeFokuGepwSiZ1csMEkHb24I/ENhacfo0rs=
 			</data>
 		</dict>
+		<key>avatar_female_design_anim_vector.riv</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			njZiSFHCXOcgrDZbIyQca0N915Vk+U1IKRstcUgU1Hc=
+			</data>
+		</dict>
+		<key>avatar_male_prod.riv</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			TQUrtvuLD5rZzVAQVt0XfBPJ2qy/buEtfPHf6YaIQSc=
+			</data>
+		</dict>
 		<key>map_main_1904_0955.riv</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			znbxHUpT7kZKMld/FGpmTeJ3/YstlVKvMDSEujA2yIE=
+			</data>
+		</dict>
+		<key>mixing_animations.riv</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			j+MUpKOj7+/tII5JLgxuq1tsda0qhz6M9Sjun18BvlU=
 			</data>
 		</dict>
 	</dict>
