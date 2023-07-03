@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		G78NLVCkhxrfBMpIwKZ/E3CP7Js=
+		UZ7pTWq9K72j5G9g7ZvQCdwR/sw=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>EN.strings</key>
 		<data>
-		KSONEpNI5n+Pnjwz0q8pdeaAosk=
+		6haz6otzpCBeG1svjgBqNXMgirU=
 		</data>
 		<key>EducationalCardView.nib</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>IDN.strings</key>
 		<data>
-		Z5CfHoa4vkY5BGnq1HMMHadbfM4=
+		RHs0uuhwG4+c+5Ds3piVrK6Mx8g=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		HTePq8MY03Zj+BK5Fj06iN1sHWA=
+		Ne/dxgNv68MxKNFehpiVzJZLo1c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -437,7 +437,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P6Xa1bY6DMaqMlYnij+tTzcBp27a685XCFk48Dz8N2M=
+			y3LJ4uFy+wXMchh+kKmh89JIE+1UmazJer16qslGlkQ=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
@@ -528,7 +528,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uJECFQvhu9W9Xb5UJ23BIpr0afyzEWGWt5Ao/84FM7w=
+			w8yQleD/eAiOnms7r7U7p4uLAMzfperD+J9AcIvtieI=
 			</data>
 		</dict>
 		<key>EducationalCardView.nib</key>
@@ -612,7 +612,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GH4qlD94ZbLen7RABMMN6Ot/WMl07PTAWXlPIzZzOK0=
+			LOOTzvRzHac0vF69jXFioYy/KUWAzzegSSRlZGpZKWg=
 			</data>
 		</dict>
 		<key>InitialCollectionViewCell.nib/objects-12.3+.nib</key>
@@ -717,7 +717,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			aaZrWH+emxjIpkQ8KO+eXUMfN4/N6JlOMS1UTS/i+6I=
+			qH4ICmfPe2Owb6pXoNrJEasl28bIbS1jAIGJI6bTBrA=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
