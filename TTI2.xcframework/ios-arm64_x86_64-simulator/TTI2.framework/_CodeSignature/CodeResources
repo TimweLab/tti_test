@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		3sa+vIskJojgmG3rChPGv320Osk=
+		b7xBFLvuw/884MO5QEOsVUvBWCs=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>EN.strings</key>
 		<data>
-		uUrJYUGyHohX2r7j0nnDRjgBvYo=
+		DI7jerGlpCIOGOvfg9lNQXfX0J4=
 		</data>
 		<key>EducationalCardView.nib</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>IDN.strings</key>
 		<data>
-		S+vPx9S2pxxi8Gdb166FkP5pVb0=
+		SPisAD9z/k7L0NamjK8nUi3CIjg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -178,7 +178,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fjZoSWKAggqERgRv78mrWEBWe0U=
+		XeIDHknsxhIiUMlwYmUREHX9dVE=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -190,7 +190,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cVewYHZOYM7Ttj5zcUxD0jl9yVw=
+		iFWp04JEW1b/SpJsc6ZzCqGoWaI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -314,7 +314,7 @@
 		</data>
 		<key>ProgressView.nib</key>
 		<data>
-		a717zDI/LCygRFhfdXVl/BJ+n80=
+		NxjXX319HkMxIDyIjihE3Ptj+hc=
 		</data>
 		<key>QuestionQuizCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -449,7 +449,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			yFit2osKO2K/i/DPiXQMVQxxRiB6bUbHBlUBmmU2+Pw=
+			mzJ9XaUwhvbt1Y1ZSlYOQs3hbiCBl1XuagD669jhSoA=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
@@ -540,7 +540,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TgCyhfKHRGVZU0QMks8ElNP/qTKTH+EB86XUVwlmeig=
+			JtDHi/m3Xzq48P1TGn2IV+swI8YQSvRSNWlQ5sfT7aI=
 			</data>
 		</dict>
 		<key>EducationalCardView.nib</key>
@@ -624,7 +624,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jhRB8tV3cpBbTPJdnnZuA3z0N8sKf5uU5f/t9oBTi5s=
+			E8bhNOCmZRrMQtH2LnU3t3hRfVBHSDRYDJV/FgkMECE=
 			</data>
 		</dict>
 		<key>InitialCollectionViewCell.nib/objects-12.3+.nib</key>
@@ -729,7 +729,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			De+VX5LiB1anbbNT6POSpNKVkn/RduSfXvJbPCTlQVo=
+			fSA9tRn8V5HG9Z5Boj8vbDZ7KKesMqysLC+EN31m+mg=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -750,7 +750,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RZNIQFNv2e3sYp8XZVc6rLpXlOnwcK0GqcYIJYSsoM0=
+			Xe4pk5oFBfdJ+cPovKGL39FfqbUzemBKAoEyvdOh1B8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -967,7 +967,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1aOQTzTxxg/t9foMEVuXJkv8gwVg/prWhm48fqFW/gY=
+			mWlIE4qMx8dEyvEDbIoectQ4hFO8TURhQGOiynJTo0c=
 			</data>
 		</dict>
 		<key>QuestionQuizCollectionViewCell.nib/objects-12.3+.nib</key>
