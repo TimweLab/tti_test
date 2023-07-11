@@ -240,11 +240,11 @@ SWIFT_CLASS("_TtC6Lottie15AnimatedControl")
 @property (nonatomic, getter=isEnabled) BOOL enabled;
 @property (nonatomic, getter=isSelected) BOOL selected;
 @property (nonatomic, getter=isHighlighted) BOOL highlighted;
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (BOOL)beginTrackingWithTouch:(UITouch * _Nonnull)touch withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)continueTrackingWithTouch:(UITouch * _Nonnull)touch withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 - (void)endTrackingWithTouch:(UITouch * _Nullable)touch withEvent:(UIEvent * _Nullable)event;
 - (void)cancelTrackingWithEvent:(UIEvent * _Nullable)event;
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -256,6 +256,7 @@ SWIFT_CLASS("_TtC6Lottie14AnimatedButton")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (BOOL)beginTrackingWithTouch:(UITouch * _Nonnull)touch withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 - (void)endTrackingWithTouch:(UITouch * _Nullable)touch withEvent:(UIEvent * _Nullable)event;
+@property (nonatomic) UIAccessibilityTraits accessibilityTraits;
 @end
 
 
@@ -268,6 +269,7 @@ SWIFT_CLASS("_TtC6Lottie14AnimatedSwitch")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)endTrackingWithTouch:(UITouch * _Nullable)touch withEvent:(UIEvent * _Nullable)event;
+@property (nonatomic) UIAccessibilityTraits accessibilityTraits;
 @end
 
 
@@ -279,24 +281,23 @@ SWIFT_CLASS("_TtC6Lottie16AnimationSubview")
 @end
 
 
-SWIFT_CLASS("_TtC6Lottie10LottieView")
-@interface LottieView : UIView
-- (void)didMoveToWindow;
-@property (nonatomic) UIViewContentMode contentMode;
-- (void)layoutSubviews;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
-IB_DESIGNABLE
-SWIFT_CLASS("_TtC6Lottie13AnimationView")
-@interface AnimationView : LottieView
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
-@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -308,7 +309,7 @@ SWIFT_CLASS("_TtC6Lottie13AnimationView")
 /// Use in tandem with CompatibleAnimationView when using Lottie in Objective-C
 SWIFT_CLASS("_TtC6Lottie19CompatibleAnimation")
 @interface CompatibleAnimation : NSObject
-- (nonnull instancetype)initWithName:(NSString * _Nonnull)name bundle:(NSBundle * _Nonnull)bundle OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithName:(NSString * _Nonnull)name subdirectory:(NSString * _Nullable)subdirectory bundle:(NSBundle * _Nonnull)bundle OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -325,18 +326,43 @@ SWIFT_CLASS("_TtC6Lottie26CompatibleAnimationKeypath")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+enum CompatibleRenderingEngineOption : NSInteger;
+@class NSURL;
+@class NSData;
+@class CompatibleDictionaryTextProvider;
+enum CompatibleBackgroundBehavior : NSInteger;
 @class UIColor;
 
-/// An Objective-C compatible wrapper around Lottie’s AnimationView.
+/// An Objective-C compatible wrapper around Lottie’s LottieAnimationView.
 SWIFT_CLASS("_TtC6Lottie23CompatibleAnimationView")
 @interface CompatibleAnimationView : UIView
+/// Initializes a compatible AnimationView with a given compatible animation. Defaults to using
+/// the rendering engine specified in LottieConfiguration.shared.
+- (nonnull instancetype)initWithCompatibleAnimation:(CompatibleAnimation * _Nonnull)compatibleAnimation;
+/// Initializes a compatible AnimationView with a given compatible animation and rendering engine
+/// configuration.
+- (nonnull instancetype)initWithCompatibleAnimation:(CompatibleAnimation * _Nonnull)compatibleAnimation compatibleRenderingEngineOption:(enum CompatibleRenderingEngineOption)compatibleRenderingEngineOption OBJC_DESIGNATED_INITIALIZER;
+/// Initializes a compatible AnimationView with the resources asynchronously loaded from a given
+/// URL. Defaults to using the rendering engine specified in LottieConfiguration.shared.
+- (nonnull instancetype)initWithUrl:(NSURL * _Nonnull)url;
+/// Initializes a compatible AnimationView with the resources asynchronously loaded from a given
+/// URL using the given rendering engine configuration.
+- (nonnull instancetype)initWithUrl:(NSURL * _Nonnull)url compatibleRenderingEngineOption:(enum CompatibleRenderingEngineOption)compatibleRenderingEngineOption OBJC_DESIGNATED_INITIALIZER;
+/// Initializes a compatible AnimationView from a given Data object specifying the Lottie
+/// animation. Defaults to using the rendering engine specified in LottieConfiguration.shared.
+- (nonnull instancetype)initWithData:(NSData * _Nonnull)data;
+/// Initializes a compatible AnimationView from a given Data object specifying the Lottie
+/// animation using the given rendering engine configuration.
+- (nonnull instancetype)initWithData:(NSData * _Nonnull)data compatibleRenderingEngineOption:(enum CompatibleRenderingEngineOption)compatibleRenderingEngineOption OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ SWIFT_UNAVAILABLE;
 @property (nonatomic, strong) CompatibleAnimation * _Nullable compatibleAnimation;
 @property (nonatomic) CGFloat loopAnimationCount;
+@property (nonatomic, strong) CompatibleDictionaryTextProvider * _Nullable compatibleDictionaryTextProvider;
 @property (nonatomic) UIViewContentMode contentMode;
 @property (nonatomic) BOOL shouldRasterizeWhenIdle;
 @property (nonatomic) CGFloat currentProgress;
+@property (nonatomic, readonly) CGFloat duration;
 @property (nonatomic) NSTimeInterval currentTime;
 @property (nonatomic) CGFloat currentFrame;
 @property (nonatomic, readonly) CGFloat realtimeAnimationFrame;
@@ -344,11 +370,19 @@ SWIFT_CLASS("_TtC6Lottie23CompatibleAnimationView")
 @property (nonatomic) CGFloat animationSpeed;
 @property (nonatomic) BOOL respectAnimationFrameRate;
 @property (nonatomic, readonly) BOOL isAnimationPlaying;
+@property (nonatomic) enum CompatibleBackgroundBehavior backgroundMode;
 - (void)play;
 - (void)playWithCompletion:(void (^ _Nullable)(BOOL))completion;
+/// Note: When calling this code from Objective-C, the method signature is
+/// playFromProgress:toProgress:completion which drops the standard “With” naming convention.
 - (void)playFromProgress:(CGFloat)fromProgress toProgress:(CGFloat)toProgress completion:(void (^ _Nullable)(BOOL))completion;
+/// Note: When calling this code from Objective-C, the method signature is
+/// playFromFrame:toFrame:completion which drops the standard “With” naming convention.
 - (void)playFromFrame:(CGFloat)fromFrame toFrame:(CGFloat)toFrame completion:(void (^ _Nullable)(BOOL))completion;
+/// Note: When calling this code from Objective-C, the method signature is
+/// playFromMarker:toMarker:completion which drops the standard “With” naming convention.
 - (void)playFromMarker:(NSString * _Nonnull)fromMarker toMarker:(NSString * _Nonnull)toMarker completion:(void (^ _Nullable)(BOOL))completion;
+- (void)playWithMarker:(NSString * _Nonnull)marker completion:(void (^ _Nullable)(BOOL))completion;
 - (void)stop;
 - (void)pause;
 - (void)reloadImages;
@@ -362,7 +396,91 @@ SWIFT_CLASS("_TtC6Lottie23CompatibleAnimationView")
 - (CGPoint)convertWithPoint:(CGPoint)point toLayerAt:(CompatibleAnimationKeypath * _Nullable)keypath SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)progressTimeForMarker:(NSString * _Nonnull)named SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)frameTimeForMarker:(NSString * _Nonnull)named SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)durationFrameTimeForMarker:(NSString * _Nonnull)named SWIFT_WARN_UNUSED_RESULT;
 @end
+
+/// An Objective-C compatible version of <code>LottieBackgroundBehavior</code>.
+typedef SWIFT_ENUM(NSInteger, CompatibleBackgroundBehavior, open) {
+/// Stop the animation and reset it to the beginning of its current play time. The completion block is called.
+  CompatibleBackgroundBehaviorStop = 0,
+/// Pause the animation in its current state. The completion block is called.
+  CompatibleBackgroundBehaviorPause = 1,
+/// Pause the animation and restart it when the application moves to the foreground.
+/// The completion block is stored and called when the animation completes.
+/// <ul>
+///   <li>
+///     This is the default when using the Main Thread rendering engine.
+///   </li>
+/// </ul>
+  CompatibleBackgroundBehaviorPauseAndRestore = 2,
+/// Stops the animation and sets it to the end of its current play time. The completion block is called.
+  CompatibleBackgroundBehaviorForceFinish = 3,
+/// The animation continues playing in the background.
+/// <ul>
+///   <li>
+///     This is the default when using the Core Animation rendering engine.
+///     Playing an animation using the Core Animation engine doesn’t come with any CPU overhead,
+///     so using <code>.continuePlaying</code> avoids the need to stop and then resume the animation
+///     (which does come with some CPU overhead).
+///   </li>
+///   <li>
+///     This mode should not be used with the Main Thread rendering engine.
+///   </li>
+/// </ul>
+  CompatibleBackgroundBehaviorContinuePlaying = 4,
+};
+
+
+/// An Objective-C compatible wrapper around Lottie’s DictionaryTextProvider.
+/// Use in tandem with CompatibleAnimationView to supply text to LottieAnimationView
+/// when using Lottie in Objective-C.
+SWIFT_CLASS("_TtC6Lottie32CompatibleDictionaryTextProvider")
+@interface CompatibleDictionaryTextProvider : NSObject
+- (nonnull instancetype)initWithValues:(NSDictionary<NSString *, NSString *> * _Nonnull)values OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+/// An Objective-C compatible wrapper around Lottie’s RenderingEngineOption enum. Pass in an option
+/// to the CompatibleAnimationView initializers to configure the rendering engine for the view.
+typedef SWIFT_ENUM(NSInteger, CompatibleRenderingEngineOption, open) {
+/// Uses the rendering engine specified in LottieConfiguration.shared.
+  CompatibleRenderingEngineOptionShared = 0,
+/// Uses the library default rendering engine, coreAnimation.
+  CompatibleRenderingEngineOptionDefaultEngine = 1,
+/// Optimizes rendering performance by using the Core Animation rendering engine for animations it
+/// can render while falling back to the main thread renderer for all other animations.
+  CompatibleRenderingEngineOptionAutomatic = 2,
+/// Only renders animations using the main thread rendering engine.
+  CompatibleRenderingEngineOptionMainThread = 3,
+/// Only renders animations using the Core Animation rendering engine. Those animations that use
+/// features not yet supported on this renderer will not be rendered.
+  CompatibleRenderingEngineOptionCoreAnimation = 4,
+};
+
+
+
+
+/// The base view for <code>LottieAnimationView</code> on iOS, tvOS, watchOS, and macCatalyst.
+/// Enables the <code>LottieAnimationView</code> implementation to be shared across platforms.
+SWIFT_CLASS("_TtC6Lottie23LottieAnimationViewBase")
+@interface LottieAnimationViewBase : UIView
+@property (nonatomic) UIViewContentMode contentMode;
+- (void)didMoveToWindow;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC6Lottie19LottieAnimationView")
+@interface LottieAnimationView : LottieAnimationViewBase
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
+@end
+
 
 
 
@@ -613,11 +731,11 @@ SWIFT_CLASS("_TtC6Lottie15AnimatedControl")
 @property (nonatomic, getter=isEnabled) BOOL enabled;
 @property (nonatomic, getter=isSelected) BOOL selected;
 @property (nonatomic, getter=isHighlighted) BOOL highlighted;
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (BOOL)beginTrackingWithTouch:(UITouch * _Nonnull)touch withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)continueTrackingWithTouch:(UITouch * _Nonnull)touch withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 - (void)endTrackingWithTouch:(UITouch * _Nullable)touch withEvent:(UIEvent * _Nullable)event;
 - (void)cancelTrackingWithEvent:(UIEvent * _Nullable)event;
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
@@ -629,6 +747,7 @@ SWIFT_CLASS("_TtC6Lottie14AnimatedButton")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (BOOL)beginTrackingWithTouch:(UITouch * _Nonnull)touch withEvent:(UIEvent * _Nullable)event SWIFT_WARN_UNUSED_RESULT;
 - (void)endTrackingWithTouch:(UITouch * _Nullable)touch withEvent:(UIEvent * _Nullable)event;
+@property (nonatomic) UIAccessibilityTraits accessibilityTraits;
 @end
 
 
@@ -641,6 +760,7 @@ SWIFT_CLASS("_TtC6Lottie14AnimatedSwitch")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 - (void)endTrackingWithTouch:(UITouch * _Nullable)touch withEvent:(UIEvent * _Nullable)event;
+@property (nonatomic) UIAccessibilityTraits accessibilityTraits;
 @end
 
 
@@ -652,24 +772,23 @@ SWIFT_CLASS("_TtC6Lottie16AnimationSubview")
 @end
 
 
-SWIFT_CLASS("_TtC6Lottie10LottieView")
-@interface LottieView : UIView
-- (void)didMoveToWindow;
-@property (nonatomic) UIViewContentMode contentMode;
-- (void)layoutSubviews;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
-@end
 
 
-IB_DESIGNABLE
-SWIFT_CLASS("_TtC6Lottie13AnimationView")
-@interface AnimationView : LottieView
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@property (nonatomic, readonly) CGSize intrinsicContentSize;
-@end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -681,7 +800,7 @@ SWIFT_CLASS("_TtC6Lottie13AnimationView")
 /// Use in tandem with CompatibleAnimationView when using Lottie in Objective-C
 SWIFT_CLASS("_TtC6Lottie19CompatibleAnimation")
 @interface CompatibleAnimation : NSObject
-- (nonnull instancetype)initWithName:(NSString * _Nonnull)name bundle:(NSBundle * _Nonnull)bundle OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithName:(NSString * _Nonnull)name subdirectory:(NSString * _Nullable)subdirectory bundle:(NSBundle * _Nonnull)bundle OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -698,18 +817,43 @@ SWIFT_CLASS("_TtC6Lottie26CompatibleAnimationKeypath")
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+enum CompatibleRenderingEngineOption : NSInteger;
+@class NSURL;
+@class NSData;
+@class CompatibleDictionaryTextProvider;
+enum CompatibleBackgroundBehavior : NSInteger;
 @class UIColor;
 
-/// An Objective-C compatible wrapper around Lottie’s AnimationView.
+/// An Objective-C compatible wrapper around Lottie’s LottieAnimationView.
 SWIFT_CLASS("_TtC6Lottie23CompatibleAnimationView")
 @interface CompatibleAnimationView : UIView
+/// Initializes a compatible AnimationView with a given compatible animation. Defaults to using
+/// the rendering engine specified in LottieConfiguration.shared.
+- (nonnull instancetype)initWithCompatibleAnimation:(CompatibleAnimation * _Nonnull)compatibleAnimation;
+/// Initializes a compatible AnimationView with a given compatible animation and rendering engine
+/// configuration.
+- (nonnull instancetype)initWithCompatibleAnimation:(CompatibleAnimation * _Nonnull)compatibleAnimation compatibleRenderingEngineOption:(enum CompatibleRenderingEngineOption)compatibleRenderingEngineOption OBJC_DESIGNATED_INITIALIZER;
+/// Initializes a compatible AnimationView with the resources asynchronously loaded from a given
+/// URL. Defaults to using the rendering engine specified in LottieConfiguration.shared.
+- (nonnull instancetype)initWithUrl:(NSURL * _Nonnull)url;
+/// Initializes a compatible AnimationView with the resources asynchronously loaded from a given
+/// URL using the given rendering engine configuration.
+- (nonnull instancetype)initWithUrl:(NSURL * _Nonnull)url compatibleRenderingEngineOption:(enum CompatibleRenderingEngineOption)compatibleRenderingEngineOption OBJC_DESIGNATED_INITIALIZER;
+/// Initializes a compatible AnimationView from a given Data object specifying the Lottie
+/// animation. Defaults to using the rendering engine specified in LottieConfiguration.shared.
+- (nonnull instancetype)initWithData:(NSData * _Nonnull)data;
+/// Initializes a compatible AnimationView from a given Data object specifying the Lottie
+/// animation using the given rendering engine configuration.
+- (nonnull instancetype)initWithData:(NSData * _Nonnull)data compatibleRenderingEngineOption:(enum CompatibleRenderingEngineOption)compatibleRenderingEngineOption OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)_ SWIFT_UNAVAILABLE;
 @property (nonatomic, strong) CompatibleAnimation * _Nullable compatibleAnimation;
 @property (nonatomic) CGFloat loopAnimationCount;
+@property (nonatomic, strong) CompatibleDictionaryTextProvider * _Nullable compatibleDictionaryTextProvider;
 @property (nonatomic) UIViewContentMode contentMode;
 @property (nonatomic) BOOL shouldRasterizeWhenIdle;
 @property (nonatomic) CGFloat currentProgress;
+@property (nonatomic, readonly) CGFloat duration;
 @property (nonatomic) NSTimeInterval currentTime;
 @property (nonatomic) CGFloat currentFrame;
 @property (nonatomic, readonly) CGFloat realtimeAnimationFrame;
@@ -717,11 +861,19 @@ SWIFT_CLASS("_TtC6Lottie23CompatibleAnimationView")
 @property (nonatomic) CGFloat animationSpeed;
 @property (nonatomic) BOOL respectAnimationFrameRate;
 @property (nonatomic, readonly) BOOL isAnimationPlaying;
+@property (nonatomic) enum CompatibleBackgroundBehavior backgroundMode;
 - (void)play;
 - (void)playWithCompletion:(void (^ _Nullable)(BOOL))completion;
+/// Note: When calling this code from Objective-C, the method signature is
+/// playFromProgress:toProgress:completion which drops the standard “With” naming convention.
 - (void)playFromProgress:(CGFloat)fromProgress toProgress:(CGFloat)toProgress completion:(void (^ _Nullable)(BOOL))completion;
+/// Note: When calling this code from Objective-C, the method signature is
+/// playFromFrame:toFrame:completion which drops the standard “With” naming convention.
 - (void)playFromFrame:(CGFloat)fromFrame toFrame:(CGFloat)toFrame completion:(void (^ _Nullable)(BOOL))completion;
+/// Note: When calling this code from Objective-C, the method signature is
+/// playFromMarker:toMarker:completion which drops the standard “With” naming convention.
 - (void)playFromMarker:(NSString * _Nonnull)fromMarker toMarker:(NSString * _Nonnull)toMarker completion:(void (^ _Nullable)(BOOL))completion;
+- (void)playWithMarker:(NSString * _Nonnull)marker completion:(void (^ _Nullable)(BOOL))completion;
 - (void)stop;
 - (void)pause;
 - (void)reloadImages;
@@ -735,7 +887,91 @@ SWIFT_CLASS("_TtC6Lottie23CompatibleAnimationView")
 - (CGPoint)convertWithPoint:(CGPoint)point toLayerAt:(CompatibleAnimationKeypath * _Nullable)keypath SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)progressTimeForMarker:(NSString * _Nonnull)named SWIFT_WARN_UNUSED_RESULT;
 - (CGFloat)frameTimeForMarker:(NSString * _Nonnull)named SWIFT_WARN_UNUSED_RESULT;
+- (CGFloat)durationFrameTimeForMarker:(NSString * _Nonnull)named SWIFT_WARN_UNUSED_RESULT;
 @end
+
+/// An Objective-C compatible version of <code>LottieBackgroundBehavior</code>.
+typedef SWIFT_ENUM(NSInteger, CompatibleBackgroundBehavior, open) {
+/// Stop the animation and reset it to the beginning of its current play time. The completion block is called.
+  CompatibleBackgroundBehaviorStop = 0,
+/// Pause the animation in its current state. The completion block is called.
+  CompatibleBackgroundBehaviorPause = 1,
+/// Pause the animation and restart it when the application moves to the foreground.
+/// The completion block is stored and called when the animation completes.
+/// <ul>
+///   <li>
+///     This is the default when using the Main Thread rendering engine.
+///   </li>
+/// </ul>
+  CompatibleBackgroundBehaviorPauseAndRestore = 2,
+/// Stops the animation and sets it to the end of its current play time. The completion block is called.
+  CompatibleBackgroundBehaviorForceFinish = 3,
+/// The animation continues playing in the background.
+/// <ul>
+///   <li>
+///     This is the default when using the Core Animation rendering engine.
+///     Playing an animation using the Core Animation engine doesn’t come with any CPU overhead,
+///     so using <code>.continuePlaying</code> avoids the need to stop and then resume the animation
+///     (which does come with some CPU overhead).
+///   </li>
+///   <li>
+///     This mode should not be used with the Main Thread rendering engine.
+///   </li>
+/// </ul>
+  CompatibleBackgroundBehaviorContinuePlaying = 4,
+};
+
+
+/// An Objective-C compatible wrapper around Lottie’s DictionaryTextProvider.
+/// Use in tandem with CompatibleAnimationView to supply text to LottieAnimationView
+/// when using Lottie in Objective-C.
+SWIFT_CLASS("_TtC6Lottie32CompatibleDictionaryTextProvider")
+@interface CompatibleDictionaryTextProvider : NSObject
+- (nonnull instancetype)initWithValues:(NSDictionary<NSString *, NSString *> * _Nonnull)values OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+/// An Objective-C compatible wrapper around Lottie’s RenderingEngineOption enum. Pass in an option
+/// to the CompatibleAnimationView initializers to configure the rendering engine for the view.
+typedef SWIFT_ENUM(NSInteger, CompatibleRenderingEngineOption, open) {
+/// Uses the rendering engine specified in LottieConfiguration.shared.
+  CompatibleRenderingEngineOptionShared = 0,
+/// Uses the library default rendering engine, coreAnimation.
+  CompatibleRenderingEngineOptionDefaultEngine = 1,
+/// Optimizes rendering performance by using the Core Animation rendering engine for animations it
+/// can render while falling back to the main thread renderer for all other animations.
+  CompatibleRenderingEngineOptionAutomatic = 2,
+/// Only renders animations using the main thread rendering engine.
+  CompatibleRenderingEngineOptionMainThread = 3,
+/// Only renders animations using the Core Animation rendering engine. Those animations that use
+/// features not yet supported on this renderer will not be rendered.
+  CompatibleRenderingEngineOptionCoreAnimation = 4,
+};
+
+
+
+
+/// The base view for <code>LottieAnimationView</code> on iOS, tvOS, watchOS, and macCatalyst.
+/// Enables the <code>LottieAnimationView</code> implementation to be shared across platforms.
+SWIFT_CLASS("_TtC6Lottie23LottieAnimationViewBase")
+@interface LottieAnimationViewBase : UIView
+@property (nonatomic) UIViewContentMode contentMode;
+- (void)didMoveToWindow;
+- (void)layoutSubviews;
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+IB_DESIGNABLE
+SWIFT_CLASS("_TtC6Lottie19LottieAnimationView")
+@interface LottieAnimationView : LottieAnimationViewBase
+- (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@property (nonatomic, readonly) CGSize intrinsicContentSize;
+@end
+
 
 
 
