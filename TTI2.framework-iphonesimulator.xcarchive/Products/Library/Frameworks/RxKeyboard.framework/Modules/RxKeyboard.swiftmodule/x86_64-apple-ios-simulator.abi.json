@@ -1,0 +1,864 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "RxKeyboard"
+      },
+      {
+        "kind": "Import",
+        "name": "RxCocoa",
+        "printedName": "RxCocoa",
+        "declKind": "Import",
+        "moduleName": "RxKeyboard"
+      },
+      {
+        "kind": "Import",
+        "name": "RxSwift",
+        "printedName": "RxSwift",
+        "declKind": "Import",
+        "moduleName": "RxKeyboard"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RxKeyboardType",
+        "printedName": "RxKeyboardType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "frame",
+            "printedName": "frame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SharedSequence",
+                "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreFoundation.CGRect>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriverSharingStrategy",
+                    "printedName": "RxCocoa.DriverSharingStrategy",
+                    "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "usr": "s:7RxCocoa14SharedSequenceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RxKeyboard0aB4TypeP5frame0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyVSo6CGRectVGvp",
+            "mangledName": "$s10RxKeyboard0aB4TypeP5frame0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyVSo6CGRectVGvp",
+            "moduleName": "RxKeyboard",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSequence",
+                    "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreFoundation.CGRect>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DriverSharingStrategy",
+                        "printedName": "RxCocoa.DriverSharingStrategy",
+                        "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGRect",
+                        "printedName": "CoreFoundation.CGRect",
+                        "usr": "c:@S@CGRect"
+                      }
+                    ],
+                    "usr": "s:7RxCocoa14SharedSequenceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RxKeyboard0aB4TypeP5frame0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyVSo6CGRectVGvg",
+                "mangledName": "$s10RxKeyboard0aB4TypeP5frame0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyVSo6CGRectVGvg",
+                "moduleName": "RxKeyboard",
+                "genericSig": "<τ_0_0 where τ_0_0 : RxKeyboard.RxKeyboardType>",
+                "sugared_genericSig": "<Self where Self : RxKeyboard.RxKeyboardType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "visibleHeight",
+            "printedName": "visibleHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SharedSequence",
+                "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreGraphics.CGFloat>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriverSharingStrategy",
+                    "printedName": "RxCocoa.DriverSharingStrategy",
+                    "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:7RxCocoa14SharedSequenceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RxKeyboard0aB4TypeP13visibleHeight0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyV14CoreFoundation7CGFloatVGvp",
+            "mangledName": "$s10RxKeyboard0aB4TypeP13visibleHeight0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyV12CoreGraphics7CGFloatVGvp",
+            "moduleName": "RxKeyboard",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSequence",
+                    "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DriverSharingStrategy",
+                        "printedName": "RxCocoa.DriverSharingStrategy",
+                        "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7RxCocoa14SharedSequenceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RxKeyboard0aB4TypeP13visibleHeight0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyV14CoreFoundation7CGFloatVGvg",
+                "mangledName": "$s10RxKeyboard0aB4TypeP13visibleHeight0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyV12CoreGraphics7CGFloatVGvg",
+                "moduleName": "RxKeyboard",
+                "genericSig": "<τ_0_0 where τ_0_0 : RxKeyboard.RxKeyboardType>",
+                "sugared_genericSig": "<Self where Self : RxKeyboard.RxKeyboardType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "willShowVisibleHeight",
+            "printedName": "willShowVisibleHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SharedSequence",
+                "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreGraphics.CGFloat>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriverSharingStrategy",
+                    "printedName": "RxCocoa.DriverSharingStrategy",
+                    "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:7RxCocoa14SharedSequenceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RxKeyboard0aB4TypeP21willShowVisibleHeight0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyV14CoreFoundation7CGFloatVGvp",
+            "mangledName": "$s10RxKeyboard0aB4TypeP21willShowVisibleHeight0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyV12CoreGraphics7CGFloatVGvp",
+            "moduleName": "RxKeyboard",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSequence",
+                    "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DriverSharingStrategy",
+                        "printedName": "RxCocoa.DriverSharingStrategy",
+                        "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7RxCocoa14SharedSequenceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RxKeyboard0aB4TypeP21willShowVisibleHeight0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyV14CoreFoundation7CGFloatVGvg",
+                "mangledName": "$s10RxKeyboard0aB4TypeP21willShowVisibleHeight0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyV12CoreGraphics7CGFloatVGvg",
+                "moduleName": "RxKeyboard",
+                "genericSig": "<τ_0_0 where τ_0_0 : RxKeyboard.RxKeyboardType>",
+                "sugared_genericSig": "<Self where Self : RxKeyboard.RxKeyboardType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHidden",
+            "printedName": "isHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SharedSequence",
+                "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriverSharingStrategy",
+                    "printedName": "RxCocoa.DriverSharingStrategy",
+                    "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7RxCocoa14SharedSequenceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RxKeyboard0aB4TypeP8isHidden0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyVSbGvp",
+            "mangledName": "$s10RxKeyboard0aB4TypeP8isHidden0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyVSbGvp",
+            "moduleName": "RxKeyboard",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSequence",
+                    "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DriverSharingStrategy",
+                        "printedName": "RxCocoa.DriverSharingStrategy",
+                        "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7RxCocoa14SharedSequenceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RxKeyboard0aB4TypeP8isHidden0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyVSbGvg",
+                "mangledName": "$s10RxKeyboard0aB4TypeP8isHidden0A5Cocoa14SharedSequenceVyAE21DriverSharingStrategyVSbGvg",
+                "moduleName": "RxKeyboard",
+                "genericSig": "<τ_0_0 where τ_0_0 : RxKeyboard.RxKeyboardType>",
+                "sugared_genericSig": "<Self where Self : RxKeyboard.RxKeyboardType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10RxKeyboard0aB4TypeP",
+        "mangledName": "$s10RxKeyboard0aB4TypeP",
+        "moduleName": "RxKeyboard",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RxKeyboard",
+        "printedName": "RxKeyboard",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "instance",
+            "printedName": "instance",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "RxKeyboard",
+                "printedName": "RxKeyboard.RxKeyboard",
+                "usr": "c:@M@RxKeyboard@objc(cs)RxKeyboard"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RxKeyboardAAC8instanceABvpZ",
+            "mangledName": "$s10RxKeyboardAAC8instanceABvpZ",
+            "moduleName": "RxKeyboard",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RxKeyboard",
+                    "printedName": "RxKeyboard.RxKeyboard",
+                    "usr": "c:@M@RxKeyboard@objc(cs)RxKeyboard"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RxKeyboardAAC8instanceABvgZ",
+                "mangledName": "$s10RxKeyboardAAC8instanceABvgZ",
+                "moduleName": "RxKeyboard",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "frame",
+            "printedName": "frame",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SharedSequence",
+                "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreFoundation.CGRect>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriverSharingStrategy",
+                    "printedName": "RxCocoa.DriverSharingStrategy",
+                    "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGRect",
+                    "printedName": "CoreFoundation.CGRect",
+                    "usr": "c:@S@CGRect"
+                  }
+                ],
+                "usr": "s:7RxCocoa14SharedSequenceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RxKeyboardAAC5frame0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyVSo6CGRectVGvp",
+            "mangledName": "$s10RxKeyboardAAC5frame0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyVSo6CGRectVGvp",
+            "moduleName": "RxKeyboard",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSequence",
+                    "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreFoundation.CGRect>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DriverSharingStrategy",
+                        "printedName": "RxCocoa.DriverSharingStrategy",
+                        "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGRect",
+                        "printedName": "CoreFoundation.CGRect",
+                        "usr": "c:@S@CGRect"
+                      }
+                    ],
+                    "usr": "s:7RxCocoa14SharedSequenceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RxKeyboardAAC5frame0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyVSo6CGRectVGvg",
+                "mangledName": "$s10RxKeyboardAAC5frame0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyVSo6CGRectVGvg",
+                "moduleName": "RxKeyboard",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "visibleHeight",
+            "printedName": "visibleHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SharedSequence",
+                "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreGraphics.CGFloat>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriverSharingStrategy",
+                    "printedName": "RxCocoa.DriverSharingStrategy",
+                    "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:7RxCocoa14SharedSequenceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RxKeyboardAAC13visibleHeight0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyV14CoreFoundation7CGFloatVGvp",
+            "mangledName": "$s10RxKeyboardAAC13visibleHeight0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyV12CoreGraphics7CGFloatVGvp",
+            "moduleName": "RxKeyboard",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSequence",
+                    "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DriverSharingStrategy",
+                        "printedName": "RxCocoa.DriverSharingStrategy",
+                        "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7RxCocoa14SharedSequenceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RxKeyboardAAC13visibleHeight0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyV14CoreFoundation7CGFloatVGvg",
+                "mangledName": "$s10RxKeyboardAAC13visibleHeight0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyV12CoreGraphics7CGFloatVGvg",
+                "moduleName": "RxKeyboard",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "willShowVisibleHeight",
+            "printedName": "willShowVisibleHeight",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SharedSequence",
+                "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreGraphics.CGFloat>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriverSharingStrategy",
+                    "printedName": "RxCocoa.DriverSharingStrategy",
+                    "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:7RxCocoa14SharedSequenceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RxKeyboardAAC21willShowVisibleHeight0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyV14CoreFoundation7CGFloatVGvp",
+            "mangledName": "$s10RxKeyboardAAC21willShowVisibleHeight0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyV12CoreGraphics7CGFloatVGvp",
+            "moduleName": "RxKeyboard",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSequence",
+                    "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, CoreGraphics.CGFloat>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DriverSharingStrategy",
+                        "printedName": "RxCocoa.DriverSharingStrategy",
+                        "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGFloat",
+                        "printedName": "CoreGraphics.CGFloat",
+                        "usr": "s:14CoreFoundation7CGFloatV"
+                      }
+                    ],
+                    "usr": "s:7RxCocoa14SharedSequenceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RxKeyboardAAC21willShowVisibleHeight0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyV14CoreFoundation7CGFloatVGvg",
+                "mangledName": "$s10RxKeyboardAAC21willShowVisibleHeight0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyV12CoreGraphics7CGFloatVGvg",
+                "moduleName": "RxKeyboard",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isHidden",
+            "printedName": "isHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SharedSequence",
+                "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DriverSharingStrategy",
+                    "printedName": "RxCocoa.DriverSharingStrategy",
+                    "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7RxCocoa14SharedSequenceV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10RxKeyboardAAC8isHidden0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyVSbGvp",
+            "mangledName": "$s10RxKeyboardAAC8isHidden0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyVSbGvp",
+            "moduleName": "RxKeyboard",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSequence",
+                    "printedName": "RxCocoa.SharedSequence<RxCocoa.DriverSharingStrategy, Swift.Bool>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DriverSharingStrategy",
+                        "printedName": "RxCocoa.DriverSharingStrategy",
+                        "usr": "s:7RxCocoa21DriverSharingStrategyV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:7RxCocoa14SharedSequenceV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10RxKeyboardAAC8isHidden0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyVSbGvg",
+                "mangledName": "$s10RxKeyboardAAC8isHidden0A5Cocoa14SharedSequenceVyAD21DriverSharingStrategyVSbGvg",
+                "moduleName": "RxKeyboard",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "gestureRecognizer",
+            "printedName": "gestureRecognizer(_:shouldReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITouch",
+                "printedName": "UIKit.UITouch",
+                "usr": "c:objc(cs)UITouch"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RxKeyboard@objc(cs)RxKeyboard(im)gestureRecognizer:shouldReceiveTouch:",
+            "mangledName": "$s10RxKeyboardAAC17gestureRecognizer_13shouldReceiveSbSo09UIGestureD0C_So7UITouchCtF",
+            "moduleName": "RxKeyboard",
+            "objc_name": "gestureRecognizer:shouldReceiveTouch:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gestureRecognizer",
+            "printedName": "gestureRecognizer(_:shouldRecognizeSimultaneouslyWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@RxKeyboard@objc(cs)RxKeyboard(im)gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
+            "mangledName": "$s10RxKeyboardAAC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09UIGestureD0C_AFtF",
+            "moduleName": "RxKeyboard",
+            "objc_name": "gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@RxKeyboard@objc(cs)RxKeyboard",
+        "mangledName": "$s10RxKeyboardAAC",
+        "moduleName": "RxKeyboard",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "RxKeyboardType",
+            "printedName": "RxKeyboardType",
+            "usr": "s:10RxKeyboard0aB4TypeP",
+            "mangledName": "$s10RxKeyboard0aB4TypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ReactiveCompatible",
+            "printedName": "ReactiveCompatible",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ReactiveBase",
+                "printedName": "ReactiveBase",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSObject",
+                    "printedName": "ObjectiveC.NSObject",
+                    "usr": "c:objc(cs)NSObject"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7RxSwift18ReactiveCompatibleP",
+            "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

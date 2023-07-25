@@ -6,6 +6,6 @@ framework module TTI2 {
 }
 
 module TTI2.Swift {
-    header "TTI2-Swift.h"
-    requires objc
+  header "TTI2-Swift.h"
+  requires objc
 }

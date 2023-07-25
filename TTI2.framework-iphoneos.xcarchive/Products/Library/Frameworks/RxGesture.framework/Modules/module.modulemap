@@ -6,6 +6,6 @@ framework module RxGesture {
 }
 
 module RxGesture.Swift {
-    header "RxGesture-Swift.h"
-    requires objc
+  header "RxGesture-Swift.h"
+  requires objc
 }
