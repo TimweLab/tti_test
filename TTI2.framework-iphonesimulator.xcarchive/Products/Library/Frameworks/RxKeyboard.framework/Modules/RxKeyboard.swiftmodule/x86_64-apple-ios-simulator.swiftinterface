@@ -1,25 +1,23 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RxKeyboard
-// swift-module-flags-ignorable: -enable-bare-slash-regex
 import RxCocoa
 @_exported import RxKeyboard
 import RxSwift
 import Swift
 import UIKit
 import _Concurrency
-import _StringProcessing
 public protocol RxKeyboardType {
-  var frame: RxCocoa.Driver<CoreFoundation.CGRect> { get }
-  var visibleHeight: RxCocoa.Driver<CoreFoundation.CGFloat> { get }
-  var willShowVisibleHeight: RxCocoa.Driver<CoreFoundation.CGFloat> { get }
+  var frame: RxCocoa.Driver<CoreGraphics.CGRect> { get }
+  var visibleHeight: RxCocoa.Driver<CoreGraphics.CGFloat> { get }
+  var willShowVisibleHeight: RxCocoa.Driver<CoreGraphics.CGFloat> { get }
   var isHidden: RxCocoa.Driver<Swift.Bool> { get }
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class RxKeyboard : ObjectiveC.NSObject, RxKeyboard.RxKeyboardType {
   public static let instance: RxKeyboard.RxKeyboard
-  final public let frame: RxCocoa.Driver<CoreFoundation.CGRect>
-  final public let visibleHeight: RxCocoa.Driver<CoreFoundation.CGFloat>
-  final public let willShowVisibleHeight: RxCocoa.Driver<CoreFoundation.CGFloat>
+  final public let frame: RxCocoa.Driver<CoreGraphics.CGRect>
+  final public let visibleHeight: RxCocoa.Driver<CoreGraphics.CGFloat>
+  final public let willShowVisibleHeight: RxCocoa.Driver<CoreGraphics.CGFloat>
   final public let isHidden: RxCocoa.Driver<Swift.Bool>
   @objc deinit
 }

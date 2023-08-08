@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RxCocoa
-// swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreGraphics
 import Darwin
 import Dispatch
@@ -13,7 +12,6 @@ import Swift
 import UIKit
 import WebKit
 import _Concurrency
-import _StringProcessing
 extension RxRelay.BehaviorRelay {
   final public func asDriver() -> RxCocoa.Driver<Element>
 }
@@ -158,17 +156,17 @@ public protocol KVORepresentable {
   associatedtype KVOType
   init?(KVOValue: Self.KVOType)
 }
-extension CoreFoundation.CGRect : RxCocoa.KVORepresentable {
+extension CoreGraphics.CGRect : RxCocoa.KVORepresentable {
   public typealias KVOType = Foundation.NSValue
-  public init?(KVOValue: CoreFoundation.CGRect.KVOType)
+  public init?(KVOValue: CoreGraphics.CGRect.KVOType)
 }
-extension CoreFoundation.CGPoint : RxCocoa.KVORepresentable {
+extension CoreGraphics.CGPoint : RxCocoa.KVORepresentable {
   public typealias KVOType = Foundation.NSValue
-  public init?(KVOValue: CoreFoundation.CGPoint.KVOType)
+  public init?(KVOValue: CoreGraphics.CGPoint.KVOType)
 }
-extension CoreFoundation.CGSize : RxCocoa.KVORepresentable {
+extension CoreGraphics.CGSize : RxCocoa.KVORepresentable {
   public typealias KVOType = Foundation.NSValue
-  public init?(KVOValue: CoreFoundation.CGSize.KVOType)
+  public init?(KVOValue: CoreGraphics.CGSize.KVOType)
 }
 extension Swift.Int : RxCocoa.KVORepresentable {
   public typealias KVOType = Foundation.NSNumber
@@ -987,12 +985,12 @@ extension RxSwift.Reactive where Base : UIKit.UIRefreshControl {
   }
 }
 extension RxSwift.Reactive where Base : UIKit.UIScrollView {
-  public typealias EndZoomEvent = (view: UIKit.UIView?, scale: CoreFoundation.CGFloat)
-  public typealias WillEndDraggingEvent = (velocity: CoreFoundation.CGPoint, targetContentOffset: Swift.UnsafeMutablePointer<CoreFoundation.CGPoint>)
+  public typealias EndZoomEvent = (view: UIKit.UIView?, scale: CoreGraphics.CGFloat)
+  public typealias WillEndDraggingEvent = (velocity: CoreGraphics.CGPoint, targetContentOffset: Swift.UnsafeMutablePointer<CoreGraphics.CGPoint>)
   public var delegate: RxCocoa.DelegateProxy<UIKit.UIScrollView, UIKit.UIScrollViewDelegate> {
     get
   }
-  public var contentOffset: RxCocoa.ControlProperty<CoreFoundation.CGPoint> {
+  public var contentOffset: RxCocoa.ControlProperty<CoreGraphics.CGPoint> {
     get
   }
   public var didScroll: RxCocoa.ControlEvent<Swift.Void> {

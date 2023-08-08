@@ -1,14 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RxSwift
-// swift-module-flags-ignorable: -enable-bare-slash-regex
 import Darwin
 import Dispatch
 import Foundation
 @_exported import RxSwift
 import Swift
 import _Concurrency
-import _StringProcessing
 extension RxSwift.ObservableType {
   public static func amb<Sequence>(_ sequence: Sequence) -> RxSwift.Observable<Self.Element> where Sequence : Swift.Sequence, Sequence.Element == RxSwift.Observable<Self.Element>
 }
@@ -170,10 +168,10 @@ extension RxSwift.PrimitiveSequenceType where Self.Element == Swift.Never, Self.
 extension RxSwift.PrimitiveSequenceType where Self.Element == Swift.Never, Self.Trait == RxSwift.CompletableTrait {
   public func `do`(onError: ((Swift.Error) throws -> Swift.Void)? = nil, afterError: ((Swift.Error) throws -> Swift.Void)? = nil, onCompleted: (() throws -> Swift.Void)? = nil, afterCompleted: (() throws -> Swift.Void)? = nil, onSubscribe: (() -> Swift.Void)? = nil, onSubscribed: (() -> Swift.Void)? = nil, onDispose: (() -> Swift.Void)? = nil) -> RxSwift.Completable
   public func concat(_ second: RxSwift.Completable) -> RxSwift.Completable
-  public static func concat<Sequence>(_ sequence: Sequence) -> RxSwift.Completable where Sequence : Swift.Sequence, Sequence.Element == RxSwift.PrimitiveSequence<RxSwift.CompletableTrait, Swift.Never>
-  public static func concat<Collection>(_ collection: Collection) -> RxSwift.Completable where Collection : Swift.Collection, Collection.Element == RxSwift.PrimitiveSequence<RxSwift.CompletableTrait, Swift.Never>
+  public static func concat<Sequence>(_ sequence: Sequence) -> RxSwift.Completable where Sequence : Swift.Sequence, Sequence.Element == RxSwift.Completable
+  public static func concat<Collection>(_ collection: Collection) -> RxSwift.Completable where Collection : Swift.Collection, Collection.Element == RxSwift.Completable
   public static func concat(_ sources: RxSwift.Completable...) -> RxSwift.Completable
-  public static func zip<Collection>(_ sources: Collection) -> RxSwift.Completable where Collection : Swift.Collection, Collection.Element == RxSwift.PrimitiveSequence<RxSwift.CompletableTrait, Swift.Never>
+  public static func zip<Collection>(_ sources: Collection) -> RxSwift.Completable where Collection : Swift.Collection, Collection.Element == RxSwift.Completable
   public static func zip(_ sources: [RxSwift.Completable]) -> RxSwift.Completable
   public static func zip(_ sources: RxSwift.Completable...) -> RxSwift.Completable
 }
@@ -686,12 +684,14 @@ extension RxSwift.ObservableConvertibleType {
     get
   }
 }
+
 #if compiler(>=5.3) && $RethrowsProtocol
 @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 extension _Concurrency.AsyncSequence {
   public func asObservable() -> RxSwift.Observable<Self.Element>
 }
 #endif
+
 public protocol ObservableConvertibleType {
   associatedtype Element
   func asObservable() -> RxSwift.Observable<Self.Element>
@@ -802,27 +802,33 @@ extension RxSwift.PrimitiveSequenceType where Self.Element : Swift.FixedWidthInt
 }
 @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 extension RxSwift.PrimitiveSequenceType where Self.Trait == RxSwift.SingleTrait {
+  
   #if compiler(>=5.3) && $EffectfulProp
   public var value: Self.Element {
     get async throws
   }
   #endif
+
 }
 @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 extension RxSwift.PrimitiveSequenceType where Self.Trait == RxSwift.MaybeTrait {
+  
   #if compiler(>=5.3) && $EffectfulProp
   public var value: Self.Element? {
     get async throws
   }
   #endif
+
 }
 @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 extension RxSwift.PrimitiveSequenceType where Self.Element == Swift.Never, Self.Trait == RxSwift.CompletableTrait {
+  
   #if compiler(>=5.3) && $EffectfulProp
   public var value: Swift.Void {
     get async throws
   }
   #endif
+
 }
 extension RxSwift.PrimitiveSequenceType where Self.Trait == RxSwift.SingleTrait {
   public static func zip<E1, E2>(_ source1: RxSwift.PrimitiveSequence<Self.Trait, E1>, _ source2: RxSwift.PrimitiveSequence<Self.Trait, E2>, resultSelector: @escaping (E1, E2) throws -> Self.Element) -> RxSwift.PrimitiveSequence<Self.Trait, Self.Element>

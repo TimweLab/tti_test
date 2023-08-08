@@ -1,7 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TTI2
-// swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
 import AVKit
 import Alamofire
@@ -23,7 +22,6 @@ import UIKit.UIGestureRecognizerSubclass
 import UIKit
 import WebKit
 import _Concurrency
-import _StringProcessing
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class RAMAnimatedTabBarController : UIKit.UITabBarController {
   @_Concurrency.MainActor(unsafe) open var animatedItems: [TTI2.RAMAnimatedTabBarItem] {
     get
@@ -36,28 +34,28 @@ import _StringProcessing
     get
     set
   }
-  @_Concurrency.MainActor(unsafe) open var bottomLineHeight: CoreFoundation.CGFloat {
+  @_Concurrency.MainActor(unsafe) open var bottomLineHeight: CoreGraphics.CGFloat {
     get
     set
   }
   @_Concurrency.MainActor(unsafe) open var bottomLineMoveDuration: Swift.Double
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var viewControllers: [UIKit.UIViewController]? {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func setViewControllers(_ viewControllers: [UIKit.UIViewController]?, animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var selectedIndex: Swift.Int {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var selectedViewController: UIKit.UIViewController? {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @available(*, deprecated, message: "Now you can use UITabBar isHidden")
   @_Concurrency.MainActor(unsafe) open func animationTabBarHidden(_ isHidden: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewWillTransition(to size: CoreGraphics.CGSize, with coordinator: UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
@@ -78,7 +76,7 @@ public protocol RAMItemAnimationProtocol {
   func selectedState(_ icon: UIKit.UIImageView, textLabel: UIKit.UILabel)
 }
 @objc @_inheritsConvenienceInitializers open class RAMItemAnimation : ObjectiveC.NSObject, TTI2.RAMItemAnimationProtocol {
-  @objc @IBInspectable open var duration: CoreFoundation.CGFloat
+  @objc @IBInspectable open var duration: CoreGraphics.CGFloat
   @objc @IBInspectable open var textSelectedColor: UIKit.UIColor
   @objc @IBInspectable open var iconSelectedColor: UIKit.UIColor!
   open func playAnimation(_: UIKit.UIImageView, textLabel _: UIKit.UILabel)
@@ -94,9 +92,9 @@ public protocol RAMItemAnimationProtocol {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class RAMBadge : UIKit.UILabel {
   @_Concurrency.MainActor(unsafe) open class func badge() -> TTI2.RAMBadge
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
-    @objc get
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreGraphics.CGSize {
+    @_Concurrency.MainActor(unsafe) @objc get
   }
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder _: Foundation.NSCoder)
   @_Concurrency.MainActor(unsafe) open func addBadgeOnView(_ onView: UIKit.UIView)
@@ -116,11 +114,11 @@ public struct SVGImgProcessor : Kingfisher.ImageProcessor {
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class RAMAnimatedTabBarItem : UIKit.UITabBarItem {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var isEnabled: Swift.Bool {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @objc @IBOutlet @_Concurrency.MainActor(unsafe) open var animation: TTI2.RAMItemAnimation!
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var textFontSize: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var textFontSize: CoreGraphics.CGFloat {
     @objc get
     @objc set
   }
@@ -134,14 +132,14 @@ public struct SVGImgProcessor : Kingfisher.ImageProcessor {
   @_Concurrency.MainActor(unsafe) open func deselectAnimation()
   @_Concurrency.MainActor(unsafe) open func selectedState()
   @_Concurrency.MainActor(unsafe) open func deselectedState()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init()
+  @objc override dynamic public init()
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension TTI2.RAMAnimatedTabBarItem {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var badgeValue: Swift.String? {
-    @objc get
-    @objc set(newValue)
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set(newValue)
   }
 }
 @objc @_inheritsConvenienceInitializers open class RAMFumeAnimation : TTI2.RAMItemAnimation {
@@ -316,8 +314,8 @@ public enum ErrorMessagePlacement {
   @objc @_Concurrency.MainActor(unsafe) dynamic open var titleFadeInDuration: Swift.Double
   @objc @_Concurrency.MainActor(unsafe) dynamic open var titleFadeOutDuration: Swift.Double
   @IBInspectable @_Concurrency.MainActor(unsafe) @objc override dynamic open var textColor: UIKit.UIColor? {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var placeholderColor: UIKit.UIColor {
     @objc get
@@ -375,11 +373,11 @@ public enum ErrorMessagePlacement {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var lineHeight: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var lineHeight: CoreGraphics.CGFloat {
     @objc get
     @objc set
   }
-  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var selectedLineHeight: CoreFoundation.CGFloat {
+  @objc @IBInspectable @_Concurrency.MainActor(unsafe) dynamic open var selectedLineHeight: CoreGraphics.CGFloat {
     @objc get
     @objc set
   }
@@ -388,16 +386,16 @@ public enum ErrorMessagePlacement {
   @_Concurrency.MainActor(unsafe) open var errorLabel: UIKit.UILabel!
   @_Concurrency.MainActor(unsafe) open var titleFormatter: (_ text: Swift.String) -> Swift.String
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSecureTextEntry: Swift.Bool {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var errorMessage: Swift.String? {
     @objc get
     @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @_Concurrency.MainActor(unsafe) open var editingOrSelected: Swift.Bool {
     get
@@ -406,12 +404,12 @@ public enum ErrorMessagePlacement {
     get
   }
   @IBInspectable @_Concurrency.MainActor(unsafe) @objc override dynamic open var text: Swift.String? {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @IBInspectable @_Concurrency.MainActor(unsafe) @objc override dynamic open var placeholder: Swift.String? {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @objc @IBInspectable @_Concurrency.MainActor(unsafe) open var selectedTitle: Swift.String? {
     @objc get
@@ -422,10 +420,10 @@ public enum ErrorMessagePlacement {
     @objc set
   }
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
   @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
   @objc @_Concurrency.MainActor(unsafe) open func editingChanged()
   @discardableResult
@@ -433,26 +431,26 @@ public enum ErrorMessagePlacement {
   @discardableResult
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func resignFirstResponder() -> Swift.Bool
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var isEnabled: Swift.Bool {
-    @objc get
-    @objc set
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
   }
   @_Concurrency.MainActor(unsafe) open func updateColors()
   @_Concurrency.MainActor(unsafe) open func setTitleVisible(_ titleVisible: Swift.Bool, animated: Swift.Bool = false, animationCompletion: ((_ completed: Swift.Bool) -> Swift.Void)? = nil)
   @_Concurrency.MainActor(unsafe) open func isTitleVisible() -> Swift.Bool
   @_Concurrency.MainActor(unsafe) open func isErrorVisible() -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func textRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func editingRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func placeholderRect(forBounds bounds: CoreFoundation.CGRect) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) open func titleLabelRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) open func errorLabelRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) open func lineViewRectForBounds(_ bounds: CoreFoundation.CGRect, editing: Swift.Bool) -> CoreFoundation.CGRect
-  @_Concurrency.MainActor(unsafe) open func titleHeight() -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) open func errorHeight() -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) open func textHeight() -> CoreFoundation.CGFloat
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepareForInterfaceBuilder()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func textRect(forBounds bounds: CoreGraphics.CGRect) -> CoreGraphics.CGRect
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func editingRect(forBounds bounds: CoreGraphics.CGRect) -> CoreGraphics.CGRect
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func placeholderRect(forBounds bounds: CoreGraphics.CGRect) -> CoreGraphics.CGRect
+  @_Concurrency.MainActor(unsafe) open func titleLabelRectForBounds(_ bounds: CoreGraphics.CGRect, editing: Swift.Bool) -> CoreGraphics.CGRect
+  @_Concurrency.MainActor(unsafe) open func errorLabelRectForBounds(_ bounds: CoreGraphics.CGRect, editing: Swift.Bool) -> CoreGraphics.CGRect
+  @_Concurrency.MainActor(unsafe) open func lineViewRectForBounds(_ bounds: CoreGraphics.CGRect, editing: Swift.Bool) -> CoreGraphics.CGRect
+  @_Concurrency.MainActor(unsafe) open func titleHeight() -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) open func errorHeight() -> CoreGraphics.CGFloat
+  @_Concurrency.MainActor(unsafe) open func textHeight() -> CoreGraphics.CGFloat
+  @objc override dynamic open func prepareForInterfaceBuilder()
   @_Concurrency.MainActor(unsafe) @objc override dynamic open func layoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreFoundation.CGSize {
-    @objc get
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreGraphics.CGSize {
+    @_Concurrency.MainActor(unsafe) @objc get
   }
   @objc deinit
 }
