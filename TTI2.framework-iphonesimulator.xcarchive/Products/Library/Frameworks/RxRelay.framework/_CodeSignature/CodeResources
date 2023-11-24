@@ -14,31 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AOHjdfP6qgY2+yS+YJyk4DhcpdQ=
+		Un4VWQd6+H8ckHKeKuLORWKIefA=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		h6cBYKzghQjwFCpm6pvASK/3l/4=
+		fS9N88m4ZHj+sQfs6K0tMLwBBQw=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+LS6ftx3J5BIfCzT0sS89Mtdz5U=
+		tn8+j7rjyT3+rU0fkeCtpuK4aMs=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cPIJaeyE1KnnZxfOXa2eWtErVK0=
+		QqpuH/wNDTLceDerOYTLyeOY+zg=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JGpYhSm2QQ0n10K1BBxLIYtAj9c=
+		p7dPxHalgcr/4nP2rgg/L+iN90Q=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		tIp2PAWPkSaZ0VXeLPgkAu0qUJM=
+		VE8ODJaBs1vkXVuErqE8qxx6EeU=
 		</data>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		eUVyeanNKtrVeXe3dJybrrUrQU8=
+		d2sF4O9HuJGLuvrFoG6bLXQcmJc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -65,42 +65,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zUlqecKWSsvdOiYPlt+DzVoVsdk1iCex3IDQ3nWhBTo=
+			9jp48N+6UmyhrRAuA3t0oYUhj4Z7OY0z4w1qfqPyEp0=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Oc8uitG8uAt7IvucmxH2JGo7zUcOciVAhkcDcba7sfc=
+			p7tN7goK1EO7ZxbPfIS/P+/ZKSiZ4x0etr5A3uUasZE=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jpten3ng5WedggOCFqB0/txmDjCaFxNGujdSkqu73Qo=
+			Q1+gTnLsX8OYcTgVIsmvi2Xkkk/U137r3mRCigZRCxw=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			epT0oG8Z9RU/GdZawFUcw2Gzelf/kvy3eMEoheAU/oo=
+			Z+j2ITcW5oyoKLVcAh08gzLH05o5k+lQqnNKTWICikI=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q52gwc8obIIu/edQTKl5K60WYnYyhvLD7mhrsOhQfU8=
+			N1XRA305BuKXwmRU6pJ/VDeRySbN3ZLYCKRuFXE3EGs=
 			</data>
 		</dict>
 		<key>Modules/RxRelay.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LOti7gx3CpCWb7YRlI1vUqbL0g64tYDmc5+HX0i6qfI=
+			s7wLKUPjBDZsitkg7NsgX+TVcUy4hjgzdaSqrMJNdCI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
