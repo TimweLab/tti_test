@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		0NPHTGbR6zk2xir4ChXXhyZJHAs=
+		XriWmmU1UkY2D3HbhIRn02so+No=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>EN.strings</key>
 		<data>
-		sUSNsD1dI6zDGyAWrmRnkmt7rxs=
+		asbEbXJyR8+O8u3IQY29dUKzt40=
 		</data>
 		<key>EducationalCardView.nib</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>GenericSectionView.nib</key>
 		<data>
-		4LNA6mNIqwYvoYDwgLqPoGYbPME=
+		SqELuiJG19Fh+lHwK7rWhVp391g=
 		</data>
 		<key>GenericSubsectionTableViewCell.nib</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>IDN.strings</key>
 		<data>
-		Jhn4ual3nNXvSeEDucLM2eB3Sfg=
+		Jv6QBixOENDpGG+4mKXYL6TBVE4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xs/1KtwtQGZ91iCNSg6eftXt7Ug=
+		8nhCmkz8y9O7OvjhL9/qaOrVhW4=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		RtzdbVNiBlaE8005WW0XzhFALQ4=
+		jXq25QqwLzkPqCZS8zJLLAVI7Vk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -194,7 +194,7 @@
 		</data>
 		<key>OnboardingView.nib</key>
 		<data>
-		ywS0al679JYF0ocRi/3w4j2pFes=
+		0vn+xs6rZ8xZ48amBQxOLK3KUts=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -452,6 +452,10 @@
 		<data>
 		Ig3/JZOlUbzSwlRN+QeSPgtchfc=
 		</data>
+		<key>dailyCheckupHelperGif.gif</key>
+		<data>
+		C7d+Lrk1jc9P6bwCAxpZpJiQobA=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -473,7 +477,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Yo7AT/dlREIhh8a6vhJ+8gutTyucdk/NKh6KI0bvSUA=
+			uRXl++H/mw5m4GdFrGByYjhEn6vu3Q11B6YcSldEYzA=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
@@ -564,7 +568,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			07S3xTAvCDhWFUIHs1zw7PmVdpcJpOa6RudJWFAamTw=
+			KYw+I2DS+U+trtN652gclYAQJ1YuMnSoEH1s83oLzTM=
 			</data>
 		</dict>
 		<key>EducationalCardView.nib</key>
@@ -592,7 +596,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e0rLBkMMFEGc1TQshtukTuyP6jd4d7fM0bTmu0ZiVkM=
+			fgWyykIwCvdN8F0JV2fqBlwLeuByMeP7GmDqmd1+HWA=
 			</data>
 		</dict>
 		<key>GenericSubsectionTableViewCell.nib</key>
@@ -648,7 +652,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oRn13XYb3SMOnI1bBc5c1UBMzz7WQwVAz3zkv95yAhw=
+			Szn43e/lbcmkPFU4/XDlwdLOtNQGXuqUwbjWEGsT1qw=
 			</data>
 		</dict>
 		<key>InitialCollectionViewCell.nib/objects-12.3+.nib</key>
@@ -746,7 +750,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			A+2ngOfTZdbfAd3kVpX4k9BcTOTiwDotB3fmwNDtqvI=
+			F/ZFsE8MwFAisCQapiTLnTXdq6d356o70nQYBpLmKfo=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -767,7 +771,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5TGjmWVJcO8ngQWMCUeYHgUJpsskM6cM4sn4qXec9gs=
+			LsP07eEgb7CHrlwrN12sb+vb/9HUwztb+TXKA0NpO1U=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -781,7 +785,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			68TXgLpI2+/Y47FjteQ4FxpcVfIaO4I3qMv39GWfAkE=
+			q3/9vxv7wxet6janP2TxWxcSejhjVxsfAsVvN9cmgF8=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
@@ -1230,6 +1234,13 @@
 			<key>hash2</key>
 			<data>
 			N1V3nU0lzTZtUVVRzYtqfb34MEVJY2oz1hSMrDv7vUs=
+			</data>
+		</dict>
+		<key>dailyCheckupHelperGif.gif</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			QracZ3ghjTBdRRNBebxxfNT2s7kGUaMiXJZhyuhVMQ4=
 			</data>
 		</dict>
 	</dict>
