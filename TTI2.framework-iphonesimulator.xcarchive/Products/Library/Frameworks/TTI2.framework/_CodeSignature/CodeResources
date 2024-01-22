@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		XriWmmU1UkY2D3HbhIRn02so+No=
+		veCtNBy8TPprc8FPz82GwCxBbuQ=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
@@ -106,11 +106,11 @@
 		</data>
 		<key>HomeView.nib/objects-13.0+.nib</key>
 		<data>
-		rMncl1XYx9sZ7PuAxM7JGNquHOY=
+		pBNrc6jKGp7VdYpCaAPWuBLsSL8=
 		</data>
 		<key>HomeView.nib/runtime.nib</key>
 		<data>
-		t5sjgkXZGAxRVQGLsgOeFI3ZmiA=
+		GxLWVF/Ix4zWEHaPjvcpHP7lslM=
 		</data>
 		<key>IDN.strings</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		8nhCmkz8y9O7OvjhL9/qaOrVhW4=
+		Ol8f6yVijEfC4JQoGSugKhhATCk=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -186,7 +186,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jXq25QqwLzkPqCZS8zJLLAVI7Vk=
+		gd41hwjOzMJg/F0rlO7ifWiVv/k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -394,11 +394,11 @@
 		</data>
 		<key>SplashScreenView.nib/objects-13.0+.nib</key>
 		<data>
-		EzvPvWa7OIUAFz973S+o0F0ck5k=
+		FJtXEwjENW51oFFLgOWuZeNOO2k=
 		</data>
 		<key>SplashScreenView.nib/runtime.nib</key>
 		<data>
-		cmONhtQ9nigLYE0AQgIOd+GcMC8=
+		P7f5fHeZqqSC0P057cuQaJ/rFwU=
 		</data>
 		<key>TelkomselBatikSans-Bold.otf</key>
 		<data>
@@ -477,7 +477,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			uRXl++H/mw5m4GdFrGByYjhEn6vu3Q11B6YcSldEYzA=
+			hdk5+F90m+kJLLLGKjI2jrxEHUTcKLQshPO8IHqporA=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
@@ -638,14 +638,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			btGCep8d4yG25YEFFlytRhkjxXZzsxx8jpUrd0rM8Mk=
+			1e4jisiIcSaasO421h/jYaQWDMGztp8QNDjQOI1AyFU=
 			</data>
 		</dict>
 		<key>HomeView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OYb05ld75KQvLPuBFAM0K94UOE6Grfys1AWvKByO1+k=
+			McDjim2TmzXDUrDjHPYHFrIiWCV9e6FRSBYzH1QVTWE=
 			</data>
 		</dict>
 		<key>IDN.strings</key>
@@ -750,7 +750,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F/ZFsE8MwFAisCQapiTLnTXdq6d356o70nQYBpLmKfo=
+			4TMDAg26+341RSEHaOjd5AXiuBtji0hM07YbctCsnck=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -771,7 +771,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LsP07eEgb7CHrlwrN12sb+vb/9HUwztb+TXKA0NpO1U=
+			XaC4sbkQtlhw/7fV9h3x+xti1A4GpQApXSxvkEmqmDc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1135,14 +1135,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kVr4y6mpTSvkj73vdWTvTEIB/gzsSoyTfUPmECTDiDg=
+			oXpVpyplggcvHHnf4zfoBiMnBpoYBAeYV2eoAfNyljs=
 			</data>
 		</dict>
 		<key>SplashScreenView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oK/Ps1pjowR/AM9JMnZf2p9pjHP59pG5zkgTF/LXhDI=
+			9rB+6lQYx+0OdNgzOTgc7QfFjI9o3yYGXgwUQ9G0TI8=
 			</data>
 		</dict>
 		<key>TelkomselBatikSans-Bold.otf</key>
