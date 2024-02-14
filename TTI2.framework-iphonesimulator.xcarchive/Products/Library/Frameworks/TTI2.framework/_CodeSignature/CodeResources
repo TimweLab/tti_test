@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		mdJejJ2xnvIq0P+LnahdKAG1c20=
+		Fjm8bIee0L/Rir0MkF9zHVDECRU=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
@@ -166,27 +166,27 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BuFGNUHPhu8T9Qf+KE6jOUdKEBQ=
+		PhpBD3/DaojrQMKS4Rwek3h+sr4=
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		UyuxrhzGsz5rpC0abCgbSjQ4SS8=
+		Vf93Jw2nzx21LAYqumrScoNm4Hk=
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HHFFMKTDFgcApFliZJ57a8eCIeE=
+		AB5K2yqL1o8qMWiLmayfF9obwAw=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		efCVHAn/F/whkLLKvpcCxKwC7A0=
+		m5LnbR9gtpEPeGgaKs4XtUEOaWw=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/pSUiV9FWi0LcaxUnHjmzw7Vguk=
+		STXbl0qEtnMk6qHmZKXJl+WoTa4=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FQruOp83kzH47FBiyiCUKPXwYos=
+		SQAbRn22zOH83dCEk4lIwS/ZnhI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -386,11 +386,11 @@
 		</data>
 		<key>SpecialEventView.nib/objects-13.0+.nib</key>
 		<data>
-		qWCBKfNRvmdRy09bYsKl/9sL5x4=
+		iGPb94iMDihLc9KRJmeG85/8P6k=
 		</data>
 		<key>SpecialEventView.nib/runtime.nib</key>
 		<data>
-		iR4d8AwOFUjy1kZ5+aMTdIYGVDE=
+		133rive3kqWCd5PYtZFwX7Agk9s=
 		</data>
 		<key>SplashScreenView.nib/objects-13.0+.nib</key>
 		<data>
@@ -477,7 +477,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			54k6ApWaw5h0dW2LvcwH/fAGVybxfkJnyW/Sbwp5j7Q=
+			zJ4AybWMSpTbxiSQqB5FSc9c6OxJY/R9g2ImIlgsH4c=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
@@ -736,42 +736,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7t1Td4IwzF50jSBBdBU8tLMbstSh9lcsfbSr2UBKAOY=
+			LZnESUfdxGpzURQQR8IRgXcO2ynfBaN+46n1A7aJbh8=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m+YXoMV0TDt5nKi9uO4lQGA+Ez6dYLL4sp77lbeCNEI=
+			pLlD491jkrs1tTxtxD9GcOPzdJplmRn8maPabD0muf0=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cj8+L5iO69Gc3NJ5w4H7VjTB86Op10Q3EQXEIei6rHk=
+			7jY29F5upBIm/tcrOUPReug2HWCdbU/eT+dFCTEmh18=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nYZvxD/oMA4hb4jAKbUozCxsIIZWq5p/TA8Gk8w1c3Y=
+			BbEJr+/b8ErDMqXOGcGGR24uvYIuMM5UvW/BzvbHRr8=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4kvGRoFpeQg/0fWIWP3tXkqW3QGw/x5yelOCj6fCrmA=
+			pP84e+LVlLYTTAd61wJMYO6rrSVMbusGvKU4mSgqHB0=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dAstIXwcE1FrS4nALMLX5w+oSLFC65uBOwTRrsLVSCE=
+			vCnQBZePQQ3gQlo3S/VWf/A94aIha3iDGSRKFZEbJa0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1121,14 +1121,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4FvkaN+iEMCuclxa+WpNfzesH6zsxeoETx05Q4BNHg8=
+			1ZKpMMjD/KBl/0QZpqUvEoGBvACq5CxiVSJq2qeFQN4=
 			</data>
 		</dict>
 		<key>SpecialEventView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1XAl5yrWHLy1DrpkZZ8Um4/6CW70wHvM46v50FxLnXQ=
+			Tq4hHsHY1c9XE1k1Ig5AZMERzjcCO83Fcm910wOrWjs=
 			</data>
 		</dict>
 		<key>SplashScreenView.nib/objects-13.0+.nib</key>

@@ -279,10 +279,10 @@ public struct UserProfile : Swift.Codable {
   public var userMsisdns: [TTI2.UserMsisdn]?
   public var lang: Swift.String?
   public var additionalParams: [Swift.String : Swift.String]?
-  public var region: Swift.String
+  public var region: Swift.String?
   public var tier: TTI2.UserTier
   public init(profileId: Swift.String, plan: Swift.String = "postpaid", lang: Swift.String = "en")
-  public init(profileId: Swift.String, mail: Swift.String, defaultSegment: Swift.String, userMsisdns: [TTI2.UserMsisdn], tier: TTI2.UserTier, region: Swift.String, lang: Swift.String)
+  public init(profileId: Swift.String, mail: Swift.String, defaultSegment: Swift.String, userMsisdns: [TTI2.UserMsisdn], tier: TTI2.UserTier, region: Swift.String? = nil, lang: Swift.String)
   public func encode(to encoder: Swift.Encoder) throws
   public init(from decoder: Swift.Decoder) throws
 }
