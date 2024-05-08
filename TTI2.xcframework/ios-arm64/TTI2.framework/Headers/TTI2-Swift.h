@@ -198,6 +198,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import CoreGraphics;
 @import Foundation;
 @import ObjectiveC;
+@import QuartzCore;
 @import UIKit;
 #endif
 
@@ -217,11 +218,20 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 
+@class NSCoder;
+
+SWIFT_CLASS("_TtC4TTI215EdgeShadowLayer")
+@interface EdgeShadowLayer : CAGradientLayer
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+- (nonnull instancetype)initWithLayer:(id _Nonnull)layer SWIFT_UNAVAILABLE;
+@end
+
 @class UIViewController;
 @protocol UIViewControllerTransitionCoordinator;
 @class NSString;
 @class NSBundle;
-@class NSCoder;
 
 /// UITabBarController with item animations
 SWIFT_CLASS("_TtC4TTI227RAMAnimatedTabBarController")
@@ -490,6 +500,7 @@ SWIFT_CLASS("_TtC4TTI219TTIRuntimeException")
 - (nonnull instancetype)initWithDomain:(NSString * _Nonnull)domain code:(NSInteger)code userInfo:(NSDictionary<NSString *, id> * _Nullable)dict OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder SWIFT_UNAVAILABLE;
 @end
+
 
 
 

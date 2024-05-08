@@ -16,6 +16,7 @@ import RxKeyboard
 import RxSwift
 import RxSwiftExt
 import SVGKit
+import SceneKit
 import Swift
 import SwiftUI
 @_exported import TTI2
@@ -109,6 +110,22 @@ public protocol RAMItemAnimationProtocol {
   @objc override dynamic public init(domain: Swift.String, code: Swift.Int, userInfo dict: [Swift.String : Any]? = nil)
   @objc deinit
 }
+@objc public class EdgeShadowLayer : QuartzCore.CAGradientLayer {
+  public enum Edge {
+    case Top
+    case Left
+    case Bottom
+    case Right
+    public static func == (a: TTI2.EdgeShadowLayer.Edge, b: TTI2.EdgeShadowLayer.Edge) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public init(forView view: UIKit.UIView, edge: TTI2.EdgeShadowLayer.Edge = Edge.Top, shadowRadius radius: CoreGraphics.CGFloat = 20.0, toColor: UIKit.UIColor = UIColor.white, fromColor: UIKit.UIColor = UIColor.black)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
 public struct SVGImgProcessor : Kingfisher.ImageProcessor {
   public var identifier: Swift.String
   public func process(item: Kingfisher.ImageProcessItem, options: Kingfisher.KingfisherParsedOptionsInfo) -> Kingfisher.KFCrossPlatformImage?
@@ -141,6 +158,11 @@ extension TTI2.RAMAnimatedTabBarItem {
   @_Concurrency.MainActor(unsafe) @objc override dynamic open var badgeValue: Swift.String? {
     @_Concurrency.MainActor(unsafe) @objc get
     @_Concurrency.MainActor(unsafe) @objc set(newValue)
+  }
+}
+extension RxSwift.Reactive where Base : UIKit.UIViewController {
+  public var viewDidAppear: RxSwift.Observable<Swift.Bool> {
+    get
   }
 }
 @objc @_inheritsConvenienceInitializers open class RAMFumeAnimation : TTI2.RAMItemAnimation {
@@ -520,6 +542,8 @@ public enum ScreenKey : Swift.String {
     get
   }
 }
+extension TTI2.EdgeShadowLayer.Edge : Swift.Equatable {}
+extension TTI2.EdgeShadowLayer.Edge : Swift.Hashable {}
 extension TTI2.UserTier : Swift.Equatable {}
 extension TTI2.UserTier : Swift.Hashable {}
 extension TTI2.UserTier : Swift.RawRepresentable {}
