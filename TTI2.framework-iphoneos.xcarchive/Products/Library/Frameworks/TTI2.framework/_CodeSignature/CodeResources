@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		DUAjakZTMIETuURV0h6mW9aWRXw=
+		iUso5c9o5SJKZCI/Zi/4yyOdt6g=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>BoostMissionTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		lrdLmW//BTqt82m8wixYuRLPnqk=
+		wTjHLegbrCAeB8UajWIx7eydsT4=
 		</data>
 		<key>BoostMissionTableViewCell.nib/runtime.nib</key>
 		<data>
-		MT4JFH3Arqx53Sxj6NpVU7tGHE0=
+		6JCEVawUPJazKqRE2bRLLf7kAFI=
 		</data>
 		<key>BoosterView.nib/objects-13.0+.nib</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>DummyView.nib</key>
 		<data>
-		PVUKLxIw33xd/La5MHhD/1lYdWY=
+		UZ5M/n/RBszbFQMZdYOWFo3/eqo=
 		</data>
 		<key>EN.strings</key>
 		<data>
-		+knbhFwDl9XbntXQsQAPpE3kB04=
+		uTzIbxQk30zuyuHFjDK+yCD77qo=
 		</data>
 		<key>EducationalCardView.nib</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>EmptyPrizesTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		MgLf01RmR7vI7Z02FnfDfMrvhmw=
+		mt1ZcQny6gPFBB8qRAm8VyBeH2Y=
 		</data>
 		<key>EmptyPrizesTableViewCell.nib/runtime.nib</key>
 		<data>
-		tONg/zCh9rEMESojq7XW9z87wXY=
+		RcYfps9JoABG/iDK9fDFNxRBdAQ=
 		</data>
 		<key>GenericSectionView.nib</key>
 		<data>
@@ -112,17 +112,25 @@
 		<data>
 		U46CKY9jxMQPgdPYyEfkQ2WuKNI=
 		</data>
+		<key>HistoryHeaderTableViewCell.nib/objects-13.0+.nib</key>
+		<data>
+		7DkAXFI5iWQqPxrXMZjbsIlS9dg=
+		</data>
+		<key>HistoryHeaderTableViewCell.nib/runtime.nib</key>
+		<data>
+		JlMCUgrbNlMHnDp6Cmgc+zzRbPo=
+		</data>
 		<key>HomeView.nib/objects-13.0+.nib</key>
 		<data>
-		d/VEoHjiRbpPFVWxYYf0M3+wrBk=
+		Kexv8Wrsi4SYmzTRC7Cpx/4xPeE=
 		</data>
 		<key>HomeView.nib/runtime.nib</key>
 		<data>
-		bsvC0hivUgE4gqQNteAkx6u0YeI=
+		5b6dLyCs0gYOV9Zl72Fn3f27/Qs=
 		</data>
 		<key>IDN.strings</key>
 		<data>
-		H2ooks6oiGXtmwNDkZVuXgkwzTo=
+		QGQAKUA0IiJJQGP60rYUZWZMo6o=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -130,11 +138,11 @@
 		</data>
 		<key>InitialCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		ZVt7DtEqyddIJAsYWSua87ASjpw=
+		QKxnpSo46kUApGhHBiBTsf1jV0U=
 		</data>
 		<key>InitialCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		5tI5CcfkfirCalpst9o4IF1RXu0=
+		Zrislu9sowYzLbdN588kVQd38xs=
 		</data>
 		<key>InsertInvitationView.nib/objects-13.0+.nib</key>
 		<data>
@@ -146,55 +154,19 @@
 		</data>
 		<key>IntermidiateCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
-		9NrL9i8hPRCK5aK9Y5+5prBJBGM=
+		DIrjjUzc4lQ1gyWJi+leQC5ejy8=
 		</data>
 		<key>IntermidiateCollectionViewCell.nib/runtime.nib</key>
 		<data>
-		sXuCjdbsZYRWyum3/ItjY6ZM9JE=
+		j0ysr9sSQJtwjuTqsHnzQoXDJY8=
 		</data>
 		<key>InviteCodeView.nib/objects-13.0+.nib</key>
 		<data>
-		8K2fdEFbwnfk2Rh2Qz6xYjLT0bs=
+		66PdeyvJhJMJvCHu0XRzsOUTjl0=
 		</data>
 		<key>InviteCodeView.nib/runtime.nib</key>
 		<data>
-		o3rbZF4xsp8CM7opGAqmC2BE2VE=
-		</data>
-		<key>InviteDetailView.nib/objects-13.0+.nib</key>
-		<data>
-		LOyDREWNcL0EW4SMSzt0M6eKDO4=
-		</data>
-		<key>InviteDetailView.nib/runtime.nib</key>
-		<data>
-		lgGrOG/yTKzHddXZjCWRaC+FHY8=
-		</data>
-		<key>InviteManagementBannerTableViewCell.nib/objects-13.0+.nib</key>
-		<data>
-		Cog68L6gCKJbZtV4zzWBC3tT2HQ=
-		</data>
-		<key>InviteManagementBannerTableViewCell.nib/runtime.nib</key>
-		<data>
-		+IYq5rv/pMGnq5JYH/TpZp9HDfY=
-		</data>
-		<key>InviteManagementHeaderTableViewCell.nib/objects-13.0+.nib</key>
-		<data>
-		96eNT8vc0t5K13ZJWv+/7Bfz+ss=
-		</data>
-		<key>InviteManagementHeaderTableViewCell.nib/runtime.nib</key>
-		<data>
-		un1zcHSIIOvWT14c48fAq6R+Zhs=
-		</data>
-		<key>InviteManagementInviteTableViewCell.nib/objects-13.0+.nib</key>
-		<data>
-		za+djtrS54hURG/SiBlm5pqT1hk=
-		</data>
-		<key>InviteManagementInviteTableViewCell.nib/runtime.nib</key>
-		<data>
-		SgSCARTqFw5lmgTS3hLbgyDkgok=
-		</data>
-		<key>InviteManagementView.nib</key>
-		<data>
-		/Sf7xc8SThWfIotp8ZOcAmmzyAg=
+		rO6qLvWUHGg7EFCxSiB6kmEiUeQ=
 		</data>
 		<key>LeaderBoardTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -238,7 +210,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ZW8FIea2uQzfCkRepM2nbvtobvA=
+		WNFQ7xiGE+C6Cz8ewhSvyNI1C0U=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -246,7 +218,7 @@
 		</data>
 		<key>OnboardingView.nib</key>
 		<data>
-		0vn+xs6rZ8xZ48amBQxOLK3KUts=
+		DrElqWHyBT/3QlHRp2t4AC1YKKk=
 		</data>
 		<key>Poppins-Black.ttf</key>
 		<data>
@@ -354,11 +326,11 @@
 		</data>
 		<key>PrizesView.nib/objects-13.0+.nib</key>
 		<data>
-		uFdvH8w7GyA8i1pSUOGTjXW2aLk=
+		IvbJP+/VRJinwwKdbGPDqGKtOhA=
 		</data>
 		<key>PrizesView.nib/runtime.nib</key>
 		<data>
-		XOo6WRlnIJLK23JngHU9u8gWeuQ=
+		LG13eLyIlnIil8P0SJ2MEH8WhhM=
 		</data>
 		<key>ProfilingQuizCollectionViewCell.nib/objects-12.3+.nib</key>
 		<data>
@@ -395,6 +367,22 @@
 		<key>QuizView.nib/runtime.nib</key>
 		<data>
 		vkOgan/5m+Guep9Fi4BgM5VCH7o=
+		</data>
+		<key>ReferralInfoTableViewCell.nib/objects-13.0+.nib</key>
+		<data>
+		/nVqgQFIRzh6KbcfbZoN0EtpOBc=
+		</data>
+		<key>ReferralInfoTableViewCell.nib/runtime.nib</key>
+		<data>
+		PHVwGbxqQ35FRim5GhvcBk8kx1E=
+		</data>
+		<key>ReferralPopupView.nib/objects-13.0+.nib</key>
+		<data>
+		UuOUQ49x851ixvanJaCprdERkSM=
+		</data>
+		<key>ReferralPopupView.nib/runtime.nib</key>
+		<data>
+		sxRib11WFII+6P6lSmnIDmRqihU=
 		</data>
 		<key>RewardsTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
@@ -482,11 +470,11 @@
 		</data>
 		<key>ValidInvitationPopupView.nib/objects-13.0+.nib</key>
 		<data>
-		l280dhHFMmRCFaW+m4wse5IxUQk=
+		SFcmJm9P/uvP/Mcjm/JBjdPl9t4=
 		</data>
 		<key>ValidInvitationPopupView.nib/runtime.nib</key>
 		<data>
-		yo6YCv2a13Vk0uThATCxjirpA5U=
+		z3jZ8MOkndYRTcFBXXJh62jpp9Y=
 		</data>
 		<key>VideoView.nib/objects-13.0+.nib</key>
 		<data>
@@ -553,7 +541,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CzGMiLi3FybA27lFiDThV7ra3hdJctpI64l1Zxd5CF8=
+			FPxoFL2OMPBuJXxsrAAx4wnexrYB03VGJ4MEZMqgg8Y=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
@@ -574,14 +562,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ddhoGwWho+sicuNOmpD652SyL8POd1HCiEwptYukPxo=
+			PWATdUQQmsjRg9+eJsqfombz0vD0d7S1MeWt2hM7xCs=
 			</data>
 		</dict>
 		<key>BoostMissionTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O4FEDOHjr+odUpbcurTtnRjwyCypngX3NWzdJ+EuoDc=
+			S81Hy2Vg9nxwsShnOcoNeMOc6IkUDijqujPL3Pyw4lk=
 			</data>
 		</dict>
 		<key>BoosterView.nib/objects-13.0+.nib</key>
@@ -651,14 +639,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			st6U8P3WL5tFU8kQfZENRC/NCuHXwd2bPQwIcHSJfXw=
+			AFlqbOyuLg5JL9noccamobA89LnRHsQpHk+NJlgcyyk=
 			</data>
 		</dict>
 		<key>EN.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RtLTDD43uPcYd2Je6zlVuXKSeYDXeRkqXUZX1eyD9n4=
+			Qd6X3s5xjyJJcS+My9Jm21VtCI4vbFWq6eLaOkIKX6Q=
 			</data>
 		</dict>
 		<key>EducationalCardView.nib</key>
@@ -672,14 +660,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			evSZQDh1UHXj6ZilCvAZWaTn/2WZ45nUjEf2j9YrsVI=
+			crGIYAE7ZNpavBhzn9yGjaX2Z/iT6fwJSPa2Jo81KWY=
 			</data>
 		</dict>
 		<key>EmptyPrizesTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qQQihDrZDkqRgGqtnEvEcgYirtNTvxr4bPSp1bwhwPE=
+			m4t4ZfUVTp5+uGC/7c1XYfy7NB/ecjM+6Mc4VPz3rCk=
 			</data>
 		</dict>
 		<key>GenericSectionView.nib</key>
@@ -724,39 +712,53 @@
 			wI00F+wD9wTkqW5wqmnTG0avLLevPTExLI0gCWrvi10=
 			</data>
 		</dict>
+		<key>HistoryHeaderTableViewCell.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			zF2arA++K0oUFJi8UcCRY8s8N2YGBFvE2MUdd+HR+m0=
+			</data>
+		</dict>
+		<key>HistoryHeaderTableViewCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EPqxDjq4eFfqZLHfXHzQ8U+oN3jrIZ57/Jih9TzlBQk=
+			</data>
+		</dict>
 		<key>HomeView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RrqTxaTRNjvjusci2RmAu3R1srXSuFY+55tVJ3E4DL8=
+			44weS+slRSjvqXwOBLF/drBm2KVTwzEwGwDKlLJ56Qk=
 			</data>
 		</dict>
 		<key>HomeView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cHotA1zyL/VV9BonBaunlDcKPTQvt5kENMGfIoFXsMo=
+			NBKbCf2GJA9nkeH6Xv8hettxeHvxC4DfI2u5oDg1iKg=
 			</data>
 		</dict>
 		<key>IDN.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ko1YoyIHl2Q+5EOvFRZ9MLuR8pYXFIG2bbw29eoXADU=
+			iVhFpM6YeUPCCngbpYRqEZYpvgAL6q16uHMFdryIjx0=
 			</data>
 		</dict>
 		<key>InitialCollectionViewCell.nib/objects-12.3+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N7wjcz7iLyMML/UHDCEWJL04gjCIRRk/5AuXYtPXUp0=
+			ZrPAXGmz1bqeB8RmiuKvHtYcXB0LXDXr3DEvwJjdZqU=
 			</data>
 		</dict>
 		<key>InitialCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X3WD3Wr/1mPpyvxhGMJj2JdF5joCMH1o2mrNNzByTek=
+			uTeCKum901W7RVUc8qyYiWJ2XLqSfcqXq4c23D8f/5w=
 			</data>
 		</dict>
 		<key>InsertInvitationView.nib/objects-13.0+.nib</key>
@@ -777,91 +779,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MPQwbMnJXOhFIJnnQBgmD5wDAtIcQWAVGx701Z5T+SI=
+			+JzjYvJ2dcQ4Zsjlkrr4XR+nkkc+qKfEAB4Q4zK1Qxw=
 			</data>
 		</dict>
 		<key>IntermidiateCollectionViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			miHAhu0UrPwsxk5ziyp3Q2ArUzbf47X5MpWDUbarUvM=
+			USbZgo7Sxn67vd8gj+JdY21cxy0jNxmp7vMhwRtlfYQ=
 			</data>
 		</dict>
 		<key>InviteCodeView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kpPpbNFjXGe+4SNCYWK2MRiW5G9xUzndc8uoZm9FRek=
+			6/u2FTgs32forNUqrxeIBkHbd6CT3mYA9k3Db+jii88=
 			</data>
 		</dict>
 		<key>InviteCodeView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LmpZe2xUymdUa8MMNKUks3erdHrE7mLZMlUPv5VgA5I=
-			</data>
-		</dict>
-		<key>InviteDetailView.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LVgzrzTNDGTfMz5oVmPO4hEQN66eSkQC5EJyLWTPHsk=
-			</data>
-		</dict>
-		<key>InviteDetailView.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9PHCO+sGkBE6H5WUvzklCKtcbLZ6S2sStyijCGK2Wew=
-			</data>
-		</dict>
-		<key>InviteManagementBannerTableViewCell.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yPfoF3z2gcDlk0NU+y27h1ss6BCEKdYiEQEJKGWcepA=
-			</data>
-		</dict>
-		<key>InviteManagementBannerTableViewCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Wi5kbyoJOpJUAoj+AFps0o5v9SvhPJeCR0pr5xjw8LM=
-			</data>
-		</dict>
-		<key>InviteManagementHeaderTableViewCell.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			1QCw3qzth+2OTDea2Wl8OgvJr1tEM2rf/8kcNq0PoeU=
-			</data>
-		</dict>
-		<key>InviteManagementHeaderTableViewCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			o+3FjAlRaN3pXJRBybJX1WG+eqfsreWtbEG2B/zKQDI=
-			</data>
-		</dict>
-		<key>InviteManagementInviteTableViewCell.nib/objects-13.0+.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bE5Jy11QjXyS+TkLYz+fchY/v14cNxp25LUCw5V4BY4=
-			</data>
-		</dict>
-		<key>InviteManagementInviteTableViewCell.nib/runtime.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cReqIBC9EnlobxGsDY5ouwbWjKJLPvFYDVzVIrCY5Kw=
-			</data>
-		</dict>
-		<key>InviteManagementView.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ycLMonbv8JNBClEysdbufUZgwvhyOBRl2pfLTLrFlMY=
+			50dSQaJwsRhSEpTSEHFYhv+QLqn/S8vSlqTNF7Xlay8=
 			</data>
 		</dict>
 		<key>LeaderBoardTableViewCell.nib/objects-13.0+.nib</key>
@@ -938,7 +877,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IFByoJbczhUgJNJLC/tHst4KCvt/kvNogjgT1CHJNsw=
+			8Rzi2GIpQqFvPRRbmDj5DbvjZBtU4kivJjM2u6ZxTaI=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -952,7 +891,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q3/9vxv7wxet6janP2TxWxcSejhjVxsfAsVvN9cmgF8=
+			rXGXpEwR5MzQupEGQ7WGFaGU4WTb1tiREd6lF0NWakY=
 			</data>
 		</dict>
 		<key>Poppins-Black.ttf</key>
@@ -1141,14 +1080,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hm7e+GwTdPgwZh28fwZQEz/coK/8rQQ3m6hjyjZBqI0=
+			PuKZWyWhbAo2e4TMizHRMDawEsSsij9Kpz0LpkruScw=
 			</data>
 		</dict>
 		<key>PrizesView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2WvZb8bSUiw01+4NV6B7Z4NuZHhS6W0X59kcySw3meo=
+			IZPthAqGjJBdvor+NEPrmnv3c/c8rpRpMBOZe2ZZJNE=
 			</data>
 		</dict>
 		<key>ProfilingQuizCollectionViewCell.nib/objects-12.3+.nib</key>
@@ -1212,6 +1151,34 @@
 			<key>hash2</key>
 			<data>
 			U1OEfCggL8rTqrQ4IpSXzgtw0fC5jRjGq5L3YzuqO5U=
+			</data>
+		</dict>
+		<key>ReferralInfoTableViewCell.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SJPGoOFEGXpQD9OUdNBFc1fJYhVcb/5lG3nBlitrFp4=
+			</data>
+		</dict>
+		<key>ReferralInfoTableViewCell.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kQcnsO+UFO71CaEj0mIaOzXPfaFSsgFzO9KWylDz2V4=
+			</data>
+		</dict>
+		<key>ReferralPopupView.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			H4JBC15K/qZSdUh5EhZCffsZZYMxUbIs7y2oc3Qkc9M=
+			</data>
+		</dict>
+		<key>ReferralPopupView.nib/runtime.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1MtYzIh0Ty60h8/7CQxJt0PBniI9Ju02TNC3sPgu09I=
 			</data>
 		</dict>
 		<key>RewardsTableViewCell.nib/objects-13.0+.nib</key>
@@ -1365,14 +1332,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			C2sCtwNu+5XFSjE3McxlWEi1FGf955wqdDp+/ce4QrY=
+			Z0XYB8ttwS3Cc4iPK0SEXRFuEUEl/0dJ0tRPXKs8170=
 			</data>
 		</dict>
 		<key>ValidInvitationPopupView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xmmSOO9EBYZhcwHlg0QLFVChbTSXrb0lIjzxOV6toTs=
+			hD138CsggIgNsEmvS90pFYa7dIwsthT9ooN7lUs/k9A=
 			</data>
 		</dict>
 		<key>VideoView.nib/objects-13.0+.nib</key>
