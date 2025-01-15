@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		rrHP2Ulv9XfP1naOA63SJq/9DNQ=
+		UAF82jqP4rzqwwAMTfP2Y9hQVhE=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		jDsx/F7X6EIzRT3+NS5CHEoFH+g=
+		hh1C84wOirPpN4bjFvnbePqEEYM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -500,26 +500,6 @@
 		<data>
 		Ig3/JZOlUbzSwlRN+QeSPgtchfc=
 		</data>
-		<key>avatar_female_design_wip_v7.riv</key>
-		<data>
-		cKlpE+9a2/SSWpQF7BvGteTzB4k=
-		</data>
-		<key>avatar_male_design_wip_v7.riv</key>
-		<data>
-		/kgybuX3++qyyYv0ah4gLtxVmkk=
-		</data>
-		<key>map_main_design_08_wip_v16.riv</key>
-		<data>
-		ZK1F5evsBpogE/WnN8Hm6lwgThM=
-		</data>
-		<key>map_main_design_08_wip_v17.riv</key>
-		<data>
-		2M5CfzKKkUvhsRUh7YTeeKPkOfE=
-		</data>
-		<key>map_main_prod_01.riv</key>
-		<data>
-		bUzKDUvoEnkOS0NXIZmFkbru5HE=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -541,7 +521,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cIfBClc+pVgTiN/+Eff2iC5ZEZKMaThk/1nryG+57p4=
+			p7VadwkdEadnELX/UkP5eu9tD5mw1Q7nT4xs+7iECjA=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
@@ -877,7 +857,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ggaw0oOKaSS+03ZVukK+lkVdeLPPQ77oCwyk0mNIE50=
+			BHFPMlD1t1ydBtG0fKl05C/gW799TZGAVCrCFmPpoSE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1382,41 +1362,6 @@
 			<key>hash2</key>
 			<data>
 			N1V3nU0lzTZtUVVRzYtqfb34MEVJY2oz1hSMrDv7vUs=
-			</data>
-		</dict>
-		<key>avatar_female_design_wip_v7.riv</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6Mw8YdjLTCU4OlhkjNHzP5L0JbOmL7FFBU7vu8PbiEs=
-			</data>
-		</dict>
-		<key>avatar_male_design_wip_v7.riv</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EqMuAWMmxjWUYJfgJxEjI2oAHPUL5p2kh+AgSD4k1QQ=
-			</data>
-		</dict>
-		<key>map_main_design_08_wip_v16.riv</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OUZmabIvIw2RzdM4DQb5oZaEPrsBEm3FeYToAijXxxA=
-			</data>
-		</dict>
-		<key>map_main_design_08_wip_v17.riv</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xk0BjIYUoMeCfR88swqVbwicl/obErdmbxpg6OubSEw=
-			</data>
-		</dict>
-		<key>map_main_prod_01.riv</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SG48Fm/zmGFeXLzjRunSZhKUApVelOnJMT8ZO6DQiok=
 			</data>
 		</dict>
 	</dict>

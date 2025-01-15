@@ -14,7 +14,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		HlScEZGpftB9vJGFkqjqzpa9dqM=
+		nSAO4QYrzHu+bQqKtTuMI8qjCb8=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XqNCEXWqi8tOIEErlJKZP+aG2kU=
+		FNjdIkMaSi0x4BQbHrDaLinY0Fo=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -222,7 +222,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Wsndh0AGA65LUCoLoY4NgwsyvAE=
+		T1vmLWX/ei58/eFzW/4pZfg6IjE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -512,26 +512,6 @@
 		<data>
 		Ig3/JZOlUbzSwlRN+QeSPgtchfc=
 		</data>
-		<key>avatar_female_design_wip_v7.riv</key>
-		<data>
-		cKlpE+9a2/SSWpQF7BvGteTzB4k=
-		</data>
-		<key>avatar_male_design_wip_v7.riv</key>
-		<data>
-		/kgybuX3++qyyYv0ah4gLtxVmkk=
-		</data>
-		<key>map_main_design_08_wip_v16.riv</key>
-		<data>
-		ZK1F5evsBpogE/WnN8Hm6lwgThM=
-		</data>
-		<key>map_main_design_08_wip_v17.riv</key>
-		<data>
-		2M5CfzKKkUvhsRUh7YTeeKPkOfE=
-		</data>
-		<key>map_main_prod_01.riv</key>
-		<data>
-		bUzKDUvoEnkOS0NXIZmFkbru5HE=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -553,7 +533,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CTiFT63xTYKNdQ062sIjHNu1w7ls6izooTu38Gb002s=
+			mUFc6dzP1Bo7CT3c3hn5NQXUGcFz6gMvSFh0cKOk1Po=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
@@ -889,7 +869,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zYFIu9CxfHdBMFyG1diudBr9PQ2gRNjfi874uqR9OV4=
+			qBr/xmY/z53tTMhA6+65bBUlSpeFuGhYFqmhmSe4IwY=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -910,7 +890,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CAELrqgnv2KXkXBPHxEq2F/0TGV44W+CCTWJfpo8qDA=
+			QJ7LmHSV+P/1b3UljfqXqzpK3/8A7dm7BAGLRjczdGw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -1415,41 +1395,6 @@
 			<key>hash2</key>
 			<data>
 			N1V3nU0lzTZtUVVRzYtqfb34MEVJY2oz1hSMrDv7vUs=
-			</data>
-		</dict>
-		<key>avatar_female_design_wip_v7.riv</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6Mw8YdjLTCU4OlhkjNHzP5L0JbOmL7FFBU7vu8PbiEs=
-			</data>
-		</dict>
-		<key>avatar_male_design_wip_v7.riv</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EqMuAWMmxjWUYJfgJxEjI2oAHPUL5p2kh+AgSD4k1QQ=
-			</data>
-		</dict>
-		<key>map_main_design_08_wip_v16.riv</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OUZmabIvIw2RzdM4DQb5oZaEPrsBEm3FeYToAijXxxA=
-			</data>
-		</dict>
-		<key>map_main_design_08_wip_v17.riv</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xk0BjIYUoMeCfR88swqVbwicl/obErdmbxpg6OubSEw=
-			</data>
-		</dict>
-		<key>map_main_prod_01.riv</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SG48Fm/zmGFeXLzjRunSZhKUApVelOnJMT8ZO6DQiok=
 			</data>
 		</dict>
 	</dict>
