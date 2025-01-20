@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "TTI2"
-  spec.version      = "2.2.2"
+  spec.version      = "2.2.3"
   spec.summary      = "SDK for TTI (MyTSEL) implementation"
   spec.requires_arc = true
   
@@ -74,4 +74,7 @@ Pod::Spec.new do |spec|
   spec.dependency  'RxDataSources', '5.0.0'
   spec.dependency  'RiveRuntime', '1.0.18'
   spec.dependency  'SVGKit', '3.0.0'
+  spec.dependency  'Google-Mobile-Ads-SDK', '10.14.0'
+  spec.dependency  'StartAppSDK', '4.10.5'
+  spec.dependency  'InMobiSDK', '10.6.4'
 end

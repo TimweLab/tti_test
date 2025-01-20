@@ -1,11 +1,11 @@
 framework module TTI2 {
   umbrella header "TTI2.h"
-
   export *
+
   module * { export * }
 }
 
 module TTI2.Swift {
-    header "TTI2-Swift.h"
-    requires objc
+  header "TTI2-Swift.h"
+  requires objc
 }

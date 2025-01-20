@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/RxCocoa-Swift.h</key>
 		<data>
-		6QnYpS1RKToYlB4IZoaQYu92JZ4=
+		LEj1z8EgJ8mRnAhaJMW7Nzxa4I0=
 		</data>
 		<key>Headers/RxCocoa-umbrella.h</key>
 		<data>
@@ -38,35 +38,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IGbbpH687+q3DQ+OJ/iAkE6Lrj0=
+		IXnaIuyXCPJwlr+rkMGJXJMLoZ4=
+		</data>
+		<key>Modules/RxCocoa.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		Ad4w39hY7gjouhESBXf56VUiK9k=
+		</data>
+		<key>Modules/RxCocoa.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		H8jyPzm2NZLWHGdcfyDYPcQK3bA=
 		</data>
 		<key>Modules/RxCocoa.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QxJ+3ejiDQLtsXJjtbY5j3uxTls=
+		J6Zq0MU+JsCQSOF75YWm+8OOEBo=
 		</data>
 		<key>Modules/RxCocoa.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		KHdXjHxsFzsMxUWroLdtEv4akVI=
+		H8jyPzm2NZLWHGdcfyDYPcQK3bA=
 		</data>
 		<key>Modules/RxCocoa.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GHOwRJ8KOGub2+9sVv8HIMN8DPY=
+		yxvShk38C+5TaNF9wFIlBruZjhY=
+		</data>
+		<key>Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		Ad4w39hY7gjouhESBXf56VUiK9k=
+		</data>
+		<key>Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		wncOKQnzdogjWK/oy6BpMWz/Tus=
 		</data>
 		<key>Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		QzqtxoDNygViseJfWOt4OcC3ywE=
+		EE+H0HZOf3VkR6gVJPK8ha/omXg=
 		</data>
 		<key>Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		P9DRNvcE/Rk+jcFcph/xSHF9gWA=
+		wncOKQnzdogjWK/oy6BpMWz/Tus=
 		</data>
 		<key>Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XUPRl1g2diE3j8M1x1PfUJ/HZfU=
+		74lClMwaWgx5E3ohdnVG/IMQ5qM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		AnkX0Z61OrGvPhW1fbC5AUFXu8U=
+		gsLEmXZ1oo4GESKcYa9Su+RuRWg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -75,7 +91,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			emp7Ajv93E4figJgWvK+rrJ9/Ewv/a3zBHPTZtLHwEY=
+			y05PtLKEaFMlMxgv579ULNPTjWqNhRCaf8qR22M0xOI=
 			</data>
 		</dict>
 		<key>Headers/RxCocoa-umbrella.h</key>
@@ -127,53 +143,81 @@
 			sQwqYZgTaBFy6MTZUOcobQ4ShAeVCZ27r+k6Bit4Z68=
 			</data>
 		</dict>
+		<key>Modules/RxCocoa.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			78yxL4nTaesKjX6FOEQppMeYEHyQIWUw4uPU39LHFpo=
+			</data>
+		</dict>
+		<key>Modules/RxCocoa.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dN94SSJN/ZHAz7RC28eJk5JRUspRhzvtuZZn/Y4fWPY=
+			</data>
+		</dict>
 		<key>Modules/RxCocoa.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cVyN6fhqfoGgnlWdIFPfC4gA5saUAot/HLE18Bj5t4A=
+			9CXklZAA/zAGlrU5x9+nJU4D5Oxta+6mmA0XB67CrkU=
 			</data>
 		</dict>
 		<key>Modules/RxCocoa.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P1iT4/tRYkKkQcu3WbcHRhjWiXIrQScd9bL6V7TGZZM=
+			dN94SSJN/ZHAz7RC28eJk5JRUspRhzvtuZZn/Y4fWPY=
 			</data>
 		</dict>
 		<key>Modules/RxCocoa.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pm0GC9QyIOvMQYvkC325YGnj81mp+a1brIKzcOxGw9w=
+			gAMuj+McHy268ioZIH2qQRMPleGmfLuNeh8iGl9Kjts=
+			</data>
+		</dict>
+		<key>Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			78yxL4nTaesKjX6FOEQppMeYEHyQIWUw4uPU39LHFpo=
+			</data>
+		</dict>
+		<key>Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			aV/8FdaBpKRZoIG9+OGl/5YWfp2VvbrC6iKkOo38bGc=
 			</data>
 		</dict>
 		<key>Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vc5BF00set936fYGLNKwBHTOHFSW7d1UTnTYcbSNYXs=
+			Qmyo+qR6pj7J3SxBdQIaZBM7Na0kNdaKctnlt5SGeEk=
 			</data>
 		</dict>
 		<key>Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3+GV3Q3SNm8xkqDCbmDa6qbwX7twaJBeAa9ilfGG/2c=
+			aV/8FdaBpKRZoIG9+OGl/5YWfp2VvbrC6iKkOo38bGc=
 			</data>
 		</dict>
 		<key>Modules/RxCocoa.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dmELUJHTohlVDHBcMXbP5mp/IDgSJW1CZe6peclh5fY=
+			dZZemA16b0vZcFmKBdHgX9bCY2PRFx5s42m/3SEzn80=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hSBqhd+2/efv3vzIlcOwt1FHM3ImDtN/AsQRGJTpYMs=
+			wI22pjrMVltbVk4/WQL/dXFHT6VMlAWujuDm4u/mluM=
 			</data>
 		</dict>
 	</dict>

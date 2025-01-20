@@ -6,6 +6,6 @@ framework module RxKeyboard {
 }
 
 module RxKeyboard.Swift {
-    header "RxKeyboard-Swift.h"
-    requires objc
+  header "RxKeyboard-Swift.h"
+  requires objc
 }

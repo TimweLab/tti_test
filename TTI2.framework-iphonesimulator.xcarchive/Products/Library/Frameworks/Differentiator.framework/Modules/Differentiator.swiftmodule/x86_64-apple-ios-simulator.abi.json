@@ -1,0 +1,4173 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnimatableSectionModel",
+        "printedName": "AnimatableSectionModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator22AnimatableSectionModelV5modelxvp",
+            "mangledName": "$s14Differentiator22AnimatableSectionModelV5modelxvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator22AnimatableSectionModelV5modelxvg",
+                "mangledName": "$s14Differentiator22AnimatableSectionModelV5modelxvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+                "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator22AnimatableSectionModelV5modelxvs",
+                "mangledName": "$s14Differentiator22AnimatableSectionModelV5modelxvs",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+                "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator22AnimatableSectionModelV5modelxvM",
+                "mangledName": "$s14Differentiator22AnimatableSectionModelV5modelxvM",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+                "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "items",
+            "printedName": "items",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator22AnimatableSectionModelV5itemsSayq_Gvp",
+            "mangledName": "$s14Differentiator22AnimatableSectionModelV5itemsSayq_Gvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_1]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator22AnimatableSectionModelV5itemsSayq_Gvg",
+                "mangledName": "$s14Differentiator22AnimatableSectionModelV5itemsSayq_Gvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+                "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_1]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator22AnimatableSectionModelV5itemsSayq_Gvs",
+                "mangledName": "$s14Differentiator22AnimatableSectionModelV5itemsSayq_Gvs",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+                "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator22AnimatableSectionModelV5itemsSayq_GvM",
+                "mangledName": "$s14Differentiator22AnimatableSectionModelV5itemsSayq_GvM",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+                "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(model:items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatableSectionModel",
+                "printedName": "Differentiator.AnimatableSectionModel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14Differentiator22AnimatableSectionModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14Differentiator22AnimatableSectionModelV5model5itemsACyxq_Gx_Sayq_Gtcfc",
+            "mangledName": "$s14Differentiator22AnimatableSectionModelV5model5itemsACyxq_Gx_Sayq_Gtcfc",
+            "moduleName": "Differentiator",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+            "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "identity",
+            "printedName": "identity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Identity"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator22AnimatableSectionModelV8identity8IdentityQzvp",
+            "mangledName": "$s14Differentiator22AnimatableSectionModelV8identity8IdentityQzvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Identity"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator22AnimatableSectionModelV8identity8IdentityQzvg",
+                "mangledName": "$s14Differentiator22AnimatableSectionModelV8identity8IdentityQzvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+                "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(original:items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatableSectionModel",
+                "printedName": "Differentiator.AnimatableSectionModel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14Differentiator22AnimatableSectionModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatableSectionModel",
+                "printedName": "Differentiator.AnimatableSectionModel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14Differentiator22AnimatableSectionModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14Differentiator22AnimatableSectionModelV8original5itemsACyxq_GAF_Sayq_Gtcfc",
+            "mangledName": "$s14Differentiator22AnimatableSectionModelV8original5itemsACyxq_GAF_Sayq_Gtcfc",
+            "moduleName": "Differentiator",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+            "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator22AnimatableSectionModelV9hashValueSivp",
+            "mangledName": "$s14Differentiator22AnimatableSectionModelV9hashValueSivp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator22AnimatableSectionModelV9hashValueSivg",
+                "mangledName": "$s14Differentiator22AnimatableSectionModelV9hashValueSivg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+                "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator22AnimatableSectionModelV11descriptionSSvp",
+            "mangledName": "$s14Differentiator22AnimatableSectionModelV11descriptionSSvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator22AnimatableSectionModelV11descriptionSSvg",
+                "mangledName": "$s14Differentiator22AnimatableSectionModelV11descriptionSSvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+                "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatableSectionModel",
+                "printedName": "Differentiator.AnimatableSectionModel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14Differentiator22AnimatableSectionModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimatableSectionModel",
+                "printedName": "Differentiator.AnimatableSectionModel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14Differentiator22AnimatableSectionModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Differentiator22AnimatableSectionModelVAASQRzrlE2eeoiySbACyxq_G_AEtFZ",
+            "mangledName": "$s14Differentiator22AnimatableSectionModelVAASQRzrlE2eeoiySbACyxq_G_AEtFZ",
+            "moduleName": "Differentiator",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_0 : Swift.Equatable, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+            "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, Section : Swift.Equatable, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14Differentiator22AnimatableSectionModelV",
+        "mangledName": "$s14Differentiator22AnimatableSectionModelV",
+        "moduleName": "Differentiator",
+        "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Differentiator.IdentifiableType, τ_0_1 : Differentiator.IdentifiableType, τ_0_1 : Swift.Equatable>",
+        "sugared_genericSig": "<Section, ItemType where Section : Differentiator.IdentifiableType, ItemType : Differentiator.IdentifiableType, ItemType : Swift.Equatable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "AnimatableSectionModelType",
+            "printedName": "AnimatableSectionModelType",
+            "usr": "s:14Differentiator26AnimatableSectionModelTypeP",
+            "mangledName": "$s14Differentiator26AnimatableSectionModelTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SectionModelType",
+            "printedName": "SectionModelType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Item",
+                "printedName": "Item",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:14Differentiator16SectionModelTypeP",
+            "mangledName": "$s14Differentiator16SectionModelTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "IdentifiableType",
+            "printedName": "IdentifiableType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Identity",
+                "printedName": "Identity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Identity"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:14Differentiator16IdentifiableTypeP",
+            "mangledName": "$s14Differentiator16IdentifiableTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnimatableSectionModelType",
+        "printedName": "AnimatableSectionModelType",
+        "declKind": "Protocol",
+        "usr": "s:14Differentiator26AnimatableSectionModelTypeP",
+        "mangledName": "$s14Differentiator26AnimatableSectionModelTypeP",
+        "moduleName": "Differentiator",
+        "genericSig": "<τ_0_0 : Differentiator.IdentifiableType, τ_0_0 : Differentiator.SectionModelType, τ_0_0.Item : Differentiator.IdentifiableType, τ_0_0.Item : Swift.Equatable>",
+        "sugared_genericSig": "<Self : Differentiator.IdentifiableType, Self : Differentiator.SectionModelType, Self.Item : Differentiator.IdentifiableType, Self.Item : Swift.Equatable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IdentifiableType",
+            "printedName": "IdentifiableType",
+            "usr": "s:14Differentiator16IdentifiableTypeP",
+            "mangledName": "$s14Differentiator16IdentifiableTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SectionModelType",
+            "printedName": "SectionModelType",
+            "usr": "s:14Differentiator16SectionModelTypeP",
+            "mangledName": "$s14Differentiator16SectionModelTypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Changeset",
+        "printedName": "Changeset",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "reloadData",
+            "printedName": "reloadData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV10reloadDataSbvp",
+            "mangledName": "$s14Differentiator9ChangesetV10reloadDataSbvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV10reloadDataSbvg",
+                "mangledName": "$s14Differentiator9ChangesetV10reloadDataSbvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "originalSections",
+            "printedName": "originalSections",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV16originalSectionsSayxGvp",
+            "mangledName": "$s14Differentiator9ChangesetV16originalSectionsSayxGvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV16originalSectionsSayxGvg",
+                "mangledName": "$s14Differentiator9ChangesetV16originalSectionsSayxGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "finalSections",
+            "printedName": "finalSections",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV13finalSectionsSayxGvp",
+            "mangledName": "$s14Differentiator9ChangesetV13finalSectionsSayxGvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV13finalSectionsSayxGvg",
+                "mangledName": "$s14Differentiator9ChangesetV13finalSectionsSayxGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "insertedSections",
+            "printedName": "insertedSections",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV16insertedSectionsSaySiGvp",
+            "mangledName": "$s14Differentiator9ChangesetV16insertedSectionsSaySiGvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV16insertedSectionsSaySiGvg",
+                "mangledName": "$s14Differentiator9ChangesetV16insertedSectionsSaySiGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deletedSections",
+            "printedName": "deletedSections",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV15deletedSectionsSaySiGvp",
+            "mangledName": "$s14Differentiator9ChangesetV15deletedSectionsSaySiGvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV15deletedSectionsSaySiGvg",
+                "mangledName": "$s14Differentiator9ChangesetV15deletedSectionsSaySiGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "movedSections",
+            "printedName": "movedSections",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(from: Swift.Int, to: Swift.Int)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(from: Swift.Int, to: Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV13movedSectionsSaySi4from_Si2totGvp",
+            "mangledName": "$s14Differentiator9ChangesetV13movedSectionsSaySi4from_Si2totGvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[(from: Swift.Int, to: Swift.Int)]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(from: Swift.Int, to: Swift.Int)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV13movedSectionsSaySi4from_Si2totGvg",
+                "mangledName": "$s14Differentiator9ChangesetV13movedSectionsSaySi4from_Si2totGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "updatedSections",
+            "printedName": "updatedSections",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.Int]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV15updatedSectionsSaySiGvp",
+            "mangledName": "$s14Differentiator9ChangesetV15updatedSectionsSaySiGvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.Int]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV15updatedSectionsSaySiGvg",
+                "mangledName": "$s14Differentiator9ChangesetV15updatedSectionsSaySiGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "insertedItems",
+            "printedName": "insertedItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Differentiator.ItemPath]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ItemPath",
+                    "printedName": "Differentiator.ItemPath",
+                    "usr": "s:14Differentiator8ItemPathV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV13insertedItemsSayAA8ItemPathVGvp",
+            "mangledName": "$s14Differentiator9ChangesetV13insertedItemsSayAA8ItemPathVGvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Differentiator.ItemPath]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ItemPath",
+                        "printedName": "Differentiator.ItemPath",
+                        "usr": "s:14Differentiator8ItemPathV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV13insertedItemsSayAA8ItemPathVGvg",
+                "mangledName": "$s14Differentiator9ChangesetV13insertedItemsSayAA8ItemPathVGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "deletedItems",
+            "printedName": "deletedItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Differentiator.ItemPath]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ItemPath",
+                    "printedName": "Differentiator.ItemPath",
+                    "usr": "s:14Differentiator8ItemPathV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV12deletedItemsSayAA8ItemPathVGvp",
+            "mangledName": "$s14Differentiator9ChangesetV12deletedItemsSayAA8ItemPathVGvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Differentiator.ItemPath]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ItemPath",
+                        "printedName": "Differentiator.ItemPath",
+                        "usr": "s:14Differentiator8ItemPathV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV12deletedItemsSayAA8ItemPathVGvg",
+                "mangledName": "$s14Differentiator9ChangesetV12deletedItemsSayAA8ItemPathVGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "movedItems",
+            "printedName": "movedItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[(from: Differentiator.ItemPath, to: Differentiator.ItemPath)]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(from: Differentiator.ItemPath, to: Differentiator.ItemPath)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ItemPath",
+                        "printedName": "Differentiator.ItemPath",
+                        "usr": "s:14Differentiator8ItemPathV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ItemPath",
+                        "printedName": "Differentiator.ItemPath",
+                        "usr": "s:14Differentiator8ItemPathV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV10movedItemsSayAA8ItemPathV4from_AF2totGvp",
+            "mangledName": "$s14Differentiator9ChangesetV10movedItemsSayAA8ItemPathV4from_AF2totGvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[(from: Differentiator.ItemPath, to: Differentiator.ItemPath)]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(from: Differentiator.ItemPath, to: Differentiator.ItemPath)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ItemPath",
+                            "printedName": "Differentiator.ItemPath",
+                            "usr": "s:14Differentiator8ItemPathV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ItemPath",
+                            "printedName": "Differentiator.ItemPath",
+                            "usr": "s:14Differentiator8ItemPathV"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV10movedItemsSayAA8ItemPathV4from_AF2totGvg",
+                "mangledName": "$s14Differentiator9ChangesetV10movedItemsSayAA8ItemPathV4from_AF2totGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "updatedItems",
+            "printedName": "updatedItems",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Differentiator.ItemPath]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ItemPath",
+                    "printedName": "Differentiator.ItemPath",
+                    "usr": "s:14Differentiator8ItemPathV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV12updatedItemsSayAA8ItemPathVGvp",
+            "mangledName": "$s14Differentiator9ChangesetV12updatedItemsSayAA8ItemPathVGvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Differentiator.ItemPath]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ItemPath",
+                        "printedName": "Differentiator.ItemPath",
+                        "usr": "s:14Differentiator8ItemPathV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV12updatedItemsSayAA8ItemPathVGvg",
+                "mangledName": "$s14Differentiator9ChangesetV12updatedItemsSayAA8ItemPathVGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "initialValue",
+            "printedName": "initialValue(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Changeset",
+                "printedName": "Differentiator.Changeset<τ_0_0>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:14Differentiator9ChangesetV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Differentiator9ChangesetV12initialValueyACyxGSayxGFZ",
+            "mangledName": "$s14Differentiator9ChangesetV12initialValueyACyxGSayxGFZ",
+            "moduleName": "Differentiator",
+            "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+            "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "debugDescription",
+            "printedName": "debugDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator9ChangesetV16debugDescriptionSSvp",
+            "mangledName": "$s14Differentiator9ChangesetV16debugDescriptionSSvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator9ChangesetV16debugDescriptionSSvg",
+                "mangledName": "$s14Differentiator9ChangesetV16debugDescriptionSSvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14Differentiator9ChangesetV",
+        "mangledName": "$s14Differentiator9ChangesetV",
+        "moduleName": "Differentiator",
+        "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+        "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Diff",
+        "printedName": "Diff",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "Error",
+            "printedName": "Error",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "duplicateItem",
+                "printedName": "duplicateItem",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Differentiator.Diff.Error.Type) -> (Any) -> Differentiator.Diff.Error",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any) -> Differentiator.Diff.Error",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Differentiator.Diff.Error",
+                            "usr": "s:14Differentiator4DiffO5ErrorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(item: Any)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Differentiator.Diff.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Differentiator.Diff.Error",
+                            "usr": "s:14Differentiator4DiffO5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14Differentiator4DiffO5ErrorO13duplicateItemyAEyp_tcAEmF",
+                "mangledName": "$s14Differentiator4DiffO5ErrorO13duplicateItemyAEyp_tcAEmF",
+                "moduleName": "Differentiator"
+              },
+              {
+                "kind": "Var",
+                "name": "duplicateSection",
+                "printedName": "duplicateSection",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Differentiator.Diff.Error.Type) -> (Any) -> Differentiator.Diff.Error",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any) -> Differentiator.Diff.Error",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Differentiator.Diff.Error",
+                            "usr": "s:14Differentiator4DiffO5ErrorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(section: Any)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Differentiator.Diff.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Differentiator.Diff.Error",
+                            "usr": "s:14Differentiator4DiffO5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14Differentiator4DiffO5ErrorO16duplicateSectionyAEyp_tcAEmF",
+                "mangledName": "$s14Differentiator4DiffO5ErrorO16duplicateSectionyAEyp_tcAEmF",
+                "moduleName": "Differentiator"
+              },
+              {
+                "kind": "Var",
+                "name": "invalidInitializerImplementation",
+                "printedName": "invalidInitializerImplementation",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Differentiator.Diff.Error.Type) -> (Any, Any, Any) -> Differentiator.Diff.Error",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Any, Any, Any) -> Differentiator.Diff.Error",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Differentiator.Diff.Error",
+                            "usr": "s:14Differentiator4DiffO5ErrorO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(section: Any, expectedItems: Any, expectedIdentifier: Any)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "Any"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "Differentiator.Diff.Error.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Differentiator.Diff.Error",
+                            "usr": "s:14Differentiator4DiffO5ErrorO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:14Differentiator4DiffO5ErrorO32invalidInitializerImplementationyAEyp_ypyptcAEmF",
+                "mangledName": "$s14Differentiator4DiffO5ErrorO32invalidInitializerImplementationyAEyp_ypyptcAEmF",
+                "moduleName": "Differentiator"
+              },
+              {
+                "kind": "Var",
+                "name": "debugDescription",
+                "printedName": "debugDescription",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:14Differentiator4DiffO5ErrorO16debugDescriptionSSvp",
+                "mangledName": "$s14Differentiator4DiffO5ErrorO16debugDescriptionSSvp",
+                "moduleName": "Differentiator",
+                "declAttributes": [
+                  "AccessControl"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:14Differentiator4DiffO5ErrorO16debugDescriptionSSvg",
+                    "mangledName": "$s14Differentiator4DiffO5ErrorO16debugDescriptionSSvg",
+                    "moduleName": "Differentiator",
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:14Differentiator4DiffO5ErrorO",
+            "mangledName": "$s14Differentiator4DiffO5ErrorO",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Error",
+                "printedName": "Error",
+                "usr": "s:s5ErrorP",
+                "mangledName": "$ss5ErrorP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "differencesForSectionedView",
+            "printedName": "differencesForSectionedView(initialSections:finalSections:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Differentiator.Changeset<τ_0_0>]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Changeset",
+                    "printedName": "Differentiator.Changeset<τ_0_0>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_0"
+                      }
+                    ],
+                    "usr": "s:14Differentiator9ChangesetV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Differentiator4DiffO27differencesForSectionedView15initialSections05finalH0SayAA9ChangesetVyxGGSayxG_AKtKAA26AnimatableSectionModelTypeRzlFZ",
+            "mangledName": "$s14Differentiator4DiffO27differencesForSectionedView15initialSections05finalH0SayAA9ChangesetVyxGGSayxG_AKtKAA26AnimatableSectionModelTypeRzlFZ",
+            "moduleName": "Differentiator",
+            "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.AnimatableSectionModelType>",
+            "sugared_genericSig": "<Section where Section : Differentiator.AnimatableSectionModelType>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14Differentiator4DiffO",
+        "mangledName": "$s14Differentiator4DiffO",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IdentifiableType",
+        "printedName": "IdentifiableType",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "Identity",
+            "printedName": "Identity",
+            "declKind": "AssociatedType",
+            "usr": "s:14Differentiator16IdentifiableTypeP8IdentityQa",
+            "mangledName": "$s14Differentiator16IdentifiableTypeP8IdentityQa",
+            "moduleName": "Differentiator",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "identity",
+            "printedName": "identity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DependentMember",
+                "printedName": "τ_0_0.Identity"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator16IdentifiableTypeP8identity8IdentityQzvp",
+            "mangledName": "$s14Differentiator16IdentifiableTypeP8identity8IdentityQzvp",
+            "moduleName": "Differentiator",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Identity"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator16IdentifiableTypeP8identity8IdentityQzvg",
+                "mangledName": "$s14Differentiator16IdentifiableTypeP8identity8IdentityQzvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.IdentifiableType>",
+                "sugared_genericSig": "<Self where Self : Differentiator.IdentifiableType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14Differentiator16IdentifiableTypeP",
+        "mangledName": "$s14Differentiator16IdentifiableTypeP",
+        "moduleName": "Differentiator",
+        "genericSig": "<τ_0_0.Identity : Swift.Hashable>",
+        "sugared_genericSig": "<Self.Identity : Swift.Hashable>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "IdentifiableValue",
+        "printedName": "IdentifiableValue",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "value",
+            "printedName": "value",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator17IdentifiableValueV5valuexvp",
+            "mangledName": "$s14Differentiator17IdentifiableValueV5valuexvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator17IdentifiableValueV5valuexvg",
+                "mangledName": "$s14Differentiator17IdentifiableValueV5valuexvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Value where Value : Swift.Hashable>",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "identity",
+            "printedName": "identity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator17IdentifiableValueV8identityxvp",
+            "mangledName": "$s14Differentiator17IdentifiableValueV8identityxvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator17IdentifiableValueV8identityxvg",
+                "mangledName": "$s14Differentiator17IdentifiableValueV8identityxvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Value where Value : Swift.Hashable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator17IdentifiableValueV11descriptionSSvp",
+            "mangledName": "$s14Differentiator17IdentifiableValueV11descriptionSSvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator17IdentifiableValueV11descriptionSSvg",
+                "mangledName": "$s14Differentiator17IdentifiableValueV11descriptionSSvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Value where Value : Swift.Hashable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "debugDescription",
+            "printedName": "debugDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator17IdentifiableValueV16debugDescriptionSSvp",
+            "mangledName": "$s14Differentiator17IdentifiableValueV16debugDescriptionSSvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator17IdentifiableValueV16debugDescriptionSSvg",
+                "mangledName": "$s14Differentiator17IdentifiableValueV16debugDescriptionSSvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Swift.Hashable>",
+                "sugared_genericSig": "<Value where Value : Swift.Hashable>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14Differentiator17IdentifiableValueV",
+        "mangledName": "$s14Differentiator17IdentifiableValueV",
+        "moduleName": "Differentiator",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Hashable>",
+        "sugared_genericSig": "<Value where Value : Swift.Hashable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "IdentifiableType",
+            "printedName": "IdentifiableType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Identity",
+                "printedName": "Identity",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:14Differentiator16IdentifiableTypeP",
+            "mangledName": "$s14Differentiator16IdentifiableTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "==",
+        "printedName": "==(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "IdentifiableValue",
+            "printedName": "Differentiator.IdentifiableValue<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:14Differentiator17IdentifiableValueV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "IdentifiableValue",
+            "printedName": "Differentiator.IdentifiableValue<τ_0_0>",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:14Differentiator17IdentifiableValueV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:14Differentiator2eeoiySbAA17IdentifiableValueVyxG_AEtSHRzlF",
+        "mangledName": "$s14Differentiator2eeoiySbAA17IdentifiableValueVyxG_AEtSHRzlF",
+        "moduleName": "Differentiator",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Hashable>",
+        "sugared_genericSig": "<V where V : Swift.Hashable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ItemPath",
+        "printedName": "ItemPath",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sectionIndex",
+            "printedName": "sectionIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator8ItemPathV12sectionIndexSivp",
+            "mangledName": "$s14Differentiator8ItemPathV12sectionIndexSivp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator8ItemPathV12sectionIndexSivg",
+                "mangledName": "$s14Differentiator8ItemPathV12sectionIndexSivg",
+                "moduleName": "Differentiator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "itemIndex",
+            "printedName": "itemIndex",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator8ItemPathV9itemIndexSivp",
+            "mangledName": "$s14Differentiator8ItemPathV9itemIndexSivp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator8ItemPathV9itemIndexSivg",
+                "mangledName": "$s14Differentiator8ItemPathV9itemIndexSivg",
+                "moduleName": "Differentiator",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sectionIndex:itemIndex:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ItemPath",
+                "printedName": "Differentiator.ItemPath",
+                "usr": "s:14Differentiator8ItemPathV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14Differentiator8ItemPathV12sectionIndex04itemE0ACSi_Sitcfc",
+            "mangledName": "$s14Differentiator8ItemPathV12sectionIndex04itemE0ACSi_Sitcfc",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "debugDescription",
+            "printedName": "debugDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator8ItemPathV16debugDescriptionSSvp",
+            "mangledName": "$s14Differentiator8ItemPathV16debugDescriptionSSvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator8ItemPathV16debugDescriptionSSvg",
+                "mangledName": "$s14Differentiator8ItemPathV16debugDescriptionSSvg",
+                "moduleName": "Differentiator",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Differentiator8ItemPathV4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14Differentiator8ItemPathV4hash4intoys6HasherVz_tF",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator8ItemPathV9hashValueSivp",
+            "mangledName": "$s14Differentiator8ItemPathV9hashValueSivp",
+            "moduleName": "Differentiator",
+            "implicit": true,
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator8ItemPathV9hashValueSivg",
+                "mangledName": "$s14Differentiator8ItemPathV9hashValueSivg",
+                "moduleName": "Differentiator",
+                "implicit": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14Differentiator8ItemPathV",
+        "mangledName": "$s14Differentiator8ItemPathV",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "==",
+        "printedName": "==(_:_:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Bool",
+            "printedName": "Swift.Bool",
+            "usr": "s:Sb"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ItemPath",
+            "printedName": "Differentiator.ItemPath",
+            "usr": "s:14Differentiator8ItemPathV"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "ItemPath",
+            "printedName": "Differentiator.ItemPath",
+            "usr": "s:14Differentiator8ItemPathV"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:14Differentiator2eeoiySbAA8ItemPathV_ADtF",
+        "mangledName": "$s14Differentiator2eeoiySbAA8ItemPathV_ADtF",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SectionModel",
+        "printedName": "SectionModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator12SectionModelV5modelxvp",
+            "mangledName": "$s14Differentiator12SectionModelV5modelxvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator12SectionModelV5modelxvg",
+                "mangledName": "$s14Differentiator12SectionModelV5modelxvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<Section, ItemType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator12SectionModelV5modelxvs",
+                "mangledName": "$s14Differentiator12SectionModelV5modelxvs",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<Section, ItemType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator12SectionModelV5modelxvM",
+                "mangledName": "$s14Differentiator12SectionModelV5modelxvM",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<Section, ItemType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "items",
+            "printedName": "items",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator12SectionModelV5itemsSayq_Gvp",
+            "mangledName": "$s14Differentiator12SectionModelV5itemsSayq_Gvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_1]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator12SectionModelV5itemsSayq_Gvg",
+                "mangledName": "$s14Differentiator12SectionModelV5itemsSayq_Gvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<Section, ItemType>",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_1]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "GenericTypeParam",
+                        "printedName": "τ_0_1"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator12SectionModelV5itemsSayq_Gvs",
+                "mangledName": "$s14Differentiator12SectionModelV5itemsSayq_Gvs",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<Section, ItemType>",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator12SectionModelV5itemsSayq_GvM",
+                "mangledName": "$s14Differentiator12SectionModelV5itemsSayq_GvM",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<Section, ItemType>",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(model:items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SectionModel",
+                "printedName": "Differentiator.SectionModel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14Differentiator12SectionModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14Differentiator12SectionModelV5model5itemsACyxq_Gx_Sayq_Gtcfc",
+            "mangledName": "$s14Differentiator12SectionModelV5model5itemsACyxq_Gx_Sayq_Gtcfc",
+            "moduleName": "Differentiator",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<Section, ItemType>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "identity",
+            "printedName": "identity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator12SectionModelV8identityxvp",
+            "mangledName": "$s14Differentiator12SectionModelV8identityxvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator12SectionModelV8identityxvg",
+                "mangledName": "$s14Differentiator12SectionModelV8identityxvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<Section, ItemType>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator12SectionModelV11descriptionSSvp",
+            "mangledName": "$s14Differentiator12SectionModelV11descriptionSSvp",
+            "moduleName": "Differentiator",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator12SectionModelV11descriptionSSvg",
+                "mangledName": "$s14Differentiator12SectionModelV11descriptionSSvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0, τ_0_1>",
+                "sugared_genericSig": "<Section, ItemType>",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(original:items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SectionModel",
+                "printedName": "Differentiator.SectionModel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14Differentiator12SectionModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SectionModel",
+                "printedName": "Differentiator.SectionModel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14Differentiator12SectionModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_1]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14Differentiator12SectionModelV8original5itemsACyxq_GAF_Sayq_Gtcfc",
+            "mangledName": "$s14Differentiator12SectionModelV8original5itemsACyxq_GAF_Sayq_Gtcfc",
+            "moduleName": "Differentiator",
+            "genericSig": "<τ_0_0, τ_0_1>",
+            "sugared_genericSig": "<Section, ItemType>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SectionModel",
+                "printedName": "Differentiator.SectionModel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14Differentiator12SectionModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SectionModel",
+                "printedName": "Differentiator.SectionModel<τ_0_0, τ_0_1>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ],
+                "usr": "s:14Differentiator12SectionModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14Differentiator12SectionModelVAASQRzSQR_rlE2eeoiySbACyxq_G_AEtFZ",
+            "mangledName": "$s14Differentiator12SectionModelVAASQRzSQR_rlE2eeoiySbACyxq_G_AEtFZ",
+            "moduleName": "Differentiator",
+            "genericSig": "<τ_0_0, τ_0_1 where τ_0_0 : Swift.Equatable, τ_0_1 : Swift.Equatable>",
+            "sugared_genericSig": "<Section, ItemType where Section : Swift.Equatable, ItemType : Swift.Equatable>",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14Differentiator12SectionModelV",
+        "mangledName": "$s14Differentiator12SectionModelV",
+        "moduleName": "Differentiator",
+        "genericSig": "<τ_0_0, τ_0_1>",
+        "sugared_genericSig": "<Section, ItemType>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SectionModelType",
+            "printedName": "SectionModelType",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Item",
+                "printedName": "Item",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_1"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:14Differentiator16SectionModelTypeP",
+            "mangledName": "$s14Differentiator16SectionModelTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SectionModelType",
+        "printedName": "SectionModelType",
+        "children": [
+          {
+            "kind": "AssociatedType",
+            "name": "Item",
+            "printedName": "Item",
+            "declKind": "AssociatedType",
+            "usr": "s:14Differentiator16SectionModelTypeP4ItemQa",
+            "mangledName": "$s14Differentiator16SectionModelTypeP4ItemQa",
+            "moduleName": "Differentiator",
+            "protocolReq": true
+          },
+          {
+            "kind": "Var",
+            "name": "items",
+            "printedName": "items",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0.Item]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Item"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14Differentiator16SectionModelTypeP5itemsSay4ItemQzGvp",
+            "mangledName": "$s14Differentiator16SectionModelTypeP5itemsSay4ItemQzGvp",
+            "moduleName": "Differentiator",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[τ_0_0.Item]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DependentMember",
+                        "printedName": "τ_0_0.Item"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14Differentiator16SectionModelTypeP5itemsSay4ItemQzGvg",
+                "mangledName": "$s14Differentiator16SectionModelTypeP5itemsSay4ItemQzGvg",
+                "moduleName": "Differentiator",
+                "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+                "sugared_genericSig": "<Self where Self : Differentiator.SectionModelType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(original:items:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[τ_0_0.Item]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DependentMember",
+                    "printedName": "τ_0_0.Item"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14Differentiator16SectionModelTypeP8original5itemsxx_Say4ItemQzGtcfc",
+            "mangledName": "$s14Differentiator16SectionModelTypeP8original5itemsxx_Say4ItemQzGtcfc",
+            "moduleName": "Differentiator",
+            "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
+            "sugared_genericSig": "<Self where Self : Differentiator.SectionModelType>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14Differentiator16SectionModelTypeP",
+        "mangledName": "$s14Differentiator16SectionModelTypeP",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Differentiator",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/AnimatableSectionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1052,
+      "length": 65,
+      "value": "\"HashableSectionModel(model: \"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/AnimatableSectionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1096,
+      "length": 1,
+      "value": "\"\", items: \""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/AnimatableSectionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "BooleanLiteral",
+      "offset": 761,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "Array",
+      "offset": 807,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "Array",
+      "offset": 847,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "Array",
+      "offset": 886,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "Array",
+      "offset": 924,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "Array",
+      "offset": 977,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "Array",
+      "offset": 1015,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "Array",
+      "offset": 1056,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "Array",
+      "offset": 1096,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "Array",
+      "offset": 1156,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "Array",
+      "offset": 1196,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1910,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2074,
+      "length": 33,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2091,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2105,
+      "length": 1,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2251,
+      "length": 5,
+      "value": "\"[\n\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2279,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2285,
+      "length": 23,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2307,
+      "length": 5,
+      "value": "\",\n\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2316,
+      "length": 7,
+      "value": "\"\n]\n\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2339,
+      "length": 20,
+      "value": "\" >> Final sections\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2370,
+      "length": 28,
+      "value": "\"   \n\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2397,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2520,
+      "length": 13,
+      "value": "\"\nSections:\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2536,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2579,
+      "length": 44,
+      "value": "\"\ninsertedSections:\n\t\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2622,
+      "length": 5,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2626,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2669,
+      "length": 42,
+      "value": "\"\ndeletedSections:\n\t\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2710,
+      "length": 5,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2714,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2754,
+      "length": 38,
+      "value": "\"\nmovedSections:\n\t\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2791,
+      "length": 5,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2795,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2837,
+      "length": 42,
+      "value": "\"\nupdatesSections:\n\t\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2878,
+      "length": 5,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2882,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 2999,
+      "length": 10,
+      "value": "\"\nItems:\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3012,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3052,
+      "length": 38,
+      "value": "\"\ninsertedItems:\n\t\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3089,
+      "length": 5,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3093,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3132,
+      "length": 36,
+      "value": "\"\ndeletedItems:\n\t\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3167,
+      "length": 5,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3171,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3208,
+      "length": 32,
+      "value": "\"\nmovedItems:\n\t\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3239,
+      "length": 5,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3243,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3282,
+      "length": 36,
+      "value": "\"\nupdatedItems:\n\t\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3317,
+      "length": 5,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
+      "kind": "StringLiteral",
+      "offset": 3321,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 1003,
+      "length": 24,
+      "value": "\"Duplicate item \""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 1026,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 1100,
+      "length": 30,
+      "value": "\"Duplicate section \""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 1129,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 1254,
+      "length": 52,
+      "value": "\"Wrong initializer implementation for: \""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 1303,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 1329,
+      "length": 53,
+      "value": "\"Expected it should return items: \""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 1379,
+      "length": 1,
+      "value": "\"\n\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 1401,
+      "length": 51,
+      "value": "\"Expected it should have id: \""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 1451,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 2228,
+      "length": 10,
+      "value": "\"Inserted\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 2303,
+      "length": 23,
+      "value": "\"InsertedAutomatically\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 2377,
+      "length": 9,
+      "value": "\"Deleted\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 2450,
+      "length": 22,
+      "value": "\"DeletedAutomatically\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 2521,
+      "length": 7,
+      "value": "\"Moved\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 2590,
+      "length": 20,
+      "value": "\"MovedAutomatically\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 2663,
+      "length": 11,
+      "value": "\"Untouched\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 2958,
+      "length": 51,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 2967,
+      "length": 1,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 3008,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3183,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 3429,
+      "length": 50,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 3438,
+      "length": 1,
+      "value": "\" \""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 3478,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "Dictionary",
+      "offset": 3845,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5300,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5379,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5406,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6015,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6401,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7305,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8167,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "Array",
+      "offset": 14003,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17685,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17829,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18031,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18062,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18857,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18978,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19200,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20134,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 20141,
+      "length": 48,
+      "value": "\"New section in initial sections, that is wrong\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 20439,
+      "length": 19,
+      "value": "\"Section not moved\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20592,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22235,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22732,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22834,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23260,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23520,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "Array",
+      "offset": 25373,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 25401,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "BooleanLiteral",
+      "offset": 26329,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 26336,
+      "length": 16,
+      "value": "\"Unhandled case\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "Array",
+      "offset": 26655,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27121,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27572,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 27579,
+      "length": 36,
+      "value": "\"Unhandled case in initial sections\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27683,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "Array",
+      "offset": 28027,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "Array",
+      "offset": 28780,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 28971,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29372,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 29379,
+      "length": 40,
+      "value": "\"Item was moved, but no final location.\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29883,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 29890,
+      "length": 38,
+      "value": "\"This is weird, this shouldn't happen\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30518,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30919,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "StringLiteral",
+      "offset": 31111,
+      "length": 32,
+      "value": "\"Current event is not untouched\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
+      "kind": "Array",
+      "offset": 32351,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/IdentifiableValue.swift",
+      "kind": "StringLiteral",
+      "offset": 583,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/IdentifiableValue.swift",
+      "kind": "StringLiteral",
+      "offset": 592,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/IdentifiableValue.swift",
+      "kind": "StringLiteral",
+      "offset": 658,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/IdentifiableValue.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Optional+Extensions.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 34,
+      "value": "\"Error during unwrapping optional\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/SectionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 696,
+      "length": 26,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/SectionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 710,
+      "length": 1,
+      "value": "\" > \""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/SectionModel.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Utilities.swift",
+      "kind": "StringLiteral",
+      "offset": 405,
+      "length": 21,
+      "value": "\"Precondition failed\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Utilities.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 10,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Utilities.swift",
+      "kind": "StringLiteral",
+      "offset": 569,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}

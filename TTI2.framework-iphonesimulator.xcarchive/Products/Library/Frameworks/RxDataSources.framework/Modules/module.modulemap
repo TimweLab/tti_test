@@ -6,6 +6,6 @@ framework module RxDataSources {
 }
 
 module RxDataSources.Swift {
-    header "RxDataSources-Swift.h"
-    requires objc
+  header "RxDataSources-Swift.h"
+  requires objc
 }

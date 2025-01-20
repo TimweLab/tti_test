@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Differentiator-Swift.h</key>
 		<data>
-		xC3McCxg36fuBtopug0fZCMwAps=
+		HZsF8hU9BukaXZStOpddRLazrts=
 		</data>
 		<key>Headers/Differentiator-umbrella.h</key>
 		<data>
@@ -14,35 +14,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ia7QbTqDDf9g8fskr+aM0Fpnz8w=
+		GHLebddWKQMcE97N7C0RvPRXpjo=
+		</data>
+		<key>Modules/Differentiator.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		wXuBrhXjJ8oFTDpPhPpBKpnN5fE=
+		</data>
+		<key>Modules/Differentiator.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		3BLtbBSCFsD0Ib3cxxf3N9t1wDQ=
 		</data>
 		<key>Modules/Differentiator.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		+CT3yqVtjxDuq16PJkvdSunr8SQ=
+		ZPgOeN8YI9rdXVkSeKjTEgOwTNw=
 		</data>
 		<key>Modules/Differentiator.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		fMw0mrl8kEN8wRwJkRVehKnsmrg=
+		3BLtbBSCFsD0Ib3cxxf3N9t1wDQ=
 		</data>
 		<key>Modules/Differentiator.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		zE/g1MBHuN3YUmdkSH0sghyDNZo=
+		QqLyX/1bbZUV/B3YhC+IOOil+I8=
+		</data>
+		<key>Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		wXuBrhXjJ8oFTDpPhPpBKpnN5fE=
+		</data>
+		<key>Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		VkalgDZYG/M8k3ky8XOnxVPUWJU=
 		</data>
 		<key>Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qhqYqW7IWN87nOL1PkK99qPKST4=
+		Xmt3oU89mExhsPAGhbNei9Qy5YE=
 		</data>
 		<key>Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		1HRj7sRnYv5FyXKxPH5IfIaQrMI=
+		VkalgDZYG/M8k3ky8XOnxVPUWJU=
 		</data>
 		<key>Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		IbZjZkc0Hpi8vVHuOe3UN1KXTl8=
+		t0FR9PVSO+qkz2IJ4S/Z80i/m5k=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		aIQsXM7I+j21RzVVNdRyYYc36hs=
+		4wAW4eeBmAmZWDB8D9WBhURblgw=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -51,7 +67,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qhiw6N5dsgU49SL6Szmxl65tTStDOmbGPNUackXt7RM=
+			dnDAEHyGnB/yPgSGEDAki8/kDMT/HOsP5OQ32pHwh7g=
 			</data>
 		</dict>
 		<key>Headers/Differentiator-umbrella.h</key>
@@ -61,53 +77,81 @@
 			7hvDT/Q5iwI56P5XZoWV6jjFT5vpI1qG4Mh8yOvri6c=
 			</data>
 		</dict>
+		<key>Modules/Differentiator.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lzh5Mly9ducx4aQDqNtMd1/9XqFHio4BiF9dvbzInLc=
+			</data>
+		</dict>
+		<key>Modules/Differentiator.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			t+OTR3dW89abPPRgFEgRCPp33J5jOfVfUIJPSpECg+8=
+			</data>
+		</dict>
 		<key>Modules/Differentiator.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cxdrCB6Dtzq6faLHCo6ne2dSCcJMK4TMJRapyGl0y6o=
+			fkaz1tS2hupkq8MQZniEj6aWhPs5Kf7Mqw7KhZlbAnQ=
 			</data>
 		</dict>
 		<key>Modules/Differentiator.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YGPkThMzUlq3w+0OVb5B8KPHbdTH9PireRcoFYx2Mrw=
+			t+OTR3dW89abPPRgFEgRCPp33J5jOfVfUIJPSpECg+8=
 			</data>
 		</dict>
 		<key>Modules/Differentiator.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cDAh9p9Lo8nYTIaGG/0Q3ddh/XoDX9urv8ipSACphJc=
+			hP1jcCEwoLST/LGJ2clyNdzIGMv34M3nOzwR8BkRlZk=
+			</data>
+		</dict>
+		<key>Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lzh5Mly9ducx4aQDqNtMd1/9XqFHio4BiF9dvbzInLc=
+			</data>
+		</dict>
+		<key>Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MHqvGQiQVMm8sU9y3w5W0RB4GwYazpdKuRv/3lKGDT4=
 			</data>
 		</dict>
 		<key>Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2x+el6FpB2BvaJdeBnuzQIcDWHmK+0ZSJ/N9WOUZMBM=
+			+9oDdjOak+d4RM88QXXchFtQQvPqjnZhmc3xVM1EGPQ=
 			</data>
 		</dict>
 		<key>Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NchckuoDdRJfnFbz20v2yRCLGzzP0L+V0hwEA1rV3S0=
+			MHqvGQiQVMm8sU9y3w5W0RB4GwYazpdKuRv/3lKGDT4=
 			</data>
 		</dict>
 		<key>Modules/Differentiator.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Euf1czEOLzoGD1K1a1PWlFP3Kbhhb1x8MzhipeqEVoo=
+			bvoGXaXQ84pX/w4UgmScVcfKyG+z+OngobpRsiSckUk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L1ikmqiaL5iGbDJoJGVydEab4dLOmPEnLDFObGrrB4U=
+			t/EwkRbePI7cjHplFjDyNzx1DU3mxm3hUGu2+e4yUAg=
 			</data>
 		</dict>
 	</dict>

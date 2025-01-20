@@ -4,6 +4,14 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>CocoaLumberjackPrivacy.bundle/Info.plist</key>
+		<data>
+		hcPybUAOpLkgcNYY8SY37Okfr08=
+		</data>
+		<key>CocoaLumberjackPrivacy.bundle/PrivacyInfo.xcprivacy</key>
+		<data>
+		4MLe/JNfAmWnKv0SN0uFkANew0w=
+		</data>
 		<key>Headers/CLIColor.h</key>
 		<data>
 		w3WWC9xP9Ju/F7y5PnBxraDDH6U=
@@ -78,7 +86,7 @@
 		</data>
 		<key>Headers/DDOSLogger.h</key>
 		<data>
-		PT/DCrBj22dvMrccc/LHgff5gc8=
+		vpZiONRjK+fTR0IoeRUJD+f9TVQ=
 		</data>
 		<key>Headers/DDTTYLogger.h</key>
 		<data>
@@ -86,15 +94,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		biB6sOwl9bCn+J/4/+aHQZS9aiA=
+		ze6DGc9OwuUhcAADu2eqzDuKl4A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		y4CeQYUM/HuqfNF8bj5gNCNoGDQ=
-		</data>
-		<key>PrivacyInfo.xcprivacy</key>
-		<data>
-		4MLe/JNfAmWnKv0SN0uFkANew0w=
 		</data>
 		<key>PrivateHeaders/DDFileLogger+Internal.h</key>
 		<data>
@@ -103,6 +107,20 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>CocoaLumberjackPrivacy.bundle/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jwH/n0W47MioSdeEPcUEPaV1iQR9YcyKTERX5FW7K4I=
+			</data>
+		</dict>
+		<key>CocoaLumberjackPrivacy.bundle/PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EyzsACYN4YTYVoWqydU6QpR6qYctp0ZHxFdxTmtf57Y=
+			</data>
+		</dict>
 		<key>Headers/CLIColor.h</key>
 		<dict>
 			<key>hash2</key>
@@ -233,7 +251,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			H3dUuEcBwajMHE7Yz42/T9OuaJjLkdTRIIZ8I/vVSoM=
+			HLuTZ2abUtv+Zck4OgWY/qe8H9kyydM13HKeQGFjfFs=
 			</data>
 		</dict>
 		<key>Headers/DDTTYLogger.h</key>
@@ -248,13 +266,6 @@
 			<key>hash2</key>
 			<data>
 			GjBPTI8ORO6pR0Moen297GFzzzmHWVXygNed1O1YoFI=
-			</data>
-		</dict>
-		<key>PrivacyInfo.xcprivacy</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EyzsACYN4YTYVoWqydU6QpR6qYctp0ZHxFdxTmtf57Y=
 			</data>
 		</dict>
 		<key>PrivateHeaders/DDFileLogger+Internal.h</key>
