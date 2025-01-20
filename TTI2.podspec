@@ -61,7 +61,11 @@ Pod::Spec.new do |spec|
   #
 
   spec.source = { :git => "https://github.com/TimweLab/tti_test.git", :tag => "#{spec.version}" }
-  
+
+  spec.xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
+  spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}  
+
   spec.framework = "UIKit"
   spec.dependency 'Alamofire', '4.8.2'
   spec.dependency 'Kingfisher', '6.3.1'
