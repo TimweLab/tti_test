@@ -22,7 +22,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		6rfPIrC+UZjIzxvif5N2PdB67Fg=
+		1Cpfd6eqUn/EoQHP2i8Cwz6fsr8=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		OicFQQLwGShg0cF5hfrZtWrtoQA=
+		5HBqJYjJoMMx4XILeo6tvJFn5DU=
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -226,7 +226,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		3tqPmmjOR6m8adBCgBGx3Zl0COY=
+		mZwZGEVYki7NZXOGG52SNc98TmE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -559,7 +559,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			z1QvCSEq2FanaJ4ZeyGtrTlfPbSqqqU1R6U8b8bTqlQ=
+			j5DSu3EiZYLMyK6emFHcX5+9pPSMqvrGl+GFNc0yVb8=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
@@ -881,7 +881,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UtQFt3c1bg8mFhog8H9e13Gs2O+e5nUbnU8ZVR7BMsk=
+			o52c3V3aPCNEEFBttUU+fywYsQuEFTMiibNi33paXZM=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -909,7 +909,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			I4TIAHEtbt8zaIA3o1dQwJ1YzE6DCCpugAfeY9Z2e44=
+			9AVj5FbK1rNyzd31OCuxIs9cr9hVxKjXn+6css+zV7w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

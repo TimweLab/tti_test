@@ -22,7 +22,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		XJ7u+nZhOHBWVu7MScwnT5KUFws=
+		MBaGoHJlpKC+DHwgQa/7GZMBh7M=
 		</data>
 		<key>AvatarBuilderView.nib</key>
 		<data>
@@ -210,7 +210,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		BpqEshb1ZVlfDctjNDMo5JVrDQc=
+		Ny3wtyNRKIPIdstes+3t2Uh4itg=
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -226,11 +226,11 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YPRrCCBMbFszlhf1KhLGgvODBEE=
+		9m9BVKxO/22LylWpqZcgMxVNYOw=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		BpqEshb1ZVlfDctjNDMo5JVrDQc=
+		Ny3wtyNRKIPIdstes+3t2Uh4itg=
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -246,7 +246,7 @@
 		</data>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		u5oCPifOmK2pFdRKfl14unJuVI4=
+		SPAVWFAPoG64AD9R09lmVUxflqc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -579,7 +579,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oqnsk4afJo5yDGDe6/0TMiMIpUjIdM+AcCLvfNhQook=
+			ianC7u7fHnsSWpxQ9JdihPL4x5GaPCF3RCFun7Y5u4s=
 			</data>
 		</dict>
 		<key>AvatarBuilderView.nib</key>
@@ -901,7 +901,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QlszstpBE8XLaILWgWjuBoreP0kxrZwu6oH5dNiKhwU=
+			PBBYkZosieSxTTl5SMkRpQlJleN3rZtqhAj3wjUEOmo=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -929,14 +929,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WDNDOprqJsw/BRi2AWernL9P4ylNwMjohc8UlosCOAY=
+			950aMGbhte3aEwhaDdIoB6HhymRWSdyofoaZYwzfdFk=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QlszstpBE8XLaILWgWjuBoreP0kxrZwu6oH5dNiKhwU=
+			PBBYkZosieSxTTl5SMkRpQlJleN3rZtqhAj3wjUEOmo=
 			</data>
 		</dict>
 		<key>Modules/TTI2.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -964,7 +964,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TQi5EmnfGwe+JVDk4DnZuX3oZHMp0ThJoc8P3BoPkWs=
+			YRlTSIcs+01AtDoN5ssqefu55htaaZx9Cw6+KGbxcdQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
