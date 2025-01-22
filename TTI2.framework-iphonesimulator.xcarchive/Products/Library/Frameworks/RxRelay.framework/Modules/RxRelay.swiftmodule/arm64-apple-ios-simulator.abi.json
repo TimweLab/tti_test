@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "RxRelay",
+    "printedName": "RxRelay",
     "children": [
       {
         "kind": "Import",
@@ -137,7 +137,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -204,6 +204,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "ObservableType",
@@ -327,7 +341,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -394,6 +408,20 @@
           "RawDocComment"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "ObservableType",
@@ -548,7 +576,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -618,6 +646,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ObservableType",
             "printedName": "ObservableType",
             "usr": "s:7RxSwift14ObservableTypeP",
@@ -669,7 +711,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -715,7 +757,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -769,7 +811,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -815,7 +857,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -869,7 +911,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -915,7 +957,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -972,6 +1014,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ObservableConvertibleType",
             "printedName": "ObservableConvertibleType",
             "usr": "s:7RxSwift25ObservableConvertibleTypeP",
@@ -982,76 +1038,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxRelay\/RxRelay\/Observable+Bind.swift",
-      "kind": "StringLiteral",
-      "offset": 1877,
-      "length": 42,
-      "value": "\"Binding error to publish relay: \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxRelay\/RxRelay\/Observable+Bind.swift",
-      "kind": "StringLiteral",
-      "offset": 1918,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxRelay\/RxRelay\/Observable+Bind.swift",
-      "kind": "StringLiteral",
-      "offset": 3697,
-      "length": 43,
-      "value": "\"Binding error to behavior relay: \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxRelay\/RxRelay\/Observable+Bind.swift",
-      "kind": "StringLiteral",
-      "offset": 3739,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxRelay\/RxRelay\/Observable+Bind.swift",
-      "kind": "StringLiteral",
-      "offset": 5500,
-      "length": 43,
-      "value": "\"Binding error to behavior relay: \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxRelay\/RxRelay\/Observable+Bind.swift",
-      "kind": "StringLiteral",
-      "offset": 5542,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxRelay\/RxRelay\/Utils.swift",
-      "kind": "StringLiteral",
-      "offset": 365,
-      "length": 35,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxRelay\/RxRelay\/Utils.swift",
-      "kind": "StringLiteral",
-      "offset": 373,
-      "length": 1,
-      "value": "\":\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxRelay\/RxRelay\/Utils.swift",
-      "kind": "StringLiteral",
-      "offset": 381,
-      "length": 1,
-      "value": "\": \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxRelay\/RxRelay\/Utils.swift",
-      "kind": "StringLiteral",
-      "offset": 399,
-      "length": 2,
-      "value": "\"\""
-    }
-  ]
+  "ConstValues": []
 }

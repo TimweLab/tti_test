@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "RxGesture",
+    "printedName": "RxGesture",
     "children": [
       {
         "kind": "Import",
@@ -47,6 +47,7 @@
             "mangledName": "$s9RxGesture010ForceTouchB10RecognizerC5force12CoreGraphics7CGFloatVvp",
             "moduleName": "RxGesture",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -88,6 +89,7 @@
             "mangledName": "$s9RxGesture010ForceTouchB10RecognizerC015maximumPossibleC012CoreGraphics7CGFloatVvp",
             "moduleName": "RxGesture",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -129,6 +131,7 @@
             "mangledName": "$s9RxGesture010ForceTouchB10RecognizerC25absoluteFractionCompleted12CoreGraphics7CGFloatVvp",
             "moduleName": "RxGesture",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -170,8 +173,9 @@
             "mangledName": "$s9RxGesture010ForceTouchB10RecognizerC32minimumFractionCompletedRequired12CoreGraphics7CGFloatVvp",
             "moduleName": "RxGesture",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -257,8 +261,9 @@
             "mangledName": "$s9RxGesture010ForceTouchB10RecognizerC32maximumFractionCompletedRequired12CoreGraphics7CGFloatVvp",
             "moduleName": "RxGesture",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -344,6 +349,7 @@
             "mangledName": "$s9RxGesture010ForceTouchB10RecognizerC17fractionCompleted12CoreGraphics7CGFloatVvp",
             "moduleName": "RxGesture",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -408,6 +414,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -454,6 +461,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -500,6 +508,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -546,6 +555,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -601,6 +611,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -612,6 +623,7 @@
         "mangledName": "$s9RxGesture010ForceTouchB10RecognizerC",
         "moduleName": "RxGesture",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -623,6 +635,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -924,6 +950,22 @@
         "sugared_genericSig": "<PolicyInput>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1067,9 +1109,10 @@
             "mangledName": "$s9RxGesture07GenericaB18RecognizerDelegateC11beginPolicyAA0bdeG0VyxGvp",
             "moduleName": "RxGesture",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -1205,9 +1248,10 @@
             "mangledName": "$s9RxGesture07GenericaB18RecognizerDelegateC20touchReceptionPolicyAA0bdeH0Vyx_So7UITouchCtGvp",
             "moduleName": "RxGesture",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -1369,9 +1413,10 @@
             "mangledName": "$s9RxGesture07GenericaB18RecognizerDelegateC28selfFailureRequirementPolicyAA0bdeI0Vyx_So09UIGestureD0CtGvp",
             "moduleName": "RxGesture",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -1533,9 +1578,10 @@
             "mangledName": "$s9RxGesture07GenericaB18RecognizerDelegateC29otherFailureRequirementPolicyAA0bdeI0Vyx_So09UIGestureD0CtGvp",
             "moduleName": "RxGesture",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -1697,9 +1743,10 @@
             "mangledName": "$s9RxGesture07GenericaB18RecognizerDelegateC29simultaneousRecognitionPolicyAA0bdeH0Vyx_So09UIGestureD0CtGvp",
             "moduleName": "RxGesture",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
               "Final",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -1861,8 +1908,9 @@
             "mangledName": "$s9RxGesture07GenericaB18RecognizerDelegateC20pressReceptionPolicyAA0bdeH0Vyx_So7UIPressCtGvp",
             "moduleName": "RxGesture",
             "declAttributes": [
-              "Custom",
               "Final",
+              "Preconcurrency",
+              "Custom",
               "AccessControl",
               "RawDocComment"
             ],
@@ -2011,6 +2059,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2050,6 +2099,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2089,6 +2139,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2128,6 +2179,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2167,6 +2219,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2206,6 +2259,7 @@
             "declAttributes": [
               "Final",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -2242,6 +2296,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -2255,6 +2310,7 @@
         "genericSig": "<τ_0_0 where τ_0_0 : UIKit.UIGestureRecognizer>",
         "sugared_genericSig": "<Gesture where Gesture : UIKit.UIGestureRecognizer>",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "Final",
           "AccessControl"
@@ -2265,6 +2321,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -2335,6 +2405,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3318,6 +3395,22 @@
         "sugared_genericSig": "<Gesture where Gesture : UIKit.UIGestureRecognizer>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3581,6 +3674,22 @@
         "moduleName": "RxGesture",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -3657,6 +3766,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3680,8 +3790,9 @@
             "mangledName": "$s9RxGesture09TouchDownB10RecognizerC07minimumC8DurationSdvp",
             "moduleName": "RxGesture",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -3767,8 +3878,9 @@
             "mangledName": "$s9RxGesture09TouchDownB10RecognizerC02isC15IgnoringEnabledSbvp",
             "moduleName": "RxGesture",
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl",
               "RawDocComment"
@@ -3864,6 +3976,7 @@
             "moduleName": "RxGesture",
             "declAttributes": [
               "HasInitialValue",
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -3990,6 +4103,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4036,6 +4150,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4082,6 +4197,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4128,6 +4244,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4154,6 +4271,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4192,6 +4310,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4204,6 +4323,7 @@
         "mangledName": "$s9RxGesture09TouchDownB10RecognizerC",
         "moduleName": "RxGesture",
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -4215,6 +4335,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4460,6 +4594,22 @@
         "moduleName": "RxGesture",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4472,6 +4622,22 @@
         "moduleName": "RxGesture",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -4879,6 +5045,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -6111,7 +6291,23 @@
         "declAttributes": [
           "DynamicMemberLookup"
         ],
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -6613,6 +6809,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ObservableConvertibleType",
             "printedName": "ObservableConvertibleType",
             "usr": "s:7RxSwift25ObservableConvertibleTypeP",
@@ -6624,34 +6834,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/ForceTouchGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 247,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/ForceTouchGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 346,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/ForceTouchGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 444,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/ForceTouchGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 472,
-      "length": 1,
-      "value": "0"
-    },
     {
       "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/ForceTouchGestureRecognizer.swift",
       "kind": "IntegerLiteral",
@@ -6667,60 +6849,11 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/ForceTouchGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 774,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/ForceTouchGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 835,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/ForceTouchGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3811,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/ForceTouchGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4059,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/GenericRxGestureRecognizerDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1695,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/GenericRxGestureRecognizerDelegate.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1806,
-      "length": 5,
-      "value": "false"
-    },
-    {
       "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/GestureFactory.swift",
       "kind": "IntegerLiteral",
       "offset": 2320,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/TouchDownGestureRecognizer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 614,
-      "length": 4,
-      "value": "1000"
     },
     {
       "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/TouchDownGestureRecognizer.swift",
@@ -6749,27 +6882,6 @@
       "offset": 2605,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/TouchDownGestureRecognizer.swift",
-      "kind": "Array",
-      "offset": 2699,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/iOS\/TouchDownGestureRecognizer.swift",
-      "kind": "Array",
-      "offset": 2904,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxGesture\/Pod\/Classes\/View+RxGesture.swift",
-      "kind": "BooleanLiteral",
-      "offset": 4464,
-      "length": 4,
-      "value": "true"
     }
   ]
 }

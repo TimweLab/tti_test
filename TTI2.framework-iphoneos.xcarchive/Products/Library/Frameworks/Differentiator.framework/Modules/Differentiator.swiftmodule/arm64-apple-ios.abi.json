@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "Differentiator",
+    "printedName": "Differentiator",
     "children": [
       {
         "kind": "Import",
@@ -543,6 +543,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "AnimatableSectionModelType",
             "printedName": "AnimatableSectionModelType",
             "usr": "s:14Differentiator26AnimatableSectionModelTypeP",
@@ -630,6 +644,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "IdentifiableType",
@@ -1486,6 +1514,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
@@ -1742,6 +1784,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Error",
                 "printedName": "Error",
                 "usr": "s:s5ErrorP",
@@ -1837,6 +1893,22 @@
         "moduleName": "Differentiator",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1913,6 +1985,22 @@
         "sugared_genericSig": "<Self.Identity : Swift.Hashable>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -2115,6 +2203,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "IdentifiableType",
@@ -2464,6 +2566,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "CustomDebugStringConvertible",
@@ -3025,6 +3141,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "SectionModelType",
             "printedName": "SectionModelType",
             "children": [
@@ -3187,6 +3317,22 @@
         "moduleName": "Differentiator",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -3203,27 +3349,6 @@
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/AnimatableSectionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1052,
-      "length": 65,
-      "value": "\"HashableSectionModel(model: \"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/AnimatableSectionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1096,
-      "length": 1,
-      "value": "\"\", items: \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/AnimatableSectionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 1115,
-      "length": 1,
-      "value": "\")\""
-    },
     {
       "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
       "kind": "BooleanLiteral",
@@ -3302,489 +3427,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1831,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1910,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2074,
-      "length": 33,
-      "value": "\"(\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2091,
-      "length": 1,
-      "value": "\", \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2105,
-      "length": 1,
-      "value": "\")\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2251,
-      "length": 5,
-      "value": "\"[\n\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2279,
-      "length": 7,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2285,
-      "length": 23,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2307,
-      "length": 5,
-      "value": "\",\n\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2316,
-      "length": 7,
-      "value": "\"\n]\n\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2339,
-      "length": 20,
-      "value": "\" >> Final sections\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2370,
-      "length": 28,
-      "value": "\"   \n\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2397,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2520,
-      "length": 13,
-      "value": "\"\nSections:\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2536,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2579,
-      "length": 44,
-      "value": "\"\ninsertedSections:\n\t\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2622,
-      "length": 5,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2626,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2669,
-      "length": 42,
-      "value": "\"\ndeletedSections:\n\t\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2710,
-      "length": 5,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2714,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2754,
-      "length": 38,
-      "value": "\"\nmovedSections:\n\t\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2791,
-      "length": 5,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2795,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2837,
-      "length": 42,
-      "value": "\"\nupdatesSections:\n\t\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2878,
-      "length": 5,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2882,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 2999,
-      "length": 10,
-      "value": "\"\nItems:\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3012,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3052,
-      "length": 38,
-      "value": "\"\ninsertedItems:\n\t\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3089,
-      "length": 5,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3093,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3132,
-      "length": 36,
-      "value": "\"\ndeletedItems:\n\t\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3167,
-      "length": 5,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3171,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3208,
-      "length": 32,
-      "value": "\"\nmovedItems:\n\t\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3239,
-      "length": 5,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3243,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3282,
-      "length": 36,
-      "value": "\"\nupdatedItems:\n\t\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3317,
-      "length": 5,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Changeset.swift",
-      "kind": "StringLiteral",
-      "offset": 3321,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 1003,
-      "length": 24,
-      "value": "\"Duplicate item \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 1026,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 1100,
-      "length": 30,
-      "value": "\"Duplicate section \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 1129,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 1254,
-      "length": 52,
-      "value": "\"Wrong initializer implementation for: \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 1303,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 1329,
-      "length": 53,
-      "value": "\"Expected it should return items: \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 1379,
-      "length": 1,
-      "value": "\"\n\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 1401,
-      "length": 51,
-      "value": "\"Expected it should have id: \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 1451,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 2228,
-      "length": 10,
-      "value": "\"Inserted\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 2303,
-      "length": 23,
-      "value": "\"InsertedAutomatically\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 2377,
-      "length": 9,
-      "value": "\"Deleted\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 2450,
-      "length": 22,
-      "value": "\"DeletedAutomatically\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 2521,
-      "length": 7,
-      "value": "\"Moved\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 2590,
-      "length": 20,
-      "value": "\"MovedAutomatically\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 2663,
-      "length": 11,
-      "value": "\"Untouched\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 2958,
-      "length": 51,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 2967,
-      "length": 1,
-      "value": "\", \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 3008,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3183,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 3429,
-      "length": 50,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 3438,
-      "length": 1,
-      "value": "\" \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 3478,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "Dictionary",
-      "offset": 3845,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5300,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 5379,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5406,
-      "length": 4,
-      "value": "true"
-    },
-    {
       "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
       "kind": "IntegerLiteral",
       "offset": 6015,
@@ -3818,356 +3460,6 @@
       "offset": 8167,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "Array",
-      "offset": 14003,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17685,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 17829,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18031,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18062,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18857,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 18978,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19200,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19231,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "BooleanLiteral",
-      "offset": 20134,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 20141,
-      "length": 48,
-      "value": "\"New section in initial sections, that is wrong\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 20439,
-      "length": 19,
-      "value": "\"Section not moved\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 20592,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22235,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22299,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22732,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 22834,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23260,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 23520,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "Array",
-      "offset": 25373,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 25401,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26329,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 26336,
-      "length": 16,
-      "value": "\"Unhandled case\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "Array",
-      "offset": 26655,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27121,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "BooleanLiteral",
-      "offset": 27572,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 27579,
-      "length": 36,
-      "value": "\"Unhandled case in initial sections\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 27683,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "Array",
-      "offset": 28027,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "Array",
-      "offset": 28780,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 28971,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "BooleanLiteral",
-      "offset": 29372,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 29379,
-      "length": 40,
-      "value": "\"Item was moved, but no final location.\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "BooleanLiteral",
-      "offset": 29883,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 29890,
-      "length": 38,
-      "value": "\"This is weird, this shouldn't happen\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30518,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "IntegerLiteral",
-      "offset": 30919,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "StringLiteral",
-      "offset": 31111,
-      "length": 32,
-      "value": "\"Current event is not untouched\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Diff.swift",
-      "kind": "Array",
-      "offset": 32351,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/IdentifiableValue.swift",
-      "kind": "StringLiteral",
-      "offset": 583,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/IdentifiableValue.swift",
-      "kind": "StringLiteral",
-      "offset": 592,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/IdentifiableValue.swift",
-      "kind": "StringLiteral",
-      "offset": 658,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/IdentifiableValue.swift",
-      "kind": "StringLiteral",
-      "offset": 667,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Optional+Extensions.swift",
-      "kind": "StringLiteral",
-      "offset": 354,
-      "length": 34,
-      "value": "\"Error during unwrapping optional\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/SectionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 696,
-      "length": 26,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/SectionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 710,
-      "length": 1,
-      "value": "\" > \""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/SectionModel.swift",
-      "kind": "StringLiteral",
-      "offset": 721,
-      "length": 1,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Utilities.swift",
-      "kind": "StringLiteral",
-      "offset": 405,
-      "length": 21,
-      "value": "\"Precondition failed\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Utilities.swift",
-      "kind": "StringLiteral",
-      "offset": 560,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/Differentiator\/Sources\/Differentiator\/Utilities.swift",
-      "kind": "StringLiteral",
-      "offset": 569,
-      "length": 2,
-      "value": "\"\""
     }
   ]
 }

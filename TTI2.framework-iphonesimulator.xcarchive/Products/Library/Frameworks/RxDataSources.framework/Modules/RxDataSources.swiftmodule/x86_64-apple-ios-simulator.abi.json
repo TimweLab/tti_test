@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "RxDataSources",
+    "printedName": "RxDataSources",
     "children": [
       {
         "kind": "Import",
@@ -205,6 +205,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -468,6 +484,7 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -498,6 +515,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -557,6 +575,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -614,6 +633,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -729,6 +749,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -767,6 +788,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -834,6 +856,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl"
@@ -1071,8 +1094,9 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -1312,6 +1336,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl"
@@ -1525,8 +1550,9 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
-              "Custom",
               "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
               "HasStorage",
               "AccessControl"
             ],
@@ -1714,6 +1740,7 @@
             "objc_name": "numberOfSectionsInCollectionView:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -1754,6 +1781,7 @@
             "objc_name": "collectionView:numberOfItemsInSection:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1793,6 +1821,7 @@
             "objc_name": "collectionView:cellForItemAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1838,6 +1867,7 @@
             "objc_name": "collectionView:viewForSupplementaryElementOfKind:atIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1877,6 +1907,7 @@
             "objc_name": "collectionView:canMoveItemAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1921,6 +1952,7 @@
             "objc_name": "collectionView:moveItemAtIndexPath:toIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -1964,6 +1996,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -2001,6 +2034,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -2077,6 +2111,7 @@
             "moduleName": "RxDataSources",
             "deprecated": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Available"
@@ -2272,6 +2307,7 @@
         "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl"
         ],
@@ -2286,6 +2322,20 @@
             "printedName": "SectionedViewDataSourceType",
             "usr": "s:7RxCocoa27SectionedViewDataSourceTypeP",
             "mangledName": "$s7RxCocoa27SectionedViewDataSourceTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -2357,6 +2407,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -2457,6 +2514,7 @@
             "mangledName": "$s13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC22animationConfigurationAA09AnimationJ0Vvp",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -2604,6 +2662,7 @@
             "mangledName": "$s13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC06decideE10TransitionyAA0eJ0OAA0defbH0CyxG_So012UICollectionE0CSay14Differentiator9ChangesetVyxGGtcvp",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -3077,6 +3136,7 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.AnimatableSectionModelType>",
             "sugared_genericSig": "<Section where Section : Differentiator.AnimatableSectionModelType>",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3128,6 +3188,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.AnimatableSectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3356,6 +3417,7 @@
             "overriding": true,
             "implicit": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3370,6 +3432,7 @@
         "sugared_genericSig": "<Section where Section : Differentiator.AnimatableSectionModelType>",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl"
         ],
@@ -3414,6 +3477,20 @@
             "printedName": "SectionedViewDataSourceType",
             "usr": "s:7RxCocoa27SectionedViewDataSourceTypeP",
             "mangledName": "$s7RxCocoa27SectionedViewDataSourceTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3485,6 +3562,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -3574,6 +3658,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3802,6 +3887,7 @@
             "overriding": true,
             "implicit": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -3816,6 +3902,7 @@
         "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl"
         ],
@@ -3861,6 +3948,20 @@
             "printedName": "SectionedViewDataSourceType",
             "usr": "s:7RxCocoa27SectionedViewDataSourceTypeP",
             "mangledName": "$s7RxCocoa27SectionedViewDataSourceTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -3932,6 +4033,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -4157,6 +4265,7 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<Components>",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -4211,6 +4320,7 @@
             "objc_name": "pickerView:titleForRow:forComponent:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4225,6 +4335,7 @@
         "sugared_genericSig": "<Components>",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment"
@@ -4236,6 +4347,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4524,6 +4649,7 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<Components>",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -4578,6 +4704,7 @@
             "objc_name": "pickerView:attributedTitleForRow:forComponent:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4592,6 +4719,7 @@
         "sugared_genericSig": "<Components>",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment"
@@ -4603,6 +4731,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -4673,6 +4815,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -4897,6 +5046,7 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<Components>",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -4957,6 +5107,7 @@
             "objc_name": "pickerView:viewForRow:forComponent:reusingView:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4971,6 +5122,7 @@
         "sugared_genericSig": "<Components>",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment"
@@ -4982,6 +5134,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5052,6 +5218,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -5108,6 +5281,7 @@
             "objc_name": "numberOfComponentsInPickerView:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -5147,6 +5321,7 @@
             "objc_name": "pickerView:numberOfRowsInComponent:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5183,6 +5358,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -5225,6 +5401,7 @@
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<Components>",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -5240,6 +5417,7 @@
         "sugared_genericSig": "<Components>",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "RawDocComment"
@@ -5250,6 +5428,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5320,6 +5512,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           },
           {
             "kind": "Conformance",
@@ -5401,6 +5600,7 @@
             "mangledName": "$s13RxDataSources0a26TableViewSectionedAnimatedB6SourceC22animationConfigurationAA09AnimationJ0Vvp",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -5548,6 +5748,7 @@
             "mangledName": "$s13RxDataSources0a26TableViewSectionedAnimatedB6SourceC06decideE10TransitionyAA0eJ0OAA0defbH0CyxG_So07UITableE0CSay14Differentiator9ChangesetVyxGGtcvp",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl",
@@ -6141,6 +6342,7 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.AnimatableSectionModelType>",
             "sugared_genericSig": "<Section where Section : Differentiator.AnimatableSectionModelType>",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6192,6 +6394,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.AnimatableSectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -6540,6 +6743,7 @@
             "overriding": true,
             "implicit": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -6554,6 +6758,7 @@
         "sugared_genericSig": "<Section where Section : Differentiator.AnimatableSectionModelType>",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl"
         ],
@@ -6598,6 +6803,20 @@
             "printedName": "SectionedViewDataSourceType",
             "usr": "s:7RxCocoa27SectionedViewDataSourceTypeP",
             "mangledName": "$s7RxCocoa27SectionedViewDataSourceTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -6758,6 +6977,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7106,6 +7326,7 @@
             "overriding": true,
             "implicit": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -7120,6 +7341,7 @@
         "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl"
         ],
@@ -7165,6 +7387,20 @@
             "printedName": "SectionedViewDataSourceType",
             "usr": "s:7RxCocoa27SectionedViewDataSourceTypeP",
             "mangledName": "$s7RxCocoa27SectionedViewDataSourceTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -7236,6 +7472,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -7623,6 +7866,7 @@
             "genericSig": "<τ_0_0 where τ_0_0 : Differentiator.SectionModelType>",
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7653,6 +7897,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7712,6 +7957,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7769,6 +8015,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7884,6 +8131,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7922,6 +8170,7 @@
             "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -7989,6 +8238,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl"
@@ -8214,6 +8464,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl"
@@ -8433,6 +8684,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl"
@@ -8644,6 +8896,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl"
@@ -8839,6 +9092,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl"
@@ -9037,6 +9291,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl"
@@ -9244,6 +9499,7 @@
             "moduleName": "RxDataSources",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "HasStorage",
               "AccessControl"
@@ -9428,6 +9684,7 @@
             "objc_name": "numberOfSectionsInTableView:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "RawDocComment"
@@ -9468,6 +9725,7 @@
             "objc_name": "tableView:numberOfRowsInSection:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -9507,6 +9765,7 @@
             "objc_name": "tableView:cellForRowAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -9554,6 +9813,7 @@
             "objc_name": "tableView:titleForHeaderInSection:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -9601,6 +9861,7 @@
             "objc_name": "tableView:titleForFooterInSection:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -9640,6 +9901,7 @@
             "objc_name": "tableView:canEditRowAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -9679,6 +9941,7 @@
             "objc_name": "tableView:canMoveRowAtIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -9723,6 +9986,7 @@
             "objc_name": "tableView:moveRowAtIndexPath:toIndexPath:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -9772,6 +10036,7 @@
             "objc_name": "sectionIndexTitlesForTableView:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -9817,6 +10082,7 @@
             "objc_name": "tableView:sectionForSectionIndexTitle:atIndex:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -9853,6 +10119,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -9867,6 +10134,7 @@
         "sugared_genericSig": "<Section where Section : Differentiator.SectionModelType>",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl"
         ],
@@ -9881,6 +10149,20 @@
             "printedName": "SectionedViewDataSourceType",
             "usr": "s:7RxCocoa27SectionedViewDataSourceTypeP",
             "mangledName": "$s7RxCocoa27SectionedViewDataSourceTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -9952,6 +10234,13 @@
             ],
             "usr": "s:7RxSwift18ReactiveCompatibleP",
             "mangledName": "$s7RxSwift18ReactiveCompatibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -10342,6 +10631,22 @@
         "moduleName": "RxDataSources",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -10537,6 +10842,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -10609,6 +10928,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Strideable",
             "printedName": "Strideable",
             "usr": "s:Sx",
@@ -10678,6 +11011,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "IdentifiableType",
@@ -11087,6 +11434,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -11144,6 +11498,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "IdentifiableType",
@@ -11553,6 +11921,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -11653,6 +12028,20 @@
         "sugared_genericSig": "<Self : Swift.CustomStringConvertible, Self : Swift.Hashable, Self : Swift.Numeric, Self : Swift.Strideable, Self.Magnitude : Swift.BinaryInteger, Self.Magnitude == Self.Magnitude.Magnitude, Self.Words : Swift.RandomAccessCollection, Self.Words.Element == Swift.UInt, Self.Words.Index == Swift.Int>",
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "Strideable",
@@ -11870,6 +12259,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IdentifiableType",
             "printedName": "IdentifiableType",
             "children": [
@@ -12066,6 +12469,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -12294,6 +12704,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IdentifiableType",
             "printedName": "IdentifiableType",
             "children": [
@@ -12476,6 +12900,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -12682,6 +13113,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IdentifiableType",
             "printedName": "IdentifiableType",
             "children": [
@@ -12864,6 +13309,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -13070,6 +13522,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IdentifiableType",
             "printedName": "IdentifiableType",
             "children": [
@@ -13252,6 +13718,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -13480,6 +13953,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IdentifiableType",
             "printedName": "IdentifiableType",
             "children": [
@@ -13669,6 +14156,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -13890,6 +14384,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IdentifiableType",
             "printedName": "IdentifiableType",
             "children": [
@@ -14072,6 +14580,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -14293,6 +14808,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IdentifiableType",
             "printedName": "IdentifiableType",
             "children": [
@@ -14482,6 +15011,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -14681,6 +15217,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IdentifiableType",
             "printedName": "IdentifiableType",
             "children": [
@@ -14870,6 +15420,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -15069,6 +15626,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IdentifiableType",
             "printedName": "IdentifiableType",
             "children": [
@@ -15251,6 +15822,13 @@
             ],
             "usr": "s:s10SIMDScalarP",
             "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           },
           {
             "kind": "Conformance",
@@ -15472,6 +16050,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "IdentifiableType",
             "printedName": "IdentifiableType",
             "children": [
@@ -15664,6 +16256,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -15783,10 +16382,25 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "IdentifiableType",
@@ -16371,6 +16985,7 @@
             "mangledName": "$sSo11UITableViewC13RxDataSourcesE23insertItemsAtIndexPaths_14animationStyleySay10Foundation0I4PathVG_So0aB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16413,6 +17028,7 @@
             "mangledName": "$sSo11UITableViewC13RxDataSourcesE23deleteItemsAtIndexPaths_14animationStyleySay10Foundation0I4PathVG_So0aB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16447,6 +17063,7 @@
             "mangledName": "$sSo11UITableViewC13RxDataSourcesE19moveItemAtIndexPath_2toy10Foundation0iJ0V_AHtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16489,6 +17106,7 @@
             "mangledName": "$sSo11UITableViewC13RxDataSourcesE23reloadItemsAtIndexPaths_14animationStyleySay10Foundation0I4PathVG_So0aB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16531,6 +17149,7 @@
             "mangledName": "$sSo11UITableViewC13RxDataSourcesE14insertSections_14animationStyleySaySiG_So0aB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16573,6 +17192,7 @@
             "mangledName": "$sSo11UITableViewC13RxDataSourcesE14deleteSections_14animationStyleySaySiG_So0aB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16607,6 +17227,7 @@
             "mangledName": "$sSo11UITableViewC13RxDataSourcesE11moveSection_2toySi_SitF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16649,6 +17270,7 @@
             "mangledName": "$sSo11UITableViewC13RxDataSourcesE14reloadSections_14animationStyleySaySiG_So0aB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16663,6 +17285,7 @@
         "intro_iOS": "2.0",
         "objc_name": "UITableView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -16679,6 +17302,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -16777,7 +17414,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UIScrollViewDelegate",
-                    "printedName": "UIKit.UIScrollViewDelegate",
+                    "printedName": "any UIKit.UIScrollViewDelegate",
                     "usr": "c:objc(pl)UIScrollViewDelegate"
                   }
                 ]
@@ -16806,7 +17443,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UITableViewDataSourcePrefetching",
-                    "printedName": "UIKit.UITableViewDataSourcePrefetching",
+                    "printedName": "any UIKit.UITableViewDataSourcePrefetching",
                     "usr": "c:objc(pl)UITableViewDataSourcePrefetching"
                   }
                 ]
@@ -16828,7 +17465,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UITableViewDataSource",
-                    "printedName": "UIKit.UITableViewDataSource",
+                    "printedName": "any UIKit.UITableViewDataSource",
                     "usr": "c:objc(pl)UITableViewDataSource"
                   }
                 ]
@@ -16880,6 +17517,7 @@
             "mangledName": "$sSo16UICollectionViewC13RxDataSourcesE23insertItemsAtIndexPaths_14animationStyleySay10Foundation0I4PathVG_So07UITableB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16922,6 +17560,7 @@
             "mangledName": "$sSo16UICollectionViewC13RxDataSourcesE23deleteItemsAtIndexPaths_14animationStyleySay10Foundation0I4PathVG_So07UITableB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16956,6 +17595,7 @@
             "mangledName": "$sSo16UICollectionViewC13RxDataSourcesE19moveItemAtIndexPath_2toy10Foundation0iJ0V_AHtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -16998,6 +17638,7 @@
             "mangledName": "$sSo16UICollectionViewC13RxDataSourcesE23reloadItemsAtIndexPaths_14animationStyleySay10Foundation0I4PathVG_So07UITableB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -17040,6 +17681,7 @@
             "mangledName": "$sSo16UICollectionViewC13RxDataSourcesE14insertSections_14animationStyleySaySiG_So07UITableB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -17082,6 +17724,7 @@
             "mangledName": "$sSo16UICollectionViewC13RxDataSourcesE14deleteSections_14animationStyleySaySiG_So07UITableB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -17116,6 +17759,7 @@
             "mangledName": "$sSo16UICollectionViewC13RxDataSourcesE11moveSection_2toySi_SitF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -17158,6 +17802,7 @@
             "mangledName": "$sSo16UICollectionViewC13RxDataSourcesE14reloadSections_14animationStyleySaySiG_So07UITableB12RowAnimationVtF",
             "moduleName": "RxDataSources",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -17172,6 +17817,7 @@
         "intro_iOS": "6.0",
         "objc_name": "UICollectionView",
         "declAttributes": [
+          "Preconcurrency",
           "Available",
           "ObjC",
           "NonSendable",
@@ -17188,6 +17834,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -17286,7 +17946,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UIScrollViewDelegate",
-                    "printedName": "UIKit.UIScrollViewDelegate",
+                    "printedName": "any UIKit.UIScrollViewDelegate",
                     "usr": "c:objc(pl)UIScrollViewDelegate"
                   }
                 ]
@@ -17315,7 +17975,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UICollectionViewDataSourcePrefetching",
-                    "printedName": "UIKit.UICollectionViewDataSourcePrefetching",
+                    "printedName": "any UIKit.UICollectionViewDataSourcePrefetching",
                     "usr": "c:objc(pl)UICollectionViewDataSourcePrefetching"
                   }
                 ]
@@ -17337,7 +17997,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "UICollectionViewDataSource",
-                    "printedName": "UIKit.UICollectionViewDataSource",
+                    "printedName": "any UIKit.UICollectionViewDataSource",
                     "usr": "c:objc(pl)UICollectionViewDataSource"
                   }
                 ]
@@ -17367,41 +18027,6 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/CollectionViewSectionedDataSource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5676,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/CollectionViewSectionedDataSource.swift",
-      "kind": "StringLiteral",
-      "offset": 307,
-      "length": 33,
-      "value": "\"RxDataSources.CollectionViewSectionedDataSource\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/DataSources.swift",
-      "kind": "StringLiteral",
-      "offset": 461,
-      "length": 21,
-      "value": "\"Precondition failed\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/DataSources.swift",
-      "kind": "StringLiteral",
-      "offset": 614,
-      "length": 10,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/DataSources.swift",
-      "kind": "StringLiteral",
-      "offset": 623,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
       "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/RxCollectionViewSectionedAnimatedDataSource.swift",
       "kind": "BooleanLiteral",
       "offset": 1342,
@@ -17414,48 +18039,6 @@
       "offset": 1874,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/RxCollectionViewSectionedAnimatedDataSource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2195,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/RxCollectionViewSectionedAnimatedDataSource.swift",
-      "kind": "StringLiteral",
-      "offset": 324,
-      "length": 43,
-      "value": "\"RxDataSources.RxCollectionViewSectionedAnimatedDataSource\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/RxPickerViewAdapter.swift",
-      "kind": "StringLiteral",
-      "offset": 573,
-      "length": 25,
-      "value": "\"RxDataSources.RxPickerViewStringAdapter\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/RxPickerViewAdapter.swift",
-      "kind": "StringLiteral",
-      "offset": 2451,
-      "length": 35,
-      "value": "\"RxDataSources.RxPickerViewAttributedStringAdapter\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/RxPickerViewAdapter.swift",
-      "kind": "StringLiteral",
-      "offset": 4460,
-      "length": 23,
-      "value": "\"RxDataSources.RxPickerViewViewAdapter\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/RxPickerViewAdapter.swift",
-      "kind": "StringLiteral",
-      "offset": 6121,
-      "length": 22,
-      "value": "\"RxDataSources.RxPickerViewDataSource\""
     },
     {
       "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/RxTableViewSectionedAnimatedDataSource.swift",
@@ -17479,20 +18062,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/RxTableViewSectionedAnimatedDataSource.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3817,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/RxTableViewSectionedAnimatedDataSource.swift",
-      "kind": "StringLiteral",
-      "offset": 320,
-      "length": 38,
-      "value": "\"RxDataSources.RxTableViewSectionedAnimatedDataSource\""
-    },
-    {
       "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/TableViewSectionedDataSource.swift",
       "kind": "BooleanLiteral",
       "offset": 1647,
@@ -17512,20 +18081,6 @@
       "offset": 4241,
       "length": 2,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/TableViewSectionedDataSource.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7018,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxDataSources\/Sources\/RxDataSources\/TableViewSectionedDataSource.swift",
-      "kind": "StringLiteral",
-      "offset": 299,
-      "length": 28,
-      "value": "\"RxDataSources.TableViewSectionedDataSource\""
     }
   ]
 }

@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RxCocoa
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name RxCocoa
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import CoreGraphics
 import Darwin
 import Dispatch
@@ -329,7 +329,7 @@ open class RxCollectionViewDataSourcePrefetchingProxy : RxCocoa.DelegateProxy<UI
 }
 @available(iOS 10.0, tvOS 10.0, *)
 extension RxCocoa.RxCollectionViewDataSourcePrefetchingProxy : UIKit.UICollectionViewDataSourcePrefetching {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, prefetchItemsAt indexPaths: [Foundation.IndexPath])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, prefetchItemsAt indexPaths: [Foundation.IndexPath])
 }
 extension UIKit.UICollectionView : RxCocoa.HasDataSource {
   public typealias DataSource = UIKit.UICollectionViewDataSource
@@ -344,18 +344,18 @@ open class RxCollectionViewDataSourceProxy : RxCocoa.DelegateProxy<UIKit.UIColle
   @objc deinit
 }
 extension RxCocoa.RxCollectionViewDataSourceProxy : UIKit.UICollectionViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, numberOfItemsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func collectionView(_ collectionView: UIKit.UICollectionView, cellForItemAt indexPath: Foundation.IndexPath) -> UIKit.UICollectionViewCell
 }
 public protocol RxCollectionViewDataSourceType {
   associatedtype Element
   func collectionView(_ collectionView: UIKit.UICollectionView, observedEvent: RxSwift.Event<Self.Element>)
 }
-@_Concurrency.MainActor(unsafe) open class RxCollectionViewDelegateProxy : RxCocoa.RxScrollViewDelegateProxy {
-  @_Concurrency.MainActor(unsafe) weak public var collectionView: UIKit.UICollectionView? {
+@_Concurrency.MainActor @preconcurrency open class RxCollectionViewDelegateProxy : RxCocoa.RxScrollViewDelegateProxy {
+  @_Concurrency.MainActor @preconcurrency weak public var collectionView: UIKit.UICollectionView? {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(collectionView: UIKit.UICollectionView)
+  @_Concurrency.MainActor @preconcurrency public init(collectionView: UIKit.UICollectionView)
   @objc deinit
 }
 extension RxCocoa.RxCollectionViewDelegateProxy : UIKit.UICollectionViewDelegateFlowLayout {
@@ -386,8 +386,8 @@ public class RxPickerViewDataSourceProxy : RxCocoa.DelegateProxy<UIKit.UIPickerV
   @objc deinit
 }
 extension RxCocoa.RxPickerViewDataSourceProxy : UIKit.UIPickerViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func numberOfComponents(in pickerView: UIKit.UIPickerView) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func numberOfComponents(in pickerView: UIKit.UIPickerView) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func pickerView(_ pickerView: UIKit.UIPickerView, numberOfRowsInComponent component: Swift.Int) -> Swift.Int
 }
 public protocol RxPickerViewDataSourceType {
   associatedtype Element
@@ -418,7 +418,7 @@ open class RxScrollViewDelegateProxy : RxCocoa.DelegateProxy<UIKit.UIScrollView,
   @objc deinit
 }
 extension RxCocoa.RxScrollViewDelegateProxy : UIKit.UIScrollViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
 }
 extension UIKit.UISearchBar : RxCocoa.HasDelegate {
   public typealias Delegate = UIKit.UISearchBarDelegate
@@ -490,7 +490,7 @@ open class RxTableViewDataSourcePrefetchingProxy : RxCocoa.DelegateProxy<UIKit.U
 }
 @available(iOS 10.0, tvOS 10.0, *)
 extension RxCocoa.RxTableViewDataSourcePrefetchingProxy : UIKit.UITableViewDataSourcePrefetching {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, prefetchRowsAt indexPaths: [Foundation.IndexPath])
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, prefetchRowsAt indexPaths: [Foundation.IndexPath])
 }
 extension UIKit.UITableView : RxCocoa.HasDataSource {
   public typealias DataSource = UIKit.UITableViewDataSource
@@ -505,18 +505,18 @@ open class RxTableViewDataSourceProxy : RxCocoa.DelegateProxy<UIKit.UITableView,
   @objc deinit
 }
 extension RxCocoa.RxTableViewDataSourceProxy : UIKit.UITableViewDataSource {
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
-  @_Concurrency.MainActor(unsafe) @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
 }
 public protocol RxTableViewDataSourceType {
   associatedtype Element
   func tableView(_ tableView: UIKit.UITableView, observedEvent: RxSwift.Event<Self.Element>)
 }
-@_Concurrency.MainActor(unsafe) open class RxTableViewDelegateProxy : RxCocoa.RxScrollViewDelegateProxy {
-  @_Concurrency.MainActor(unsafe) weak public var tableView: UIKit.UITableView? {
+@_Concurrency.MainActor @preconcurrency open class RxTableViewDelegateProxy : RxCocoa.RxScrollViewDelegateProxy {
+  @_Concurrency.MainActor @preconcurrency weak public var tableView: UIKit.UITableView? {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(tableView: UIKit.UITableView)
+  @_Concurrency.MainActor @preconcurrency public init(tableView: UIKit.UITableView)
   @objc deinit
 }
 extension RxCocoa.RxTableViewDelegateProxy : UIKit.UITableViewDelegate {
@@ -534,15 +534,15 @@ open class RxTextStorageDelegateProxy : RxCocoa.DelegateProxy<UIKit.NSTextStorag
 }
 extension RxCocoa.RxTextStorageDelegateProxy : UIKit.NSTextStorageDelegate {
 }
-@_Concurrency.MainActor(unsafe) open class RxTextViewDelegateProxy : RxCocoa.RxScrollViewDelegateProxy {
-  @_Concurrency.MainActor(unsafe) weak public var textView: UIKit.UITextView? {
+@_Concurrency.MainActor @preconcurrency open class RxTextViewDelegateProxy : RxCocoa.RxScrollViewDelegateProxy {
+  @_Concurrency.MainActor @preconcurrency weak public var textView: UIKit.UITextView? {
     get
   }
-  @_Concurrency.MainActor(unsafe) public init(textView: UIKit.UITextView)
+  @_Concurrency.MainActor @preconcurrency public init(textView: UIKit.UITextView)
   @objc deinit
 }
 extension RxCocoa.RxTextViewDelegateProxy : UIKit.UITextViewDelegate {
-  @_Concurrency.MainActor(unsafe) @objc dynamic open func textView(_ textView: UIKit.UITextView, shouldChangeTextIn range: Foundation.NSRange, replacementText text: Swift.String) -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency @objc dynamic open func textView(_ textView: UIKit.UITextView, shouldChangeTextIn range: Foundation.NSRange, replacementText text: Swift.String) -> Swift.Bool
 }
 @available(iOS 8.0, macOS 10.10, macOSApplicationExtension 10.10, *)
 open class RxWKNavigationDelegateProxy : RxCocoa.DelegateProxy<WebKit.WKWebView, any WebKit.WKNavigationDelegate>, RxCocoa.DelegateProxyType {
@@ -1286,3 +1286,6 @@ extension RxSwift.Reactive where Base : WebKit.WKWebView {
 }
 extension RxCocoa.RxCocoaInterceptionMechanism : Swift.Equatable {}
 extension RxCocoa.RxCocoaInterceptionMechanism : Swift.Hashable {}
+extension RxCocoa.RxCollectionViewDelegateProxy : Swift.Sendable {}
+extension RxCocoa.RxTableViewDelegateProxy : Swift.Sendable {}
+extension RxCocoa.RxTextViewDelegateProxy : Swift.Sendable {}

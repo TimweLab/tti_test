@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name RxSwift
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name RxSwift
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Darwin
 import Dispatch
 import Foundation
@@ -687,12 +687,10 @@ extension RxSwift.ObservableConvertibleType {
     get
   }
 }
-#if compiler(>=5.3) && $RethrowsProtocol
 @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 extension _Concurrency.AsyncSequence {
   public func asObservable() -> RxSwift.Observable<Self.Element>
 }
-#endif
 public protocol ObservableConvertibleType {
   associatedtype Element
   func asObservable() -> RxSwift.Observable<Self.Element>
@@ -803,27 +801,21 @@ extension RxSwift.PrimitiveSequenceType where Self.Element : Swift.FixedWidthInt
 }
 @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 extension RxSwift.PrimitiveSequenceType where Self.Trait == RxSwift.SingleTrait {
-  #if compiler(>=5.3) && $EffectfulProp
   public var value: Self.Element {
     get async throws
   }
-  #endif
 }
 @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 extension RxSwift.PrimitiveSequenceType where Self.Trait == RxSwift.MaybeTrait {
-  #if compiler(>=5.3) && $EffectfulProp
   public var value: Self.Element? {
     get async throws
   }
-  #endif
 }
 @available(macOS 10.15, iOS 13.0, watchOS 6.0, tvOS 13.0, *)
 extension RxSwift.PrimitiveSequenceType where Self.Element == Swift.Never, Self.Trait == RxSwift.CompletableTrait {
-  #if compiler(>=5.3) && $EffectfulProp
   public var value: Swift.Void {
     get async throws
   }
-  #endif
 }
 extension RxSwift.PrimitiveSequenceType where Self.Trait == RxSwift.SingleTrait {
   public static func zip<E1, E2>(_ source1: RxSwift.PrimitiveSequence<Self.Trait, E1>, _ source2: RxSwift.PrimitiveSequence<Self.Trait, E2>, resultSelector: @escaping (E1, E2) throws -> Self.Element) -> RxSwift.PrimitiveSequence<Self.Trait, Self.Element>
@@ -951,6 +943,7 @@ extension RxSwift.ReactiveCompatible {
   }
 }
 extension ObjectiveC.NSObject : RxSwift.ReactiveCompatible {
+  @available(iOS 2.0, *)
   public typealias ReactiveBase = ObjectiveC.NSObject
 }
 extension RxSwift.ObservableType {

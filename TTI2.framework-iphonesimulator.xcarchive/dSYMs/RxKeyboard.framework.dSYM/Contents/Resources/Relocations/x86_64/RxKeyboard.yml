@@ -2,56 +2,56 @@
 triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/joaoisento/Library/Developer/Xcode/DerivedData/TTI2-gauxzeyvvfjozjdqgvxaocdbweos/Build/Intermediates.noindex/ArchiveIntermediates/TTI2/InstallationBuildProductsLocation/Library/Frameworks/RxKeyboard.framework/RxKeyboard'
 relocations:
-  - { offsetInCU: 0x34, offset: 0x5500F, size: 0x8, addend: 0x0, symName: _RxKeyboardVersionString, symObjAddr: 0x0, symBinAddr: 0x6E50, symSize: 0x0 }
-  - { offsetInCU: 0x69, offset: 0x55044, size: 0x8, addend: 0x0, symName: _RxKeyboardVersionNumber, symObjAddr: 0x28, symBinAddr: 0x6E78, symSize: 0x0 }
-  - { offsetInCU: 0x4F, offset: 0x550A9, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC8instanceABvpZ', symObjAddr: 0xDC88, symBinAddr: 0x97B0, symSize: 0x0 }
-  - { offsetInCU: 0x7A, offset: 0x550D4, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC8instanceABvgZ', symObjAddr: 0x30, symBinAddr: 0x2970, symSize: 0x40 }
-  - { offsetInCU: 0xB1, offset: 0x5510B, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfc', symObjAddr: 0x160, symBinAddr: 0x2AA0, symSize: 0xF60 }
-  - { offsetInCU: 0x2FB, offset: 0x55355, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatVSo6CGRectVcfU_', symObjAddr: 0x10C0, symBinAddr: 0x3A00, symSize: 0xB0 }
-  - { offsetInCU: 0x32B, offset: 0x55385, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtAeF_SbAGt_AEtcfU0_', symObjAddr: 0x1170, symBinAddr: 0x3AB0, symSize: 0x30 }
-  - { offsetInCU: 0x356, offset: 0x553B0, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcSb12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingt_tcfU1_', symObjAddr: 0x11A0, symBinAddr: 0x3AE0, symSize: 0x10 }
-  - { offsetInCU: 0x370, offset: 0x553CA, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatVAE13visibleHeight_Sb9isShowingt_tcfU2_', symObjAddr: 0x11B0, symBinAddr: 0x3AF0, symSize: 0x10 }
-  - { offsetInCU: 0x38A, offset: 0x553E4, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcSb12CoreGraphics7CGFloatVcfU3_', symObjAddr: 0x11C0, symBinAddr: 0x3B00, symSize: 0x20 }
-  - { offsetInCU: 0x3A4, offset: 0x553FE, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcSo6CGRectVADcfU5_', symObjAddr: 0x11E0, symBinAddr: 0x3B20, symSize: 0x110 }
-  - { offsetInCU: 0x3FB, offset: 0x55455, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcSo6CGRectVADcfU7_', symObjAddr: 0x12F0, symBinAddr: 0x3C30, symSize: 0xE0 }
-  - { offsetInCU: 0x441, offset: 0x5549B, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcSo22UIPanGestureRecognizerC_So6CGRectVtAD_AFtcfU8_', symObjAddr: 0x13D0, symBinAddr: 0x3D10, symSize: 0x30 }
-  - { offsetInCU: 0x47E, offset: 0x554D8, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfc0A5Swift10ObservableCySo6CGRectVGSo22UIPanGestureRecognizerC_AGtcfU9_', symObjAddr: 0x1400, symBinAddr: 0x3D40, symSize: 0x3E0 }
-  - { offsetInCU: 0x65F, offset: 0x556B9, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcTo', symObjAddr: 0x1820, symBinAddr: 0x4160, symSize: 0x20 }
-  - { offsetInCU: 0x67B, offset: 0x556D5, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACfD', symObjAddr: 0x1840, symBinAddr: 0x4180, symSize: 0x30 }
-  - { offsetInCU: 0x6C3, offset: 0x5571D, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC8instance_WZ', symObjAddr: 0x0, symBinAddr: 0x2940, symSize: 0x30 }
-  - { offsetInCU: 0x704, offset: 0x5575E, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x90, symBinAddr: 0x29D0, symSize: 0x40 }
-  - { offsetInCU: 0x815, offset: 0x5586F, size: 0x8, addend: 0x0, symName: '_$sSo22UIPanGestureRecognizerCSo6CGRectV7RxSwift10ObservableCyADGs5Error_pIeggyozo_AB_ADtAHsAI_pIegnrzo_TR04$s10e27KeyboardAACABycfc0A5Swift10g5CySo6d6VGSo22abC10C_AGtcfU9_Tf3nnpf_n', symObjAddr: 0x17E0, symBinAddr: 0x4120, symSize: 0x40 }
-  - { offsetInCU: 0x834, offset: 0x5588E, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACMa', symObjAddr: 0x1870, symBinAddr: 0x41B0, symSize: 0x30 }
-  - { offsetInCU: 0x848, offset: 0x558A2, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACfETo', symObjAddr: 0x18A0, symBinAddr: 0x41E0, symSize: 0xC0 }
-  - { offsetInCU: 0x877, offset: 0x558D1, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC17gestureRecognizer_13shouldReceiveSbSo09UIGestureD0C_So7UITouchCtF', symObjAddr: 0x1A10, symBinAddr: 0x4350, symSize: 0x10 }
-  - { offsetInCU: 0x89A, offset: 0x558F4, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC17gestureRecognizer_13shouldReceiveSbSo09UIGestureD0C_So7UITouchCtFTo', symObjAddr: 0x1A20, symBinAddr: 0x4360, symSize: 0x70 }
-  - { offsetInCU: 0x8CC, offset: 0x55926, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09UIGestureD0C_AFtF', symObjAddr: 0x1A90, symBinAddr: 0x43D0, symSize: 0x20 }
-  - { offsetInCU: 0x942, offset: 0x5599C, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09UIGestureD0C_AFtFTo', symObjAddr: 0x1AB0, symBinAddr: 0x43F0, symSize: 0x20 }
-  - { offsetInCU: 0x9A5, offset: 0x559FF, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x1AD0, symBinAddr: 0x4410, symSize: 0x30 }
-  - { offsetInCU: 0x9DD, offset: 0x55A37, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x1B00, symBinAddr: 0x4440, symSize: 0xC0 }
-  - { offsetInCU: 0xA2B, offset: 0x55A85, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlF7RxSwift10ObservableCySo6CGRectVG_Tg5Tf4d_n', symObjAddr: 0x1DF0, symBinAddr: 0x4730, symSize: 0x50 }
-  - { offsetInCU: 0xA58, offset: 0x55AB2, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlF7RxRelay08BehaviorH0CySo6CGRectVG_Tg5Tf4d_n', symObjAddr: 0x1E40, symBinAddr: 0x4780, symSize: 0x50 }
-  - { offsetInCU: 0xA85, offset: 0x55ADF, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC17gestureRecognizer_13shouldReceiveSbSo09UIGestureD0C_So7UITouchCtFTf4nnd_n', symObjAddr: 0x1E90, symBinAddr: 0x47D0, symSize: 0x160 }
-  - { offsetInCU: 0xB2E, offset: 0x55B88, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACMr', symObjAddr: 0x2030, symBinAddr: 0x4970, symSize: 0x100 }
-  - { offsetInCU: 0xB42, offset: 0x55B9C, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACMU', symObjAddr: 0x21B0, symBinAddr: 0x4AF0, symSize: 0x10 }
-  - { offsetInCU: 0xB56, offset: 0x55BB0, size: 0x8, addend: 0x0, symName: '_$sSo6CGRectVwCP', symObjAddr: 0x21C0, symBinAddr: 0x4B00, symSize: 0x30 }
-  - { offsetInCU: 0xB6A, offset: 0x55BC4, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x21F0, symBinAddr: 0x4B30, symSize: 0x10 }
-  - { offsetInCU: 0xB7E, offset: 0x55BD8, size: 0x8, addend: 0x0, symName: ___swift_memcpy32_8, symObjAddr: 0x2200, symBinAddr: 0x4B40, symSize: 0x20 }
-  - { offsetInCU: 0xB92, offset: 0x55BEC, size: 0x8, addend: 0x0, symName: '_$sSo6CGRectVwet', symObjAddr: 0x2220, symBinAddr: 0x4B60, symSize: 0x20 }
-  - { offsetInCU: 0xBA6, offset: 0x55C00, size: 0x8, addend: 0x0, symName: '_$sSo6CGRectVwst', symObjAddr: 0x2240, symBinAddr: 0x4B80, symSize: 0x30 }
-  - { offsetInCU: 0xBBA, offset: 0x55C14, size: 0x8, addend: 0x0, symName: '_$s12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtMa', symObjAddr: 0x2350, symBinAddr: 0x4C90, symSize: 0x50 }
-  - { offsetInCU: 0xBCE, offset: 0x55C28, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa12ControlEventVySo22UIPanGestureRecognizerCGMa', symObjAddr: 0x25E0, symBinAddr: 0x4F20, symSize: 0x60 }
-  - { offsetInCU: 0xBE2, offset: 0x55C3C, size: 0x8, addend: 0x0, symName: '_$sSo22UIPanGestureRecognizerC_So6CGRectVtMa', symObjAddr: 0x2670, symBinAddr: 0x4FB0, symSize: 0x70 }
-  - { offsetInCU: 0xBF6, offset: 0x55C50, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x2720, symBinAddr: 0x5060, symSize: 0x30 }
-  - { offsetInCU: 0xC0A, offset: 0x55C64, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x2750, symBinAddr: 0x5090, symSize: 0x30 }
-  - { offsetInCU: 0xC1E, offset: 0x55C78, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcyyt_tcfU10_TA', symObjAddr: 0x27B0, symBinAddr: 0x50F0, symSize: 0x180 }
-  - { offsetInCU: 0xD6F, offset: 0x55DC9, size: 0x8, addend: 0x0, symName: '_$sIeg_ytIegn_TRTA', symObjAddr: 0x2950, symBinAddr: 0x5290, symSize: 0x20 }
-  - { offsetInCU: 0xD98, offset: 0x55DF2, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa12ControlEventVyytGACyxG0A5Swift14ObservableTypeAAWl', symObjAddr: 0x2970, symBinAddr: 0x52B0, symSize: 0x50 }
-  - { offsetInCU: 0xDAC, offset: 0x55E06, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x29C0, symBinAddr: 0x5300, symSize: 0x30 }
-  - { offsetInCU: 0xDC0, offset: 0x55E1A, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOh', symObjAddr: 0x29F0, symBinAddr: 0x5330, symSize: 0x30 }
-  - { offsetInCU: 0xDD4, offset: 0x55E2E, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x2A50, symBinAddr: 0x5390, symSize: 0x30 }
-  - { offsetInCU: 0xDE8, offset: 0x55E42, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOc', symObjAddr: 0x2A80, symBinAddr: 0x53C0, symSize: 0x30 }
-  - { offsetInCU: 0xDFC, offset: 0x55E56, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0x2AB0, symBinAddr: 0x53F0, symSize: 0x10 }
-  - { offsetInCU: 0xE10, offset: 0x55E6A, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwet', symObjAddr: 0x2AC0, symBinAddr: 0x5400, symSize: 0x20 }
-  - { offsetInCU: 0xEC4, offset: 0x55F1E, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo8UIWindowC_Tg5', symObjAddr: 0x1BC0, symBinAddr: 0x4500, symSize: 0x230 }
+  - { offset: 0x5B557, size: 0x8, addend: 0x0, symName: _RxKeyboardVersionString, symObjAddr: 0x0, symBinAddr: 0x6EA0, symSize: 0x0 }
+  - { offset: 0x5B58C, size: 0x8, addend: 0x0, symName: _RxKeyboardVersionNumber, symObjAddr: 0x28, symBinAddr: 0x6EC8, symSize: 0x0 }
+  - { offset: 0x5B5F1, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC8instanceABvpZ', symObjAddr: 0xCA08, symBinAddr: 0x9820, symSize: 0x0 }
+  - { offset: 0x5B754, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC8instance_WZ', symObjAddr: 0x0, symBinAddr: 0x1990, symSize: 0x30 }
+  - { offset: 0x5B795, size: 0x8, addend: 0x0, symName: ___swift_instantiateConcreteTypeFromMangledName, symObjAddr: 0x90, symBinAddr: 0x1A20, symSize: 0x40 }
+  - { offset: 0x5B890, size: 0x8, addend: 0x0, symName: '_$sSo22UIPanGestureRecognizerCSo6CGRectV7RxSwift10ObservableCyADGIeggyo_AB_ADtAHs5Error_pIegnrzo_TR04$s10e27KeyboardAACABycfc0A5Swift10g5CySo6d6VGSo22abC10C_AGtcfU9_Tf3nnpf_n', symObjAddr: 0x1720, symBinAddr: 0x30B0, symSize: 0x40 }
+  - { offset: 0x5B8AF, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACMa', symObjAddr: 0x17B0, symBinAddr: 0x3140, symSize: 0x30 }
+  - { offset: 0x5B8C3, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACfETo', symObjAddr: 0x17E0, symBinAddr: 0x3170, symSize: 0xC0 }
+  - { offset: 0x5B8F2, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC17gestureRecognizer_13shouldReceiveSbSo09UIGestureD0C_So7UITouchCtF', symObjAddr: 0x1950, symBinAddr: 0x32E0, symSize: 0x10 }
+  - { offset: 0x5B915, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC17gestureRecognizer_13shouldReceiveSbSo09UIGestureD0C_So7UITouchCtFTo', symObjAddr: 0x1960, symBinAddr: 0x32F0, symSize: 0x80 }
+  - { offset: 0x5B947, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09UIGestureD0C_AFtF', symObjAddr: 0x19E0, symBinAddr: 0x3370, symSize: 0x20 }
+  - { offset: 0x5B9BD, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC17gestureRecognizer_33shouldRecognizeSimultaneouslyWithSbSo09UIGestureD0C_AFtFTo', symObjAddr: 0x1A00, symBinAddr: 0x3390, symSize: 0x20 }
+  - { offset: 0x5BA20, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlF7RxRelay08BehaviorH0CySo6CGRectVG_Tgm5', symObjAddr: 0x1A20, symBinAddr: 0x33B0, symSize: 0x50 }
+  - { offset: 0x5BA4D, size: 0x8, addend: 0x0, symName: '_$ss29getContiguousArrayStorageType3fors01_bcD0CyxGmxm_tlF7RxSwift10ObservableCySo6CGRectVG_Tgm5', symObjAddr: 0x1A70, symBinAddr: 0x3400, symSize: 0x50 }
+  - { offset: 0x5BA85, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4findys10_HashTableV6BucketV6bucket_Sb5foundtxSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x1AC0, symBinAddr: 0x3450, symSize: 0x30 }
+  - { offset: 0x5BABD, size: 0x8, addend: 0x0, symName: '_$ss22__RawDictionaryStorageC4find_9hashValues10_HashTableV6BucketV6bucket_Sb5foundtx_SitSHRzlFs11AnyHashableV_Tg5', symObjAddr: 0x1AF0, symBinAddr: 0x3480, symSize: 0xC0 }
+  - { offset: 0x5BAF5, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC17gestureRecognizer_13shouldReceiveSbSo09UIGestureD0C_So7UITouchCtFTf4nnd_n', symObjAddr: 0x1DC0, symBinAddr: 0x3750, symSize: 0x150 }
+  - { offset: 0x5BB79, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACMr', symObjAddr: 0x1F50, symBinAddr: 0x38E0, symSize: 0x100 }
+  - { offset: 0x5BB8D, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACMU', symObjAddr: 0x20D0, symBinAddr: 0x3A60, symSize: 0x10 }
+  - { offset: 0x5BBA1, size: 0x8, addend: 0x0, symName: '_$sSo6CGRectVwCP', symObjAddr: 0x20E0, symBinAddr: 0x3A70, symSize: 0x30 }
+  - { offset: 0x5BBB5, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x2110, symBinAddr: 0x3AA0, symSize: 0x10 }
+  - { offset: 0x5BBC9, size: 0x8, addend: 0x0, symName: ___swift_memcpy32_8, symObjAddr: 0x2120, symBinAddr: 0x3AB0, symSize: 0x20 }
+  - { offset: 0x5BBDD, size: 0x8, addend: 0x0, symName: '_$sSo6CGRectVwet', symObjAddr: 0x2140, symBinAddr: 0x3AD0, symSize: 0x20 }
+  - { offset: 0x5BBF1, size: 0x8, addend: 0x0, symName: '_$sSo6CGRectVwst', symObjAddr: 0x2160, symBinAddr: 0x3AF0, symSize: 0x30 }
+  - { offset: 0x5BC05, size: 0x8, addend: 0x0, symName: '_$s12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtMa', symObjAddr: 0x2270, symBinAddr: 0x3C00, symSize: 0x50 }
+  - { offset: 0x5BC19, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa12ControlEventVySo22UIPanGestureRecognizerCGMa', symObjAddr: 0x24F0, symBinAddr: 0x3E70, symSize: 0x60 }
+  - { offset: 0x5BC2D, size: 0x8, addend: 0x0, symName: '_$sSo22UIPanGestureRecognizerC_So6CGRectVtMa', symObjAddr: 0x2580, symBinAddr: 0x3F00, symSize: 0x70 }
+  - { offset: 0x5BC41, size: 0x8, addend: 0x0, symName: ___swift_destroy_boxed_opaque_existential_1, symObjAddr: 0x2630, symBinAddr: 0x3FB0, symSize: 0x30 }
+  - { offset: 0x5BC55, size: 0x8, addend: 0x0, symName: ___swift_project_boxed_opaque_existential_1, symObjAddr: 0x2660, symBinAddr: 0x3FE0, symSize: 0x30 }
+  - { offset: 0x5BC69, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcyyt_tcfU10_TA', symObjAddr: 0x26C0, symBinAddr: 0x4040, symSize: 0x170 }
+  - { offset: 0x5BDC1, size: 0x8, addend: 0x0, symName: '_$s7RxCocoa12ControlEventVyytGACyxG0A5Swift14ObservableTypeAAWl', symObjAddr: 0x2830, symBinAddr: 0x41B0, symSize: 0x50 }
+  - { offset: 0x5BDD5, size: 0x8, addend: 0x0, symName: '_$sypSgWOh', symObjAddr: 0x2880, symBinAddr: 0x4200, symSize: 0x30 }
+  - { offset: 0x5BDE9, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOh', symObjAddr: 0x28B0, symBinAddr: 0x4230, symSize: 0x30 }
+  - { offset: 0x5BDFD, size: 0x8, addend: 0x0, symName: '_$sypWOc', symObjAddr: 0x2910, symBinAddr: 0x4290, symSize: 0x30 }
+  - { offset: 0x5BE11, size: 0x8, addend: 0x0, symName: '_$ss11AnyHashableVWOc', symObjAddr: 0x2940, symBinAddr: 0x42C0, symSize: 0x30 }
+  - { offset: 0x5BE25, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0x2970, symBinAddr: 0x42F0, symSize: 0x10 }
+  - { offset: 0x5BE39, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwet', symObjAddr: 0x2980, symBinAddr: 0x4300, symSize: 0x20 }
+  - { offset: 0x5BE4D, size: 0x8, addend: 0x0, symName: '_$sSo6CGSizeVwst', symObjAddr: 0x29A0, symBinAddr: 0x4320, symSize: 0x30 }
+  - { offset: 0x5BE90, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAAC8instanceABvgZ', symObjAddr: 0x30, symBinAddr: 0x19C0, symSize: 0x40 }
+  - { offset: 0x5C121, size: 0x8, addend: 0x0, symName: '_$ss12_ArrayBufferV19_getElementSlowPathyyXlSiFSo8UIWindowC_Tg5', symObjAddr: 0x1BB0, symBinAddr: 0x3540, symSize: 0x210 }
+  - { offset: 0x5C1D3, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfc', symObjAddr: 0x160, symBinAddr: 0x1AF0, symSize: 0xEA0 }
+  - { offset: 0x5C3DB, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatVSo6CGRectVcfU_', symObjAddr: 0x1000, symBinAddr: 0x2990, symSize: 0xB0 }
+  - { offset: 0x5C40B, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingtAeF_SbAGt_AEtcfU0_', symObjAddr: 0x10B0, symBinAddr: 0x2A40, symSize: 0x30 }
+  - { offset: 0x5C430, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcSb12CoreGraphics7CGFloatV13visibleHeight_Sb9isShowingt_tcfU1_', symObjAddr: 0x10E0, symBinAddr: 0x2A70, symSize: 0x10 }
+  - { offset: 0x5C444, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfc12CoreGraphics7CGFloatVAE13visibleHeight_Sb9isShowingt_tcfU2_', symObjAddr: 0x10F0, symBinAddr: 0x2A80, symSize: 0x10 }
+  - { offset: 0x5C458, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcSb12CoreGraphics7CGFloatVcfU3_', symObjAddr: 0x1100, symBinAddr: 0x2A90, symSize: 0x20 }
+  - { offset: 0x5C46C, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcSo6CGRectVADcfU5_', symObjAddr: 0x1120, symBinAddr: 0x2AB0, symSize: 0x110 }
+  - { offset: 0x5C4CA, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcSo6CGRectVADcfU7_', symObjAddr: 0x1230, symBinAddr: 0x2BC0, symSize: 0xE0 }
+  - { offset: 0x5C51D, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcSo22UIPanGestureRecognizerC_So6CGRectVtAD_AFtcfU8_', symObjAddr: 0x1310, symBinAddr: 0x2CA0, symSize: 0x30 }
+  - { offset: 0x5C555, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfc0A5Swift10ObservableCySo6CGRectVGSo22UIPanGestureRecognizerC_AGtcfU9_', symObjAddr: 0x1340, symBinAddr: 0x2CD0, symSize: 0x3E0 }
+  - { offset: 0x5C743, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACABycfcTo', symObjAddr: 0x1760, symBinAddr: 0x30F0, symSize: 0x20 }
+  - { offset: 0x5C757, size: 0x8, addend: 0x0, symName: '_$s10RxKeyboardAACfD', symObjAddr: 0x1780, symBinAddr: 0x3110, symSize: 0x30 }
 ...

@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "RxSwiftExt",
+    "printedName": "RxSwiftExt",
     "children": [
       {
         "kind": "Import",
@@ -274,6 +274,22 @@
         "sugared_genericSig": "<Result>",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -443,6 +459,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1059,6 +1089,22 @@
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -1675,7 +1721,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Swift.Error) -> Swift.Bool",
+                "printedName": "(any Swift.Error) -> Swift.Bool",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -1686,7 +1732,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ]
@@ -1939,12 +1985,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Observable",
-                "printedName": "RxSwift.Observable<Swift.Error>",
+                "printedName": "RxSwift.Observable<any Swift.Error>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Error",
-                    "printedName": "Swift.Error",
+                    "printedName": "any Swift.Error",
                     "usr": "s:s5ErrorP"
                   }
                 ],
@@ -2095,7 +2141,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -2162,7 +2208,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -2211,17 +2257,17 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((τ_1_0) -> (Swift.Error) -> ())?",
+                "printedName": "((τ_1_0) -> (any Swift.Error) -> ())?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(τ_1_0) -> (Swift.Error) -> ()",
+                    "printedName": "(τ_1_0) -> (any Swift.Error) -> ()",
                     "children": [
                       {
                         "kind": "TypeFunc",
                         "name": "Function",
-                        "printedName": "(Swift.Error) -> ()",
+                        "printedName": "(any Swift.Error) -> ()",
                         "children": [
                           {
                             "kind": "TypeNominal",
@@ -2231,7 +2277,7 @@
                           {
                             "kind": "TypeNominal",
                             "name": "Error",
-                            "printedName": "Swift.Error",
+                            "printedName": "any Swift.Error",
                             "usr": "s:s5ErrorP"
                           }
                         ]
@@ -2345,7 +2391,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -2404,7 +2450,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -2415,12 +2461,12 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(τ_1_0) -> (Swift.Error) -> ()",
+                "printedName": "(τ_1_0) -> (any Swift.Error) -> ()",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> ()",
+                    "printedName": "(any Swift.Error) -> ()",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2430,7 +2476,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -2464,7 +2510,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Disposable",
-                "printedName": "RxSwift.Disposable",
+                "printedName": "any RxSwift.Disposable",
                 "usr": "s:7RxSwift10DisposableP"
               },
               {
@@ -2758,7 +2804,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SchedulerType",
-                "printedName": "RxSwift.SchedulerType",
+                "printedName": "any RxSwift.SchedulerType",
                 "hasDefaultArg": true,
                 "usr": "s:7RxSwift13SchedulerTypeP"
               },
@@ -2830,19 +2876,19 @@
               {
                 "kind": "TypeNominal",
                 "name": "SchedulerType",
-                "printedName": "RxSwift.SchedulerType",
+                "printedName": "any RxSwift.SchedulerType",
                 "hasDefaultArg": true,
                 "usr": "s:7RxSwift13SchedulerTypeP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "((Swift.Error) -> Swift.Bool)?",
+                "printedName": "((any Swift.Error) -> Swift.Bool)?",
                 "children": [
                   {
                     "kind": "TypeFunc",
                     "name": "Function",
-                    "printedName": "(Swift.Error) -> Swift.Bool",
+                    "printedName": "(any Swift.Error) -> Swift.Bool",
                     "children": [
                       {
                         "kind": "TypeNominal",
@@ -2853,7 +2899,7 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Error",
-                        "printedName": "Swift.Error",
+                        "printedName": "any Swift.Error",
                         "usr": "s:s5ErrorP"
                       }
                     ]
@@ -3044,6 +3090,20 @@
         "sugared_genericSig": "<Self : RxSwift.ObservableConvertibleType>",
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
           {
             "kind": "Conformance",
             "name": "ObservableConvertibleType",
@@ -4914,7 +4974,23 @@
         "usr": "s:7RxSwift21PrimitiveSequenceTypeP",
         "mangledName": "$s7RxSwift21PrimitiveSequenceTypeP",
         "moduleName": "RxSwift",
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -6768,6 +6844,20 @@
             ],
             "usr": "s:7RxSwift25ObservableConvertibleTypeP",
             "mangledName": "$s7RxSwift25ObservableConvertibleTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7034,6 +7124,20 @@
             ],
             "usr": "s:7RxSwift25ObservableConvertibleTypeP",
             "mangledName": "$s7RxSwift25ObservableConvertibleTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           }
         ]
       },
@@ -7137,6 +7241,20 @@
         "sugared_genericSig": "<Trait, Element>",
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "PrimitiveSequenceType",
@@ -7332,6 +7450,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "ObservableConvertibleType",
             "printedName": "ObservableConvertibleType",
             "usr": "s:7RxSwift25ObservableConvertibleTypeP",
@@ -7497,7 +7629,23 @@
         "declAttributes": [
           "DynamicMemberLookup"
         ],
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -7575,222 +7723,28 @@
         "usr": "s:7RxSwift25ObservableConvertibleTypeP",
         "mangledName": "$s7RxSwift25ObservableConvertibleTypeP",
         "moduleName": "RxSwift",
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/and.swift",
-      "kind": "BooleanLiteral",
-      "offset": 832,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/and.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1014,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/and.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1053,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/and.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1177,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/and.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2028,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/and.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2084,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/and.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2450,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/and.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2503,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/and.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2616,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/and.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2818,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/bufferWithTrigger.swift",
-      "kind": "Array",
-      "offset": 713,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/bufferWithTrigger.swift",
-      "kind": "Array",
-      "offset": 1007,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/bufferWithTrigger.swift",
-      "kind": "Array",
-      "offset": 1549,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/cascade.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1303,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/cascade.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1320,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/cascade.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1540,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/cascade.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2018,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/cascade.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3170,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/cascade.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3197,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/count.swift",
-      "kind": "IntegerLiteral",
-      "offset": 626,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/count.swift",
-      "kind": "IntegerLiteral",
-      "offset": 651,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/ignoreErrors.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1176,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/nwise.swift",
-      "kind": "IntegerLiteral",
-      "offset": 828,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/nwise.swift",
-      "kind": "StringLiteral",
-      "offset": 831,
-      "length": 26,
-      "value": "\"n must be greater than 1\""
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/nwise.swift",
-      "kind": "Array",
-      "offset": 897,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/nwise.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1636,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/nwise.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1662,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/nwise.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1669,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/once.swift",
-      "kind": "BooleanLiteral",
-      "offset": 971,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/once.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1103,
-      "length": 4,
-      "value": "true"
-    },
     {
       "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/pausableBuffered.swift",
       "kind": "IntegerLiteral",
@@ -7813,160 +7767,6 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/pausableBuffered.swift",
-      "kind": "Array",
-      "offset": 1539,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/pausableBuffered.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1663,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/pausableBuffered.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1697,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/pausableBuffered.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1851,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/pausableBuffered.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1909,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/pausableBuffered.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1965,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/pausableBuffered.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2002,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/pausableBuffered.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2367,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/pausableBuffered.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3030,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/repeatWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1111,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/repeatWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1921,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/repeatWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2892,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/repeatWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3240,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/retryWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1607,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/retryWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1798,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/retryWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1826,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/retryWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1869,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/retryWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1932,
-      "length": 4,
-      "value": "1000"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/retryWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2810,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/retryWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3635,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/retryWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4262,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/retryWithBehavior.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4529,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxSwift\/toSortedArray.swift",
       "kind": "BooleanLiteral",
       "offset": 1121,
@@ -7986,20 +7786,6 @@
       "offset": 908,
       "length": 1,
       "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxCocoa\/UIViewPropertyAnimator+Rx.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1165,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxSwiftExt\/Source\/RxCocoa\/UIViewPropertyAnimator+Rx.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1373,
-      "length": 4,
-      "value": "true"
     }
   ]
 }

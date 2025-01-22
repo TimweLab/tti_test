@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "RxKeyboard",
+    "printedName": "RxKeyboard",
     "children": [
       {
         "kind": "Import",
@@ -317,6 +317,22 @@
         "moduleName": "RxKeyboard",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -716,6 +732,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -754,6 +771,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -783,6 +801,20 @@
             "printedName": "RxKeyboardType",
             "usr": "s:10RxKeyboard0aB4TypeP",
             "mangledName": "$s10RxKeyboard0aB4TypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -860,69 +892,5 @@
     ],
     "json_format_version": 8
   },
-  "ConstValues": [
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxKeyboard\/Sources\/RxKeyboard\/RxKeyboard.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1674,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxKeyboard\/Sources\/RxKeyboard\/RxKeyboard.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1770,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxKeyboard\/Sources\/RxKeyboard\/RxKeyboard.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2218,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxKeyboard\/Sources\/RxKeyboard\/RxKeyboard.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2242,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxKeyboard\/Sources\/RxKeyboard\/RxKeyboard.swift",
-      "kind": "FloatLiteral",
-      "offset": 2391,
-      "length": 3,
-      "value": "0.0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxKeyboard\/Sources\/RxKeyboard\/RxKeyboard.swift",
-      "kind": "IntegerLiteral",
-      "offset": 2808,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxKeyboard\/Sources\/RxKeyboard\/RxKeyboard.swift",
-      "kind": "IntegerLiteral",
-      "offset": 3358,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxKeyboard\/Sources\/RxKeyboard\/RxKeyboard.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5183,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/joaoisento\/Developer\/telsel-tti2-ios\/TTI2\/Pods\/RxKeyboard\/Sources\/RxKeyboard\/RxKeyboard.swift",
-      "kind": "BooleanLiteral",
-      "offset": 5246,
-      "length": 5,
-      "value": "false"
-    }
-  ]
+  "ConstValues": []
 }
